@@ -1,0 +1,935 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Call of Duty : Modern Warfare 3 (2023) - jeuxvideo.com</title>
+<meta charset="utf-8">
+<meta name="viewport" id="meta-viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="#FFFFFF" name="theme-color" id="meta-theme-color" />
+    <meta name="Googlebot-News" content="noindex, follow">
+    <meta property="fb:app_id" content="202446416762">
+    <meta name="twitter:site" content="@JVCom">
+    <meta name="twitter:card" content="summary">
+        <meta name="keywords" content="" />
+    <meta name="description" content="Call of Duty : Modern Warfare 3 (2023) : retrouvez toutes les informations et actualités du jeu sur tous ses supports. Call of Duty : Modern Warfare 3 est la suite directe de Call of Duty : Modern Warfare 2. Dans cette nouvelle aventure, le capitaine Price et la Task Force 141 affrontent la menace u..." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:standard, max-video-preview:5" />
+                        <link rel="alternate" href="android-app://com.jeuxvideo/jeuxvideo/open/game?code=1786254" />
+        <link rel="alternate" href="ios-app://393077232/jeuxvideo/open/game?code=1786254" />
+        <meta name="apple-itunes-app" content="app-id=393077232" />
+    <meta name="google-site-verification" content="1LxApCLYt6SF4NFRJUP_6nseZQBSGcqZz6LMwii-vr4" />
+    <meta property="fb:app_id" content="202446416762"/>
+    <meta property="fb:pages" content="30999986172" />
+    <meta property="fb:admins" content="576404360"/>
+    <meta property="og:site_name" content="Jeuxvideo.com"/>
+                                                            <meta property="og:title" content="Call of Duty : Modern Warfare 3 (2023)" />
+                                                                                    <meta property="og:description" content="Call of Duty : Modern Warfare 3 (2023) : retrouvez toutes les informations et actualités du jeu sur tous ses supports. Call of Duty : Modern Warfare 3 est la suite directe de Call of Duty : Modern Warfare 2. Dans cette nouvelle aventure, le capitaine Price et la Task Force 141 affrontent la menace u..." />
+                                                                                    <meta property="og:image" content="https://image.jeuxvideo.com/medias/169686/1696864254-5173-jaquette-avant.jpg" />
+                                                                                    <meta property="og:url" content="https://www.jeuxvideo.com/jeux/jeu-1786254/" />
+                                                                                    <meta property="og:type" content="game" />
+                                            
+<link rel="icon" type="image/png" href="/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+
+                <link rel="preconnect" href="https://sdk.privacy-center.org/" crossorigin />
+    
+    <link rel="preconnect" href="https://static.jvc.gg" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com/" />
+    <link rel="dns-prefetch" href="https://image.jeuxvideo.com" />
+
+        
+    <link href="https://static.jvc.gg/23.23.5/css/skin-common.css" rel="stylesheet" />
+
+    <link href="https://static.jvc.gg/23.23.5/css/skin-gamehub.css" rel="stylesheet" />
+
+<script type="text/javascript">
+(function () {
+    const theme = window.localStorage.getItem('theme');
+    if (theme) {
+        document.documentElement.classList.add(theme);
+    }
+    window.jvc = window.jvc || {};
+    window.jvc.hasDarkTheme = function() {
+        const hasOSDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const hasClassThemeDark = document.documentElement.classList.contains('theme-dark');
+        const hasClassThemeLight = document.documentElement.classList.contains('theme-light');
+        return (hasOSDarkMode && !hasClassThemeLight) || hasClassThemeDark;
+    }
+    window.jvc.syncMetaThemeColor = function () {
+        const value = window.jvc.hasDarkTheme() ? "#18191b" : "#FFFFFF";
+        document.getElementById('meta-theme-color').setAttribute('content', value);
+    };
+   window.jvc.syncMetaThemeColor();
+})();
+</script>
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org/",
+    "@type": "VideoGame",
+    "applicationCategory": "game",
+    "name": "Call\u0020of\u0020Duty\u0020\u003A\u0020Modern\u0020Warfare\u00203\u0020\u00282023\u0029",
+    "url": "https://www.jeuxvideo.com/jeux/jeu-1786254/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://image.jeuxvideo.com/medias/169686/1696864254-5173-jaquette-avant.jpg"
+    },
+    "genre":  ["Shooter","Tir","FPS"],
+    "gamePlatform": ["PC","PS5","Xbox Series","PS4","ONE"],
+    "operatingSystem": ["PC","PS5","Xbox Series","PS4","ONE"]
+        ,
+    "review": {
+        "@type": "Review",
+       "author": {
+        "@type": "Person",
+        "name": "Indee"    }
+,
+        "reviewRating": {
+            "@type": "Rating",
+            "worstRating": "0",
+            "ratingValue": "14",
+            "bestRating": "20"
+        }
+    }
+    }
+</script>
+
+    <script type="text/javascript">
+// <![CDATA[
+dataLayer = [{"page_type":"jeu","rubric":"masterfiche","content_type":"fiche","platform":["pc","ps5","xbox-series","ps4","one"],"pegi":["18-ans"],"game_publisher":["sledgehammer-games","activision-blizzard"],"game_name":["call-of-duty-modern-warfare-3-2023"],"game_id":[1786264,1786256,1786262,1786265,1786263],"game_genre":["shooter","tir","fps"],"tags":["pc","playstation-5","xbox-series","playstation-4","xbox-one","sledgehammer-games","activision-blizzard","shooter","tir","fps"],"game_usr_rating":"9.5","game_tester_rating":"14","is_user_logged":"no"}];
+// ]]>
+    var matchArray = document.cookie.match(new RegExp("visitor_country=([A-Z]{2})"));
+    if (Array.isArray(matchArray) && matchArray.length > 1) {
+        dataLayer.push({'visitor_country': matchArray[1]});
+    }
+</script>
+    <script type="text/javascript">window.jvc=window.jvc||{};window.jvc.analyticsMetadata={"type_page":"master_overview","content_section":"jeu","universe_section":"jeu","masterfiche_game_id":"1786254","masterfiche_game_title":"Call of Duty : Modern Warfare 3 (2023)","masterfiche_game_release_date":"2023-11-10","genre_tags_id":"2620|2050|2020","genre_tags_name":"Shooter|Tir|FPS","pegi_tags_id":"4570","pegi_tags_name":"+18 ans","publisher_tags_id":"104573|102104","publisher_tags_name":"Sledgehammer Games|Activision Blizzard","tags_id":"7450|10|22|32|20|30|104573|102104|203689|2620|2050|2020|4570","tags_name":"Jeu|PC|PlayStation 5|Xbox Series|PlayStation 4|Xbox One|Sledgehammer Games|Activision Blizzard|Call of Duty : Modern Warfare 3 (2023)|Shooter|Tir|FPS|+18 ans"};</script>
+    <script type="text/javascript"> window.gaudata={"dimension21":"104573|102104","dimension22":"Sledgehammer Games|Activision Blizzard","dimension25":"104573|102104","dimension26":"Sledgehammer Games|Activision Blizzard","dimension31":"2620","dimension32":"Shooter","dimension33":"2620|2050|2020","dimension34":"Shooter|Tir|FPS","dimension45":"2023-11-10","dimension46":"1786254","dimension47":"Call of Duty : Modern Warfare 3 (2023)","dimension60":"4570","dimension61":"+18 ans","dimension69":"7450|10|22|32|20|30|104573|102104|203689|2620|2050|2020|4570","dimension70":"Jeu|PC|PlayStation 5|Xbox Series|PlayStation 4|Xbox One|Sledgehammer Games|Activision Blizzard|Call of Duty : Modern Warfare 3 (2023)|Shooter|Tir|FPS|+18 ans","dimension76":"master_overview","dimension98":"jeu","dimension113":"jeu"};</script>
+    <script type="text/javascript">window.gdprAppliesGlobally=!0,function(e,t,n,o,i){function a(e,n,o,a){if("function"==typeof o){window[t]||(window[t]=[]);var c=!1;i&&(c=i(e,n,o)),c||window[t].push({command:e,parameter:n,callback:o,version:a})}}function c(t){if(window[e]&&!0===window[e].stub&&t.data){var i,a="string"==typeof t.data;try{i=a?JSON.parse(t.data):t.data}catch(e){return}if(i[n]){var c=i[n];window[e](c.command,c.parameter,(function(e,n){var i={};i[o]={returnValue:e,success:n,callId:c.callId},t.source.postMessage(a?JSON.stringify(i):i,"*")}),c.version)}}}a.stub=!0,"function"!=typeof window[e]&&(window[e]=a,window.addEventListener?window.addEventListener("message",c,!1):window.attachEvent("onmessage",c))}("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn"),function e(t){if(!window.frames[t])if(document.body&&document.body.firstChild){var n=document.body,o=document.createElement("iframe");o.style.display="none",o.name=t,o.title=t,n.insertBefore(o,n.firstChild)}else setTimeout((function(){e(t)}),5)}("__tcfapiLocator"),function(e,t){var n=document.createElement("script");n.id="spcloader",n.type="text/javascript",n.async=!0,n.src="https://sdk.privacy-center.org/e23a01f6-a508-4e71-8f50-c1a9cae7c0d0/loader.js?target_type=notice&target=FJUVtPKm",n.charset="utf-8";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o)}(),document.addEventListener("DOMContentLoaded",(function(){var e=document.querySelector(".cookie-consent");e&&e.classList.add("has-display-content-ui"),window.jvc=window.jvc||{},window.jvc.displayCookieConsent=function(){window.Didomi.notice.show()},window.jvc.displayCookiePreferences=function(){window.Didomi.preferences.show()}}));</script>
+        <script type="text/javascript">
+window.jvc = window.jvc || {};
+window.jvc.advertising = {
+    adUnits: {"FR":"\/120157152\/JEUXVIDEO_COM_FR_WEB\/gaming\/hub\/home","CA":"\/120157152\/JEUXVIDEO_COM_CA_WEB\/gaming\/hub\/home"},
+    targeting: {"contenu_id":[1786254],"genre":["shooter","tir","fps"],"machine":["pc","ps5","xbox-series","ps4","one"],"pegi":["18-ans"],"editeur":["sledgehammer-games","activision-blizzard"],"jeu":["call-of-duty-modern-warfare-3-2023"],"content_type":["masterfiche"],"fiche":"jeux","section":"accueil"},
+    slots: {"header":"xs,s,l,m,xl","rectangle_atf":"xs,s,l,m,xl","rectangle_mtf":"xs,s,l,m,xl","rectangle_btf":"xs,s,l,m,xl","pulse":"xs,s,l,m,xl","interstitial":"xs,s,l,m,xl","footer":"xs,s,l,m,xl"},
+    videoSlots: {},
+    isGptDisabled: false,
+    versionSite: 'www',
+    hashedId: '',
+};
+window.jvc.isAdblocked = false;
+</script>
+<script src="https://static.jvc.gg/23.23.5/js/traffic.js" type="text/javascript" defer></script>
+    <script src="https://static.jvc.gg/23.23.5/js/gamehub.js" type="text/javascript" defer></script>
+</head>
+<body data-abo-session="949079dd4e47aba0a06aa29249f132308853df16">
+
+
+    
+<header class="header js-header">
+    <div class="header__top">
+        <div class="header__container">
+            <div class="header__globalMenu">
+                <span class="header__btnOpenMenu js-header-open-menu">
+                    <span class="header__iconHamburger js-header-icon-hamburger"></span>
+                </span>
+            </div>
+            <div class="header__globalWeb">
+                <span class="JvCare 45CBCBC0C22D1F1FCCCCCC194D43C3C5C4464B434F19424F4E header__logo"></span>
+            </div>
+            <div class="header__globalUser">
+                <button type="button" class="header__navLinkSearch js-header-nav-search">
+                    <i class="icon-search"></i>
+                </button>
+                
+<div class="headerAccount headerAccount--connect">
+    <span class="JvCare 45CBCBC0C22D1F1FCCCCCC194D43C3C5C4464B434F19424F4E1F484F4C46492FC3C1482E45CBCBC0C21322BA1321B41321B4CCCCCC194D43C3C5C4464B434F19424F4E1321B44D43C3C51321B44D43C31E2A2C252421232B1321B414454AC2452E412A2B26414142224A242B244B4A4B422442242C2B252122434B43224B4B2425 headerAccount__link">
+        <span class="headerAccount__img"><i class="icon-account"></i></span>
+        <span class="headerAccount__pseudo">CONNEXION</span>
+    </span>
+</div>
+
+                <button type="button" class="toggleTheme" onClick="window.jvc.toggleTheme();"></button>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom"><div class="header__container"><div class="header__mainNav js-header-main-nav"><div class="header__nav header__nav--primary"><ul class="header__navList header__navList--lvl1"><li class="header__navItem header__navItem--lvl1 js-header-nav-dropdown "><span class="header__navIcon header__navIcon--triangle js-header-nav-toggler"><span>Retour</span></span><span class="JvCare 1FCB4FC3C21E4843C21E4D43C3C51F header__navLink header__navLink--lvl1 js-header-nav-link">Jeux</span><ul class="header__navList header__navList--lvl2"><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FCB43C2CBC21945CB4E header__navLink header__navLink--lvl2">Tests</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F4245434ACBC21945CB4E header__navLink header__navLink--lvl2">Soluces</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FC0C143C44643CCC21945CB4E header__navLink header__navLink--lvl2">Previews</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FC24FC1CB4643C21F4B4ACB43C21E4B431EC24FC1CB46431945CB4E header__navLink header__navLink--lvl2">Sorties</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F4E4346484843C3C1C21F4E4F4E4349CB1F header__navLink header__navLink--lvl2">Hit Parade</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F4D43C3C51F4ACBCB43494BC3C21F header__navLink header__navLink--lvl2">Les + attendus</span></li><li class="header__navItem header__navItem--lvl2  header__navItem--highlighted"><span class="JvCare 1FCB4FC3C21E4843C21E4D43C3C51F header__navLink header__navLink--lvl2">Tous les Jeux<i class="icon-next"></i></span></li></ul></li><li class="header__navItem header__navItem--lvl1 js-header-nav-dropdown "><span class="header__navIcon header__navIcon--triangle js-header-nav-toggler"><span>Retour</span></span><span class="JvCare 1F4A42CBC34A4846CB43C21945CB4E header__navLink header__navLink--lvl1 js-header-nav-link">Actu</span><ul class="header__navList header__navList--lvl2"><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F42C14FC2C21E4E434B464A1945CB4E header__navLink header__navLink--lvl2">Culture Geek</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FCB4FC3CB43C21E4843C21E4943CCC21FCBC6C0431E2C2322201F header__navLink header__navLink--lvl2">Astuces</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FC4C11945CB4E header__navLink header__navLink--lvl2">Réalité Virtuelle</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FC143CBC14F4C4A4E46494C1945CB4E header__navLink header__navLink--lvl2">Rétrogaming</span></li><li class="header__navItem header__navItem--lvl2  header__navItem--highlighted"><span class="JvCare 1F4A42CBC34A4846CB43C21945CB4E header__navLink header__navLink--lvl2">Toutes les actus<i class="icon-next"></i></span></li></ul></li><li class="header__navItem header__navItem--lvl1 js-header-nav-dropdown "><span class="header__navIcon header__navIcon--triangle js-header-nav-toggler"><span>Retour</span></span><span class="JvCare 1F45464C451ECB4342451F header__navLink header__navLink--lvl1 js-header-nav-link">High-Tech</span><ul class="header__navList header__navList--lvl2"><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F45464C451ECB4342451F4943CCC21FCB4FC3CB43C21F header__navLink header__navLink--lvl2">Actus JVTECH</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F45464C451ECB4342451F414F49C21EC0484A49C21FCB4FC3C21F header__navLink header__navLink--lvl2">Bons plans</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F45464C451ECB4342451FCBC3CB4FC21FCB4FC3C21F header__navLink header__navLink--lvl2">Tutoriels</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F45464C451ECB4342451FCB43C2CBC21FCB4FC3C21F header__navLink header__navLink--lvl2">Tests produits High-Tech</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F45464C451ECB4342451F4CC3464B43C21FCB4FC3C21F header__navLink header__navLink--lvl2">Guides d&#039;achat High-Tech</span></li><li class="header__navItem header__navItem--lvl2  header__navItem--highlighted"><span class="JvCare 1F45464C451ECB4342451F header__navLink header__navLink--lvl2">JVTECH<i class="icon-next"></i></span></li></ul></li><li class="header__navItem header__navItem--lvl1 js-header-nav-dropdown "><span class="header__navIcon header__navIcon--triangle js-header-nav-toggler"><span>Retour</span></span><span class="JvCare 1FCB4FC3CB43C21E4843C21EC4464B434FC21F header__navLink header__navLink--lvl1 js-header-nav-link">Vidéos</span><ul class="header__navList header__navList--lvl2"><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FC4464B434FC21E4B431E4D43C3C51945CB4E header__navLink header__navLink--lvl2">A la une</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F4C4A4E46494C3F4846C4431945CB4E header__navLink header__navLink--lvl2">Gaming Live</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FCB4FC3CB43C21E4843C21EC4464B434FC21FCBC6C0431E2C2C25201F header__navLink header__navLink--lvl2">Vidéos Tests</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FCB4FC3CB43C21E4843C21EC4464B434FC21FCBC6C0431E2C2C26201F header__navLink header__navLink--lvl2">Vidéos Previews</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1FCB4FC3CB43C21E4843C21EC4464B434FC21FCBC6C0431E2C2224231F header__navLink header__navLink--lvl2">Gameplay</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F414A494B43C21E4A49494F494243C21EC4464B434FC21E4D43C3C51945CB4E header__navLink header__navLink--lvl2">Trailers</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F4245C14F4946CAC343C21EC4464B434F1945CB4E header__navLink header__navLink--lvl2">Chroniques</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F48431E4B46C14342CB1945CB4E header__navLink header__navLink--lvl2">Replay Web TV</span></li><li class="header__navItem header__navItem--lvl2  header__navItem--highlighted"><span class="JvCare 1FCB4FC3CB43C21E4843C21EC4464B434FC21F header__navLink header__navLink--lvl2">Toutes les vidéos<i class="icon-next"></i></span></li></ul></li><li class="header__navItem header__navItem--lvl1 js-header-nav-dropdown "><span class="header__navIcon header__navIcon--triangle js-header-nav-toggler"><span>Retour</span></span><span class="JvCare 1F444FC1C34EC21945CB4E header__navLink header__navLink--lvl1 js-header-nav-link">Forums</span><ul class="header__navList header__navList--lvl2"><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E241E201E2A1E201E2A1E201E4E4ACB43C14643481E4649444FC14E4ACB46CAC3431945CB4E header__navLink header__navLink--lvl2">Hardware PC</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E22202A2C2C25251E201E2A1E201E2A1E201EC0484AC6C2CB4ACB464F491E231945CB4E header__navLink header__navLink--lvl2">PS5</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E2220202C2A26261E201E2A1E201E2A1E201E494649CB43494B4F1EC2CC46CB42451945CB4E header__navLink header__navLink--lvl2">Switch</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E22202A2C2C252B1E201E2A1E201E2A1E201EC5414FC51EC2424AC14843CBCB1945CB4E header__navLink header__navLink--lvl2">Xbox Series</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E22202A2C23232C1E201E2A1E201E2A1E201E4FC443C1CC4ACB42451E211945CB4E header__navLink header__navLink--lvl2">Overwatch 2</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E2220212A2B2A2A1E201E2A1E201E2A1E201E4446444A1EC348CB464E4ACB431ECB434A4E1945CB4E header__navLink header__navLink--lvl2">FUT 23</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E2A262A24221E201E2A1E201E2A1E201E48434A4CC3431E4F441E48434C43494BC21945CB4E header__navLink header__navLink--lvl2">League of Legends</span></li><li class="header__navItem header__navItem--lvl2 "><span class="JvCare 1F444FC1C34EC21F201E22202A2425262A1E201E2A1E201E2A1E201E4C4349C24546491E464EC04A42CB1945CB4E header__navLink header__navLink--lvl2">Genshin Impact</span></li><li class="header__navItem header__navItem--lvl2  header__navItem--highlighted"><span class="JvCare 1F444FC1C34EC21945CB4E header__navLink header__navLink--lvl2">Tous les Forums<i class="icon-next"></i></span></li></ul></li></ul></div><div class="header__nav header__nav--platform"><ul class="header__navList header__navList--platform"><li class="header__navItem header__navItem--platform"><span class="JvCare 1FC0421945CB4E header__navLink header__navLink--platform">PC</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1FC0C2231945CB4E header__navLink header__navLink--platform">PS5</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1FC5414FC51EC243C14643C21945CB4E header__navLink header__navLink--platform">Xbox Series</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1FC0C22B1EC0484AC6C2CB4ACB464F491E2B1945CB4E header__navLink header__navLink--platform">PS4</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1FC5414FC51E4F49431EC54F49431EC54F1945CB4E header__navLink header__navLink--platform">One</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1F494649CB43494B4F1E45C641C1464B431E49C51945CB4E header__navLink header__navLink--platform">Switch</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1FCC46461EC31E494649CB43494B4F1ECC46461ECC4646C31945CB4E header__navLink header__navLink--platform">Wii U</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1F4AC0C048431E46C0454F49431E46C04F4B1ECB4FC342451945CB4E header__navLink header__navLink--platform">iOS</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1F4A494BC14F464B1945CB4E header__navLink header__navLink--platform">Android</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1F4E4E4F1945CB4E header__navLink header__navLink--platform">MMO</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1FC1C04C1945CB4E header__navLink header__navLink--platform">RPG</span></li><li class="header__navItem header__navItem--platform"><span class="JvCare 1F44C0C21945CB4E header__navLink header__navLink--platform">FPS</span></li></ul></div></div></div></div>
+    <div class="headerSearch" data-label="Recherche">
+        <span class="headerSearch__close icon-close js-header-nav-search-close"></span>
+        <div class="headerSearch__container js-header-search-container">
+            <form class="headerSearch__form" method="GET" action="/rechercher.php">
+                <div class="headerSearch__formInputGroup">
+                    <i class="headerSearch__formIcon icon-search"></i>
+                    <input class="headerSearch__formInput" type="text" placeholder="Rechercher un jeu, une news" id="search" name="q" autocomplete="off" required="required">
+                    <button class="headerSearch__formBtn">OK</button>
+                </div>
+            </form>
+            <div class="headerSearch__keyword">
+                <span class="headerSearch__keywordLabel">En ce moment</span>
+                                                        <span class="JvCare 1F4D43C3C51F4D43C31E2A20232C21202B1F headerSearch__keywordLink">Genshin Impact</span>
+    <span class="JvCare 1F4D43C3C51F4D43C31E2A212A252B2C241F headerSearch__keywordLink">Valhalla</span>
+    <span class="JvCare 1F4D43C3C51F4D43C31E2C2C2A2A221F headerSearch__keywordLink">Breath of the wild</span>
+    <span class="JvCare 1F4D43C3C51FC2CC46CB42451F4D43C31E26212120212C1F headerSearch__keywordLink">Animal Crossing</span>
+    <span class="JvCare 1F4D43C3C51F4D43C31E2C222C222B1F headerSearch__keywordLink">GTA 5</span>
+    <span class="JvCare 1F4D43C3C51F4D43C31E23232B2022221F headerSearch__keywordLink">Red dead 2</span>
+
+
+                            </div>
+        </div>
+    </div>
+</header>
+
+            <ins data-ad-position="interstitial" data-breakpoints= "xs,s,l,m,xl" ></ins>
+    
+                        <div id="fiche-jeu" class="layout  layout--alternate js-layout">
+                                            <div class="layout__row layout__adHeader js-layout-adHeader"><div class="layout__adPlaceHolder js-ad-placeholder"><ins data-ad-position="header" data-breakpoints= "xs,s,l,m,xl" ></ins></div></div>
+                            
+                        <div class="layout__row layout__breadcrumb layout__row--gutter">
+            
+<div class="spreadContainer  px-3 px-lg-0">
+                        <nav role="navigation" class="breadcrumb"><a class="breadcrumb__item" href="/">jeuxvideo.com</a><a class="breadcrumb__item" href="/tous-les-jeux/">Jeux vidéo</a><a class="breadcrumb__item" href="/tous-les-jeux/genre-2620/">Jeux Shooter</a><h1 class="breadcrumb__item">Call of Duty : Modern Warfare 3 (2023)</h1></nav>                
+                                        </div>
+        </div>
+        <div class="layout__row layout__contentTop layout__row--gutter">
+            <div class="gameHeaderBanner">
+    <div class="gameHeaderBanner__container">
+        
+                    <a href="/jeux/jeu-1786254/" class="gameHeaderBanner__title">Call of Duty : Modern Warfare 3 (2023)</a>
+                <ul class="gameHeaderBanner__platforms">
+            <li class="gameHeaderBanner__platform"><a
+                                                            href="/jeux/jeu-1786254/"
+                                                        class=" gameHeaderBanner__platformLink  gameHeaderBanner__platformLink--active"
+                        >
+                            Tout support
+                        </a></li><li class="gameHeaderBanner__platform"><a href="/jeux/pc/jeu-1786256/" class="gameHeaderBanner__platformLink ">
+                                    PC
+                                </a></li><li class="gameHeaderBanner__platform"><a href="/jeux/ps5/jeu-1786262/" class="gameHeaderBanner__platformLink ">
+                                    PS5
+                                </a></li><li class="gameHeaderBanner__platform"><a href="/jeux/xbox-series/jeu-1786263/" class="gameHeaderBanner__platformLink ">
+                                    Xbox Series
+                                </a></li><li class="gameHeaderBanner__platform"><a href="/jeux/ps4/jeu-1786264/" class="gameHeaderBanner__platformLink ">
+                                    PS4
+                                </a></li><li class="gameHeaderBanner__platform"><a href="/jeux/one/jeu-1786265/" class="gameHeaderBanner__platformLink ">
+                                    ONE
+                                </a></li>        </ul>
+        <div class="gameHeaderBanner__bottom">
+            <div data-block-id="social-icons" class="gameHeaderBanner__socialIcons">
+                                            </div>
+            <div data-block-id="user-links" class="gameHeaderBanner__userLinks">
+                            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gameHeaderSubNav px-3 px-lg-0">
+    <div class="gameHeaderSubNav__container">
+                                    <span class="gameHeaderSubNav__titleIcon">
+                    <i class="icon-menu-home"></i>
+                </span>
+                <span class="gameHeaderSubNav__title">Accueil</span>
+                                                                                                                                            
+        <span tabindex="0" id="toggleSubNav" class="gameHeaderSubNav__toggleSubNav">
+            <i class="icon-more-vertical"></i>
+        </span>
+        <ul class="gameHeaderSubNav__items">
+                            <li class="gameHeaderSubNav__item gameHeaderSubNav__item--active">
+                                            <span class="JvCare 1F4D43C3C51F4D43C31E2A2C252421232B1F icon-menu-home gameHeaderSubNav__itemLink gameHeaderSubNav__itemLink--active">Accueil</span>                                    </li>
+                            <li class="gameHeaderSubNav__item ">
+                                            <span class="JvCare 1F4D43C3C51F4D43C31E2A2C252421232B1F4943CCC21F icon-menu-news gameHeaderSubNav__itemLink ">Actus</span>                                    </li>
+                            <li class="gameHeaderSubNav__item ">
+                                            <span class="JvCare 1FCB43C2CB1F2A25212A2A2A251F424A48481E4F441E4BC3CBC61E4E4F4B43C1491ECC4AC1444AC1431E221E43C2CB1E46481E4AC3C2C2461E4E4AC3C44A46C21ECAC3431ECB4FC3CB1E48431E4E4F494B431E48431E4B46CB1EC44F4642461E494FCBC1431E4AC446C21945CB4E icon-menu-review gameHeaderSubNav__itemLink ">Tests</span>                                    </li>
+                            <li class="gameHeaderSubNav__item ">
+                                            <span class="JvCare 1F4D43C3C51F4D43C31E2A2C252421232B1FC4464B434FC21F icon-menu-video gameHeaderSubNav__itemLink ">Vidéos</span>                                    </li>
+                            <li class="gameHeaderSubNav__item ">
+                                            <span class="JvCare 1FC242C1434349C2454FCBC21F2A2C252421232B1E201E20 icon-menu-image gameHeaderSubNav__itemLink " target="_blank">Images</span>                                    </li>
+                            <li class="gameHeaderSubNav__item ">
+                                                                        <a class="icon-menu-tips gameHeaderSubNav__itemLink " href="/wikis-soluce-astuces/1820333/wiki-de-call-of-duty-modern-warfare-3-2023.htm" >Soluces</a>
+                                                            </li>
+                            <li class="gameHeaderSubNav__item ">
+                                            <span class="JvCare 1F444FC1C34EC21F201E2220212A2C23241E201E2A1E201E2A1E201E424A48481E4F441E4BC3CBC61E4E4F4B43C1491ECC4AC1444AC1431E221E212021221945CB4E icon-menu-forum gameHeaderSubNav__itemLink ">Forum</span>                                    </li>
+                    </ul>
+    </div>
+</div>
+<script id="social-icons" type="text/html">
+    <div class="socialBanner ">
+        
+        <span
+            class="JvCare 45CBCBC0C22D1F1FCCCCCC19444A4243414F4F4719424F4E1FC2454AC143C11FC2454AC143C119C045C02FC32E45CBCBC0C22D1F1FCCCCCC194D43C3C5C4464B434F19424F4E1F4D43C3C51F4D43C31E2A2C252421232B1F socialBanner__icon socialBanner__icon--facebook icon-facebook "
+            title="Partager sur Facebook"
+            target="_blank"
+                                >
+                   </span>
+
+    
+        <span
+            class="JvCare 45CBCBC0C22D1F1F4AC04619CC454ACBC24AC0C019424F4E1FC243494B2FCB43C5CB2EB24A48481321204F44132120BBC3CBC61321201322BA132120BE4F4B43C1491321203C4AC1444AC14313212022132120132125212021221321261321201E1321204D43C3C5C4464B434F19424F4E1321201E13212045CBCBC0C21322BA1321B41321B4CCCCCC194D43C3C5C4464B434F19424F4E1321B44D43C3C51321B44D43C31E2A2C252421232B1321B4 socialBanner__icon socialBanner__icon--whatsapp icon-whatsapp js-tracking-widget "
+            title="Partager sur Whatsapp"
+            target="_blank"
+                            data-tracking-category="WhatsApp_Sharing_Button"
+                data-tracking-label="WhatsApp"
+                data-tracking-events="click"
+                                >
+                   </span>
+
+    
+        <span
+            class="JvCare 45CBCBC0C22D1F1FCBCC46CBCB43C119424F4E1F4649CB4349CB1FCBCC4343CB2FCB43C5CB2EB24A48481321204F44132120BBC3CBC61321201322BA132120BE4F4B43C1491321203C4AC1444AC14313212022132120132125212021221321261321201E1321204D43C3C5C4464B434F19424F4E14C3C1482E45CBCBC0C21322BA1321B41321B4CCCCCC194D43C3C5C4464B434F19424F4E1321B44D43C3C51321B44D43C31E2A2C252421232B1321B414C4464A2EBD34B24F4E socialBanner__icon socialBanner__icon--twitter icon-twitter "
+            title="Partager sur X"
+            target="_blank"
+                                >
+                   </span>
+
+    </div></script>
+
+<script id="user-links" type="text/html">
+    <a href="https://www.jeuxvideo.com/login?url=https%3A%2F%2Fwww.jeuxvideo.com%2Fjeux%2Fjeu-1786254%2F&amp;hash=b149bbc3a646dadc6c674823ede3dd68" class="gameHeaderBanner__subscribeLink icon-bell-off"></a></script>
+
+
+        </div>
+
+        <div class="layout__row layout__contentBefore layout__row--gutter">
+            <div class="gameCharacteristicsMain noAffil">
+    <div class="gameCharacteristicsMain__block">
+        <div class="gameCharacteristicsMain__coverBlock">
+            <img
+                class="gameCharacteristicsMain__coverImage"
+                src="https://image.jeuxvideo.com/medias-sm/169686/1696864254-5173-jaquette-avant.jpg"
+                alt="Call of Duty : Modern Warfare 3 (2023)"
+                                    data-selector=https://image.jeuxvideo.com/medias/169686/1696864254-5173-jaquette-avant.jpg
+                    data-modal='image'
+                            >
+            <span class="JvCare 1FC4464B434FC21F2A25212120232C1F424A48481E4F441E4BC3CBC61E4E4F4B43C1491ECC4AC1444AC1431E221E4A484FC1C21E421E43C2CB1E4B431E484A1E414A4848431945CB4E simpleButton iconButton iconButton--prepend" title="Vidéo test : Call of Duty Modern Warfare 3, alors, c'est de la balle ?">
+        <i class="iconButton__icon icon-play" style="font-size: 1.375rem;"></i>Vidéo test
+    </span>
+        </div>
+        <div class="gameCharacteristicsMain__infoBlock">
+            <div class="gameCharacteristicsMain__reviewsContainer">
+                <div class="gameCharacteristicsMain__reviewContainer gameCharacteristicsMain__reviewContainer--editorialReview ">
+                                                                        <a href="/test/1821118/call-of-duty-modern-warfare-3-est-il-aussi-mauvais-que-tout-le-monde-le-dit-voici-notre-avis.htm" class="gameCharacteristicsMain__reviewTitle">Test</a>
+                                                                <div class="gameCharacteristicsMain__gauge">
+                        
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="border-radius: 50%; display: block;" width="100%">
+    <defs>
+        <clipPath id="radiusMask"><circle cx="50%" cy="50%" r="15"></circle></clipPath>
+    </defs>
+    <rect class="gameCharacteristicsMain__gaugeBackgroundCircle" fill="#000000" width="100%" height="100%"></rect>
+    <g transform="rotate(135, 16, 16)" clip-path="url(#radiusMask)" stroke-width="25%" fill="none">
+        <circle class="gameCharacteristicsMain__gaugeBackgroundGauge gameCharacteristicsMain__gaugeBackground" stroke="#212d32" stroke-dasharray="75 100" cx="50%" cy="50%" r="16"></circle>
+        <circle class="gameCharacteristicsMain__gaugeBar" stroke="#ff3c00" stroke-dasharray="52.5 100" cx="50%" cy="50%" r="16"></circle>
+    </g>
+    <text class="gameCharacteristicsMain__gaugeText" font-size="10" text-anchor="middle" x="50%" y="60%" fill="#ffffff">14</text>
+</svg>
+                    </div>
+                                                                        <span class="gameCharacteristicsMain__gaugeLabel">
+                                PC, PS5, Xbox Series, PS4, ONE
+                            </span>
+                                                            </div>
+
+                                    <div class="gameCharacteristicsMain__reviewContainer gameCharacteristicsMain__reviewContainer--userOpinion ">
+                                                                                    <a href="/jeux/xbox-series/jeu-1786263/avis/"class="gameCharacteristicsMain__reviewTitle">Avis</a>
+                                                        <span class="gameCharacteristicsMain__count">(22)</span>
+                                                <div class="gameCharacteristicsMain__gauge">
+                            
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" style="border-radius: 50%; display: block;" width="100%">
+    <defs>
+        <clipPath id="radiusMask"><circle cx="50%" cy="50%" r="15"></circle></clipPath>
+    </defs>
+    <rect class="gameCharacteristicsMain__gaugeBackgroundCircle" fill="#000000" width="100%" height="100%"></rect>
+    <g transform="rotate(135, 16, 16)" clip-path="url(#radiusMask)" stroke-width="25%" fill="none">
+        <circle class="gameCharacteristicsMain__gaugeBackgroundGauge gameCharacteristicsMain__gaugeBackground" stroke="#212d32" stroke-dasharray="75 100" cx="50%" cy="50%" r="16"></circle>
+        <circle class="gameCharacteristicsMain__gaugeBar" stroke="#ff3c00" stroke-dasharray="37.5 100" cx="50%" cy="50%" r="16"></circle>
+    </g>
+    <text class="gameCharacteristicsMain__gaugeText" font-size="10" text-anchor="middle" x="50%" y="60%" fill="#ffffff">9.5</text>
+</svg>
+                        </div>
+                                                    <span class="gameCharacteristicsMain__gaugeLabel">Xbox Series</span>
+                                            </div>
+                                                                            <div tabindex="1" class="gameCharacteristicsMain__reviewContainer gameCharacteristicsMain__reviewContainer--submitUserOpinion">
+                            <span class="gameCharacteristicsMain__reviewTitle">Donner mon&nbsp;avis</span>
+                            <div class="gameCharacteristicsMain__userOpinionLink">
+                                <i class="gameCharacteristicsMain__userOpinionIcon icon-pencil"></i>
+                                <ul class="gameCharacteristicsMain__dropdown">
+                                                                            <li>
+                                            <span class="JvCare 1F4D43C3C51FC0421F4D43C31E2A2C25242123241F4AC446C21FC04FC2CB43C11F gameCharacteristicsMain__dropdownItemLink">
+                                                    PC
+                                                </span>                                        </li>
+                                                                            <li>
+                                            <span class="JvCare 1F4D43C3C51FC0C2231F4D43C31E2A2C25242124211F4AC446C21FC04FC2CB43C11F gameCharacteristicsMain__dropdownItemLink">
+                                                    PS5
+                                                </span>                                        </li>
+                                                                            <li>
+                                            <span class="JvCare 1F4D43C3C51FC5414FC51EC243C14643C21F4D43C31E2A2C25242124221F4AC446C21FC04FC2CB43C11F gameCharacteristicsMain__dropdownItemLink">
+                                                    Xbox Series
+                                                </span>                                        </li>
+                                                                            <li>
+                                            <span class="JvCare 1F4D43C3C51FC0C22B1F4D43C31E2A2C252421242B1F4AC446C21FC04FC2CB43C11F gameCharacteristicsMain__dropdownItemLink">
+                                                    PS4
+                                                </span>                                        </li>
+                                                                            <li>
+                                            <span class="JvCare 1F4D43C3C51F4F49431F4D43C31E2A2C25242124231F4AC446C21FC04FC2CB43C11F gameCharacteristicsMain__dropdownItemLink">
+                                                    ONE
+                                                </span>                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                                                </div>
+                            <p class="gameCharacteristicsMain__synopsis">Call of Duty : Modern Warfare 3 est la suite directe de Call of Duty : Modern Warfare 2. Dans cette nouvelle aventure, le capitaine Price et la Task Force 141 affrontent la menace ultime : le criminel de guerre Vladimir Makarov. En plus d&#039;une campagne solo, le titre comprend un mode multijoueur ainsi qu&#039;un mode zombie.</p>
+                                        <div class="gameCharacteristicsMain__releaseDate">
+                    <span class="gameCharacteristicsMain__infoLabel">Sortie : </span>
+                    10 nov. 2023
+                </div>
+                                        <span class="JvCare 124B43CB4A4648C2 gameCharacteristicsMain__goToDetails">
+                    <i class="icon-cogs"></i>
+                    <span>Caractéristiques détaillées</span>
+                    <i class="icon-arrow-down"></i>
+                </span>
+                    </div>
+            </div>
+</div>
+
+        </div>
+        <div class="layout__row layout__contentMain layout__row--gutter">
+            <div class="latestVideos">
+    <h2 class="latestVideos__header">Les dernières vidéos</h2>
+    <div class="latestVideos__container">
+                    
+<div class="latestVideos__article">
+                <div class="player-contenu js-video">
+        <div class="ratio ratio-16x9 js-video-container">
+        <div>
+            <div class="player-jv js-lazy"
+                id="player-jv-3183397-851"
+                data-src-video="/contenu/medias/video.php?id=3183397&amp;autostart=true&amp;videoposition=autoplay&amp;enableplaylist=1"
+                data-is-floating="true"
+            >
+                            </div>
+        </div>
+    </div>
+</div>
+        <h3 class="latestVideos__title">
+                    <a class="latestVideos__titleLink titleLinkOnly" href="/videos/1822057/call-of-duty-modern-warfare-3-alors-c-est-de-la-balle.htm">
+                                    Vidéo test
+                                <span class="latestVideos__titleWrapper">Call of Duty Modern Warfare 3, alors, c&#039;est de la balle ?</span>
+            </a>
+            </h3>
+    <div class="latestVideos__footerWrapper">
+        <span class="latestVideos__date">16 nov. 2023, 13:55</span>
+                    <span class="latestVideos__viewCount">
+                <i class="icon-eye"></i>95 206
+                vues
+            </span>
+                    </div>
+</div>
+                    
+<div class="latestVideos__article">
+        <div class="latestVideos__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/169935/1699350745-8772-card.png">
+        <div class="latestVideos__iconPlay"></div>
+            </div>
+        <h3 class="latestVideos__title">
+                    <a class="latestVideos__titleLink" href="/videos/chroniques/1818797/call-of-duty-modern-warfare-3-une-campagne-qui-vise-a-cote.htm">
+                                    Chronique
+                                <span class="latestVideos__titleWrapper">Call of Duty Modern Warfare 3 : Une campagne qui vise à côté !</span>
+            </a>
+            </h3>
+    <div class="latestVideos__footerWrapper">
+        <span class="latestVideos__date">12 nov. 2023, 13:30</span>
+                    <span class="latestVideos__viewCount">
+                <i class="icon-eye"></i>5 860
+                vues
+            </span>
+                    </div>
+</div>
+                    
+<div class="latestVideos__article">
+        <div class="latestVideos__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/169695/1696952076-2162-card.png">
+        <div class="latestVideos__iconPlay"></div>
+            </div>
+        <h3 class="latestVideos__title">
+                    <a class="latestVideos__titleLink" href="/videos/chroniques/1808748/call-of-duty-modern-warfare-3-a-devoile-ses-nouveautes-de-gameplay-dans-une-beta-ce-week-end.htm">
+                                    Chronique
+                                <span class="latestVideos__titleWrapper">Call of Duty Modern Warfare 3 a dévoilé ses nouveautés de gameplay dans une bêta ce week-end !</span>
+            </a>
+            </h3>
+    <div class="latestVideos__footerWrapper">
+        <span class="latestVideos__date">10 oct. 2023, 17:43</span>
+                    <span class="latestVideos__viewCount">
+                <i class="icon-eye"></i>65 179
+                vues
+            </span>
+                    </div>
+</div>
+                    
+<div class="latestVideos__article">
+        <div class="latestVideos__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/169148/1691484337-8148-card.jpg">
+        <div class="latestVideos__iconPlay"></div>
+            </div>
+        <h3 class="latestVideos__title">
+                    <a class="latestVideos__titleLink" href="/videos/1786282/call-of-duty-le-retour-du-plus-grand-succes-de-la-franchise-enfin-annonce.htm">
+                                    Bande-annonce
+                                <span class="latestVideos__titleWrapper">Call of Duty : Le retour du plus grand succès de la franchise enfin annoncé</span>
+            </a>
+            </h3>
+    <div class="latestVideos__footerWrapper">
+        <span class="latestVideos__date">08 août 2023, 10:46</span>
+                    <span class="latestVideos__viewCount">
+                <i class="icon-eye"></i>430 614
+                vues
+            </span>
+                    </div>
+</div>
+            </div>
+        <div class="latestVideos__bottom">
+                                            <a class="simpleButton" href="/jeux/jeu-1786254/videos/">
+                    Toutes les vidéos
+                </a>
+                                    </div>
+</div>
+<div class="latestNews">
+    <h2 class="latestNews__header">Les dernières actus</h2>
+
+    <ol class="latestNews__container">
+                    <li class="latestNews__article">
+                <div class="latestNews__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/170455/1704545697-2014-card.jpg">
+                                                        </div>
+
+                                    <div class="latestNews__titleType">News jeu</div>
+                                <div class="latestNews__title">
+                    <h3>
+                                                    <a class="latestNews__titleLink" href="/news/1841435/enfin-ces-changements-dans-call-of-duty-modern-warfare-3-rendront-le-jeu-un-peu-plus-plaisant.htm">
+                                                                Enfin ! Ces changements dans Call of Duty Modern Warfare 3 rendront le jeu un peu plus plaisant
+                            </a>
+                                            </h3>
+                </div>
+                <span class="latestNews__date">06 janv., 14:00</span>
+                            </li>
+                    <li class="latestNews__article">
+                <div class="latestNews__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/170367/1703673515-8987-card.jpg">
+                                                        </div>
+
+                                    <div class="latestNews__titleType">News astuce</div>
+                                <div class="latestNews__title">
+                    <h3>
+                                                    <a class="latestNews__titleLink" href="/news/1839054/tyr-akimbo-mw3-sa-meilleure-classe-pour-le-mode-zombies-de-call-of-duty.htm">
+                                                                TYR Akimbo MW3 : Sa meilleure classe pour le mode Zombies de Call of Duty
+                            </a>
+                                            </h3>
+                </div>
+                <span class="latestNews__date">30 déc. 2023, 18:45</span>
+                            </li>
+                    <li class="latestNews__article">
+                <div class="latestNews__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/170368/1703684533-9469-card.jpg">
+                                                        </div>
+
+                                    <div class="latestNews__titleType">News astuce</div>
+                                <div class="latestNews__title">
+                    <h3>
+                                                    <a class="latestNews__titleLink" href="/news/1839108/modern-warfare-3-comment-se-deployer-aux-coordonnees-du-docteur-jansen.htm">
+                                                                Modern Warfare 3 : Comment se déployer aux coordonnées du docteur Jansen ? 
+                            </a>
+                                            </h3>
+                </div>
+                <span class="latestNews__date">27 déc. 2023, 20:35</span>
+                            </li>
+                    <li class="latestNews__article">
+                <div class="latestNews__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/170324/1703239966-4673-card.png">
+                                                        </div>
+
+                                    <div class="latestNews__titleType">News astuce</div>
+                                <div class="latestNews__title">
+                    <h3>
+                                                    <a class="latestNews__titleLink" href="/news/1838052/de-nouvelles-recompenses-gratuites-sont-a-collecter-pour-warzone-3-et-modern-warfare-3.htm">
+                                                                De nouvelles récompenses gratuites sont à collecter pour Warzone 3 et Modern Warfare 3 !
+                            </a>
+                                            </h3>
+                </div>
+                <span class="latestNews__date">22 déc. 2023, 15:15</span>
+                            </li>
+                    <li class="latestNews__article">
+                <div class="latestNews__imgThumb js-lazy" data-src-background="https://image.jeuxvideo.com/medias/170300/1702995006-5086-card.jpg">
+                                                        </div>
+
+                                    <div class="latestNews__titleType">News astuce</div>
+                                <div class="latestNews__title">
+                    <h3>
+                                                    <a class="latestNews__titleLink" href="/news/1836737/insertion-tactique-modern-warfare-3-comment-avoir-cet-accessoire-et-comment-bien-l-utiliser-pour-accomplir-le-defi.htm">
+                                                                Insertion tactique Modern Warfare 3 : Comment avoir cet accessoire et comment bien l’utiliser pour accomplir le défi ?
+                            </a>
+                                            </h3>
+                </div>
+                <span class="latestNews__date">19 déc. 2023, 20:35</span>
+                            </li>
+            </ol>
+    <div class="latestNews__bottom">
+                                            <a class="simpleButton latestNews__cta" href="/jeux/jeu-1786254/news/">
+                    Toutes les actualités
+                </a>
+                                            </div>
+</div>
+<div class="latestImages">
+    <h2 class="latestImages__header">Les dernières images</h2>
+
+    <div class="latestImages__inner">
+                                <span class="JvCare 1FC242C1434349C2454FCBC21F2A2C252421232B1E222A2623242C201E20 latestImages__item" target="_blank">
+                                    <div class="img-ratio-16-9 js-lazy" data-src-background="https://image.jeuxvideo.com/medias-sm/170368/1703684913-3145-capture-d-ecran.jpg">
+                </div>
+            
+                </span>                                <span class="JvCare 1FC242C1434349C2454FCBC21F2A2C252421232B1E222A26232424261E20 latestImages__item" target="_blank">
+                                    <div class="img-ratio-16-9 js-lazy" data-src-background="https://image.jeuxvideo.com/medias-sm/170368/1703684913-1791-capture-d-ecran.jpg">
+                </div>
+            
+                </span>                                <span class="JvCare 1FC242C1434349C2454FCBC21F2A2C252421232B1E222A26232424251E20 latestImages__item" target="_blank">
+                                    <div class="img-ratio-16-9 js-lazy" data-src-background="https://image.jeuxvideo.com/medias-sm/170368/1703684913-9997-capture-d-ecran.jpg">
+                </div>
+            
+                </span>                                <span class="JvCare 1FC242C1434349C2454FCBC21F2A2C252421232B1E222A2622262B2A1E20 latestImages__item" target="_blank">
+                                    <div class="img-ratio-16-9 js-lazy" data-src-background="https://image.jeuxvideo.com/medias-sm/170300/1702995001-3052-capture-d-ecran.jpg">
+                </div>
+            
+                </span>            </div>
+            <div class="latestImages__bottom">
+                        <span class="JvCare 1FC242C1434349C2454FCBC21F2A2C252421232B1E201E20 simpleButton" target="_blank">
+                                    Toutes les images  (302)
+            
+                </span>        </div>
+    </div>
+<div class="outbrain">
+    <div class="OUTBRAIN mx-3 mx-lg-0 mb-5" data-src="https://www.jeuxvideo.com/jeux/jeu-1786254/" data-widget-id="AR_20" data-ob-template="Jeuxvideo.com"></div>
+</div>
+
+        </div>
+        <div class="layout__row layout__contentAside layout__row--gutter">
+            <ins data-ad-position="rectangle_atf" data-breakpoints= "xs,s,l,m,xl" ></ins>    
+
+<div class="sideModule sidePopularThreads ">
+                    <div class="sideModule__header">
+                  <div class="sideModule__icon">
+            <i class="sideModule__iconFile icon-folder2"></i>
+          </div>
+                <span class="sideModule__title">Les Topics les + récents</span>
+    </div>
+
+    
+                <div class="sidePopularThreads__body">
+                <div class="sidePopularThreads__table">
+                    <div class="sidePopularThreads__tr sidePopularThreads__tr--thead">
+                        <div class="sidePopularThreads__td">Sujet</div>
+                        <div class="sidePopularThreads__td">Dernier message</div>
+                    </div>
+                                            <div class="sidePopularThreads__tr">
+                            <div class="sidePopularThreads__td">
+                                                                    <a class="sidePopularThreads__link" href="/forums/42-3021756-73324373-1-0-1-0-objectif-camo-interstellar-what-else.htm">[Objectif Camo] Interstellar What Else !</a>
+                                                            </div>
+                            <div class="sidePopularThreads__td">
+                                <span class="JvCare 1F444FC1C34EC21F2B211E2220212A2C23241E2C2222212B222C221E212C1E201E2A1E201E4F414D4342CB46441E424A4E4F1E4649CB43C1C2CB4348484AC11ECC454ACB1E4348C2431945CB4E sidePopularThreads__link">
+                                    10:51:59
+                                </span>
+                            </div>
+                        </div>
+                                            <div class="sidePopularThreads__tr">
+                            <div class="sidePopularThreads__td">
+                                                                    <a class="sidePopularThreads__link" href="/forums/42-3021756-73398004-1-0-1-0-objectif-camo-boreales-what-else.htm">[Objectif Camo] Boréales What Else ?</a>
+                                                            </div>
+                            <div class="sidePopularThreads__td">
+                                <span class="JvCare 1F444FC1C34EC21F2B211E2220212A2C23241E2C2222262520202B1E221E201E2A1E201E4F414D4342CB46441E424A4E4F1E414FC1434A4843C21ECC454ACB1E4348C2431945CB4E sidePopularThreads__link">
+                                    10:51:46
+                                </span>
+                            </div>
+                        </div>
+                                            <div class="sidePopularThreads__tr">
+                            <div class="sidePopularThreads__td">
+                                                                    <a class="sidePopularThreads__link" href="/forums/42-3021756-73637999-1-0-1-0-la-meilleur-streak-du-jeu.htm">La Meilleur Streak du jeu :</a>
+                                                            </div>
+                            <div class="sidePopularThreads__td">
+                                <span class="JvCare 1F444FC1C34EC21F2B211E2220212A2C23241E2C2224222C2626261E2A1E201E2A1E201E484A1E4E4346484843C3C11EC2CBC1434A471E4BC31E4D43C31945CB4E sidePopularThreads__link">
+                                    07:12:26
+                                </span>
+                            </div>
+                        </div>
+                                            <div class="sidePopularThreads__tr">
+                            <div class="sidePopularThreads__td">
+                                                                    <a class="sidePopularThreads__link" href="/forums/42-3021756-73323113-1-0-1-0-hans-zimmer-pack.htm">Hans Zimmer pack ?</a>
+                                                            </div>
+                            <div class="sidePopularThreads__td">
+                                <span class="JvCare 1F444FC1C34EC21F2B211E2220212A2C23241E2C222221222A2A221E211E201E2A1E201E454A49C21ECD464E4E43C11EC04A42471945CB4E sidePopularThreads__link">
+                                    hier, 20:16
+                                </span>
+                            </div>
+                        </div>
+                                            <div class="sidePopularThreads__tr">
+                            <div class="sidePopularThreads__td">
+                                                                    <a class="sidePopularThreads__link" href="/forums/42-3021756-73551910-1-0-1-0-bug-camouflage-d-armes-en-zombies.htm">Bug camouflage d&#039;armes en zombies.</a>
+                                                            </div>
+                            <div class="sidePopularThreads__td">
+                                <span class="JvCare 1F444FC1C34EC21F2B211E2220212A2C23241E2C2223232A262A201E2A1E201E2A1E201E41C34C1E424A4E4FC344484A4C431E4B1E4AC14E43C21E43491ECD4F4E414643C21945CB4E sidePopularThreads__link">
+                                    hier, 19:37
+                                </span>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        
+            <div class="sideModule__footer">
+                            <a class="simpleButton sideModule__cta" href="/forums/0-3021756-0-1-0-1-0-call-of-duty-modern-warfare-3-2023.htm">
+                    Voir le forum
+                </a>
+                    </div>
+    </div>
+
+<ins data-ad-position="rectangle_mtf" data-breakpoints= "xs,s,l,m,xl" ></ins>
+
+<div class="sideModule sideOrderedGames ">
+                    <div class="sideModule__header">
+                  <div class="sideModule__icon">
+            <i class="sideModule__iconFile icon-fire"></i>
+          </div>
+                <span class="sideModule__title">Les jeux attendus</span>
+    </div>
+
+    
+        <div class="sideOrderedGames__body">
+                                        <div class="sideOrderedGames__gameContainer" style="order: 0">
+                <span class="sideOrderedGames__gameRank" style="opacity: 1">1</span>
+                <span class="sideOrderedGames__gameBlock">
+                <div class="sideOrderedGames__gameTitleContainer">
+                                            <a href="/jeux/jeu-58825/" class="sideOrderedGames__gameTitle" title="">Baldur&#039;s Gate III</a>
+                                    </div>
+                                    <span class="sideOrderedGames__gameReleaseDate">03 août 2023</span>
+                                                </span>
+            </div>
+                                <div class="sideOrderedGames__gameContainer" style="order: 2">
+                <span class="sideOrderedGames__gameRank" style="opacity: 0.9">2</span>
+                <span class="sideOrderedGames__gameBlock">
+                <div class="sideOrderedGames__gameTitleContainer">
+                                            <a href="/jeux/jeu-1786254/" class="sideOrderedGames__gameTitle" title="">Call of Duty : Modern Warfare 3 (2023)</a>
+                                    </div>
+                                    <span class="sideOrderedGames__gameReleaseDate">10 nov. 2023</span>
+                                                </span>
+            </div>
+                                <div class="sideOrderedGames__gameContainer" style="order: 4">
+                <span class="sideOrderedGames__gameRank" style="opacity: 0.8">3</span>
+                <span class="sideOrderedGames__gameBlock">
+                <div class="sideOrderedGames__gameTitleContainer">
+                                            <a href="/jeux/jeu-617432/" class="sideOrderedGames__gameTitle" title="">Avatar : Frontiers of Pandora</a>
+                                    </div>
+                                    <span class="sideOrderedGames__gameReleaseDate">07 déc. 2023</span>
+                                                </span>
+            </div>
+                                <div class="sideOrderedGames__gameContainer" style="order: 1">
+                <span class="sideOrderedGames__gameRank" style="opacity: 0.7">4</span>
+                <span class="sideOrderedGames__gameBlock">
+                <div class="sideOrderedGames__gameTitleContainer">
+                                            <a href="/jeux/jeu-859868/" class="sideOrderedGames__gameTitle" title="">Starfield</a>
+                                    </div>
+                                    <span class="sideOrderedGames__gameReleaseDate">06 sept. 2023</span>
+                                                </span>
+            </div>
+                                <div class="sideOrderedGames__gameContainer" style="order: 3">
+                <span class="sideOrderedGames__gameRank" style="opacity: 0.6">5</span>
+                <span class="sideOrderedGames__gameBlock">
+                <div class="sideOrderedGames__gameTitleContainer">
+                                            <a href="/jeux/switch/jeu-1059105/" class="sideOrderedGames__gameTitle" title="">The Legend of Zelda : Tears of the Kingdom</a>
+                                    </div>
+                                    <span class="sideOrderedGames__gameReleaseDate">12 mai 2023</span>
+                                                </span>
+            </div>
+                                <div class="sideOrderedGames__gameContainer" style="order: 5">
+                <span class="sideOrderedGames__gameRank" style="opacity: 0.5">6</span>
+                <span class="sideOrderedGames__gameBlock">
+                <div class="sideOrderedGames__gameTitleContainer">
+                                            <a href="/jeux/jeu-1567913/" class="sideOrderedGames__gameTitle" title="">Disney Dreamlight Valley</a>
+                                    </div>
+                                    <span class="sideOrderedGames__gameReleaseDate">05 déc. 2023</span>
+                                                </span>
+            </div>
+            </div>
+
+            <div class="sideModule__footer">
+                            <a class="simpleButton sideModule__cta" href="/jeux/attendus/">
+                    Tous les jeux attendus
+                </a>
+                    </div>
+    </div>
+
+<ins data-ad-position="rectangle_btf" data-breakpoints= "xs,s,l,m,xl" ></ins>
+        </div>
+        <div class="layout__row layout__contextBottom">
+            <div class="gameCharacteristicsDetailed">
+    <a name="details" class="gameCharacteristicsDetailed__anchor"></a>
+    <div class="gameCharacteristicsDetailed__container">
+        <span name="details" class="gameCharacteristicsDetailed__title"><i class="icon-cogs"></i>Caractéristiques du jeu</span>
+        <div class="gameCharacteristicsDetailed__table">
+                            <div class="gameCharacteristicsDetailed__tr">
+                    <div class="gameCharacteristicsDetailed__td gameCharacteristicsDetailed__td--th">Editeur(s) / Développeur(s)</div>
+                    <div class="gameCharacteristicsDetailed__td">
+                                                                                    <span class="JvCare 1F4649444FC14E4ACB464F49C21F122A202B232C22 gameCharacteristicsDetailed__characValue">
+                                        Sledgehammer Games
+                                    </span>                                                                                                                <span class="JvCare 1F4649444FC14E4ACB464F49C21F122A20212A202B gameCharacteristicsDetailed__characValue">
+                                        Activision Blizzard
+                                    </span>                                                                        </div>
+                </div>
+                            <div class="gameCharacteristicsDetailed__tr">
+                    <div class="gameCharacteristicsDetailed__td gameCharacteristicsDetailed__td--th">Sortie France</div>
+                    <div class="gameCharacteristicsDetailed__td">
+                                                                                    <span class="gameCharacteristicsDetailed__characValue">
+                                    10 nov. 2023
+                                </span>
+                                                                        </div>
+                </div>
+                            <div class="gameCharacteristicsDetailed__tr">
+                    <div class="gameCharacteristicsDetailed__td gameCharacteristicsDetailed__td--th">Genre(s)</div>
+                    <div class="gameCharacteristicsDetailed__td">
+                                                                                    <span class="gameCharacteristicsDetailed__characValue">
+                                    Shooter
+                                </span>
+                                                                                                                <span class="JvCare 1F4649444FC14E4ACB464F49C21F1221202320 gameCharacteristicsDetailed__characValue">
+                                        Tir
+                                    </span>                                                                                                                                                    <a href="/fps.htm" class="gameCharacteristicsDetailed__characValue" >
+                                        FPS
+                                    </a>
+                                                                                                        </div>
+                </div>
+                            <div class="gameCharacteristicsDetailed__tr">
+                    <div class="gameCharacteristicsDetailed__td gameCharacteristicsDetailed__td--th">Classification</div>
+                    <div class="gameCharacteristicsDetailed__td">
+                                                                                    <span class="gameCharacteristicsDetailed__characValue">
+                                    +18 ans
+                                </span>
+                                                                        </div>
+                </div>
+                    </div>
+        <span class="JvCare 12 gameCharacteristicsDetailed__gotoMain">Haut<i class="icon-arrow-down"></i></span>
+    </div>
+</div>
+
+        </div>
+
+                                            <div class="layout__row layout__videoFooter">
+                        <div class="container-lg px-lg-3 pt-5">
+
+
+<section class="section row align-items-stretch mb-5 gx-0">
+        <div class="col-12 col-sm-auto order-1 order-sm-1 me-auto px-3 ps-lg-0">
+                    <span class="section__title text-uppercase">La vidéo du moment</span>
+            </div>
+        <div class="col-12 order-2 order-sm-3">
+            
+<aside class="playerHighlight  card mx-3 mx-lg-0 video-footer-container">
+    <div class="row gx-0">
+    <div class="col-12 col-lg-8 mb-2 mb-lg-0">
+        <div class="ratio ratio-16x9 rounded overflow-hidden">
+                        <div id="js-video-footer">
+                <div class="player-jv-footer" id="player-jv-3197276-248" data-src="/contenu/medias/video.php?id=3197276&amp;autostart=true&amp;videoposition=footer&amp;pre=preroll2">Chargement du lecteur vidéo...</div>
+            </div>
+                    </div>
+    </div>
+    <div class="playerHighlight__rightColumn col-12 col-lg-4 ps-lg-3">
+        <div class="playerHighlight__channel card border-0 mb-2">
+            <div class="row g-0">
+                
+                <div class="playerHighlight__channelBody ">
+                    <div class="playerHighlight__channelTitle text-primary fw-bold text-truncate">News culture</div>
+                                        <div class="playerHighlight__channelInfo">
+                                                    <span class="playerHighlight__channelViews text-secondary d-lg-block me-1">29 634 spectateurs</span>
+                        
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="playerHighlight__wrapper ">
+        <div class="playerHighlight__title mb-1">Énorme bide au cinéma, ce thriller est devenu culte : il est enfin disponible sur Amazon Prime Video</div>
+        <button
+            class="playerHighlight__readMore btn text-primary p-0"
+            onclick="this.classList.add('d-none');this.nextElementSibling.classList.add('d-block');"
+            >
+            Lire la suite <i class="icon-arrow-down d-inline-flex align-self-center"></i>
+        </button>
+        <div class="playerHighlight__description">Des films cultes ? Oui, mais des bides au box-offices</div>
+        </div>
+        
+                                            <a href="https://www.jeuxvideo.com/toutes-les-news/type-7720/" title="Toutes les news culture" class="playerHighlight__ctaLink btn btn-primary" >
+                    <span>Toutes les news culture</span>
+                        <i class="section__icon icon-next d-inline-flex align-self-center"></i>
+
+                </a>
+                        </div>
+    </div>
+</aside>
+
+        </div>
+
+    </section>
+</div>
+
+                    </div>
+                            
+                        <footer class="layout__row layout__footer" id="jv-footer">
+                    <ins data-ad-position="footer" data-breakpoints= "xs,s,l,m,xl" ></ins>
+                    <div class="footer footer--top">
+    <div class="container-lg px-3">
+        <div class="row flex-column flex-sm-row justify-content-sm-around py-5 py-sm-6 gx-0">
+        <div class="col-auto">
+            <div class="footer__title fs-4 lh-sm mb-1">NOUS SUIVRE</div>
+            <div class="d-flex gap-3">
+            <span target="_blank" title="Facebook" class="JvCare 45CBCBC0C22D1F1FCCCCCC19444A4243414F4F4719424F4E1F4DC4424F4E footer__iconLink icon-facebook-circle"></span>
+            <span target="_blank" title="X" class="JvCare 45CBCBC0C22D1F1FCBCC46CBCB43C119424F4E1FBD34B24F4E footer__iconLink icon-twitter-circle"></span>
+            <span target="_blank" title="Instagram" class="JvCare 45CBCBC0C22D1F1FCCCCCC194649C2CB4A4CC14A4E19424F4E1F4DC4424F4E1F footer__iconLink icon-instagram-circle"></span>
+            <span target="_blank" title="Youtube" class="JvCare 45CBCBC0C22D1F1FCCCCCC19C64FC3CBC3414319424F4E1FC3C243C11F4DC4424F4E footer__iconLink icon-youtube-circle"></span>
+            <span target="_blank" title="RSS" class="JvCare 45CBCBC0C22D1F1FCCCCCC194D43C3C5C4464B434F19424F4E1FC1C2C21FC1C2C219C54E48 footer__iconLink icon-rss-circle"></span>
+            </div>
+            <hr class="footer__border d-sm-none mt-5"></hr>
+        </div>
+        <div class="col-auto pt-5 pt-sm-0">
+            <div class="footer__title fs-4 lh-sm mb-1">TÉLÉCHARGEZ L’APP</div>
+            <div class="d-flex gap-3">
+            <span target="_blank" title="Playstore" class="JvCare 1F1FC0484AC6194C4F4F4C484319424F4E1FC2CB4FC1431F4AC0C0C21F4B43CB4A4648C22F464B2E424F4E194D43C3C5C4464B434F footer__iconLink icon-playstore-circle"></span>
+            <span target="_blank" title="Apple" class="JvCare 1F1F46CBC34943C2194AC0C0484319424F4E1F44C11F4AC0C01F4D43C3C5C4464B434F19424F4E1EC0421E43CB1E424F49C24F4843C21F464B222622202C2C2122212F4ECB2E25 footer__iconLink icon-apple-circle"></span>
+            <span target="_blank" title="Windows" class="JvCare 1F1FCCCCCC194E4642C14FC24F44CB19424F4E1F44C11E44C11FC2CB4FC1431FC01F4D43C3C5C4464B434F424F4E1EC0421E43CB1E424F49C24F4843C21F264941484C4C452347CA4D2B footer__iconLink icon-windows-circle"></span>
+            </div>
+        </div>
+        </div>
+        <hr class="footer__border"></hr>
+        <div class="d-flex flex-wrap flex-column flex-sm-row justify-content-sm-center py-5 py-sm-6">
+        <div class="footer__title fs-4 lh-sm mb-1 d-sm-none">INFORMATIONS GÉNÉRALES</div>
+            <span class="JvCare 1F424F49CB4A42CB19C045C0 footer__link">Contact</span>
+            <span class="JvCare 1F4E4A4648444FC14E19C045C0 footer__link">L'équipe</span>
+            <span class="JvCare 1F424FC0C6C1464C45CB1945CB4E footer__link">Informations légales</span>
+            <span class="JvCare 1F424CC31945CB4E footer__link">C.G.U.</span>
+            <span class="JvCare 1F424CC41945CB4E footer__link">C.G.V.</span>
+            <span class="JvCare 1F4E4F4B43C14ACB464F491945CB4E footer__link">Modération</span>
+            <span class="JvCare 1FC04F4846CB46CAC3431E424F4944464B4349CB464A4846CB431945CB4E footer__link">Politique de confidentialité</span>
+            <span class="JvCare 1F424F4F474643C21945CB4E footer__link">Cookies</span>
+            <span class="JvCare 4D4AC44AC242C146C0CB2D4DC442194B46C2C0484AC6B24F4F474643B24F49C24349CB151627 footer__link cookie-consent">Préférences cookies</span>
+            <span class="JvCare 1F4943CCC24843CBCB43C11F footer__link">Newsletter</span>
+            <span class="JvCare 1F4DC4C54E481945CB4E footer__link">RSS</span>
+            <span class="JvCare 1FC14342C1C3CB431945CB4E footer__link">Jobs</span>
+        </div>
+    </div>
+</div>
+<div class="footer footer--bottom d-flex flex-column d-sm-block text-sm-center px-3 py-4 py-sm-3">
+    <span class="JvCare 45CBCBC0C22D1F1F44C119CC4341434B464A1E4CC14FC3C019424F4E" target="_blank">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            data-src="https://static.jvc.gg/23.23.5/img/footer/webedia_gaming_network_white.svg"
+            class="footer__webedia pb-1 pb-sm-0 me-sm-2 js-lazy"
+        />
+    </span>
+    <span>Copyright © 1997-2024 Webedia. Tous droits réservés.</span>
+</div>
+                </footer>
+            
+    </div>
+
+    <ins data-ad-position="pulse" data-breakpoints= "xs,s,l,m,xl" ></ins>
+
+
+    <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T9WX8T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+
+</body>
+</html>
