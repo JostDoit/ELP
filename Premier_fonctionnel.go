@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"regexp"
 	"strings"
 )
@@ -12,11 +13,11 @@ const port = ":8080"
 
 var liste []string
 
-func manger(url string) []string {
+func manger(lien string) []string {
 	prefixe := "https://fr.wikipedia.org"
 
 	// Effectuer la requête HTTP GET
-	response, err := http.Get(url)
+	response, err := http.Get(lien)
 
 	if err != nil {
 		fmt.Printf("Erreur lors de la requête HTTP : %v", err)
@@ -38,10 +39,11 @@ func manger(url string) []string {
 
 	for _, part := range parts {
 		liensettxt := strings.SplitN(part, "\"", -1)
-		if !re.MatchString(liensettxt[1]) {
+		if !re.MatchString(liensettxt[1]) && verif_deja_la(tab_liens, liensettxt[1]) {
 			// Si le lien ne contient ni "http" ni "cite-ref", ajouter le préfixe
 			lien := prefixe + liensettxt[1]
-			tab_liens = append(tab_liens, lien)
+			lien_corrige, _ := url.QueryUnescape(lien)
+			tab_liens = append(tab_liens, lien_corrige)
 		}
 
 		//fmt.Println(liensettxt[1])e
@@ -49,11 +51,20 @@ func manger(url string) []string {
 	return tab_liens
 }
 
-func HTML(url string) string {
+func verif_deja_la(tab_liens []string, chaine string) bool {
+	for _, lien := range tab_liens {
+		if lien == chaine {
+			return false
+		}
+	}
+	return true
+}
+
+func HTML(lien string) string {
 	// URL de la page web que vous souhaitez récupérer
 
 	// Effectuer la requête HTTP GET
-	response, err := http.Get(url)
+	response, err := http.Get(lien)
 
 	if err != nil {
 		fmt.Printf("Erreur lors de la requête HTTP : %v", err)
