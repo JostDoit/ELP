@@ -11,7 +11,6 @@ import (
 const port = ":8080"
 
 var liste []string
-var testurl string
 
 func manger(url string) []string {
 	prefixe := "https://fr.wikipedia.org"
@@ -79,19 +78,21 @@ func Home(w http.ResponseWriter, r *http.Request) {
 
 }
 
-func test(w http.ResponseWriter, r *http.Request) {
+func test(w http.ResponseWriter, r *http.Request, testurl string) {
 	body := HTML(testurl)
 	fmt.Fprintf(w, body)
 }
 
 func Lancement(petitlien string, url string) {
-	testurl = url
-	http.HandleFunc(petitlien, test)
+	testurl := url
+	http.HandleFunc(petitlien, func(w http.ResponseWriter, r *http.Request) {
+		test(w, r, testurl)
+	})
 }
 
 func main() {
 
-	testurl = "https://fr.wikipedia.org/wiki/Voltaire"
+	testurl := "https://fr.wikipedia.org/wiki/Voltaire"
 	http.HandleFunc("/", Home)
 	liste = manger(testurl)
 	for i := 200; i < 220; i++ {
