@@ -32,10 +32,12 @@ func HTML() string {
 		return ""
 	}
 
+	print(string(body))
 	// Afficher le contenu HTML
 	return string(body)
 
 }
+
 func main() {
 
 	http.HandleFunc("/", Home)
