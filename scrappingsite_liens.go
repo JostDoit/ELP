@@ -67,6 +67,7 @@ func HTML(lien string) string {
 		"%C3%A8": "è",
 		"%C3%89": "É",
 		"%C3%A2": "â",
+		"%27": "'",
 		// Ajoutez d'autres paires clé-valeur au besoin
 	}
 
