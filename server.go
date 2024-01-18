@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"net"
+	"os"
+	"os/signal"
 	"strconv"
 	"strings"
 	"sync"
@@ -72,25 +74,28 @@ func main() {
 
 	fmt.Println("Server waiting for connections...")
 
+	// Signal d'arrêt du serveur
+	signalChannel := make(chan os.Signal, 1)
+	signal.Notify(signalChannel, os.Interrupt)
+
 	for {
-		//Attente d'une nouvelle connexion
-		conn, errconn := listener.Accept()
-		if errconn != nil {
-			fmt.Println("Error accepting connection : ", errconn)
-			continue
-		} else {
-			fmt.Println("New connection accepted : ", conn)
+		select {
+		case <-signalChannel:
+			fmt.Println("Server shutting down...")
+			wg.Wait()
+			os.Exit(0)
+		default:
+			//Attente d'une nouvelle connexion
+			conn, err := listener.Accept()
+			if err != nil {
+				fmt.Println("Error accepting connection : ", err)
+				continue
+			} else {
+				fmt.Println("New connection accepted.")
+			}
+
+			wg.Add(1)
+			go handleConnection(conn, &wg)
 		}
-
-		wg.Add(1)
-		go handleConnection(conn, &wg)
-
-		// Attente de la fin de toutes les goroutines avant de quitter
-		wg.Wait()
-
-		// Fermeture de la connexion
-		fmt.Println("Closing connection")
-		conn.Close()
-		fmt.Println("Connection closed")
 	}
 }

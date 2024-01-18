@@ -59,4 +59,7 @@ func main() {
 
 	//Affichage de la réponse du serveur
 	fmt.Println("Server response : ", reponse)
+
+	fmt.Println("Closing connection")
+	conn.Close()
 }
