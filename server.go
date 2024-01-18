@@ -64,6 +64,10 @@ func (s *Server) acceptConnections() {
 		default:
 			conn, err := s.listener.Accept()
 			if err != nil {
+				if opErr, ok := err.(*net.OpError); ok && opErr.Op == "accept" && opErr.Err == net.ErrClosed {
+					// Network closed because off shutdown, ignoring error
+					continue
+				}
 				fmt.Println("Error accepting connection : ", err)
 				continue
 			}
