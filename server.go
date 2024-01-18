@@ -10,7 +10,24 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+	"syscall"
+	"time"
 )
+
+/*
+Server : server structure
+wg : WaitGroup to wait for all goroutines to finish
+listener : TCP listener
+shutdown : channel to signal shutdown
+connection : channel to signal new connection
+*/
+
+type Server struct {
+	wg         sync.WaitGroup
+	listener   net.Listener
+	shutdown   chan struct{}
+	connection chan net.Conn
+}
 
 func runAlgortihm(url string, nombre int) string {
 	fmt.Println("Running algorithm")
@@ -19,8 +36,56 @@ func runAlgortihm(url string, nombre int) string {
 	return resultat
 }
 
-func handleConnection(conn net.Conn, wg *sync.WaitGroup) {
-	defer wg.Done()
+/*
+newServer : create a new server
+address : address to listen on
+*/
+
+func newServer(address string) (*Server, error) {
+	listener, err := net.Listen("tcp", address)
+	if err != nil {
+		return nil, fmt.Errorf("Error creating server on address %s: %w", address, err)
+	}
+
+	return &Server{
+		listener:   listener,
+		shutdown:   make(chan struct{}),
+		connection: make(chan net.Conn),
+	}, nil
+}
+
+func (s *Server) acceptConnections() {
+	for {
+		select {
+		case <-s.shutdown:
+			return
+		default:
+			conn, err := s.listener.Accept()
+			if err != nil {
+				fmt.Println("Error accepting connection : ", err)
+				continue
+			}
+			s.connection <- conn
+			fmt.Println("New connection accepted.")
+		}
+	}
+}
+
+func (s *Server) handleConnections() {
+	defer s.wg.Done()
+
+	for {
+		select {
+		case <-s.shutdown:
+			return
+		case conn := <-s.connection:
+			go s.handleConnection(conn)
+		}
+	}
+}
+
+func (s *Server) handleConnection(conn net.Conn) {
+	defer conn.Close()
 
 	// Crée un scanner pour lire les données depuis la connexion
 	scanner := bufio.NewScanner(conn)
@@ -60,42 +125,50 @@ func handleConnection(conn net.Conn, wg *sync.WaitGroup) {
 	}
 }
 
-func main() {
-	// Crée un WaitGroup pour attendre la fin de toutes les goroutines
-	var wg sync.WaitGroup
+func (s *Server) Start() {
+	s.wg.Add(2)
+	go s.acceptConnections()
+	go s.handleConnections()
+}
 
-	// Crée un serveur TCP
-	listener, err := net.Listen("tcp", ":8080")
+func (s *Server) Stop() {
+	close(s.shutdown)
+	s.listener.Close()
+
+	done := make(chan struct{})
+	go func() {
+		s.wg.Wait()
+		close(done)
+	}()
+
+	select {
+	case <-done:
+		return
+	case <-time.After(time.Second):
+		fmt.Println("Server shutdown timed out")
+	}
+}
+
+func main() {
+	// Création du serveur TCP sur le port 8080
+	s, err := newServer(":8080")
 	if err != nil {
 		fmt.Println("Error creating server :", err)
-		return
+		os.Exit(1)
 	}
-	defer listener.Close()
 
+	// Démarrage du serveur
+	s.Start()
 	fmt.Println("Server waiting for connections...")
+	//defer listener.Close()
 
-	// Signal d'arrêt du serveur
+	//Attente d'un signal pour arrêter le serveur
 	signalChannel := make(chan os.Signal, 1)
-	signal.Notify(signalChannel, os.Interrupt)
+	signal.Notify(signalChannel, syscall.SIGINT, syscall.SIGTERM)
+	<-signalChannel
 
-	for {
-		select {
-		case <-signalChannel:
-			fmt.Println("Server shutting down...")
-			wg.Wait()
-			os.Exit(0)
-		default:
-			//Attente d'une nouvelle connexion
-			conn, err := listener.Accept()
-			if err != nil {
-				fmt.Println("Error accepting connection : ", err)
-				continue
-			} else {
-				fmt.Println("New connection accepted.")
-			}
-
-			wg.Add(1)
-			go handleConnection(conn, &wg)
-		}
-	}
+	//Arrêt du serveur
+	fmt.Println("Server shutting down...")
+	s.Stop()
+	fmt.Println("Server stopped.")
 }
