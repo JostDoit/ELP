@@ -17,12 +17,6 @@ func main() {
 		return
 	}
 
-	/*
-		En Golang, le mot-clé defer est utilisé pour retarder l'exécution d'une fonction jusqu'à ce que la fonction englobante ait
-		terminé son exécution.
-		Ici: garantit que la connexion sera fermée correctement,
-		que ce soit après l'exécution normale de l'algorithme ou en cas d'erreur.
-	*/
 	defer conn.Close()
 
 	fmt.Println("Connected to server")

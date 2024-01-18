@@ -55,9 +55,11 @@ func newServer(address string) (*Server, error) {
 }
 
 func (s *Server) acceptConnections() {
+	defer s.wg.Done()
 	for {
 		select {
 		case <-s.shutdown:
+			fmt.Println("Accepting connections stopped")
 			return
 		default:
 			conn, err := s.listener.Accept()
@@ -77,6 +79,7 @@ func (s *Server) handleConnections() {
 	for {
 		select {
 		case <-s.shutdown:
+			fmt.Println("Handling connections stopped")
 			return
 		case conn := <-s.connection:
 			go s.handleConnection(conn)
@@ -138,13 +141,14 @@ func (s *Server) Stop() {
 	done := make(chan struct{})
 	go func() {
 		s.wg.Wait()
+		fmt.Println("All goroutines finished")
 		close(done)
 	}()
 
 	select {
 	case <-done:
 		return
-	case <-time.After(time.Second):
+	case <-time.After(5 * time.Second):
 		fmt.Println("Server shutdown timed out")
 	}
 }
