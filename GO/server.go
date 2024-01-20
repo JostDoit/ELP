@@ -86,12 +86,13 @@ func (s *Server) handleConnections() {
 			fmt.Println("Handling connections stopped")
 			return
 		case conn := <-s.connection:
-			go s.handleConnection(conn)
+			go s.handleRequest(conn)
+			go s.handleShutdown(conn)
 		}
 	}
 }
 
-func (s *Server) handleConnection(conn net.Conn) {
+func (s *Server) handleRequest(conn net.Conn) {
 	defer conn.Close()
 
 	// Crée un scanner pour lire les données depuis la connexion
@@ -127,7 +128,23 @@ func (s *Server) handleConnection(conn net.Conn) {
 			fmt.Println("Error sending message to client : ", err)
 			return
 		} else {
-			fmt.Printf("Message sent to client : %s\n", resultat)
+			fmt.Printf("Message sent to client : %s", resultat)
+		}
+	}
+}
+
+func (s *Server) handleShutdown(conn net.Conn) {
+	defer conn.Close()
+	for {
+		select {
+		case <-s.shutdown:
+			fmt.Println("Sending shutdown message to connetion :", conn)
+			_, err := io.WriteString(conn, "END\n")
+			if err != nil {
+				fmt.Println("Error sending shutdown message to client : ", err)
+			}
+			conn.Close()
+			return
 		}
 	}
 }
@@ -168,7 +185,6 @@ func main() {
 	// Démarrage du serveur
 	s.Start()
 	fmt.Println("Server waiting for connections...")
-	//defer listener.Close()
 
 	//Attente d'un signal pour arrêter le serveur
 	signalChannel := make(chan os.Signal, 1)
