@@ -72,7 +72,7 @@ func (s *Server) acceptConnections() {
 				continue
 			}
 			s.connection <- conn
-			fmt.Println("New connection accepted.")
+			fmt.Println("New connection accepted : ", conn.RemoteAddr().String())
 		}
 	}
 }
@@ -138,7 +138,6 @@ func (s *Server) handleShutdown(conn net.Conn) {
 	for {
 		select {
 		case <-s.shutdown:
-			fmt.Println("Sending shutdown message to connetion :", conn)
 			_, err := io.WriteString(conn, "END\n")
 			if err != nil {
 				fmt.Println("Error sending shutdown message to client : ", err)
