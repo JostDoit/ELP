@@ -26,21 +26,7 @@ main =
 type Model
   = Failure
   | Loading
-  | Success WordDefinition
-
-
-type alias WordDefinition =
-  { word : String
-  , meanings : List Meaning
-  }
-
-type alias Meaning =
-  { partOfSpeech : String
-  , definitions : List Def
-  }
-
-type alias Def =
-  { definition : String}
+  | Success String
 
 
 init : () -> (Model, Cmd Msg)
@@ -53,7 +39,7 @@ init _ =
 
 
 type Msg
-  = GotWordDefinition (Result Http.Error WordDefinition)
+  = GotWordDefinition (Result Http.Error List String)
 
 
 update : Msg -> Model -> (Model, Cmd Msg)
@@ -100,9 +86,7 @@ viewWordDefinition model =
 
     Success definition ->
       div []
-        [ h1 [] [ text definition.word ]
-        , div [] 
-        ]
+        [ h1 [] [ text definition ]]
 
 
 
@@ -116,22 +100,9 @@ getWordDefinition =
     , expect = Http.expectJson GotWordDefinition wordDefinitionListDecoder
     }
 
-wordDefinitionListDecoder : Decoder (List WordDefinition)
+wordDefinitionListDecoder : Decoder (List String)
 wordDefinitionListDecoder = list wordDefinitionDecoder
 
-wordDefinitionDecoder : Decoder WordDefinition
-wordDefinitionDecoder =
-  map2 WordDefinition
+wordDefinitionDecoder : Decoder String
+wordDefinitionDecoder =  
     (field "word" string)
-    (field "meanings" (list meaningDecoder))
-
-meaningDecoder : Decoder Meaning
-meaningDecoder =
-  map2 Meaning
-    (field "partOfSpeech" string)
-    (field "definitions" (list definitionDecoder))
-
-definitionDecoder : Decoder Def
-definitionDecoder =
-    Json.Decode.map Def
-    (field "definition" string)

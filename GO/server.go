@@ -103,33 +103,56 @@ func (s *Server) handleRequest(conn net.Conn) {
 		line := scanner.Text()
 		parts := strings.Fields(line)
 
-		// Vérification du bon nombre d'arguments
-		if len(parts) != 2 {
-			fmt.Println("Invalid number of arguments")
-			return
-		}
+		fmt.Println(len(parts))
 
-		url := parts[0]
-		nombre := parts[1]
+		choice := parts[0]
 
-		// Conversion du nombre en int
-		nombreInt, err := strconv.Atoi(nombre)
-		if err != nil {
-			fmt.Println("Invalid number : ", err)
-			return
-		}
+		// Vérification du choix de l'utilisateur (1 ou 2)
+		if choice == "1" {
+			fmt.Println("User chose 1")
+			url := parts[1]
+			nombre := parts[2]
 
-		// Exécution de l'algorithme
-		resultat := runAlgortihm(url, nombreInt)
+			// Conversion du nombre en int
+			nombreInt, err := strconv.Atoi(nombre)
+			if err != nil {
+				fmt.Println("Invalid number : ", err)
+				return
+			}
 
-		// Envoie de la réponse au client
-		_, err = io.WriteString(conn, resultat)
-		if err != nil {
-			fmt.Println("Error sending message to client : ", err)
-			return
+			// Exécution de l'algorithme
+			resultat := runAlgortihm(url, nombreInt)
+
+			// Envoie de la réponse au client
+			_, err = io.WriteString(conn, resultat)
+			if err != nil {
+				fmt.Println("Error sending message to client : ", err)
+				return
+			} else {
+				fmt.Printf("Message sent to client : %s", resultat)
+			}
 		} else {
-			fmt.Printf("Message sent to client : %s", resultat)
+			fmt.Println("User chose 2")
+			dossier := parts[1]
+			fmt.Println("Opening folder : ", dossier)
 		}
+	}
+}
+
+func (s *Server) uploadFile(conn net.Conn, fileToSend string) {
+	// Ouverture du fichier à envoyer
+	file, err := os.Open(fileToSend)
+	if err != nil {
+		fmt.Println("Error opening file : ", err)
+		return
+	}
+	defer file.Close()
+
+	// Envoie du fichier
+	_, err = io.Copy(conn, file)
+	if err != nil {
+		fmt.Println("Error sending file : ", err)
+		return
 	}
 }
 
