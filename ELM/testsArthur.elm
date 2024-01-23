@@ -3,7 +3,7 @@ import Html exposing (..)
 import Html.Attributes exposing (style)
 import Html.Events exposing (..)
 import Http
-import Json.Decode exposing (Decoder, map2, field, int, string, list)
+import Json.Decode exposing (Decoder, map2, field, int, string, list, at)
 
 
 
@@ -26,20 +26,20 @@ main =
 type Model
   = Failure
   | Loading
-  | Success WordDefinition
+  | Success Package
 
 
-type alias WordDefinition =
+type alias Package =
   { word : String
   , meanings : List Meaning
   }
 
 type alias Meaning =
   { partOfSpeech : String
-  , definitions : List Def
+  , definitions : List Definition
   }
 
-type alias Def =
+type alias Definition =
   { definition : String}
 
 
@@ -53,7 +53,7 @@ init _ =
 
 
 type Msg
-  = GotWordDefinition (Result Http.Error WordDefinition)
+  = GotWordDefinition (Result Http.Error Package)
 
 
 update : Msg -> Model -> (Model, Cmd Msg)
@@ -84,13 +84,13 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
   div []
-    [ h2 [] [ text "Random Quotes" ]
-    , viewWordDefinition model
+    [ h1 [] [ text "Guess It !" ]
+    , viewPackage model
     ]
 
 
-viewWordDefinition : Model -> Html Msg
-viewWordDefinition model =
+viewPackage : Model -> Html Msg
+viewPackage model =
   case model of
     Failure ->
       text "I could not load the definition for some reason. "
@@ -101,10 +101,33 @@ viewWordDefinition model =
     Success definition ->
       div []
         [ h1 [] [ text definition.word ]
-        , div [] 
+        , ul []
+          [ li [] 
+            [ text "Meanings"
+            , ul [] (viewMeanings definition.meanings)
+            ]
+          ]
         ]
 
+viewMeanings : List Meaning -> List (Html Msg)
+viewMeanings meanings =
+  case meanings of
+    [] ->
+      [text ""]
 
+    (meaning :: rest) ->      
+      
+      [ li [] 
+        [ text meaning.partOfSpeech
+        , ol [] (viewDefinitions meaning.definitions)      
+        ]
+      ] ++ viewMeanings rest
+      
+        
+
+viewDefinitions : List Definition -> List (Html Msg)
+viewDefinitions definitions =
+  List.map (\definition -> li[] [text definition.definition]) definitions
 
 -- HTTP
 
@@ -113,15 +136,14 @@ getWordDefinition : Cmd Msg
 getWordDefinition =
   Http.get
     { url = "https://api.dictionaryapi.dev/api/v2/entries/en/with"
-    , expect = Http.expectJson GotWordDefinition wordDefinitionListDecoder
+    , expect = Http.expectJson GotWordDefinition mainDecoder
     }
 
-wordDefinitionListDecoder : Decoder (List WordDefinition)
-wordDefinitionListDecoder = list wordDefinitionDecoder
+mainDecoder = at["0"](packageDecoder)
 
-wordDefinitionDecoder : Decoder WordDefinition
-wordDefinitionDecoder =
-  map2 WordDefinition
+packageDecoder : Decoder Package
+packageDecoder =
+  map2 Package
     (field "word" string)
     (field "meanings" (list meaningDecoder))
 
@@ -131,7 +153,7 @@ meaningDecoder =
     (field "partOfSpeech" string)
     (field "definitions" (list definitionDecoder))
 
-definitionDecoder : Decoder Def
+definitionDecoder : Decoder Definition
 definitionDecoder =
-    Json.Decode.map Def
+    Json.Decode.map Definition
     (field "definition" string)
