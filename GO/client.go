@@ -24,8 +24,9 @@ func listen(conn net.Conn, wg *sync.WaitGroup) {
 			conn.Close()
 			os.Exit(0)
 		} else {
-			//Affichage de la réponse du serveur
-			fmt.Println("Server response : ", Message)
+			fmt.Printf("Message received from server : %s", Message)
+			// Recupération du fichier
+			downloadFile("client"+Message[:len(Message)-1], conn)
 			fmt.Println("Closing connection")
 			conn.Close()
 			os.Exit(0)
@@ -33,9 +34,9 @@ func listen(conn net.Conn, wg *sync.WaitGroup) {
 	}
 }
 
-func downloadFile(conn net.Conn) {
+func downloadFile(fileToDownload string, conn net.Conn) {
 	// Création du fichier
-	file, err := os.Create("resultat.txt")
+	file, err := os.Create(fileToDownload)
 	if err != nil {
 		fmt.Println("Error creating file : ", err)
 		return

@@ -31,9 +31,10 @@ type Server struct {
 
 func runAlgortihm(url string, nombre int) string {
 	fmt.Println("Running algorithm")
-	resultat := fmt.Sprintf("Résumé : Vous avez demandé pour le site %s avec le nombre %d.\n", url, nombre)
+	fmt.Printf("Résumé : Vous avez demandé pour le site %s avec le nombre %d.\n", url, nombre)
+	fileName := "testfile.txt"
 	fmt.Println("Algorithm finished")
-	return resultat
+	return fileName
 }
 
 /*
@@ -123,14 +124,17 @@ func (s *Server) handleRequest(conn net.Conn) {
 			// Exécution de l'algorithme
 			resultat := runAlgortihm(url, nombreInt)
 
-			// Envoie de la réponse au client
-			_, err = io.WriteString(conn, resultat)
+			// Envoie du nom du fichier au client
+			_, err = io.WriteString(conn, fmt.Sprintf("%s\n", resultat))
 			if err != nil {
 				fmt.Println("Error sending message to client : ", err)
 				return
 			} else {
-				fmt.Printf("Message sent to client : %s", resultat)
+				fmt.Printf("Message sent to client : %s\n", resultat)
 			}
+			time.Sleep(1 * time.Second)
+			// Envoie du fichier au client
+			s.uploadFile(conn, resultat)
 		} else {
 			fmt.Println("User chose 2")
 			dossier := parts[1]
