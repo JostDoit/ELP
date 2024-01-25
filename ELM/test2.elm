@@ -1,11 +1,11 @@
 import Browser
 import Html exposing (..)
-import Html.Attributes exposing (style)
+import Html.Attributes exposing (placeholder, value, type_, checked)
 import Html.Events exposing (..)
 import Http
 import Random
 import Array exposing (Array, get, fromList)
-import Json.Decode exposing (Decoder, map2, field, int, string, list, at)
+import Json.Decode exposing (Decoder, map2, map3, field, int, string, list, at)
 
 
 
@@ -26,7 +26,7 @@ main =
 
 
 type alias Model = 
-  { wordToGuess : String
+  { wordToGuess : Maybe String
   , userInput : String
   , wordsList : List String
   , userFoundword : Bool
@@ -58,11 +58,11 @@ init _ =
 
 initModel : Model
 initModel =
-  { wordToGuess = "with"
+  { wordToGuess = Nothing
   , userInput = ""
-  , status = Loading
   , wordsList = []
   , result = Ok []
+  , userFoundword = False
   , boxChecked = False
   }
 
@@ -82,10 +82,19 @@ type Msg
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
-  case msg of
-    
+  case msg of    
     GotWordsList (Ok words) ->
-      ( { model | wordsList = String.split " " words }, GetRandomWord)
+      let
+        wordsList =
+          String.split " " words
+        
+        randomNumber =
+          Random.generate RandomNumber (Random.int 0 (List.length wordsList - 1))
+      in
+        ( { model | wordsList = wordsList }, randomNumber)
+    
+    GotWordsList (Err _) ->
+      (model, Cmd.none)
 
     GetRandomWord ->
       case List.length model.wordsList of
@@ -145,26 +154,29 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
-  div []
-    [ h1 [] [ text "Guess It !" ]
-    , viewListPackage model
-    ]
-
-
-viewListPackage : Model -> Html Msg
-viewListPackage model =
-  case model.status of
-    Failure ->
-      text "I could not load the definition for some reason. "
-
-    Loading ->
-      text "Loading..."
-
-    Ok listPackage ->
+  case model.result of
+    Ok packages ->
       div []
-        [ h1 [] [ text "With" ]
-        , ul [] (viewPackage listPackage)          
+        [ 
+          h1 [] [ text (if model.boxChecked then Maybe.withDefault "No word to guess !" model.wordToGuess else "Guess it !") ]
+          ,div []
+            [
+              ul[] (viewPackage packages)
+            ]
+          ,div []
+            [ 
+              label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "Give it a try !") ]
+              ,input [ value model.userInput, onInput UserInput ] []
+            ]
+          ,div []
+            [ label []
+              [ input [ type_ "checkbox", checked model.boxChecked, onClick BoxChecked ] []
+              ,span [] [ text "Show it" ]
+              ]
+            ]
         ]
+    Err _ ->
+      text "Communication error with the API"
 
 viewPackage : List Package -> List (Html Msg)
 viewPackage listPackage =
@@ -204,7 +216,7 @@ viewDefinitions definitions =
 getWordsList : Cmd Msg
 getWordsList =
   Http.get
-    { url = "words.txt"
+    { url = "mots.txt"
     , expect = Http.expectString GotWordsList
     }
 
@@ -212,6 +224,13 @@ getWordDefinition : Cmd Msg
 getWordDefinition =
   Http.get
     { url = "https://api.dictionaryapi.dev/api/v2/entries/en/with"
+    , expect = Http.expectJson GotPackages mainDecoder
+    }
+
+askApi : String -> Cmd Msg
+askApi word =
+  Http.get
+    { url = "https://api.dictionaryapi.dev/api/v2/entries/en/" ++ word
     , expect = Http.expectJson GotPackages mainDecoder
     }
 
@@ -233,5 +252,7 @@ meaningDecoder =
 
 definitionDecoder : Decoder Definition
 definitionDecoder =
-    Json.Decode.map Definition
+    map3 Definition
     (field "definition" string)
+    (field "synonyms" (list string))
+    (field "antonyms" (list string))
