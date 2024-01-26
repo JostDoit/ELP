@@ -1,3 +1,5 @@
+module Main exposing (..)
+
 import Browser
 import Html exposing (..)
 import Html.Attributes exposing (placeholder, value, type_, checked)
@@ -11,7 +13,7 @@ import Json.Decode exposing (Decoder, map2, map3, field, int, string, list, at)
 
 -- MAIN
 
-
+main : Program () Model Msg
 main =
   Browser.element
     { init = init
