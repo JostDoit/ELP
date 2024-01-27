@@ -6207,6 +6207,8 @@ var $author$project$Main$getWordsList = $elm$http$Http$get(
 var $author$project$Main$initModel = {
 	boxChecked: false,
 	result: $elm$core$Result$Ok(_List_Nil),
+	showPopup: false,
+	startGame: false,
 	userFoundword: false,
 	userInput: '',
 	wordToGuess: $elm$core$Maybe$Nothing,
@@ -6541,20 +6543,6 @@ var $author$project$Main$update = F2(
 				} else {
 					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 				}
-			case 'GetRandomWord':
-				var _v1 = $elm$core$List$length(model.wordsList);
-				if (!_v1) {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-				} else {
-					var randomNumber = A2(
-						$elm$random$Random$generate,
-						$author$project$Main$RandomNumber,
-						A2(
-							$elm$random$Random$int,
-							0,
-							$elm$core$List$length(model.wordsList) - 1));
-					return _Utils_Tuple2(model, randomNumber);
-				}
 			case 'RandomNumber':
 				var rnumber = msg.a;
 				var wordToGuess = A2(
@@ -6581,9 +6569,9 @@ var $author$project$Main$update = F2(
 			case 'UserInput':
 				var input = msg.a;
 				var wordFound = function () {
-					var _v3 = model.wordToGuess;
-					if (_v3.$ === 'Just') {
-						var correctWword = _v3.a;
+					var _v2 = model.wordToGuess;
+					if (_v2.$ === 'Just') {
+						var correctWword = _v2.a;
 						return _Utils_eq(input, correctWword);
 					} else {
 						return false;
@@ -6594,18 +6582,41 @@ var $author$project$Main$update = F2(
 						model,
 						{userFoundword: wordFound, userInput: input}),
 					$elm$core$Platform$Cmd$none);
-			default:
+			case 'BoxChecked':
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
 						{boxChecked: !model.boxChecked}),
 					$elm$core$Platform$Cmd$none);
+			case 'StartGame':
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{showPopup: false, startGame: true}),
+					$elm$core$Platform$Cmd$none);
+			case 'ShowPopup':
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{showPopup: true}),
+					$elm$core$Platform$Cmd$none);
+			default:
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{showPopup: false}),
+					$elm$core$Platform$Cmd$none);
 		}
 	});
 var $author$project$Main$BoxChecked = {$: 'BoxChecked'};
+var $author$project$Main$HidePopup = {$: 'HidePopup'};
+var $author$project$Main$ShowPopup = {$: 'ShowPopup'};
+var $author$project$Main$StartGame = {$: 'StartGame'};
 var $author$project$Main$UserInput = function (a) {
 	return {$: 'UserInput', a: a};
 };
+var $elm$html$Html$a = _VirtualDom_node('a');
+var $elm$html$Html$button = _VirtualDom_node('button');
 var $elm$json$Json$Encode$bool = _Json_wrap;
 var $elm$html$Html$Attributes$boolProperty = F2(
 	function (key, bool) {
@@ -6615,10 +6626,29 @@ var $elm$html$Html$Attributes$boolProperty = F2(
 			$elm$json$Json$Encode$bool(bool));
 	});
 var $elm$html$Html$Attributes$checked = $elm$html$Html$Attributes$boolProperty('checked');
+var $elm$json$Json$Encode$string = _Json_wrap;
+var $elm$html$Html$Attributes$stringProperty = F2(
+	function (key, string) {
+		return A2(
+			_VirtualDom_property,
+			key,
+			$elm$json$Json$Encode$string(string));
+	});
+var $elm$html$Html$Attributes$class = $elm$html$Html$Attributes$stringProperty('className');
 var $elm$html$Html$div = _VirtualDom_node('div');
 var $elm$html$Html$h1 = _VirtualDom_node('h1');
+var $elm$html$Html$h2 = _VirtualDom_node('h2');
+var $elm$html$Html$header = _VirtualDom_node('header');
+var $elm$html$Html$Attributes$href = function (url) {
+	return A2(
+		$elm$html$Html$Attributes$stringProperty,
+		'href',
+		_VirtualDom_noJavaScriptUri(url));
+};
 var $elm$html$Html$input = _VirtualDom_node('input');
 var $elm$html$Html$label = _VirtualDom_node('label');
+var $elm$html$Html$main_ = _VirtualDom_node('main');
+var $elm$html$Html$nav = _VirtualDom_node('nav');
 var $elm$virtual_dom$VirtualDom$Normal = function (a) {
 	return {$: 'Normal', a: a};
 };
@@ -6667,17 +6697,11 @@ var $elm$html$Html$Events$onInput = function (tagger) {
 			$elm$html$Html$Events$alwaysStop,
 			A2($elm$json$Json$Decode$map, tagger, $elm$html$Html$Events$targetValue)));
 };
+var $elm$html$Html$p = _VirtualDom_node('p');
+var $elm$html$Html$section = _VirtualDom_node('section');
 var $elm$html$Html$span = _VirtualDom_node('span');
 var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
-var $elm$json$Json$Encode$string = _Json_wrap;
-var $elm$html$Html$Attributes$stringProperty = F2(
-	function (key, string) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			$elm$json$Json$Encode$string(string));
-	});
 var $elm$html$Html$Attributes$type_ = $elm$html$Html$Attributes$stringProperty('type');
 var $elm$html$Html$ul = _VirtualDom_node('ul');
 var $elm$html$Html$Attributes$value = $elm$html$Html$Attributes$stringProperty('value');
@@ -6761,86 +6785,295 @@ var $elm$core$Maybe$withDefault = F2(
 		}
 	});
 var $author$project$Main$view = function (model) {
-	var _v0 = model.result;
-	if (_v0.$ === 'Ok') {
-		var packages = _v0.a;
-		return A2(
-			$elm$html$Html$div,
-			_List_Nil,
-			_List_fromArray(
-				[
-					A2(
-					$elm$html$Html$h1,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text(
-							model.boxChecked ? A2($elm$core$Maybe$withDefault, 'No word to guess !', model.wordToGuess) : 'Guess it !')
-						])),
-					A2(
-					$elm$html$Html$div,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							$elm$html$Html$ul,
-							_List_Nil,
-							$author$project$Main$viewPackage(packages))
-						])),
-					A2(
-					$elm$html$Html$div,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							$elm$html$Html$label,
-							_List_Nil,
-							_List_fromArray(
-								[
-									$elm$html$Html$text(
-									model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : 'Give it a try !')
-								])),
-							A2(
-							$elm$html$Html$input,
-							_List_fromArray(
-								[
-									$elm$html$Html$Attributes$value(model.userInput),
-									$elm$html$Html$Events$onInput($author$project$Main$UserInput)
-								]),
-							_List_Nil)
-						])),
-					A2(
-					$elm$html$Html$div,
-					_List_Nil,
-					_List_fromArray(
-						[
-							A2(
-							$elm$html$Html$label,
+	return A2(
+		$elm$html$Html$div,
+		_List_Nil,
+		_List_fromArray(
+			[
+				A2(
+				$elm$html$Html$main_,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$class('main')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						$elm$html$Html$header,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$class('header')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								$elm$html$Html$a,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$href('#'),
+										$elm$html$Html$Attributes$class('logo')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('ELM.')
+									])),
+								A2(
+								$elm$html$Html$nav,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('navbar')
+									]),
+								_List_fromArray(
+									[
+										A2(
+										$elm$html$Html$a,
+										_List_fromArray(
+											[
+												$elm$html$Html$Attributes$href('#'),
+												$elm$html$Html$Attributes$class('active')
+											]),
+										_List_fromArray(
+											[
+												$elm$html$Html$text('Home')
+											])),
+										A2(
+										$elm$html$Html$a,
+										_List_fromArray(
+											[
+												$elm$html$Html$Attributes$href('#')
+											]),
+										_List_fromArray(
+											[
+												$elm$html$Html$text('About')
+											])),
+										A2(
+										$elm$html$Html$a,
+										_List_fromArray(
+											[
+												$elm$html$Html$Attributes$href('#')
+											]),
+										_List_fromArray(
+											[
+												$elm$html$Html$text('Contact')
+											]))
+									]))
+							])),
+						A2(
+						$elm$html$Html$section,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$class('home')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('home-content')
+									]),
+								_List_fromArray(
+									[
+										A2(
+										$elm$html$Html$h1,
+										_List_Nil,
+										_List_fromArray(
+											[
+												$elm$html$Html$text('Guess it !')
+											])),
+										A2(
+										$elm$html$Html$p,
+										_List_Nil,
+										_List_fromArray(
+											[
+												$elm$html$Html$text('A game where you have to guess the word from its definition')
+											])),
+										A2(
+										$elm$html$Html$button,
+										_List_fromArray(
+											[
+												$elm$html$Html$Events$onClick($author$project$Main$ShowPopup),
+												$elm$html$Html$Attributes$class('start-btn')
+											]),
+										_List_fromArray(
+											[
+												$elm$html$Html$text('Start Game')
+											]))
+									]))
+							]))
+					])),
+				function () {
+				var _v0 = model.showPopup;
+				if (!_v0) {
+					return $elm$html$Html$text('');
+				} else {
+					return A2(
+						$elm$html$Html$div,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$class('popup-info')
+							]),
+						_List_fromArray(
+							[
+								A2(
+								$elm$html$Html$h2,
+								_List_Nil,
+								_List_fromArray(
+									[
+										$elm$html$Html$text('Rules')
+									])),
+								A2(
+								$elm$html$Html$span,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('info')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('You have to guess the word from its definition')
+									])),
+								A2(
+								$elm$html$Html$span,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('info')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('You can check the word if you are stuck')
+									])),
+								A2(
+								$elm$html$Html$span,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('info')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('More options to come !')
+									])),
+								A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('btn-group')
+									]),
+								_List_fromArray(
+									[
+										A2(
+										$elm$html$Html$button,
+										_List_fromArray(
+											[
+												$elm$html$Html$Events$onClick($author$project$Main$HidePopup),
+												$elm$html$Html$Attributes$class('info-btn exit-btn')
+											]),
+										_List_fromArray(
+											[
+												$elm$html$Html$text('Quit Game')
+											])),
+										A2(
+										$elm$html$Html$button,
+										_List_fromArray(
+											[
+												$elm$html$Html$Events$onClick($author$project$Main$StartGame),
+												$elm$html$Html$Attributes$class('info-btn continue-btn')
+											]),
+										_List_fromArray(
+											[
+												$elm$html$Html$text('Continue')
+											]))
+									]))
+							]));
+				}
+			}(),
+				function () {
+				var _v1 = model.startGame;
+				if (!_v1) {
+					return $elm$html$Html$text('');
+				} else {
+					var _v2 = model.result;
+					if (_v2.$ === 'Ok') {
+						var packages = _v2.a;
+						return A2(
+							$elm$html$Html$div,
 							_List_Nil,
 							_List_fromArray(
 								[
 									A2(
-									$elm$html$Html$input,
-									_List_fromArray(
-										[
-											$elm$html$Html$Attributes$type_('checkbox'),
-											$elm$html$Html$Attributes$checked(model.boxChecked),
-											$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
-										]),
-									_List_Nil),
-									A2(
-									$elm$html$Html$span,
+									$elm$html$Html$h1,
 									_List_Nil,
 									_List_fromArray(
 										[
-											$elm$html$Html$text('Show it')
+											$elm$html$Html$text(
+											model.boxChecked ? A2($elm$core$Maybe$withDefault, 'No word to guess !', model.wordToGuess) : 'Guess it !')
+										])),
+									A2(
+									$elm$html$Html$div,
+									_List_Nil,
+									_List_fromArray(
+										[
+											A2(
+											$elm$html$Html$ul,
+											_List_Nil,
+											$author$project$Main$viewPackage(packages))
+										])),
+									A2(
+									$elm$html$Html$div,
+									_List_Nil,
+									_List_fromArray(
+										[
+											A2(
+											$elm$html$Html$label,
+											_List_Nil,
+											_List_fromArray(
+												[
+													$elm$html$Html$text(
+													model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : 'Give it a try !')
+												])),
+											A2(
+											$elm$html$Html$input,
+											_List_fromArray(
+												[
+													$elm$html$Html$Attributes$value(model.userInput),
+													$elm$html$Html$Events$onInput($author$project$Main$UserInput)
+												]),
+											_List_Nil)
+										])),
+									A2(
+									$elm$html$Html$div,
+									_List_Nil,
+									_List_fromArray(
+										[
+											A2(
+											$elm$html$Html$label,
+											_List_Nil,
+											_List_fromArray(
+												[
+													A2(
+													$elm$html$Html$input,
+													_List_fromArray(
+														[
+															$elm$html$Html$Attributes$type_('checkbox'),
+															$elm$html$Html$Attributes$checked(model.boxChecked),
+															$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
+														]),
+													_List_Nil),
+													A2(
+													$elm$html$Html$span,
+													_List_Nil,
+													_List_fromArray(
+														[
+															$elm$html$Html$text('Show it')
+														]))
+												]))
 										]))
-								]))
-						]))
-				]));
-	} else {
-		return $elm$html$Html$text('Communication error with the API');
-	}
+								]));
+					} else {
+						return $elm$html$Html$text('Communication error with the API');
+					}
+				}
+			}()
+			]));
 };
 var $author$project$Main$main = $elm$browser$Browser$element(
 	{init: $author$project$Main$init, subscriptions: $author$project$Main$subscriptions, update: $author$project$Main$update, view: $author$project$Main$view});
