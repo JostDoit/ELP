@@ -159,71 +159,67 @@ subscriptions model =
 
 view : Model -> Html Msg
 view model =
-  div [] [
-  main_ [class "main"]
-        [ header [class "header"]
-          [ a [ href "#", class "logo" ] [ text "ELM." ]
-          , nav [ class "navbar"]
-            [ a [ href "#", class "active" ] [ text "Home" ]
-            , a [ href "#"] [ text "About" ]
-            , a [ href "#"] [ text "Contact" ]
-            ]
-          ]
-        , section [class "home"]
-          [ div [class "home-content"]
-            [ h1 [] [text "Guess it !"]
-            , p [] [text "A game where you have to guess the word from its definition"]
-            , button [onClick ShowPopup, class "start-btn"] [ text "Start Game" ]
-            ]
-          ]
+  div [] 
+  [ main_ [class "main"]
+    [ header [class "header"]
+      [ a [ href "#", class "logo" ] [ text "ELM." ]
+      , nav [ class "navbar"]
+        [ a [ href "#", class "active" ] [ text "Home" ]
+        , a [ href "#"] [ text "About" ]
+        , a [ href "#"] [ text "Contact" ]
         ]
-  ,
-  case model.showPopup of
-    False ->
-      --ne retourne rien
-      text ""
-    True ->
-      div [ class "popup-info"]
-        [ h2 [] [ text "Rules" ]
-        , span [class "info"] [ text "You have to guess the word from its definition" ]
-        , span [class "info"] [ text "You can check the word if you are stuck" ]
-        , span [class "info"] [ text "More options to come !" ]
-        , div [class "btn-group"]
-          [ button [onClick HidePopup, class "info-btn exit-btn"] [ text "Quit Game" ]
-          , button [onClick StartGame, class "info-btn continue-btn"] [ text "Continue" ]
-          ]
-        ]
-  ,
-  case model.startGame of
-    False ->
-      --ne retourne rien
-      text ""
-    True ->
-      case model.result of
-        Ok packages ->
-          div []
-            [ 
-              h1 [] [ text (if model.boxChecked then Maybe.withDefault "No word to guess !" model.wordToGuess else "Guess it !") ]
-              ,div []
-                [
-                  ul[] (viewPackage packages)
-                ]
-              ,div []
+      ]
+    , case model.startGame of
+        False ->
+          section [class "home"]
+            [ div [class "home-content"]
+              [ h1 [] [text "Guess it !"]
+              , p [] [text "A game where you have to guess the word from its definition"]
+              , button [onClick ShowPopup, class "start-btn"] [ text "Start Game" ]
+              ]
+            ]
+        True ->
+          case model.result of
+            Ok packages ->
+              div []
                 [ 
-                  label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "Give it a try !") ]
-                  ,input [ value model.userInput, onInput UserInput ] []
+                  h1 [] [ text (if model.boxChecked then Maybe.withDefault "No word to guess !" model.wordToGuess else "Guess it !") ]
+                  ,div []
+                    [
+                      ul[] (viewPackage packages)
+                    ]
+                  ,div []
+                    [ 
+                      label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "Give it a try !") ]
+                      ,input [ value model.userInput, onInput UserInput ] []
+                    ]
+                  ,div []
+                    [ label []
+                      [ input [ type_ "checkbox", checked model.boxChecked, onClick BoxChecked ] []
+                      ,span [] [ text "Show it" ]
+                      ]
+                    ]
                 ]
-              ,div []
-                [ label []
-                  [ input [ type_ "checkbox", checked model.boxChecked, onClick BoxChecked ] []
-                  ,span [] [ text "Show it" ]
-                  ]
-                ]
+            Err _ ->
+              text "Communication error with the API"
+    ]
+  , case model.showPopup of
+      False ->
+        --ne retourne rien
+        text ""
+      True ->
+        div [ class "popup-info"]
+          [ h2 [] [ text "Rules" ]
+          , span [class "info"] [ text "You have to guess the word from its definition" ]
+          , span [class "info"] [ text "You can check the word if you are stuck" ]
+          , span [class "info"] [ text "More options to come !" ]
+          , div [class "btn-group"]
+            [ button [onClick HidePopup, class "info-btn exit-btn"] [ text "Quit Game" ]
+            , button [onClick StartGame, class "info-btn continue-btn"] [ text "Continue" ]
             ]
-        Err _ ->
-          text "Communication error with the API"
+          ]
   ]
-
+  
 viewPackage : List Package -> List (Html Msg)
 viewPackage listPackage =
   case listPackage of

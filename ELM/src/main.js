@@ -6858,53 +6858,139 @@ var $author$project$Main$view = function (model) {
 											]))
 									]))
 							])),
-						A2(
-						$elm$html$Html$section,
-						_List_fromArray(
-							[
-								$elm$html$Html$Attributes$class('home')
-							]),
-						_List_fromArray(
-							[
-								A2(
-								$elm$html$Html$div,
+						function () {
+						var _v0 = model.startGame;
+						if (!_v0) {
+							return A2(
+								$elm$html$Html$section,
 								_List_fromArray(
 									[
-										$elm$html$Html$Attributes$class('home-content')
+										$elm$html$Html$Attributes$class('home')
 									]),
 								_List_fromArray(
 									[
 										A2(
-										$elm$html$Html$h1,
-										_List_Nil,
+										$elm$html$Html$div,
 										_List_fromArray(
 											[
-												$elm$html$Html$text('Guess it !')
-											])),
-										A2(
-										$elm$html$Html$p,
-										_List_Nil,
-										_List_fromArray(
-											[
-												$elm$html$Html$text('A game where you have to guess the word from its definition')
-											])),
-										A2(
-										$elm$html$Html$button,
-										_List_fromArray(
-											[
-												$elm$html$Html$Events$onClick($author$project$Main$ShowPopup),
-												$elm$html$Html$Attributes$class('start-btn')
+												$elm$html$Html$Attributes$class('home-content')
 											]),
 										_List_fromArray(
 											[
-												$elm$html$Html$text('Start Game')
+												A2(
+												$elm$html$Html$h1,
+												_List_Nil,
+												_List_fromArray(
+													[
+														$elm$html$Html$text('Guess it !')
+													])),
+												A2(
+												$elm$html$Html$p,
+												_List_Nil,
+												_List_fromArray(
+													[
+														$elm$html$Html$text('A game where you have to guess the word from its definition')
+													])),
+												A2(
+												$elm$html$Html$button,
+												_List_fromArray(
+													[
+														$elm$html$Html$Events$onClick($author$project$Main$ShowPopup),
+														$elm$html$Html$Attributes$class('start-btn')
+													]),
+												_List_fromArray(
+													[
+														$elm$html$Html$text('Start Game')
+													]))
 											]))
-									]))
-							]))
+									]));
+						} else {
+							var _v1 = model.result;
+							if (_v1.$ === 'Ok') {
+								var packages = _v1.a;
+								return A2(
+									$elm$html$Html$div,
+									_List_Nil,
+									_List_fromArray(
+										[
+											A2(
+											$elm$html$Html$h1,
+											_List_Nil,
+											_List_fromArray(
+												[
+													$elm$html$Html$text(
+													model.boxChecked ? A2($elm$core$Maybe$withDefault, 'No word to guess !', model.wordToGuess) : 'Guess it !')
+												])),
+											A2(
+											$elm$html$Html$div,
+											_List_Nil,
+											_List_fromArray(
+												[
+													A2(
+													$elm$html$Html$ul,
+													_List_Nil,
+													$author$project$Main$viewPackage(packages))
+												])),
+											A2(
+											$elm$html$Html$div,
+											_List_Nil,
+											_List_fromArray(
+												[
+													A2(
+													$elm$html$Html$label,
+													_List_Nil,
+													_List_fromArray(
+														[
+															$elm$html$Html$text(
+															model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : 'Give it a try !')
+														])),
+													A2(
+													$elm$html$Html$input,
+													_List_fromArray(
+														[
+															$elm$html$Html$Attributes$value(model.userInput),
+															$elm$html$Html$Events$onInput($author$project$Main$UserInput)
+														]),
+													_List_Nil)
+												])),
+											A2(
+											$elm$html$Html$div,
+											_List_Nil,
+											_List_fromArray(
+												[
+													A2(
+													$elm$html$Html$label,
+													_List_Nil,
+													_List_fromArray(
+														[
+															A2(
+															$elm$html$Html$input,
+															_List_fromArray(
+																[
+																	$elm$html$Html$Attributes$type_('checkbox'),
+																	$elm$html$Html$Attributes$checked(model.boxChecked),
+																	$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
+																]),
+															_List_Nil),
+															A2(
+															$elm$html$Html$span,
+															_List_Nil,
+															_List_fromArray(
+																[
+																	$elm$html$Html$text('Show it')
+																]))
+														]))
+												]))
+										]));
+							} else {
+								return $elm$html$Html$text('Communication error with the API');
+							}
+						}
+					}()
 					])),
 				function () {
-				var _v0 = model.showPopup;
-				if (!_v0) {
+				var _v2 = model.showPopup;
+				if (!_v2) {
 					return $elm$html$Html$text('');
 				} else {
 					return A2(
@@ -6984,93 +7070,6 @@ var $author$project$Main$view = function (model) {
 											]))
 									]))
 							]));
-				}
-			}(),
-				function () {
-				var _v1 = model.startGame;
-				if (!_v1) {
-					return $elm$html$Html$text('');
-				} else {
-					var _v2 = model.result;
-					if (_v2.$ === 'Ok') {
-						var packages = _v2.a;
-						return A2(
-							$elm$html$Html$div,
-							_List_Nil,
-							_List_fromArray(
-								[
-									A2(
-									$elm$html$Html$h1,
-									_List_Nil,
-									_List_fromArray(
-										[
-											$elm$html$Html$text(
-											model.boxChecked ? A2($elm$core$Maybe$withDefault, 'No word to guess !', model.wordToGuess) : 'Guess it !')
-										])),
-									A2(
-									$elm$html$Html$div,
-									_List_Nil,
-									_List_fromArray(
-										[
-											A2(
-											$elm$html$Html$ul,
-											_List_Nil,
-											$author$project$Main$viewPackage(packages))
-										])),
-									A2(
-									$elm$html$Html$div,
-									_List_Nil,
-									_List_fromArray(
-										[
-											A2(
-											$elm$html$Html$label,
-											_List_Nil,
-											_List_fromArray(
-												[
-													$elm$html$Html$text(
-													model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : 'Give it a try !')
-												])),
-											A2(
-											$elm$html$Html$input,
-											_List_fromArray(
-												[
-													$elm$html$Html$Attributes$value(model.userInput),
-													$elm$html$Html$Events$onInput($author$project$Main$UserInput)
-												]),
-											_List_Nil)
-										])),
-									A2(
-									$elm$html$Html$div,
-									_List_Nil,
-									_List_fromArray(
-										[
-											A2(
-											$elm$html$Html$label,
-											_List_Nil,
-											_List_fromArray(
-												[
-													A2(
-													$elm$html$Html$input,
-													_List_fromArray(
-														[
-															$elm$html$Html$Attributes$type_('checkbox'),
-															$elm$html$Html$Attributes$checked(model.boxChecked),
-															$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
-														]),
-													_List_Nil),
-													A2(
-													$elm$html$Html$span,
-													_List_Nil,
-													_List_fromArray(
-														[
-															$elm$html$Html$text('Show it')
-														]))
-												]))
-										]))
-								]));
-					} else {
-						return $elm$html$Html$text('Communication error with the API');
-					}
 				}
 			}()
 			]));
