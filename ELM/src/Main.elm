@@ -160,7 +160,7 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
   div [] 
-  [ main_ [class "main"]
+  [ main_ [class (getMainClass model)]
     [ header [class "header"]
       [ a [ href "#", class "logo" ] [ text "ELM." ]
       , nav [ class "navbar"]
@@ -205,7 +205,6 @@ view model =
     ]
   , case model.showPopup of
       False ->
-        --ne retourne rien
         text ""
       True ->
         div [ class "popup-info"]
@@ -219,7 +218,13 @@ view model =
             ]
           ]
   ]
-  
+getMainClass : Model -> String
+getMainClass model =
+  case model.showPopup of
+    False ->
+      "main"
+    True ->
+      "main active"
 viewPackage : List Package -> List (Html Msg)
 viewPackage listPackage =
   case listPackage of

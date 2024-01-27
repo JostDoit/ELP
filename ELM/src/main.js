@@ -6636,6 +6636,14 @@ var $elm$html$Html$Attributes$stringProperty = F2(
 	});
 var $elm$html$Html$Attributes$class = $elm$html$Html$Attributes$stringProperty('className');
 var $elm$html$Html$div = _VirtualDom_node('div');
+var $author$project$Main$getMainClass = function (model) {
+	var _v0 = model.showPopup;
+	if (!_v0) {
+		return 'main';
+	} else {
+		return 'main active';
+	}
+};
 var $elm$html$Html$h1 = _VirtualDom_node('h1');
 var $elm$html$Html$h2 = _VirtualDom_node('h2');
 var $elm$html$Html$header = _VirtualDom_node('header');
@@ -6794,7 +6802,8 @@ var $author$project$Main$view = function (model) {
 				$elm$html$Html$main_,
 				_List_fromArray(
 					[
-						$elm$html$Html$Attributes$class('main')
+						$elm$html$Html$Attributes$class(
+						$author$project$Main$getMainClass(model))
 					]),
 				_List_fromArray(
 					[
