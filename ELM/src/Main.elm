@@ -169,17 +169,9 @@ view model =
         , a [ href "#"] [ text "Contact" ]
         ]
       ]
-    , case model.startGame of
-        False ->
-          section [class "home"]
-            [ div [class "home-content"]
-              [ h1 [] [text "Guess it !"]
-              , p [] [text "A game where you have to guess the word from its definition"]
-              , button [onClick ShowPopup, class "start-btn"] [ text "Start Game" ]
-              ]
-            ]
-        True ->
-          case model.result of
+    , div [class "container"]
+      [ section [class (getquizSectionClass model)]
+        [ case model.result of
             Ok packages ->
               div []
                 [ 
@@ -202,6 +194,16 @@ view model =
                 ]
             Err _ ->
               text "Communication error with the API"
+        ]
+        
+      , section [class "home"]
+          [ div [class "home-content"]
+            [ h1 [] [text "Guess it !"]
+            , p [] [text "A game where you have to guess the word from its definition"]
+            , button [onClick ShowPopup, class "start-btn"] [ text "Start Game" ]
+            ]
+          ]
+      ]
     ]
   , case model.showPopup of
       False ->
@@ -213,7 +215,7 @@ view model =
           , span [class "info"] [ text "You can check the word if you are stuck" ]
           , span [class "info"] [ text "More options to come !" ]
           , div [class "btn-group"]
-            [ button [onClick HidePopup, class "info-btn exit-btn"] [ text "Quit Game" ]
+            [ button [onClick HidePopup, class "info-btn exit-btn"] [ text "Exit" ]
             , button [onClick StartGame, class "info-btn continue-btn"] [ text "Continue" ]
             ]
           ]
@@ -225,6 +227,13 @@ getMainClass model =
       "main"
     True ->
       "main active"
+getquizSectionClass : Model -> String
+getquizSectionClass model =
+  case model.startGame of
+    False ->
+      "quiz-section"
+    True ->
+      "quiz-section active"
 viewPackage : List Package -> List (Html Msg)
 viewPackage listPackage =
   case listPackage of

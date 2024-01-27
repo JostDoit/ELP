@@ -10,6 +10,7 @@
 body {
   color: #fff;
   background: #09001d;
+  overflow: hidden;
 }
 
 .header {
@@ -61,8 +62,15 @@ body {
 	pointer-events: none;
 }
 
-.home {
+.container {
+	display: flex;
 	height: 100vh;
+	width: 200%;
+}
+
+.home {
+	position: relative;
+	left: -50%;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -175,4 +183,22 @@ body {
 .popup-info .btn-group .info-btn:nth-child(2):hover {
 	background: #950170;
 	border-color: #950170;
+}
+
+.quiz-section {
+	position: relative;
+	left: -50%;
+	width: 100%;
+	background: #09001d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	transition: .8s ease-in-out;
+	transition-delay: .25s;
+}
+
+.quiz-section.active{
+	left: 0;
+
 }
