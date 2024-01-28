@@ -37,6 +37,7 @@ type alias Model =
   , boxChecked : Bool
   , showPopup : Bool
   , startGame : Bool
+  , score : Int
   }
 
 
@@ -71,6 +72,7 @@ initModel =
   , boxChecked = False
   , showPopup = False
   , startGame = False
+  , score = 0
   }
 
 
@@ -130,7 +132,10 @@ update msg model =
             Nothing ->
               False
       in
-        ( { model | userInput = input, userFoundword = wordFound }, Cmd.none )
+        if wordFound then
+          ( { model | userInput = input, userFoundword = wordFound, score = model.score + 1 }, Cmd.none )
+        else
+          ( { model | userInput = input, userFoundword = wordFound }, Cmd.none )
     
     BoxChecked ->
       ( { model | boxChecked = not model.boxChecked }, Cmd.none )
@@ -173,23 +178,26 @@ view model =
       [ section [class (getquizSectionClass model)]
         [ case model.result of
             Ok packages ->
-              div []
+              div [ class "quiz-box"]
                 [ 
                   h1 [] [ text (if model.boxChecked then Maybe.withDefault "No word to guess !" model.wordToGuess else "Guess it !") ]
-                  ,div []
+                  , div [class "quiz-header"]
+                    [ span [class "header-score"] [ text ("Score : " ++ String.fromInt model.score) ]
+                    , span [] [ text "Difficulté" ]
+                    ]
+                  , h2 [ class "question-text"] [text "Try to find the word"]
+                  ,div [ class "option-list"]
                     [
                       ul[] (viewPackage packages)
                     ]
-                  ,div []
+                  ,div [ class "quiz-input"]
                     [ 
-                      label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "Give it a try !") ]
-                      ,input [ value model.userInput, onInput UserInput ] []
+                      label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "") ]
+                      ,input [ value model.userInput, onInput UserInput, placeholder "Write your answer here"] []
                     ]
-                  ,div []
-                    [ label []
-                      [ input [ type_ "checkbox", checked model.boxChecked, onClick BoxChecked ] []
-                      ,span [] [ text "Show it" ]
-                      ]
+                  ,div [  class "quiz-footer"]
+                    [ button [class "show-answer-btn", onClick BoxChecked ] [ text "Show Answer"]
+                    , button [class "quit-btn"] [ text "Quit"]
                     ]
                 ]
             Err _ ->

@@ -6207,6 +6207,7 @@ var $author$project$Main$getWordsList = $elm$http$Http$get(
 var $author$project$Main$initModel = {
 	boxChecked: false,
 	result: $elm$core$Result$Ok(_List_Nil),
+	score: 0,
 	showPopup: false,
 	startGame: false,
 	userFoundword: false,
@@ -6577,7 +6578,11 @@ var $author$project$Main$update = F2(
 						return false;
 					}
 				}();
-				return _Utils_Tuple2(
+				return wordFound ? _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{score: model.score + 1, userFoundword: wordFound, userInput: input}),
+					$elm$core$Platform$Cmd$none) : _Utils_Tuple2(
 					_Utils_update(
 						model,
 						{userFoundword: wordFound, userInput: input}),
@@ -6617,15 +6622,6 @@ var $author$project$Main$UserInput = function (a) {
 };
 var $elm$html$Html$a = _VirtualDom_node('a');
 var $elm$html$Html$button = _VirtualDom_node('button');
-var $elm$json$Json$Encode$bool = _Json_wrap;
-var $elm$html$Html$Attributes$boolProperty = F2(
-	function (key, bool) {
-		return A2(
-			_VirtualDom_property,
-			key,
-			$elm$json$Json$Encode$bool(bool));
-	});
-var $elm$html$Html$Attributes$checked = $elm$html$Html$Attributes$boolProperty('checked');
 var $elm$json$Json$Encode$string = _Json_wrap;
 var $elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -6714,11 +6710,11 @@ var $elm$html$Html$Events$onInput = function (tagger) {
 			A2($elm$json$Json$Decode$map, tagger, $elm$html$Html$Events$targetValue)));
 };
 var $elm$html$Html$p = _VirtualDom_node('p');
+var $elm$html$Html$Attributes$placeholder = $elm$html$Html$Attributes$stringProperty('placeholder');
 var $elm$html$Html$section = _VirtualDom_node('section');
 var $elm$html$Html$span = _VirtualDom_node('span');
 var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
-var $elm$html$Html$Attributes$type_ = $elm$html$Html$Attributes$stringProperty('type');
 var $elm$html$Html$ul = _VirtualDom_node('ul');
 var $elm$html$Html$Attributes$value = $elm$html$Html$Attributes$stringProperty('value');
 var $elm$html$Html$li = _VirtualDom_node('li');
@@ -6898,7 +6894,10 @@ var $author$project$Main$view = function (model) {
 											var packages = _v0.a;
 											return A2(
 												$elm$html$Html$div,
-												_List_Nil,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('quiz-box')
+													]),
 												_List_fromArray(
 													[
 														A2(
@@ -6911,7 +6910,47 @@ var $author$project$Main$view = function (model) {
 															])),
 														A2(
 														$elm$html$Html$div,
-														_List_Nil,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('quiz-header')
+															]),
+														_List_fromArray(
+															[
+																A2(
+																$elm$html$Html$span,
+																_List_fromArray(
+																	[
+																		$elm$html$Html$Attributes$class('header-score')
+																	]),
+																_List_fromArray(
+																	[
+																		$elm$html$Html$text(
+																		'Score : ' + $elm$core$String$fromInt(model.score))
+																	])),
+																A2(
+																$elm$html$Html$span,
+																_List_Nil,
+																_List_fromArray(
+																	[
+																		$elm$html$Html$text('Difficulté')
+																	]))
+															])),
+														A2(
+														$elm$html$Html$h2,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('question-text')
+															]),
+														_List_fromArray(
+															[
+																$elm$html$Html$text('Try to find the word')
+															])),
+														A2(
+														$elm$html$Html$div,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('option-list')
+															]),
 														_List_fromArray(
 															[
 																A2(
@@ -6921,7 +6960,10 @@ var $author$project$Main$view = function (model) {
 															])),
 														A2(
 														$elm$html$Html$div,
-														_List_Nil,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('quiz-input')
+															]),
 														_List_fromArray(
 															[
 																A2(
@@ -6930,43 +6972,46 @@ var $author$project$Main$view = function (model) {
 																_List_fromArray(
 																	[
 																		$elm$html$Html$text(
-																		model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : 'Give it a try !')
+																		model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : '')
 																	])),
 																A2(
 																$elm$html$Html$input,
 																_List_fromArray(
 																	[
 																		$elm$html$Html$Attributes$value(model.userInput),
-																		$elm$html$Html$Events$onInput($author$project$Main$UserInput)
+																		$elm$html$Html$Events$onInput($author$project$Main$UserInput),
+																		$elm$html$Html$Attributes$placeholder('Write here')
 																	]),
 																_List_Nil)
 															])),
 														A2(
 														$elm$html$Html$div,
-														_List_Nil,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('quiz-footer')
+															]),
 														_List_fromArray(
 															[
 																A2(
-																$elm$html$Html$label,
-																_List_Nil,
+																$elm$html$Html$button,
 																_List_fromArray(
 																	[
-																		A2(
-																		$elm$html$Html$input,
-																		_List_fromArray(
-																			[
-																				$elm$html$Html$Attributes$type_('checkbox'),
-																				$elm$html$Html$Attributes$checked(model.boxChecked),
-																				$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
-																			]),
-																		_List_Nil),
-																		A2(
-																		$elm$html$Html$span,
-																		_List_Nil,
-																		_List_fromArray(
-																			[
-																				$elm$html$Html$text('Show it')
-																			]))
+																		$elm$html$Html$Attributes$class('show-answer-btn'),
+																		$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
+																	]),
+																_List_fromArray(
+																	[
+																		$elm$html$Html$text('Show Answer')
+																	])),
+																A2(
+																$elm$html$Html$button,
+																_List_fromArray(
+																	[
+																		$elm$html$Html$Attributes$class('quit-btn')
+																	]),
+																_List_fromArray(
+																	[
+																		$elm$html$Html$text('Quit')
 																	]))
 															]))
 													]));
