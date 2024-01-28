@@ -180,7 +180,7 @@ view model =
             Ok packages ->
               div [ class "quiz-box"]
                 [ 
-                  h1 [] [ text (if model.boxChecked then Maybe.withDefault "No word to guess !" model.wordToGuess else "Guess it !") ]
+                  h1 [] [ text (if model.boxChecked then ("The answer was : "++ Maybe.withDefault "Error"  model.wordToGuess) else "Guess it !") ]
                   , div [class "quiz-header"]
                     [ span [class "header-score"] [ text ("Score : " ++ String.fromInt model.score) ]
                     , span [] [ text "Difficulté" ]
@@ -249,9 +249,9 @@ viewPackage listPackage =
       [text ""]
 
     (package :: rest) ->
-      [ li [] 
-        [ text "meaning"
-        , ol [] (viewMeanings package.meanings)
+      [ li [ class "meaning"] 
+        [ text "Meaning"
+        , ol [ class "part-of-speach"] (viewMeanings package.meanings)
         ]
       ] ++ viewPackage rest
 
@@ -265,7 +265,7 @@ viewMeanings meanings =
       
       [ li [] 
         [ text meaning.partOfSpeech
-        , ol [] (viewDefinitions meaning.definitions)      
+        , ol [ class "definition"] (viewDefinitions meaning.definitions)      
         ]
       ] ++ viewMeanings rest
       

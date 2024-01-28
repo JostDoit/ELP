@@ -6753,7 +6753,10 @@ var $author$project$Main$viewMeanings = function (meanings) {
 							$elm$html$Html$text(meaning.partOfSpeech),
 							A2(
 							$elm$html$Html$ol,
-							_List_Nil,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('definition')
+								]),
 							$author$project$Main$viewDefinitions(meaning.definitions))
 						]))
 				]),
@@ -6774,13 +6777,19 @@ var $author$project$Main$viewPackage = function (listPackage) {
 				[
 					A2(
 					$elm$html$Html$li,
-					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('meaning'),
+							$elm$html$Html$Attributes$class('meaning')
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Meaning'),
 							A2(
 							$elm$html$Html$ol,
-							_List_Nil,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('part-of-speach')
+								]),
 							$author$project$Main$viewMeanings(_package.meanings))
 						]))
 				]),
@@ -6906,7 +6915,7 @@ var $author$project$Main$view = function (model) {
 														_List_fromArray(
 															[
 																$elm$html$Html$text(
-																model.boxChecked ? A2($elm$core$Maybe$withDefault, 'No word to guess !', model.wordToGuess) : 'Guess it !')
+																model.boxChecked ? ('The answer was : ' + A2($elm$core$Maybe$withDefault, 'Error', model.wordToGuess)) : 'Guess it !')
 															])),
 														A2(
 														$elm$html$Html$div,
@@ -6980,7 +6989,7 @@ var $author$project$Main$view = function (model) {
 																	[
 																		$elm$html$Html$Attributes$value(model.userInput),
 																		$elm$html$Html$Events$onInput($author$project$Main$UserInput),
-																		$elm$html$Html$Attributes$placeholder('Write here')
+																		$elm$html$Html$Attributes$placeholder('Write your answer here')
 																	]),
 																_List_Nil)
 															])),
