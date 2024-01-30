@@ -6209,25 +6209,25 @@ var $author$project$Main$Definition = F3(
 		return {antonyms: antonyms, definition: definition, synonyms: synonyms};
 	});
 var $author$project$Main$Meaning = F2(
-	function (partOfSpeech, definitions) {
-		return {definitions: definitions, partOfSpeech: partOfSpeech};
-	});
-var $author$project$Main$Package = F2(
 	function (word, meanings) {
 		return {meanings: meanings, word: word};
 	});
+var $author$project$Main$PartOfSpeach = F2(
+	function (partOfSpeech, definitions) {
+		return {definitions: definitions, partOfSpeech: partOfSpeech};
+	});
 var $author$project$Main$initModel = {
-	boxChecked: false,
 	definitionUsed: A3($author$project$Main$Definition, '', _List_Nil, _List_Nil),
-	difficulty: 'easy',
-	meaningUsed: A2($author$project$Main$Package, '', _List_Nil),
-	partOfSpeachUsed: A2($author$project$Main$Meaning, '', _List_Nil),
+	difficulty: 'Easy',
+	meaningUsed: A2($author$project$Main$Meaning, '', _List_Nil),
+	partOfSpeachUsed: A2($author$project$Main$PartOfSpeach, '', _List_Nil),
 	score: 0,
+	showAnswerBoxChecked: false,
 	showPopup: false,
 	startGame: false,
 	userFoundword: false,
 	userInput: '',
-	wordPackages: _List_Nil,
+	wordMeanings: _List_Nil,
 	wordToGuess: $elm$core$Maybe$Nothing,
 	wordsList: _List_Nil
 };
@@ -6239,14 +6239,11 @@ var $elm$core$Platform$Sub$none = $elm$core$Platform$Sub$batch(_List_Nil);
 var $author$project$Main$subscriptions = function (model) {
 	return $elm$core$Platform$Sub$none;
 };
-var $author$project$Main$RandomNumberForPackage = function (a) {
-	return {$: 'RandomNumberForPackage', a: a};
+var $author$project$Main$RandomNumberForMeaning = function (a) {
+	return {$: 'RandomNumberForMeaning', a: a};
 };
-var $author$project$Main$RandomNumberForWord = function (a) {
-	return {$: 'RandomNumberForWord', a: a};
-};
-var $author$project$Main$GotPackages = function (a) {
-	return {$: 'GotPackages', a: a};
+var $author$project$Main$GotMeanings = function (a) {
+	return {$: 'GotMeanings', a: a};
 };
 var $elm$json$Json$Decode$decodeString = _Json_runOnString;
 var $elm$http$Http$expectJson = F2(
@@ -6278,28 +6275,58 @@ var $author$project$Main$definitionDecoder = A4(
 		$elm$json$Json$Decode$field,
 		'antonyms',
 		$elm$json$Json$Decode$list($elm$json$Json$Decode$string)));
-var $author$project$Main$meaningDecoder = A3(
+var $author$project$Main$partOfSpeachDecoder = A3(
 	$elm$json$Json$Decode$map2,
-	$author$project$Main$Meaning,
+	$author$project$Main$PartOfSpeach,
 	A2($elm$json$Json$Decode$field, 'partOfSpeech', $elm$json$Json$Decode$string),
 	A2(
 		$elm$json$Json$Decode$field,
 		'definitions',
 		$elm$json$Json$Decode$list($author$project$Main$definitionDecoder)));
-var $author$project$Main$packageDecoder = A3(
+var $author$project$Main$meaningDecoder = A3(
 	$elm$json$Json$Decode$map2,
-	$author$project$Main$Package,
+	$author$project$Main$Meaning,
 	A2($elm$json$Json$Decode$field, 'word', $elm$json$Json$Decode$string),
 	A2(
 		$elm$json$Json$Decode$field,
 		'meanings',
-		$elm$json$Json$Decode$list($author$project$Main$meaningDecoder)));
-var $author$project$Main$mainDecoder = $elm$json$Json$Decode$list($author$project$Main$packageDecoder);
+		$elm$json$Json$Decode$list($author$project$Main$partOfSpeachDecoder)));
+var $author$project$Main$mainDecoder = $elm$json$Json$Decode$list($author$project$Main$meaningDecoder);
 var $author$project$Main$askApi = function (word) {
 	return $elm$http$Http$get(
 		{
-			expect: A2($elm$http$Http$expectJson, $author$project$Main$GotPackages, $author$project$Main$mainDecoder),
+			expect: A2($elm$http$Http$expectJson, $author$project$Main$GotMeanings, $author$project$Main$mainDecoder),
 			url: 'https://api.dictionaryapi.dev/api/v2/entries/en/' + word
+		});
+};
+var $author$project$Main$clearModelForNewGame = function (model) {
+	return _Utils_update(
+		model,
+		{
+			definitionUsed: A3($author$project$Main$Definition, '', _List_Nil, _List_Nil),
+			meaningUsed: A2($author$project$Main$Meaning, '', _List_Nil),
+			partOfSpeachUsed: A2($author$project$Main$PartOfSpeach, '', _List_Nil),
+			showAnswerBoxChecked: false,
+			startGame: true,
+			userFoundword: false,
+			userInput: '',
+			wordMeanings: _List_Nil,
+			wordToGuess: $elm$core$Maybe$Nothing
+		});
+};
+var $author$project$Main$clearModelIfQuit = function (model) {
+	return _Utils_update(
+		model,
+		{
+			definitionUsed: A3($author$project$Main$Definition, '', _List_Nil, _List_Nil),
+			meaningUsed: A2($author$project$Main$Meaning, '', _List_Nil),
+			partOfSpeachUsed: A2($author$project$Main$PartOfSpeach, '', _List_Nil),
+			showAnswerBoxChecked: false,
+			startGame: false,
+			userFoundword: false,
+			userInput: '',
+			wordMeanings: _List_Nil,
+			wordToGuess: $elm$core$Maybe$Nothing
 		});
 };
 var $elm$core$Array$fromListHelp = F3(
@@ -6529,32 +6556,44 @@ var $elm$random$Random$int = F2(
 				}
 			});
 	});
-var $author$project$Main$getDefinition = function (meaning) {
+var $author$project$Main$getDefinition = function (partofspeach) {
 	var randomNumber = A2(
 		$elm$random$Random$generate,
 		$author$project$Main$RandomNumberForDefinition,
 		A2(
 			$elm$random$Random$int,
 			0,
-			$elm$core$List$length(meaning.definitions) - 1));
+			$elm$core$List$length(partofspeach.definitions) - 1));
 	return randomNumber;
 };
-var $author$project$Main$RandomNumberForMeaning = function (a) {
-	return {$: 'RandomNumberForMeaning', a: a};
+var $author$project$Main$RandomNumberForPartOfSpeach = function (a) {
+	return {$: 'RandomNumberForPartOfSpeach', a: a};
 };
-var $author$project$Main$getMeaning = function (_package) {
+var $author$project$Main$getPartOfSpeach = function (meaning) {
 	var randomNumber = A2(
 		$elm$random$Random$generate,
-		$author$project$Main$RandomNumberForMeaning,
+		$author$project$Main$RandomNumberForPartOfSpeach,
 		A2(
 			$elm$random$Random$int,
 			0,
-			$elm$core$List$length(_package.meanings) - 1));
+			$elm$core$List$length(meaning.meanings) - 1));
+	return randomNumber;
+};
+var $author$project$Main$RandomNumberForWord = function (a) {
+	return {$: 'RandomNumberForWord', a: a};
+};
+var $author$project$Main$getWord = function (model) {
+	var randomNumber = A2(
+		$elm$random$Random$generate,
+		$author$project$Main$RandomNumberForWord,
+		A2(
+			$elm$random$Random$int,
+			0,
+			$elm$core$List$length(model.wordsList) - 1));
 	return randomNumber;
 };
 var $elm$core$Platform$Cmd$batch = _Platform_batch;
 var $elm$core$Platform$Cmd$none = $elm$core$Platform$Cmd$batch(_List_Nil);
-var $elm$core$Basics$not = _Basics_not;
 var $author$project$Main$update = F2(
 	function (msg, model) {
 		switch (msg.$) {
@@ -6562,18 +6601,11 @@ var $author$project$Main$update = F2(
 				if (msg.a.$ === 'Ok') {
 					var words = msg.a.a;
 					var wordsList = A2($elm$core$String$split, ' ', words);
-					var randomNumber = A2(
-						$elm$random$Random$generate,
-						$author$project$Main$RandomNumberForWord,
-						A2(
-							$elm$random$Random$int,
-							0,
-							$elm$core$List$length(wordsList) - 1));
 					return _Utils_Tuple2(
 						_Utils_update(
 							model,
 							{wordsList: wordsList}),
-						randomNumber);
+						$author$project$Main$getWord(model));
 				} else {
 					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 				}
@@ -6593,141 +6625,17 @@ var $author$project$Main$update = F2(
 							{wordToGuess: wordToGuess}),
 						$author$project$Main$askApi(word));
 				}
-			case 'GotPackages':
+			case 'GotMeanings':
 				if (msg.a.$ === 'Ok') {
-					var wordPackages = msg.a.a;
-					if (!wordPackages.b) {
-						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-					} else {
-						var x = wordPackages.a;
-						var xs = wordPackages.b;
-						var randomNumber = A2(
-							$elm$random$Random$generate,
-							$author$project$Main$RandomNumberForPackage,
-							A2(
-								$elm$random$Random$int,
-								0,
-								$elm$core$List$length(wordPackages) - 1));
-						return _Utils_Tuple2(
-							_Utils_update(
-								model,
-								{wordPackages: wordPackages}),
-							randomNumber);
-					}
+					var wordMeanings = msg.a.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{wordMeanings: wordMeanings}),
+						$elm$core$Platform$Cmd$none);
 				} else {
 					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 				}
-			case 'RandomNumberForPackage':
-				var rnumber = msg.a;
-				var _v3 = model.wordPackages;
-				if (!_v3.b) {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-				} else {
-					var x = _v3.a;
-					var xs = _v3.b;
-					var meaningUsed = A2(
-						$elm$core$Array$get,
-						rnumber,
-						$elm$core$Array$fromList(model.wordPackages));
-					if (meaningUsed.$ === 'Nothing') {
-						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-					} else {
-						var meaning = meaningUsed.a;
-						return _Utils_Tuple2(
-							_Utils_update(
-								model,
-								{meaningUsed: meaning}),
-							$author$project$Main$getMeaning(meaning));
-					}
-				}
-			case 'RandomNumberForMeaning':
-				var rnumber = msg.a;
-				var _v5 = model.meaningUsed.meanings;
-				if (!_v5.b) {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-				} else {
-					var x = _v5.a;
-					var xs = _v5.b;
-					var partOfSpeach = A2(
-						$elm$core$Array$get,
-						rnumber,
-						$elm$core$Array$fromList(model.meaningUsed.meanings));
-					if (partOfSpeach.$ === 'Nothing') {
-						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-					} else {
-						var partOfS = partOfSpeach.a;
-						return _Utils_Tuple2(
-							_Utils_update(
-								model,
-								{partOfSpeachUsed: partOfS}),
-							$author$project$Main$getDefinition(partOfS));
-					}
-				}
-			case 'RandomNumberForDefinition':
-				var rnumber = msg.a;
-				var _v7 = model.partOfSpeachUsed.definitions;
-				if (!_v7.b) {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-				} else {
-					var x = _v7.a;
-					var xs = _v7.b;
-					var definition = A2(
-						$elm$core$Array$get,
-						rnumber,
-						$elm$core$Array$fromList(model.partOfSpeachUsed.definitions));
-					if (definition.$ === 'Nothing') {
-						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
-					} else {
-						var def = definition.a;
-						return _Utils_Tuple2(
-							_Utils_update(
-								model,
-								{definitionUsed: def}),
-							$elm$core$Platform$Cmd$none);
-					}
-				}
-			case 'UserInput':
-				var input = msg.a;
-				var wordFound = function () {
-					var _v9 = model.wordToGuess;
-					if (_v9.$ === 'Just') {
-						var correctWword = _v9.a;
-						return _Utils_eq(input, correctWword);
-					} else {
-						return false;
-					}
-				}();
-				return wordFound ? (model.boxChecked ? _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{userFoundword: wordFound, userInput: input}),
-					$elm$core$Platform$Cmd$none) : _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{score: model.score + 1, userFoundword: wordFound, userInput: input}),
-					$elm$core$Platform$Cmd$none)) : _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{userFoundword: wordFound, userInput: input}),
-					$elm$core$Platform$Cmd$none);
-			case 'BoxChecked':
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{boxChecked: !model.boxChecked}),
-					$elm$core$Platform$Cmd$none);
-			case 'StartGame':
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{showPopup: false, startGame: true}),
-					$elm$core$Platform$Cmd$none);
-			case 'QuitGame':
-				return _Utils_Tuple2(
-					_Utils_update(
-						model,
-						{startGame: false}),
-					$elm$core$Platform$Cmd$none);
 			case 'ShowPopup':
 				return _Utils_Tuple2(
 					_Utils_update(
@@ -6746,19 +6654,126 @@ var $author$project$Main$update = F2(
 						model,
 						{difficulty: 'Easy'}),
 					$elm$core$Platform$Cmd$none);
-			default:
+			case 'SetDiffHard':
+				var _v2 = model.wordMeanings;
+				if (!_v2.b) {
+					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+				} else {
+					var x = _v2.a;
+					var xs = _v2.b;
+					var randomNumber = A2(
+						$elm$random$Random$generate,
+						$author$project$Main$RandomNumberForMeaning,
+						A2(
+							$elm$random$Random$int,
+							0,
+							$elm$core$List$length(model.wordMeanings) - 1));
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{difficulty: 'Hard'}),
+						randomNumber);
+				}
+			case 'RandomNumberForMeaning':
+				var rnumber = msg.a;
+				var meaningUsed = A2(
+					$elm$core$Array$get,
+					rnumber,
+					$elm$core$Array$fromList(model.wordMeanings));
+				if (meaningUsed.$ === 'Nothing') {
+					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+				} else {
+					var meaning = meaningUsed.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{meaningUsed: meaning}),
+						$author$project$Main$getPartOfSpeach(meaning));
+				}
+			case 'RandomNumberForPartOfSpeach':
+				var rnumber = msg.a;
+				var selectedPartOfSpeach = A2(
+					$elm$core$Array$get,
+					rnumber,
+					$elm$core$Array$fromList(model.meaningUsed.meanings));
+				if (selectedPartOfSpeach.$ === 'Nothing') {
+					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+				} else {
+					var partOfSpeach = selectedPartOfSpeach.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{partOfSpeachUsed: partOfSpeach}),
+						$author$project$Main$getDefinition(partOfSpeach));
+				}
+			case 'RandomNumberForDefinition':
+				var rnumber = msg.a;
+				var selectedDefinition = A2(
+					$elm$core$Array$get,
+					rnumber,
+					$elm$core$Array$fromList(model.partOfSpeachUsed.definitions));
+				if (selectedDefinition.$ === 'Nothing') {
+					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+				} else {
+					var definition = selectedDefinition.a;
+					return _Utils_Tuple2(
+						_Utils_update(
+							model,
+							{definitionUsed: definition}),
+						$elm$core$Platform$Cmd$none);
+				}
+			case 'StartGame':
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{difficulty: 'Hard'}),
+						{showPopup: false, startGame: true}),
 					$elm$core$Platform$Cmd$none);
+			case 'UserInput':
+				var input = msg.a;
+				var wordFound = function () {
+					var _v6 = model.wordToGuess;
+					if (_v6.$ === 'Just') {
+						var correctWword = _v6.a;
+						return _Utils_eq(input, correctWword);
+					} else {
+						return false;
+					}
+				}();
+				return wordFound ? (model.showAnswerBoxChecked ? _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{userFoundword: wordFound, userInput: input}),
+					$elm$core$Platform$Cmd$none) : _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{score: model.score + 1, userFoundword: wordFound, userInput: input}),
+					$elm$core$Platform$Cmd$none)) : _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{userFoundword: wordFound, userInput: input}),
+					$elm$core$Platform$Cmd$none);
+			case 'ShowAnswerBoxChecked':
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{showAnswerBoxChecked: true}),
+					$elm$core$Platform$Cmd$none);
+			case 'QuitGame':
+				return _Utils_Tuple2(
+					$author$project$Main$clearModelIfQuit(model),
+					$author$project$Main$getWord(model));
+			default:
+				return _Utils_Tuple2(
+					$author$project$Main$clearModelForNewGame(model),
+					$author$project$Main$getWord(model));
 		}
 	});
-var $author$project$Main$BoxChecked = {$: 'BoxChecked'};
 var $author$project$Main$HidePopup = {$: 'HidePopup'};
+var $author$project$Main$NewGame = {$: 'NewGame'};
 var $author$project$Main$QuitGame = {$: 'QuitGame'};
 var $author$project$Main$SetDiffEasy = {$: 'SetDiffEasy'};
 var $author$project$Main$SetDiffHard = {$: 'SetDiffHard'};
+var $author$project$Main$ShowAnswerBoxChecked = {$: 'ShowAnswerBoxChecked'};
 var $author$project$Main$ShowPopup = {$: 'ShowPopup'};
 var $author$project$Main$StartGame = {$: 'StartGame'};
 var $author$project$Main$UserInput = function (a) {
@@ -6776,12 +6791,65 @@ var $elm$html$Html$Attributes$stringProperty = F2(
 	});
 var $elm$html$Html$Attributes$class = $elm$html$Html$Attributes$stringProperty('className');
 var $elm$html$Html$div = _VirtualDom_node('div');
+var $author$project$Main$getEasyBtnClass = function (model) {
+	var _v0 = model.difficulty;
+	switch (_v0) {
+		case 'Easy':
+			return 'diff-btn-easy active';
+		case 'Hard':
+			return 'diff-btn-easy';
+		default:
+			return 'diff-btn-easy';
+	}
+};
+var $author$project$Main$getHardBtnClass = function (model) {
+	var _v0 = model.difficulty;
+	switch (_v0) {
+		case 'Easy':
+			return 'diff-btn-hard';
+		case 'Hard':
+			return 'diff-btn-hard active';
+		default:
+			return 'diff-btn-hard';
+	}
+};
 var $author$project$Main$getMainClass = function (model) {
 	var _v0 = model.showPopup;
 	if (!_v0) {
 		return 'main';
 	} else {
 		return 'main active';
+	}
+};
+var $author$project$Main$getQuizBoxClass = function (model) {
+	var _v0 = model.startGame;
+	if (!_v0) {
+		return 'quiz-box';
+	} else {
+		var _v1 = model.showAnswerBoxChecked;
+		if (!_v1) {
+			var _v2 = model.userFoundword;
+			if (!_v2) {
+				return 'quiz-box active';
+			} else {
+				return 'quiz-box';
+			}
+		} else {
+			return 'quiz-box';
+		}
+	}
+};
+var $author$project$Main$getQuizResultClass = function (model) {
+	var _v0 = model.showAnswerBoxChecked;
+	if (!_v0) {
+		var _v1 = model.userFoundword;
+		if (!_v1) {
+			return 'quiz-result';
+		} else {
+			return 'quiz-result active';
+		}
+	} else {
+		return 'quiz-result active';
 	}
 };
 var $author$project$Main$getquizSectionClass = function (model) {
@@ -6878,15 +6946,15 @@ var $author$project$Main$viewDefinitions = function (definitions) {
 		},
 		definitions);
 };
-var $author$project$Main$viewMeanings = function (meanings) {
-	if (!meanings.b) {
+var $author$project$Main$viewPartOfSpeachs = function (partOfSpeachs) {
+	if (!partOfSpeachs.b) {
 		return _List_fromArray(
 			[
 				$elm$html$Html$text('')
 			]);
 	} else {
-		var meaning = meanings.a;
-		var rest = meanings.b;
+		var partOfSpeach = partOfSpeachs.a;
+		var rest = partOfSpeachs.b;
 		return _Utils_ap(
 			_List_fromArray(
 				[
@@ -6895,28 +6963,28 @@ var $author$project$Main$viewMeanings = function (meanings) {
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text(meaning.partOfSpeech),
+							$elm$html$Html$text(partOfSpeach.partOfSpeech),
 							A2(
 							$elm$html$Html$ol,
 							_List_fromArray(
 								[
 									$elm$html$Html$Attributes$class('definition')
 								]),
-							$author$project$Main$viewDefinitions(meaning.definitions))
+							$author$project$Main$viewDefinitions(partOfSpeach.definitions))
 						]))
 				]),
-			$author$project$Main$viewMeanings(rest));
+			$author$project$Main$viewPartOfSpeachs(rest));
 	}
 };
-var $author$project$Main$viewPackageEasy = function (listPackage) {
-	if (!listPackage.b) {
+var $author$project$Main$viewMeaningsEasy = function (listMeaning) {
+	if (!listMeaning.b) {
 		return _List_fromArray(
 			[
 				$elm$html$Html$text('')
 			]);
 	} else {
-		var _package = listPackage.a;
-		var rest = listPackage.b;
+		var meaning = listMeaning.a;
+		var rest = listMeaning.b;
 		return _Utils_ap(
 			_List_fromArray(
 				[
@@ -6935,13 +7003,13 @@ var $author$project$Main$viewPackageEasy = function (listPackage) {
 								[
 									$elm$html$Html$Attributes$class('part-of-speach')
 								]),
-							$author$project$Main$viewMeanings(_package.meanings))
+							$author$project$Main$viewPartOfSpeachs(meaning.meanings))
 						]))
 				]),
-			$author$project$Main$viewPackageEasy(rest));
+			$author$project$Main$viewMeaningsEasy(rest));
 	}
 };
-var $author$project$Main$viewPackageHard = F2(
+var $author$project$Main$viewMeaningsHard = F2(
 	function (partOfSpeach, definition) {
 		return _List_fromArray(
 			[
@@ -6954,16 +7022,16 @@ var $author$project$Main$viewPackageHard = F2(
 					]))
 			]);
 	});
-var $author$project$Main$viewPackage = F2(
-	function (model, listPackage) {
+var $author$project$Main$viewMeanings = F2(
+	function (model, listMeaning) {
 		var _v0 = model.difficulty;
 		switch (_v0) {
 			case 'Easy':
-				return $author$project$Main$viewPackageEasy(listPackage);
+				return $author$project$Main$viewMeaningsEasy(listMeaning);
 			case 'Hard':
-				return A2($author$project$Main$viewPackageHard, model.partOfSpeachUsed.partOfSpeech, model.definitionUsed.definition);
+				return A2($author$project$Main$viewMeaningsHard, model.partOfSpeachUsed.partOfSpeech, model.definitionUsed.definition);
 			default:
-				return $author$project$Main$viewPackageEasy(listPackage);
+				return $author$project$Main$viewMeaningsEasy(listMeaning);
 		}
 	});
 var $elm$core$Maybe$withDefault = F2(
@@ -7067,134 +7135,201 @@ var $author$project$Main$view = function (model) {
 									]),
 								_List_fromArray(
 									[
-										function () {
-										var _v0 = model.wordPackages;
-										var packages = _v0;
-										return A2(
-											$elm$html$Html$div,
-											_List_fromArray(
-												[
-													$elm$html$Html$Attributes$class('quiz-box')
-												]),
-											_List_fromArray(
-												[
-													A2(
-													$elm$html$Html$h1,
-													_List_Nil,
-													_List_fromArray(
-														[
-															$elm$html$Html$text(
-															model.boxChecked ? ('The answer was : ' + A2($elm$core$Maybe$withDefault, 'Error', model.wordToGuess)) : 'Guess it !')
-														])),
-													A2(
-													$elm$html$Html$div,
-													_List_fromArray(
-														[
-															$elm$html$Html$Attributes$class('quiz-header')
-														]),
-													_List_fromArray(
-														[
-															A2(
-															$elm$html$Html$span,
-															_List_fromArray(
-																[
-																	$elm$html$Html$Attributes$class('header-score')
-																]),
-															_List_fromArray(
-																[
-																	$elm$html$Html$text(
-																	'Score : ' + $elm$core$String$fromInt(model.score))
-																])),
-															A2(
-															$elm$html$Html$span,
-															_List_Nil,
-															_List_fromArray(
-																[
-																	$elm$html$Html$text(model.difficulty)
-																]))
-														])),
-													A2(
-													$elm$html$Html$h2,
-													_List_fromArray(
-														[
-															$elm$html$Html$Attributes$class('question-text')
-														]),
-													_List_fromArray(
-														[
-															$elm$html$Html$text('Try to find the word')
-														])),
-													A2(
-													$elm$html$Html$div,
-													_List_fromArray(
-														[
-															$elm$html$Html$Attributes$class('option-list')
-														]),
-													_List_fromArray(
-														[
-															A2(
-															$elm$html$Html$ul,
-															_List_Nil,
-															A2($author$project$Main$viewPackage, model, packages))
-														])),
-													A2(
-													$elm$html$Html$div,
-													_List_fromArray(
-														[
-															$elm$html$Html$Attributes$class('quiz-input')
-														]),
-													_List_fromArray(
-														[
-															A2(
-															$elm$html$Html$label,
-															_List_Nil,
-															_List_fromArray(
-																[
-																	$elm$html$Html$text(
-																	model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : '')
-																])),
-															A2(
-															$elm$html$Html$input,
-															_List_fromArray(
-																[
-																	$elm$html$Html$Attributes$value(model.userInput),
-																	$elm$html$Html$Events$onInput($author$project$Main$UserInput),
-																	$elm$html$Html$Attributes$placeholder('Write your answer here')
-																]),
-															_List_Nil)
-														])),
-													A2(
-													$elm$html$Html$div,
-													_List_fromArray(
-														[
-															$elm$html$Html$Attributes$class('quiz-footer')
-														]),
-													_List_fromArray(
-														[
-															A2(
-															$elm$html$Html$button,
-															_List_fromArray(
-																[
-																	$elm$html$Html$Attributes$class('show-answer-btn'),
-																	$elm$html$Html$Events$onClick($author$project$Main$BoxChecked)
-																]),
-															_List_fromArray(
-																[
-																	$elm$html$Html$text('Show Answer')
-																])),
-															A2(
-															$elm$html$Html$button,
-															_List_fromArray(
-																[
-																	$elm$html$Html$Attributes$class('quit-btn'),
-																	$elm$html$Html$Events$onClick($author$project$Main$QuitGame)
-																]),
-															_List_fromArray(
-																[
-																	$elm$html$Html$text('Quit')
-																]))
-														]))
-												]));
-									}()
+										A2(
+										$elm$html$Html$div,
+										_List_fromArray(
+											[
+												$elm$html$Html$Attributes$class(
+												$author$project$Main$getQuizBoxClass(model))
+											]),
+										_List_fromArray(
+											[
+												A2(
+												$elm$html$Html$h1,
+												_List_Nil,
+												_List_fromArray(
+													[
+														$elm$html$Html$text('Guess it !')
+													])),
+												A2(
+												$elm$html$Html$div,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('quiz-header')
+													]),
+												_List_fromArray(
+													[
+														A2(
+														$elm$html$Html$span,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('header-score')
+															]),
+														_List_fromArray(
+															[
+																$elm$html$Html$text(
+																'Score : ' + $elm$core$String$fromInt(model.score))
+															])),
+														A2(
+														$elm$html$Html$span,
+														_List_Nil,
+														_List_fromArray(
+															[
+																$elm$html$Html$text(model.difficulty)
+															]))
+													])),
+												A2(
+												$elm$html$Html$h2,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('question-text')
+													]),
+												_List_fromArray(
+													[
+														$elm$html$Html$text('Try to find the word')
+													])),
+												A2(
+												$elm$html$Html$div,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('option-list')
+													]),
+												_List_fromArray(
+													[
+														A2(
+														$elm$html$Html$ul,
+														_List_Nil,
+														A2($author$project$Main$viewMeanings, model, model.wordMeanings))
+													])),
+												A2(
+												$elm$html$Html$div,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('quiz-input')
+													]),
+												_List_fromArray(
+													[
+														A2(
+														$elm$html$Html$label,
+														_List_Nil,
+														_List_fromArray(
+															[
+																$elm$html$Html$text(
+																model.userFoundword ? ('Got it! It is indeed ' + A2($elm$core$Maybe$withDefault, '', model.wordToGuess)) : '')
+															])),
+														A2(
+														$elm$html$Html$input,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$value(model.userInput),
+																$elm$html$Html$Events$onInput($author$project$Main$UserInput),
+																$elm$html$Html$Attributes$placeholder('Write your answer here')
+															]),
+														_List_Nil)
+													])),
+												A2(
+												$elm$html$Html$div,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('quiz-footer')
+													]),
+												_List_fromArray(
+													[
+														A2(
+														$elm$html$Html$button,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('show-answer-btn'),
+																$elm$html$Html$Events$onClick($author$project$Main$ShowAnswerBoxChecked)
+															]),
+														_List_fromArray(
+															[
+																$elm$html$Html$text('Show Answer')
+															])),
+														A2(
+														$elm$html$Html$button,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('quit-btn'),
+																$elm$html$Html$Events$onClick($author$project$Main$QuitGame)
+															]),
+														_List_fromArray(
+															[
+																$elm$html$Html$text('Quit')
+															]))
+													]))
+											])),
+										A2(
+										$elm$html$Html$div,
+										_List_fromArray(
+											[
+												$elm$html$Html$Attributes$class(
+												$author$project$Main$getQuizResultClass(model))
+											]),
+										_List_fromArray(
+											[
+												A2(
+												$elm$html$Html$h2,
+												_List_Nil,
+												_List_fromArray(
+													[
+														$elm$html$Html$text(
+														model.showAnswerBoxChecked ? 'The Answer was :' : 'Well Played !!')
+													])),
+												A2(
+												$elm$html$Html$span,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('solution')
+													]),
+												_List_fromArray(
+													[
+														$elm$html$Html$text(
+														A2($elm$core$Maybe$withDefault, '?', model.wordToGuess))
+													])),
+												A2(
+												$elm$html$Html$span,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('score')
+													]),
+												_List_fromArray(
+													[
+														$elm$html$Html$text(
+														'Your Score : ' + $elm$core$String$fromInt(model.score))
+													])),
+												A2(
+												$elm$html$Html$div,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$class('buttons')
+													]),
+												_List_fromArray(
+													[
+														A2(
+														$elm$html$Html$button,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('go-Home-btn'),
+																$elm$html$Html$Events$onClick($author$project$Main$QuitGame)
+															]),
+														_List_fromArray(
+															[
+																$elm$html$Html$text('Go Home')
+															])),
+														A2(
+														$elm$html$Html$button,
+														_List_fromArray(
+															[
+																$elm$html$Html$Attributes$class('next'),
+																$elm$html$Html$Events$onClick($author$project$Main$NewGame)
+															]),
+														_List_fromArray(
+															[
+																$elm$html$Html$text('Next Word')
+															]))
+													]))
+											]))
 									])),
 								A2(
 								$elm$html$Html$section,
@@ -7242,8 +7377,8 @@ var $author$project$Main$view = function (model) {
 							]))
 					])),
 				function () {
-				var _v1 = model.showPopup;
-				if (!_v1) {
+				var _v0 = model.showPopup;
+				if (!_v0) {
 					return $elm$html$Html$text('');
 				} else {
 					return A2(
@@ -7318,7 +7453,8 @@ var $author$project$Main$view = function (model) {
 												$elm$html$Html$button,
 												_List_fromArray(
 													[
-														$elm$html$Html$Attributes$class('diff-btn'),
+														$elm$html$Html$Attributes$class(
+														$author$project$Main$getEasyBtnClass(model)),
 														$elm$html$Html$Events$onClick($author$project$Main$SetDiffEasy)
 													]),
 												_List_fromArray(
@@ -7329,7 +7465,8 @@ var $author$project$Main$view = function (model) {
 												$elm$html$Html$button,
 												_List_fromArray(
 													[
-														$elm$html$Html$Attributes$class('diff-btn'),
+														$elm$html$Html$Attributes$class(
+														$author$project$Main$getHardBtnClass(model)),
 														$elm$html$Html$Events$onClick($author$project$Main$SetDiffHard)
 													]),
 												_List_fromArray(

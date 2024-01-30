@@ -142,6 +142,30 @@ body {
 	margin: 4px 0;
 }
 
+.popup-info .diff-btn-group .diff-btn-easy, .popup-info .diff-btn-group .diff-btn-hard{
+	width: 100%;
+	padding: 12px;
+	background: transparent;
+	border: 2px solid #C0B7BE;
+	border-radius: 4px;
+	font-size: 17px;
+	margin: 15px 0;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.popup-info .diff-btn-group .diff-btn-easy:hover, 
+.popup-info .diff-btn-group .diff-btn-easy.active{
+	color: #00a63d;
+	border-color: #00a63d;
+}
+
+.popup-info .diff-btn-group .diff-btn-hard:hover, 
+.popup-info .diff-btn-group .diff-btn-hard.active{
+	color: #a60045;
+	border-color: #a60045;
+}
+
 .popup-info .btn-group {
 	display: flex;
 	justify-content: space-between;
@@ -211,6 +235,17 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 30px;
+	opacity: 0;
+	pointer-events: none;
+	transform: scale(.9);
+}
+
+.quiz-section .quiz-box.active {
+	opacity: 1;
+	pointer-events: auto;
+	transform: scale(1);
+	transition: 1s ease;
+	transition-delay: 1s;
 }
 
 .quiz-box h1 {
@@ -335,4 +370,77 @@ body {
 	background: #c40094;
 	border-color: #c40094;
 	color: #fff;
+}
+
+.quiz-section .quiz-result {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(.9);
+	width: 500px;
+	background: transparent;
+	border: 2px solid #c40094;
+	border-radius: 6px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.quiz-section .quiz-result.active{
+	opacity: 1;
+	pointer-events: auto;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+
+.quiz-result h2 {
+	font-size: 52px;
+}
+
+.quiz-result .solution{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.quiz-result .score {
+	font-size: 26px;
+	font-weight: 500;
+	margin: 20px 0 40px;
+}
+
+.quiz-result .buttons{
+	display: flex;
+}
+
+.buttons button {
+	width: 130px;
+	height: 47px;
+	background: #c40094;
+	border: 2px solid #c40094;
+	outline: none;
+	border-radius: 6px;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 600;
+	margin: 0 20px 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.buttons button:nth-child(1) {
+	background: transparent;
+	border-color: #c40094;
+}
+
+.buttons button:nth-child(1):hover {
+	background: #c40094;
+	color: #fff;
+}
+
+.buttons button:nth-child(2):hover {
+	background: #950170;
+	color: #950170;
 }

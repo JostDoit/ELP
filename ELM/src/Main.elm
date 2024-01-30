@@ -24,33 +24,32 @@ main =
     }
 
 
-
 -- MODEL
 
 
 type alias Model = 
-  { wordToGuess : Maybe String
-  , meaningUsed : Package
-  , partOfSpeachUsed : Meaning
-  , definitionUsed : Definition
-  , userInput : String
-  , wordsList : List String
-  , userFoundword : Bool
-  , wordPackages : List Package
-  , boxChecked : Bool
-  , showPopup : Bool
-  , startGame : Bool
-  , score : Int
-  , difficulty : String
+  { wordToGuess : Maybe String      -- The word to guess
+  , meaningUsed : Meaning           -- Random meaning used in hard mode
+  , partOfSpeachUsed : PartOfSpeach -- Random partofspeach used in hard mode
+  , definitionUsed : Definition     -- Random definition used in hard mode
+  , userInput : String              -- Current user input
+  , wordsList : List String         -- List of all the words loaded from the txt file
+  , userFoundword : Bool            -- Indicates if the user found the word
+  , wordMeanings : List Meaning     -- List of all the meanings loaded from the API
+  , showAnswerBoxChecked : Bool     -- Indicates if the user checked the showAnswer box
+  , showPopup : Bool                -- Used to display the popup on screen
+  , startGame : Bool                -- Indicates if the game has started
+  , score : Int                     -- User score
+  , difficulty : String             -- Difficulty of the game
   }
 
-
-type alias Package =
-  { word : String
-  , meanings : List Meaning
-  }
 
 type alias Meaning =
+  { word : String
+  , meanings : List PartOfSpeach
+  }
+
+type alias PartOfSpeach =
   { partOfSpeech : String
   , definitions : List Definition
   }
@@ -69,18 +68,18 @@ init _ =
 initModel : Model
 initModel =
   { wordToGuess = Nothing
-  , meaningUsed = Package "" []
-  , partOfSpeachUsed = Meaning "" []
+  , meaningUsed = Meaning "" []
+  , partOfSpeachUsed = PartOfSpeach "" []
   , definitionUsed = Definition "" [] []
   , userInput = ""
   , wordsList = []
-  , wordPackages =  []
+  , wordMeanings =  []
   , userFoundword = False
-  , boxChecked = False
+  , showAnswerBoxChecked = False
   , showPopup = False
   , startGame = False
   , score = 0
-  , difficulty = "easy"
+  , difficulty = "Easy"
   }
 
 
@@ -89,12 +88,12 @@ initModel =
 
 type Msg
   = GotWordsList (Result Http.Error String)
-  | GotPackages (Result Http.Error (List Package))
-  | UserInput String
-  | BoxChecked
   | RandomNumberForWord Int
-  | RandomNumberForPackage Int
+  | GotMeanings (Result Http.Error (List Meaning))
+  | UserInput String
+  | ShowAnswerBoxChecked  
   | RandomNumberForMeaning Int
+  | RandomNumberForPartOfSpeach Int
   | RandomNumberForDefinition Int
   | StartGame
   | QuitGame
@@ -102,106 +101,123 @@ type Msg
   | HidePopup
   | SetDiffEasy
   | SetDiffHard
+  | NewGame
 
 
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
-  case msg of    
+  case msg of
+
+    -- If we successfully got the words list, we split it and generate a random number to get a word from the list
     GotWordsList (Ok words) ->
       let
         wordsList =
           String.split " " words
-        
-        randomNumber =
-          Random.generate RandomNumberForWord (Random.int 0 (List.length wordsList - 1)) 
       in
-        ( { model | wordsList = wordsList }, randomNumber)
+        ( { model | wordsList = wordsList }, getWord model)
     
+    -- If we failed to get the words list, we do nothing
     GotWordsList (Err _) ->
       (model, Cmd.none)
 
+    -- Use the random number generated in GotWordsList to select a random word to guess from the list
     RandomNumberForWord rnumber ->
       let
+      -- Select a random word from the list
         wordToGuess =
           get rnumber (fromList model.wordsList)
       in
         case wordToGuess of
+          -- If we failed to get a word, we do nothing
           Nothing ->
             (model, Cmd.none)
 
+          -- If we successfully got a word, we ask the API for its meanings
           Just word ->
             ( { model | wordToGuess = wordToGuess }, askApi word)
     
-    GotPackages (Ok wordPackages)  ->
-      case wordPackages of
-        [] ->
-          (model, Cmd.none)
-        
-        (x :: xs) ->
-        
-          let 
-            randomNumber =
-              Random.generate RandomNumberForPackage (Random.int 0 (List.length wordPackages - 1))
-          in
-            ( { model | wordPackages = wordPackages }, randomNumber)
+    -- If we successfully got the meanings from the API, we update the model with these meanings
+    GotMeanings (Ok wordMeanings)  ->
+      ({ model | wordMeanings = wordMeanings }, Cmd.none)      
     
-    GotPackages (Err _) ->
+    -- If we failed to get the meanings from the API, we do nothing
+    GotMeanings (Err _) ->
       (model, Cmd.none)
+
+    -- Use to display the popup on screen
+    ShowPopup ->
+      ( { model | showPopup = True }, Cmd.none )
     
-    RandomNumberForPackage rnumber ->
-      case model.wordPackages of
-        [] ->
-          (model, Cmd.none)
-        
-        (x :: xs) ->
-          let
-            meaningUsed =
-              get rnumber (fromList model.wordPackages)
+    -- Use to hide the popup from screen
+    HidePopup ->
+      ( { model | showPopup = False }, Cmd.none )
+    
+    -- Set the difficulty to easy, all the meanings, their partofspeach and definitions will be displayed
+    SetDiffEasy ->
+      ( { model | difficulty = "Easy" }, Cmd.none )
+
+    -- Set the difficulty to hard, only a random definition of a random partofspeach of a random meaning of the word will be displayed
+    SetDiffHard ->
+      case model.wordMeanings of
+          [] ->
+            (model, Cmd.none)
+          
+          -- If we have one or more meanings, we generate a random number to get a random meaning from the list
+          (x :: xs) ->          
+            let 
+              randomNumber =
+                Random.generate RandomNumberForMeaning (Random.int 0 (List.length model.wordMeanings - 1))
+            in
+              ( { model | difficulty = "Hard" }, randomNumber)
+    
+    -- Uses the random number generated in SetDiffHard to get a random meaning from the meaning list, then uses this meaning to get a random partofspeach from its partofspeach list
+    RandomNumberForMeaning rnumber ->      
+      let
+      -- Select a random meaning from the list
+        meaningUsed =
+          get rnumber (fromList model.wordMeanings)          
+      in
+        case meaningUsed of
+          -- If we failed to get a meaning, we do nothing
+          Nothing ->
+            (model, Cmd.none)
             
-          in
-            case meaningUsed of
-              Nothing ->
-                (model, Cmd.none)
-              
-              Just meaning ->
-              
-                ( { model | meaningUsed = meaning}, getMeaning meaning)
+          -- If we successfully got a meaning, we call the function getPartOfSpeach to get a random partofspeach from the selected meaning
+          Just meaning ->            
+            ( { model | meaningUsed = meaning}, getPartOfSpeach meaning)
     
-    RandomNumberForMeaning rnumber ->
-      case model.meaningUsed.meanings of
-        [] ->
-          (model, Cmd.none)
-        
-        (x :: xs) ->
-          let
-            partOfSpeach =
-              get rnumber (fromList model.meaningUsed.meanings)
-          in
-            case partOfSpeach of
-              Nothing ->
-                (model, Cmd.none)
-               
-              Just partOfS ->
-                ( { model | partOfSpeachUsed = partOfS }, getDefinition partOfS)
-
+    -- Uses the random number generated in RandomNumberForMeaning to get a random partofspeach from the partofspeach list of the selected meaning
+    RandomNumberForPartOfSpeach rnumber ->      
+      let
+        selectedPartOfSpeach =
+          get rnumber (fromList model.meaningUsed.meanings)
+      in
+        case selectedPartOfSpeach of
+          Nothing ->
+            (model, Cmd.none)
+          
+          -- If we successfully got a partofspeach, we call the function getDefinition to get a random definition from the selected partofspeach
+          Just partOfSpeach ->
+            ( { model | partOfSpeachUsed = partOfSpeach }, getDefinition partOfSpeach)
+    
     RandomNumberForDefinition rnumber ->
-      case model.partOfSpeachUsed.definitions of
-        [] ->
-          (model, Cmd.none)
-        
-        (x :: xs) ->
-          let
-            definition =
-              get rnumber (fromList model.partOfSpeachUsed.definitions)
-          in
-            case definition of
-              Nothing ->
-                (model, Cmd.none)
-              
-              Just def ->
-                ( { model | definitionUsed = def }, Cmd.none)
+      let
+        selectedDefinition =
+          get rnumber (fromList model.partOfSpeachUsed.definitions)
+      in
+        case selectedDefinition of
+          Nothing ->
+            (model, Cmd.none)
+          
+          Just definition ->
+            ( { model | definitionUsed = definition }, Cmd.none)
 
+    -- Used to start the game
+    StartGame ->
+      ( { model | startGame = True, showPopup = False }, Cmd.none )
+
+    -- Used to update the user input
     UserInput input ->
       let
         wordFound =
@@ -213,49 +229,80 @@ update msg model =
               False
       in
         if wordFound then
-          if model.boxChecked then
+          if model.showAnswerBoxChecked then
             ( { model | userInput = input, userFoundword = wordFound}, Cmd.none )
           else
             ( { model | userInput = input, userFoundword = wordFound, score = model.score + 1  }, Cmd.none )
         else
           ( { model | userInput = input, userFoundword = wordFound }, Cmd.none )
     
-    BoxChecked ->
-      ( { model | boxChecked = not model.boxChecked }, Cmd.none )
+    -- If the user checked the showAnswer box, we update the model to display the answer
+    ShowAnswerBoxChecked ->
+      ( { model | showAnswerBoxChecked = True }, Cmd.none )
     
-    StartGame ->
-      ( { model | startGame = True, showPopup = False }, Cmd.none )
-    
+    -- Used to quit the game
     QuitGame ->
-      ( { model | startGame = False }, Cmd.none )
+      (clearModelIfQuit model, getWord model )       
     
-    ShowPopup ->
-      ( { model | showPopup = True }, Cmd.none )
-    
-    HidePopup ->
-      ( { model | showPopup = False }, Cmd.none )
-    
-    SetDiffEasy ->
-      ( { model | difficulty = "Easy" }, Cmd.none )
-    
-    SetDiffHard ->
-      ( { model | difficulty = "Hard" }, Cmd.none )
-    
-getMeaning : Package -> Cmd Msg
-getMeaning package =
+    -- Used to start a new game, we reset the model and ask for a new word
+    NewGame ->
+      ( clearModelForNewGame model, getWord model)
+
+getWord: Model -> Cmd Msg
+getWord model =
   let
     randomNumber =
-      Random.generate RandomNumberForMeaning (Random.int 0 (List.length package.meanings - 1))
+      Random.generate RandomNumberForWord (Random.int 0 (List.length model.wordsList - 1)) 
   in
     randomNumber
 
-getDefinition : Meaning -> Cmd Msg
-getDefinition meaning =
+
+-- Used to get a random partofspeach from a meaning
+getPartOfSpeach : Meaning -> Cmd Msg
+getPartOfSpeach meaning =
   let
     randomNumber =
-      Random.generate RandomNumberForDefinition (Random.int 0 (List.length meaning.definitions - 1))
+      Random.generate RandomNumberForPartOfSpeach (Random.int 0 (List.length meaning.meanings - 1))
   in
     randomNumber
+
+-- Generates a random number to get a random definition from a partofspeach
+getDefinition : PartOfSpeach -> Cmd Msg
+getDefinition partofspeach =
+  let
+    randomNumber =
+      Random.generate RandomNumberForDefinition (Random.int 0 (List.length partofspeach.definitions - 1))
+  in
+    randomNumber
+
+clearModelForNewGame : Model -> Model
+clearModelForNewGame model =
+  { model | 
+  wordToGuess = Nothing
+  , meaningUsed = Meaning "" []
+  , partOfSpeachUsed = PartOfSpeach "" []
+  , definitionUsed = Definition "" [] []
+  , userInput = ""
+  , userFoundword = False
+  , wordMeanings =  []
+  , showAnswerBoxChecked = False
+  , startGame = True}
+
+clearModelIfQuit : Model -> Model
+clearModelIfQuit model =
+  { model | 
+  wordToGuess = Nothing
+  , meaningUsed = Meaning "" []
+  , partOfSpeachUsed = PartOfSpeach "" []
+  , definitionUsed = Definition "" [] []
+  , userInput = ""
+  , userFoundword = False
+  , wordMeanings =  []
+  , showAnswerBoxChecked = False
+  , startGame = False}
+
+  
+  
 
 
 -- SUBSCRIPTIONS
@@ -273,7 +320,8 @@ view : Model -> Html Msg
 view model =
   div [] 
   [ main_ [class (getMainClass model)]
-    [ header [class "header"]
+    [ -- Header
+      header [class "header"]
       [ a [ href "#", class "logo" ] [ text "ELM." ]
       , nav [ class "navbar"]
         [ a [ href "#", class "active" ] [ text "Home" ]
@@ -281,32 +329,48 @@ view model =
         , a [ href "#"] [ text "Contact" ]
         ]
       ]
+      -- Container 
     , div [class "container"]
+      -- Quiz Box, displayed when game is running
       [ section [class (getquizSectionClass model)]
-        [ case model.wordPackages of
-            packages ->
-              div [ class "quiz-box"]
-                [ 
-                  h1 [] [ text (if model.boxChecked then ("The answer was : "++ Maybe.withDefault "Error"  model.wordToGuess) else "Guess it !") ]
-                  , div [class "quiz-header"]
-                    [ span [class "header-score"] [ text ("Score : " ++ String.fromInt model.score) ]
-                    , span [] [ text model.difficulty ]
-                    ]
-                  , h2 [ class "question-text"] [text "Try to find the word"]
-                  ,div [ class "option-list"]
-                    [ ul[] (viewPackage model packages)]
-                  ,div [ class "quiz-input"]
-                    [ 
-                      label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "") ]
-                      ,input [ value model.userInput, onInput UserInput, placeholder "Write your answer here"] []
-                    ]
-                  ,div [  class "quiz-footer"]
-                    [ button [class "show-answer-btn", onClick BoxChecked ] [ text "Show Answer"]
-                    , button [class "quit-btn", onClick QuitGame] [ text "Quit"]
-                    ]
+        [ 
+          div [ class (getQuizBoxClass model)]
+            [ -- Quiz Header - Title, S
+              h1 [] [ text "Guess it !" ]
+              , div [class "quiz-header"]
+                [ span [class "header-score"] [ text ("Score : " ++ String.fromInt model.score) ]
+                , span [] [ text model.difficulty ]
+                ]
+              , h2 [ class "question-text"] [text "Try to find the word"]
+              
+              -- Div where the meanings of the word are displayed
+              ,div [ class "option-list"]
+                [ ul[] (viewMeanings model model.wordMeanings)]
+              
+              -- Div where the user can input his answer
+              ,div [ class "quiz-input"]
+                [ label [] [ text (if model.userFoundword then ("Got it! It is indeed " ++ (Maybe.withDefault ""model.wordToGuess)) else "") ]
+                ,input [ value model.userInput, onInput UserInput, placeholder "Write your answer here"] []
+                ]
+
+              -- Footer of the quiz box, contains the buttons to show the answer and quit the game
+              ,div [  class "quiz-footer"]
+                [ button [class "show-answer-btn", onClick ShowAnswerBoxChecked ] [ text "Show Answer"]
+                , button [class "quit-btn", onClick QuitGame] [ text "Quit"]
+                ]                  
+            ]
+            -- Quiz Result, displayed when the user found the word or checked the showAnswer box
+            , div [class (getQuizResultClass model)]
+                [ h2 [] [ text (if model.showAnswerBoxChecked then "The Answer was :" else "Well Played !!")]
+                , span [class "solution"] [text (Maybe.withDefault "?" model.wordToGuess)]
+                , span [class "score"] [text ("Your Score : " ++ String.fromInt model.score)]
+                , div [class "buttons"] 
+                  [ button [class "go-Home-btn", onClick QuitGame] [ text "Go Home"]
+                  , button [class "next", onClick NewGame] [ text "Next Word"]
+                  ]
                 ]
         ]
-        
+      -- Home Section, displayed when the game is not running
       , section [class "home"]
           [ div [class "home-content"]
             [ h1 [] [text "Guess it !"]
@@ -316,28 +380,36 @@ view model =
           ]
       ]
     ]
+  -- Popup, displayed when the user clicks on the start game button
+  -- Contains the rules of the game and the difficulty choice
   , case model.showPopup of
       False ->
         text ""
       True ->
         div [ class "popup-info"]
-          [ h2 [] [ text "Rules" ]
+          [ -- Rules
+            h2 [] [ text "Rules" ]
           , span [class "info"] [ text "You have to guess the word from its definition" ]
           , span [class "info"] [ text "You can check the word if you are stuck" ]
           , span [class "info"] [ text "More options to come !" ]
+          
+          -- Difficulty choice
           , div [class "diff-choice"]
             [ h3 [] [ text "Choose your difficulty" ]
             , div [class "diff-btn-group"]
-              [ button [class "diff-btn", onClick SetDiffEasy] [ text "Easy" ]
-              , button [class "diff-btn", onClick SetDiffHard] [ text "Hard" ]
+              [ button [class (getEasyBtnClass model), onClick SetDiffEasy] [ text "Easy" ]
+              , button [class (getHardBtnClass model), onClick SetDiffHard] [ text "Hard" ]
               ]
             ]
+          -- Buttons to exit the popup or start the game
           , div [class "btn-group"]
             [ button [onClick HidePopup, class "info-btn exit-btn"] [ text "Exit" ]
             , button [onClick StartGame, class "info-btn continue-btn"] [ text "Continue" ]
             ]
           ]
   ]
+
+-- Used to get the class of the main element and adapt its display style
 getMainClass : Model -> String
 getMainClass model =
   case model.showPopup of
@@ -345,6 +417,45 @@ getMainClass model =
       "main"
     True ->
       "main active"
+
+-- Used to get the class of the quiz box and adapt its display style
+getQuizBoxClass : Model -> String
+getQuizBoxClass model =
+  case model.startGame of
+    False ->
+      "quiz-box"
+    True ->
+      case model.showAnswerBoxChecked of
+        False ->
+          case model.userFoundword of
+            False ->
+              "quiz-box active"
+            True ->
+              "quiz-box"
+        True ->
+          "quiz-box"
+
+-- Used to get the class of the buttons to choose the difficulty and adapt their display style
+getEasyBtnClass : Model -> String
+getEasyBtnClass model =
+  case model.difficulty of
+    "Easy" ->
+      "diff-btn-easy active"
+    "Hard" ->
+      "diff-btn-easy"
+    _ ->
+      "diff-btn-easy"
+getHardBtnClass : Model -> String
+getHardBtnClass model =
+  case model.difficulty of
+    "Easy" ->
+      "diff-btn-hard"
+    "Hard" ->
+      "diff-btn-hard active"
+    _ ->
+      "diff-btn-hard"
+
+-- Used to get the class of the quiz section and adapt its display style
 getquizSectionClass : Model -> String
 getquizSectionClass model =
   case model.startGame of
@@ -352,54 +463,75 @@ getquizSectionClass model =
       "quiz-section"
     True ->
       "quiz-section active"
-viewPackage : Model -> List Package -> List (Html Msg)
-viewPackage model listPackage =
+
+-- Used to get the class of the quiz result and adapt its display style
+getQuizResultClass : Model -> String
+getQuizResultClass model =
+  case model.showAnswerBoxChecked of
+    False ->
+      case model.userFoundword of
+        False ->
+          "quiz-result"
+        True ->
+          "quiz-result active"
+    True ->
+      "quiz-result active"
+
+-- Generates the HTML to display the meanings of a word in function of the difficulty
+viewMeanings : Model -> List Meaning -> List (Html Msg)
+viewMeanings model listMeaning =
   case model.difficulty of
     "Easy" ->
-      viewPackageEasy listPackage
+      viewMeaningsEasy listMeaning
 
     "Hard" ->
-      viewPackageHard model.partOfSpeachUsed.partOfSpeech model.definitionUsed.definition
+      viewMeaningsHard model.partOfSpeachUsed.partOfSpeech model.definitionUsed.definition
     _ ->
-      viewPackageEasy listPackage
+      viewMeaningsEasy listMeaning
 
-viewPackageHard : String -> String -> List (Html Msg)
-viewPackageHard partOfSpeach definition =
+-- Generates the HTML to display the meanings of a word in easy mode
+viewMeaningsHard : String -> String -> List (Html Msg)
+viewMeaningsHard partOfSpeach definition =
   [ h2 [] [ text (partOfSpeach ++ " : " ++ definition) ]]
 
-viewPackageEasy : List Package -> List (Html Msg)
-viewPackageEasy listPackage =
-  case listPackage of
+-- Generates the HTML to display the meanings of a word in hard mode
+viewMeaningsEasy : List Meaning -> List (Html Msg)
+viewMeaningsEasy listMeaning =
+  case listMeaning of
     [] ->
       [text ""]
 
-    (package :: rest) ->
+    (meaning :: rest) ->
       [ li [ class "meaning"] 
         [ text "Meaning"
-        , ol [ class "part-of-speach"] (viewMeanings package.meanings)
+        , ol [ class "part-of-speach"] (viewPartOfSpeachs meaning.meanings)
         ]
-      ] ++ viewPackageEasy rest
+      ] ++ viewMeaningsEasy rest
 
-viewMeanings : List Meaning -> List (Html Msg)
-viewMeanings meanings =
-  case meanings of
+-- Generates the HTML to display all the partofspeach of a meaning
+viewPartOfSpeachs : List PartOfSpeach -> List (Html Msg)
+viewPartOfSpeachs partOfSpeachs =
+  case partOfSpeachs of
     [] ->
       [text ""]
 
-    (meaning :: rest) ->      
+    (partOfSpeach :: rest) ->      
       
       [ li [] 
-        [ text meaning.partOfSpeech
-        , ol [ class "definition"] (viewDefinitions meaning.definitions)      
+        [ text partOfSpeach.partOfSpeech
+        , ol [ class "definition"] (viewDefinitions partOfSpeach.definitions)      
         ]
-      ] ++ viewMeanings rest
+      ] ++ viewPartOfSpeachs rest
 
+-- Generates the HTML to display all the definitions of a partofspeach
 viewDefinitions : List Definition -> List (Html Msg)
 viewDefinitions definitions =
   List.map (\definition -> li[] [text definition.definition]) definitions
 
 -- HTTP
 
+
+-- function load the list of words from the txt file
 getWordsList : Cmd Msg
 getWordsList =
   Http.get
@@ -407,33 +539,30 @@ getWordsList =
     , expect = Http.expectString GotWordsList
     }
 
-getWordDefinition : Cmd Msg
-getWordDefinition =
-  Http.get
-    { url = "https://api.dictionaryapi.dev/api/v2/entries/en/with"
-    , expect = Http.expectJson GotPackages mainDecoder
-    }
-
+-- function to ask the API for the meanings of a word thanks to an HTTP request to dictionaryapi
 askApi : String -> Cmd Msg
 askApi word =
   Http.get
     { url = "https://api.dictionaryapi.dev/api/v2/entries/en/" ++ word
-    , expect = Http.expectJson GotPackages mainDecoder
+    , expect = Http.expectJson GotMeanings mainDecoder
     }
 
-mainDecoder : Decoder (List Package)
-mainDecoder = 
-  list packageDecoder
+-- JSON DECODER
 
-packageDecoder : Decoder Package
-packageDecoder =
-  map2 Package
-    (field "word" string)
-    (field "meanings" (list meaningDecoder))
+
+mainDecoder : Decoder (List Meaning)
+mainDecoder = 
+  list meaningDecoder
 
 meaningDecoder : Decoder Meaning
 meaningDecoder =
   map2 Meaning
+    (field "word" string)
+    (field "meanings" (list partOfSpeachDecoder))
+
+partOfSpeachDecoder : Decoder PartOfSpeach
+partOfSpeachDecoder =
+  map2 PartOfSpeach
     (field "partOfSpeech" string)
     (field "definitions" (list definitionDecoder))
 
