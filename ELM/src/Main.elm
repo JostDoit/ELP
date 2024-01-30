@@ -86,6 +86,7 @@ type Msg
   | BoxChecked
   | RandomNumber Int
   | StartGame
+  | QuitGame
   | ShowPopup
   | HidePopup
 
@@ -133,7 +134,10 @@ update msg model =
               False
       in
         if wordFound then
-          ( { model | userInput = input, userFoundword = wordFound, score = model.score + 1 }, Cmd.none )
+          if model.boxChecked then
+            ( { model | userInput = input, userFoundword = wordFound}, Cmd.none )
+          else
+            ( { model | userInput = input, userFoundword = wordFound, score = model.score + 1  }, Cmd.none )
         else
           ( { model | userInput = input, userFoundword = wordFound }, Cmd.none )
     
@@ -142,6 +146,9 @@ update msg model =
     
     StartGame ->
       ( { model | startGame = True, showPopup = False }, Cmd.none )
+    
+    QuitGame ->
+      ( { model | startGame = False }, Cmd.none )
     
     ShowPopup ->
       ( { model | showPopup = True }, Cmd.none )
@@ -197,7 +204,7 @@ view model =
                     ]
                   ,div [  class "quiz-footer"]
                     [ button [class "show-answer-btn", onClick BoxChecked ] [ text "Show Answer"]
-                    , button [class "quit-btn"] [ text "Quit"]
+                    , button [class "quit-btn", onClick QuitGame] [ text "Quit"]
                     ]
                 ]
             Err _ ->

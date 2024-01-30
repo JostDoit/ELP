@@ -6578,11 +6578,15 @@ var $author$project$Main$update = F2(
 						return false;
 					}
 				}();
-				return wordFound ? _Utils_Tuple2(
+				return wordFound ? (model.boxChecked ? _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{userFoundword: wordFound, userInput: input}),
+					$elm$core$Platform$Cmd$none) : _Utils_Tuple2(
 					_Utils_update(
 						model,
 						{score: model.score + 1, userFoundword: wordFound, userInput: input}),
-					$elm$core$Platform$Cmd$none) : _Utils_Tuple2(
+					$elm$core$Platform$Cmd$none)) : _Utils_Tuple2(
 					_Utils_update(
 						model,
 						{userFoundword: wordFound, userInput: input}),
@@ -6598,6 +6602,12 @@ var $author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{showPopup: false, startGame: true}),
+					$elm$core$Platform$Cmd$none);
+			case 'QuitGame':
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{startGame: false}),
 					$elm$core$Platform$Cmd$none);
 			case 'ShowPopup':
 				return _Utils_Tuple2(
@@ -6615,6 +6625,7 @@ var $author$project$Main$update = F2(
 	});
 var $author$project$Main$BoxChecked = {$: 'BoxChecked'};
 var $author$project$Main$HidePopup = {$: 'HidePopup'};
+var $author$project$Main$QuitGame = {$: 'QuitGame'};
 var $author$project$Main$ShowPopup = {$: 'ShowPopup'};
 var $author$project$Main$StartGame = {$: 'StartGame'};
 var $author$project$Main$UserInput = function (a) {
@@ -7016,7 +7027,8 @@ var $author$project$Main$view = function (model) {
 																$elm$html$Html$button,
 																_List_fromArray(
 																	[
-																		$elm$html$Html$Attributes$class('quit-btn')
+																		$elm$html$Html$Attributes$class('quit-btn'),
+																		$elm$html$Html$Events$onClick($author$project$Main$QuitGame)
 																	]),
 																_List_fromArray(
 																	[
