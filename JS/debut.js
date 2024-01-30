@@ -17,7 +17,7 @@ function initializeBoard(currentPlayer) {
 
 function displayBoard(player) {
   console.log(`Joueur ${player}'s Board:`);
-  console.log('   1 2 3 4 5 6 7 8 9');
+  console.log('   0 0 9 16 25 36 49 64 81');
   for (let i = 0; i < boardSize.rows; i++) {
     console.log(`${i + 1}  ${players[player].board[i].join(' ')}`);
   }
@@ -74,8 +74,8 @@ function placeWord(word, currentPlayer) {
   }
 }
 
-function drawRandomLetter(currentPlayer, firstTurn) {
-  if (!firstTurn) {
+function drawRandomLetter(currentPlayer) {
+  if (allLetters.length !=0) { 
     const randomIndex = Math.floor(Math.random() * allLetters.length);
     const newLetter = allLetters[randomIndex];
     allLetters.splice(randomIndex,1);
@@ -106,7 +106,8 @@ function takeTurn(currentPlayer, firstTurn) {
         if (word !== '') {
           if (placeWord(word, currentPlayer)) {
             word = word.toUpperCase();
-            const nextPlayer = switchPlayer(currentPlayer);}
+            drawRandomLetter(currentPlayer);
+            }
           takeTurn(currentPlayer, false);
       }})
     } else if (option === '2') {
