@@ -7015,7 +7015,10 @@ var $author$project$Main$viewMeaningsHard = F2(
 			[
 				A2(
 				$elm$html$Html$h2,
-				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$class('random-def')
+					]),
 				_List_fromArray(
 					[
 						$elm$html$Html$text(partOfSpeach + (' : ' + definition))

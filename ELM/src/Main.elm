@@ -492,7 +492,7 @@ viewMeanings model listMeaning =
 -- Generates the HTML to display the meanings of a word in easy mode
 viewMeaningsHard : String -> String -> List (Html Msg)
 viewMeaningsHard partOfSpeach definition =
-  [ h2 [] [ text (partOfSpeach ++ " : " ++ definition) ]]
+  [ h2 [class "random-def"] [ text (partOfSpeach ++ " : " ++ definition) ]]
 
 -- Generates the HTML to display the meanings of a word in hard mode
 viewMeaningsEasy : List Meaning -> List (Html Msg)
