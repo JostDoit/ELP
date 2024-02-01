@@ -6204,23 +6204,23 @@ var $author$project$Main$getWordsList = $elm$http$Http$get(
 		expect: $elm$http$Http$expectString($author$project$Main$GotWordsList),
 		url: 'mots.txt'
 	});
-var $author$project$Main$Definition = F3(
+var $author$project$JsonDecoder$Definition = F3(
 	function (definition, synonyms, antonyms) {
 		return {antonyms: antonyms, definition: definition, synonyms: synonyms};
 	});
-var $author$project$Main$Meaning = F2(
+var $author$project$JsonDecoder$Meaning = F2(
 	function (word, meanings) {
 		return {meanings: meanings, word: word};
 	});
-var $author$project$Main$PartOfSpeach = F2(
+var $author$project$JsonDecoder$PartOfSpeach = F2(
 	function (partOfSpeech, definitions) {
 		return {definitions: definitions, partOfSpeech: partOfSpeech};
 	});
 var $author$project$Main$initModel = {
-	definitionUsed: A3($author$project$Main$Definition, '', _List_Nil, _List_Nil),
+	definitionUsed: A3($author$project$JsonDecoder$Definition, '', _List_Nil, _List_Nil),
 	difficulty: 'Easy',
-	meaningUsed: A2($author$project$Main$Meaning, '', _List_Nil),
-	partOfSpeachUsed: A2($author$project$Main$PartOfSpeach, '', _List_Nil),
+	meaningUsed: A2($author$project$JsonDecoder$Meaning, '', _List_Nil),
+	partOfSpeachUsed: A2($author$project$JsonDecoder$PartOfSpeach, '', _List_Nil),
 	score: 0,
 	showAnswerBoxChecked: false,
 	showPopup: false,
@@ -6263,9 +6263,9 @@ var $elm$json$Json$Decode$list = _Json_decodeList;
 var $elm$json$Json$Decode$field = _Json_decodeField;
 var $elm$json$Json$Decode$map3 = _Json_map3;
 var $elm$json$Json$Decode$string = _Json_decodeString;
-var $author$project$Main$definitionDecoder = A4(
+var $author$project$JsonDecoder$definitionDecoder = A4(
 	$elm$json$Json$Decode$map3,
-	$author$project$Main$Definition,
+	$author$project$JsonDecoder$Definition,
 	A2($elm$json$Json$Decode$field, 'definition', $elm$json$Json$Decode$string),
 	A2(
 		$elm$json$Json$Decode$field,
@@ -6275,27 +6275,27 @@ var $author$project$Main$definitionDecoder = A4(
 		$elm$json$Json$Decode$field,
 		'antonyms',
 		$elm$json$Json$Decode$list($elm$json$Json$Decode$string)));
-var $author$project$Main$partOfSpeachDecoder = A3(
+var $author$project$JsonDecoder$partOfSpeachDecoder = A3(
 	$elm$json$Json$Decode$map2,
-	$author$project$Main$PartOfSpeach,
+	$author$project$JsonDecoder$PartOfSpeach,
 	A2($elm$json$Json$Decode$field, 'partOfSpeech', $elm$json$Json$Decode$string),
 	A2(
 		$elm$json$Json$Decode$field,
 		'definitions',
-		$elm$json$Json$Decode$list($author$project$Main$definitionDecoder)));
-var $author$project$Main$meaningDecoder = A3(
+		$elm$json$Json$Decode$list($author$project$JsonDecoder$definitionDecoder)));
+var $author$project$JsonDecoder$meaningDecoder = A3(
 	$elm$json$Json$Decode$map2,
-	$author$project$Main$Meaning,
+	$author$project$JsonDecoder$Meaning,
 	A2($elm$json$Json$Decode$field, 'word', $elm$json$Json$Decode$string),
 	A2(
 		$elm$json$Json$Decode$field,
 		'meanings',
-		$elm$json$Json$Decode$list($author$project$Main$partOfSpeachDecoder)));
-var $author$project$Main$mainDecoder = $elm$json$Json$Decode$list($author$project$Main$meaningDecoder);
+		$elm$json$Json$Decode$list($author$project$JsonDecoder$partOfSpeachDecoder)));
+var $author$project$JsonDecoder$mainDecoder = $elm$json$Json$Decode$list($author$project$JsonDecoder$meaningDecoder);
 var $author$project$Main$askApi = function (word) {
 	return $elm$http$Http$get(
 		{
-			expect: A2($elm$http$Http$expectJson, $author$project$Main$GotMeanings, $author$project$Main$mainDecoder),
+			expect: A2($elm$http$Http$expectJson, $author$project$Main$GotMeanings, $author$project$JsonDecoder$mainDecoder),
 			url: 'https://api.dictionaryapi.dev/api/v2/entries/en/' + word
 		});
 };
@@ -6303,9 +6303,9 @@ var $author$project$Main$clearModelForNewGame = function (model) {
 	return _Utils_update(
 		model,
 		{
-			definitionUsed: A3($author$project$Main$Definition, '', _List_Nil, _List_Nil),
-			meaningUsed: A2($author$project$Main$Meaning, '', _List_Nil),
-			partOfSpeachUsed: A2($author$project$Main$PartOfSpeach, '', _List_Nil),
+			definitionUsed: A3($author$project$JsonDecoder$Definition, '', _List_Nil, _List_Nil),
+			meaningUsed: A2($author$project$JsonDecoder$Meaning, '', _List_Nil),
+			partOfSpeachUsed: A2($author$project$JsonDecoder$PartOfSpeach, '', _List_Nil),
 			showAnswerBoxChecked: false,
 			startGame: true,
 			userFoundword: false,
@@ -6318,9 +6318,9 @@ var $author$project$Main$clearModelIfQuit = function (model) {
 	return _Utils_update(
 		model,
 		{
-			definitionUsed: A3($author$project$Main$Definition, '', _List_Nil, _List_Nil),
-			meaningUsed: A2($author$project$Main$Meaning, '', _List_Nil),
-			partOfSpeachUsed: A2($author$project$Main$PartOfSpeach, '', _List_Nil),
+			definitionUsed: A3($author$project$JsonDecoder$Definition, '', _List_Nil, _List_Nil),
+			meaningUsed: A2($author$project$JsonDecoder$Meaning, '', _List_Nil),
+			partOfSpeachUsed: A2($author$project$JsonDecoder$PartOfSpeach, '', _List_Nil),
 			showAnswerBoxChecked: false,
 			startGame: false,
 			userFoundword: false,

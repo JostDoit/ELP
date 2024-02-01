@@ -7,9 +7,8 @@ import Html.Events exposing (..)
 import Http
 import Random
 import Array exposing (Array, get, fromList)
-import Json.Decode exposing (Decoder, map2, map3, field, int, string, list, at)
 import Html.Attributes exposing (start)
-
+import JsonDecoder
 
 
 -- MAIN
@@ -29,37 +28,19 @@ main =
 
 type alias Model = 
   { wordToGuess : Maybe String      -- The word to guess
-  , meaningUsed : Meaning           -- Random meaning used in hard mode
-  , partOfSpeachUsed : PartOfSpeach -- Random partofspeach used in hard mode
-  , definitionUsed : Definition     -- Random definition used in hard mode
+  , meaningUsed : JsonDecoder.Meaning           -- Random meaning used in hard mode
+  , partOfSpeachUsed : JsonDecoder.PartOfSpeach -- Random partofspeach used in hard mode
+  , definitionUsed : JsonDecoder.Definition     -- Random definition used in hard mode
   , userInput : String              -- Current user input
   , wordsList : List String         -- List of all the words loaded from the txt file
   , userFoundword : Bool            -- Indicates if the user found the word
-  , wordMeanings : List Meaning     -- List of all the meanings loaded from the API
+  , wordMeanings : List JsonDecoder.Meaning     -- List of all the meanings loaded from the API
   , showAnswerBoxChecked : Bool     -- Indicates if the user checked the showAnswer box
   , showPopup : Bool                -- Used to display the popup on screen
   , startGame : Bool                -- Indicates if the game has started
   , score : Int                     -- User score
   , difficulty : String             -- Difficulty of the game
   }
-
-
-type alias Meaning =
-  { word : String
-  , meanings : List PartOfSpeach
-  }
-
-type alias PartOfSpeach =
-  { partOfSpeech : String
-  , definitions : List Definition
-  }
-
-type alias Definition =
-  { definition : String
-  , synonyms : List String
-  , antonyms : List String
-  }
-
 
 init : () -> (Model, Cmd Msg)
 init _ =
@@ -68,9 +49,9 @@ init _ =
 initModel : Model
 initModel =
   { wordToGuess = Nothing
-  , meaningUsed = Meaning "" []
-  , partOfSpeachUsed = PartOfSpeach "" []
-  , definitionUsed = Definition "" [] []
+  , meaningUsed = JsonDecoder.Meaning "" []
+  , partOfSpeachUsed = JsonDecoder.PartOfSpeach "" []
+  , definitionUsed = JsonDecoder.Definition "" [] []
   , userInput = ""
   , wordsList = []
   , wordMeanings =  []
@@ -89,7 +70,7 @@ initModel =
 type Msg
   = GotWordsList (Result Http.Error String)
   | RandomNumberForWord Int
-  | GotMeanings (Result Http.Error (List Meaning))
+  | GotMeanings (Result Http.Error (List JsonDecoder.Meaning))
   | UserInput String
   | ShowAnswerBoxChecked  
   | RandomNumberForMeaning Int
@@ -258,7 +239,7 @@ getWord model =
 
 
 -- Used to get a random partofspeach from a meaning
-getPartOfSpeach : Meaning -> Cmd Msg
+getPartOfSpeach : JsonDecoder.Meaning -> Cmd Msg
 getPartOfSpeach meaning =
   let
     randomNumber =
@@ -267,7 +248,7 @@ getPartOfSpeach meaning =
     randomNumber
 
 -- Generates a random number to get a random definition from a partofspeach
-getDefinition : PartOfSpeach -> Cmd Msg
+getDefinition : JsonDecoder.PartOfSpeach -> Cmd Msg
 getDefinition partofspeach =
   let
     randomNumber =
@@ -279,9 +260,9 @@ clearModelForNewGame : Model -> Model
 clearModelForNewGame model =
   { model | 
   wordToGuess = Nothing
-  , meaningUsed = Meaning "" []
-  , partOfSpeachUsed = PartOfSpeach "" []
-  , definitionUsed = Definition "" [] []
+  , meaningUsed = JsonDecoder.Meaning "" []
+  , partOfSpeachUsed = JsonDecoder.PartOfSpeach "" []
+  , definitionUsed = JsonDecoder.Definition "" [] []
   , userInput = ""
   , userFoundword = False
   , wordMeanings =  []
@@ -292,9 +273,9 @@ clearModelIfQuit : Model -> Model
 clearModelIfQuit model =
   { model | 
   wordToGuess = Nothing
-  , meaningUsed = Meaning "" []
-  , partOfSpeachUsed = PartOfSpeach "" []
-  , definitionUsed = Definition "" [] []
+  , meaningUsed = JsonDecoder.Meaning "" []
+  , partOfSpeachUsed = JsonDecoder.PartOfSpeach "" []
+  , definitionUsed = JsonDecoder.Definition "" [] []
   , userInput = ""
   , userFoundword = False
   , wordMeanings =  []
@@ -478,7 +459,7 @@ getQuizResultClass model =
       "quiz-result active"
 
 -- Generates the HTML to display the meanings of a word in function of the difficulty
-viewMeanings : Model -> List Meaning -> List (Html Msg)
+viewMeanings : Model -> List JsonDecoder.Meaning -> List (Html Msg)
 viewMeanings model listMeaning =
   case model.difficulty of
     "Easy" ->
@@ -495,7 +476,7 @@ viewMeaningsHard partOfSpeach definition =
   [ h2 [class "random-def"] [ text (partOfSpeach ++ " : " ++ definition) ]]
 
 -- Generates the HTML to display the meanings of a word in hard mode
-viewMeaningsEasy : List Meaning -> List (Html Msg)
+viewMeaningsEasy : List JsonDecoder.Meaning -> List (Html Msg)
 viewMeaningsEasy listMeaning =
   case listMeaning of
     [] ->
@@ -509,7 +490,7 @@ viewMeaningsEasy listMeaning =
       ] ++ viewMeaningsEasy rest
 
 -- Generates the HTML to display all the partofspeach of a meaning
-viewPartOfSpeachs : List PartOfSpeach -> List (Html Msg)
+viewPartOfSpeachs : List JsonDecoder.PartOfSpeach -> List (Html Msg)
 viewPartOfSpeachs partOfSpeachs =
   case partOfSpeachs of
     [] ->
@@ -524,7 +505,7 @@ viewPartOfSpeachs partOfSpeachs =
       ] ++ viewPartOfSpeachs rest
 
 -- Generates the HTML to display all the definitions of a partofspeach
-viewDefinitions : List Definition -> List (Html Msg)
+viewDefinitions : List JsonDecoder.Definition -> List (Html Msg)
 viewDefinitions definitions =
   List.map (\definition -> li[] [text definition.definition]) definitions
 
@@ -544,31 +525,5 @@ askApi : String -> Cmd Msg
 askApi word =
   Http.get
     { url = "https://api.dictionaryapi.dev/api/v2/entries/en/" ++ word
-    , expect = Http.expectJson GotMeanings mainDecoder
+    , expect = Http.expectJson GotMeanings JsonDecoder.mainDecoder
     }
-
--- JSON DECODER
-
-
-mainDecoder : Decoder (List Meaning)
-mainDecoder = 
-  list meaningDecoder
-
-meaningDecoder : Decoder Meaning
-meaningDecoder =
-  map2 Meaning
-    (field "word" string)
-    (field "meanings" (list partOfSpeachDecoder))
-
-partOfSpeachDecoder : Decoder PartOfSpeach
-partOfSpeachDecoder =
-  map2 PartOfSpeach
-    (field "partOfSpeech" string)
-    (field "definitions" (list definitionDecoder))
-
-definitionDecoder : Decoder Definition
-definitionDecoder =
-    map3 Definition
-    (field "definition" string)
-    (field "synonyms" (list string))
-    (field "antonyms" (list string))
