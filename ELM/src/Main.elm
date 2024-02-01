@@ -8,6 +8,8 @@ import Http
 import Random
 import Array exposing (Array, get, fromList)
 import Html.Attributes exposing (start)
+
+-- Custom Modules
 import JsonDecoder
 
 
@@ -527,3 +529,4 @@ askApi word =
     { url = "https://api.dictionaryapi.dev/api/v2/entries/en/" ++ word
     , expect = Http.expectJson GotMeanings JsonDecoder.mainDecoder
     }
+    

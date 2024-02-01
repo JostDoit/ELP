@@ -3,6 +3,8 @@ module JsonDecoder exposing (Meaning, PartOfSpeach, Definition, mainDecoder)
 import Json.Decode exposing (Decoder, map2, map3, field, int, string, list, at)
 
 
+-- TYPES
+
 type alias Meaning =
   { word : String
   , meanings : List PartOfSpeach
@@ -19,6 +21,8 @@ type alias Definition =
   , antonyms : List String
   }
 
+
+-- JSON
 
 mainDecoder : Decoder (List Meaning)
 mainDecoder = 
