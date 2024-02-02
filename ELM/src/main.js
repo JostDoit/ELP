@@ -6219,6 +6219,7 @@ var $author$project$JsonDecoder$PartOfSpeach = F2(
 var $author$project$Main$initModel = {
 	definitionUsed: A3($author$project$JsonDecoder$Definition, '', _List_Nil, _List_Nil),
 	difficulty: 'Easy',
+	error: '',
 	meaningUsed: A2($author$project$JsonDecoder$Meaning, '', _List_Nil),
 	partOfSpeachUsed: A2($author$project$JsonDecoder$PartOfSpeach, '', _List_Nil),
 	score: 0,
@@ -6238,9 +6239,6 @@ var $elm$core$Platform$Sub$batch = _Platform_batch;
 var $elm$core$Platform$Sub$none = $elm$core$Platform$Sub$batch(_List_Nil);
 var $author$project$Main$subscriptions = function (model) {
 	return $elm$core$Platform$Sub$none;
-};
-var $author$project$Main$RandomNumberForMeaning = function (a) {
-	return {$: 'RandomNumberForMeaning', a: a};
 };
 var $author$project$Main$GotMeanings = function (a) {
 	return {$: 'GotMeanings', a: a};
@@ -6319,8 +6317,10 @@ var $author$project$Main$clearModelIfQuit = function (model) {
 		model,
 		{
 			definitionUsed: A3($author$project$JsonDecoder$Definition, '', _List_Nil, _List_Nil),
+			difficulty: 'Easy',
 			meaningUsed: A2($author$project$JsonDecoder$Meaning, '', _List_Nil),
 			partOfSpeachUsed: A2($author$project$JsonDecoder$PartOfSpeach, '', _List_Nil),
+			score: 0,
 			showAnswerBoxChecked: false,
 			startGame: false,
 			userFoundword: false,
@@ -6328,6 +6328,30 @@ var $author$project$Main$clearModelIfQuit = function (model) {
 			wordMeanings: _List_Nil,
 			wordToGuess: $elm$core$Maybe$Nothing
 		});
+};
+var $author$project$Main$errorToString = function (error) {
+	switch (error.$) {
+		case 'BadUrl':
+			var url = error.a;
+			return 'The URL ' + (url + ' was invalid');
+		case 'Timeout':
+			return 'Unable to reach the server, try again';
+		case 'NetworkError':
+			return 'Unable to reach the server, check your network connection';
+		case 'BadStatus':
+			switch (error.a) {
+				case 500:
+					return 'The server had a problem, try again later';
+				case 400:
+					return 'Verify your information and try again';
+				default:
+					var x = error.a;
+					return 'Unknown error with status ' + $elm$core$String$fromInt(x);
+			}
+		default:
+			var errorMessage = error.a;
+			return errorMessage;
+	}
 };
 var $elm$core$Array$fromListHelp = F3(
 	function (list, nodeList, nodeListSize) {
@@ -6364,6 +6388,51 @@ var $elm$core$Array$fromList = function (list) {
 		return A3($elm$core$Array$fromListHelp, list, _List_Nil, 0);
 	}
 };
+var $elm$core$Bitwise$and = _Bitwise_and;
+var $elm$core$Bitwise$shiftRightZfBy = _Bitwise_shiftRightZfBy;
+var $elm$core$Array$bitMask = 4294967295 >>> (32 - $elm$core$Array$shiftStep);
+var $elm$core$Basics$ge = _Utils_ge;
+var $elm$core$Elm$JsArray$unsafeGet = _JsArray_unsafeGet;
+var $elm$core$Array$getHelp = F3(
+	function (shift, index, tree) {
+		getHelp:
+		while (true) {
+			var pos = $elm$core$Array$bitMask & (index >>> shift);
+			var _v0 = A2($elm$core$Elm$JsArray$unsafeGet, pos, tree);
+			if (_v0.$ === 'SubTree') {
+				var subTree = _v0.a;
+				var $temp$shift = shift - $elm$core$Array$shiftStep,
+					$temp$index = index,
+					$temp$tree = subTree;
+				shift = $temp$shift;
+				index = $temp$index;
+				tree = $temp$tree;
+				continue getHelp;
+			} else {
+				var values = _v0.a;
+				return A2($elm$core$Elm$JsArray$unsafeGet, $elm$core$Array$bitMask & index, values);
+			}
+		}
+	});
+var $elm$core$Bitwise$shiftLeftBy = _Bitwise_shiftLeftBy;
+var $elm$core$Array$tailIndex = function (len) {
+	return (len >>> 5) << 5;
+};
+var $elm$core$Array$get = F2(
+	function (index, _v0) {
+		var len = _v0.a;
+		var startShift = _v0.b;
+		var tree = _v0.c;
+		var tail = _v0.d;
+		return ((index < 0) || (_Utils_cmp(index, len) > -1)) ? $elm$core$Maybe$Nothing : ((_Utils_cmp(
+			index,
+			$elm$core$Array$tailIndex(len)) > -1) ? $elm$core$Maybe$Just(
+			A2($elm$core$Elm$JsArray$unsafeGet, $elm$core$Array$bitMask & index, tail)) : $elm$core$Maybe$Just(
+			A3($elm$core$Array$getHelp, startShift, index, tree)));
+	});
+var $author$project$Main$RandomNumberForDefinition = function (a) {
+	return {$: 'RandomNumberForDefinition', a: a};
+};
 var $elm$random$Random$Generate = function (a) {
 	return {$: 'Generate', a: a};
 };
@@ -6371,7 +6440,6 @@ var $elm$random$Random$Seed = F2(
 	function (a, b) {
 		return {$: 'Seed', a: a, b: b};
 	});
-var $elm$core$Bitwise$shiftRightZfBy = _Bitwise_shiftRightZfBy;
 var $elm$random$Random$next = function (_v0) {
 	var state0 = _v0.a;
 	var incr = _v0.b;
@@ -6471,50 +6539,6 @@ var $elm$random$Random$generate = F2(
 			$elm$random$Random$Generate(
 				A2($elm$random$Random$map, tagger, generator)));
 	});
-var $elm$core$Bitwise$and = _Bitwise_and;
-var $elm$core$Array$bitMask = 4294967295 >>> (32 - $elm$core$Array$shiftStep);
-var $elm$core$Basics$ge = _Utils_ge;
-var $elm$core$Elm$JsArray$unsafeGet = _JsArray_unsafeGet;
-var $elm$core$Array$getHelp = F3(
-	function (shift, index, tree) {
-		getHelp:
-		while (true) {
-			var pos = $elm$core$Array$bitMask & (index >>> shift);
-			var _v0 = A2($elm$core$Elm$JsArray$unsafeGet, pos, tree);
-			if (_v0.$ === 'SubTree') {
-				var subTree = _v0.a;
-				var $temp$shift = shift - $elm$core$Array$shiftStep,
-					$temp$index = index,
-					$temp$tree = subTree;
-				shift = $temp$shift;
-				index = $temp$index;
-				tree = $temp$tree;
-				continue getHelp;
-			} else {
-				var values = _v0.a;
-				return A2($elm$core$Elm$JsArray$unsafeGet, $elm$core$Array$bitMask & index, values);
-			}
-		}
-	});
-var $elm$core$Bitwise$shiftLeftBy = _Bitwise_shiftLeftBy;
-var $elm$core$Array$tailIndex = function (len) {
-	return (len >>> 5) << 5;
-};
-var $elm$core$Array$get = F2(
-	function (index, _v0) {
-		var len = _v0.a;
-		var startShift = _v0.b;
-		var tree = _v0.c;
-		var tail = _v0.d;
-		return ((index < 0) || (_Utils_cmp(index, len) > -1)) ? $elm$core$Maybe$Nothing : ((_Utils_cmp(
-			index,
-			$elm$core$Array$tailIndex(len)) > -1) ? $elm$core$Maybe$Just(
-			A2($elm$core$Elm$JsArray$unsafeGet, $elm$core$Array$bitMask & index, tail)) : $elm$core$Maybe$Just(
-			A3($elm$core$Array$getHelp, startShift, index, tree)));
-	});
-var $author$project$Main$RandomNumberForDefinition = function (a) {
-	return {$: 'RandomNumberForDefinition', a: a};
-};
 var $elm$core$Basics$negate = function (n) {
 	return -n;
 };
@@ -6564,6 +6588,19 @@ var $author$project$Main$getDefinition = function (partofspeach) {
 			$elm$random$Random$int,
 			0,
 			$elm$core$List$length(partofspeach.definitions) - 1));
+	return randomNumber;
+};
+var $author$project$Main$RandomNumberForMeaning = function (a) {
+	return {$: 'RandomNumberForMeaning', a: a};
+};
+var $author$project$Main$getMeaning = function (model) {
+	var randomNumber = A2(
+		$elm$random$Random$generate,
+		$author$project$Main$RandomNumberForMeaning,
+		A2(
+			$elm$random$Random$int,
+			0,
+			$elm$core$List$length(model.wordMeanings) - 1));
 	return randomNumber;
 };
 var $author$project$Main$RandomNumberForPartOfSpeach = function (a) {
@@ -6616,7 +6653,9 @@ var $author$project$Main$update = F2(
 					rnumber,
 					$elm$core$Array$fromList(model.wordsList));
 				if (wordToGuess.$ === 'Nothing') {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+					return _Utils_Tuple2(
+						model,
+						$author$project$Main$getWord(model));
 				} else {
 					var word = wordToGuess.a;
 					return _Utils_Tuple2(
@@ -6628,13 +6667,36 @@ var $author$project$Main$update = F2(
 			case 'GotMeanings':
 				if (msg.a.$ === 'Ok') {
 					var wordMeanings = msg.a.a;
+					var _v2 = model.difficulty;
+					switch (_v2) {
+						case 'Easy':
+							return _Utils_Tuple2(
+								_Utils_update(
+									model,
+									{wordMeanings: wordMeanings}),
+								$elm$core$Platform$Cmd$none);
+						case 'Hard':
+							return _Utils_Tuple2(
+								_Utils_update(
+									model,
+									{wordMeanings: wordMeanings}),
+								$author$project$Main$getMeaning(model));
+						default:
+							return _Utils_Tuple2(
+								_Utils_update(
+									model,
+									{wordMeanings: wordMeanings}),
+								$elm$core$Platform$Cmd$none);
+					}
+				} else {
+					var error = msg.a.a;
 					return _Utils_Tuple2(
 						_Utils_update(
 							model,
-							{wordMeanings: wordMeanings}),
+							{
+								error: $author$project$Main$errorToString(error)
+							}),
 						$elm$core$Platform$Cmd$none);
-				} else {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 				}
 			case 'ShowPopup':
 				return _Utils_Tuple2(
@@ -6655,24 +6717,17 @@ var $author$project$Main$update = F2(
 						{difficulty: 'Easy'}),
 					$elm$core$Platform$Cmd$none);
 			case 'SetDiffHard':
-				var _v2 = model.wordMeanings;
-				if (!_v2.b) {
+				var _v3 = model.wordMeanings;
+				if (!_v3.b) {
 					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 				} else {
-					var x = _v2.a;
-					var xs = _v2.b;
-					var randomNumber = A2(
-						$elm$random$Random$generate,
-						$author$project$Main$RandomNumberForMeaning,
-						A2(
-							$elm$random$Random$int,
-							0,
-							$elm$core$List$length(model.wordMeanings) - 1));
+					var x = _v3.a;
+					var xs = _v3.b;
 					return _Utils_Tuple2(
 						_Utils_update(
 							model,
 							{difficulty: 'Hard'}),
-						randomNumber);
+						$author$project$Main$getMeaning(model));
 				}
 			case 'RandomNumberForMeaning':
 				var rnumber = msg.a;
@@ -6681,7 +6736,9 @@ var $author$project$Main$update = F2(
 					rnumber,
 					$elm$core$Array$fromList(model.wordMeanings));
 				if (meaningUsed.$ === 'Nothing') {
-					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
+					return _Utils_Tuple2(
+						model,
+						$author$project$Main$getMeaning(model));
 				} else {
 					var meaning = meaningUsed.a;
 					return _Utils_Tuple2(
@@ -6727,13 +6784,13 @@ var $author$project$Main$update = F2(
 					_Utils_update(
 						model,
 						{showPopup: false, startGame: true}),
-					$elm$core$Platform$Cmd$none);
+					$author$project$Main$getWord(model));
 			case 'UserInput':
 				var input = msg.a;
 				var wordFound = function () {
-					var _v6 = model.wordToGuess;
-					if (_v6.$ === 'Just') {
-						var correctWword = _v6.a;
+					var _v7 = model.wordToGuess;
+					if (_v7.$ === 'Just') {
+						var correctWword = _v7.a;
 						return _Utils_eq(input, correctWword);
 					} else {
 						return false;
@@ -6980,7 +7037,7 @@ var $author$project$Main$viewMeaningsEasy = function (listMeaning) {
 	if (!listMeaning.b) {
 		return _List_fromArray(
 			[
-				$elm$html$Html$text('')
+				$elm$html$Html$text('No meaning found')
 			]);
 	} else {
 		var meaning = listMeaning.a;
@@ -7199,10 +7256,17 @@ var $author$project$Main$view = function (model) {
 													]),
 												_List_fromArray(
 													[
-														A2(
-														$elm$html$Html$ul,
-														_List_Nil,
-														A2($author$project$Main$viewMeanings, model, model.wordMeanings))
+														function () {
+														var _v0 = model.error;
+														if (_v0 === '') {
+															return A2(
+																$elm$html$Html$ul,
+																_List_Nil,
+																A2($author$project$Main$viewMeanings, model, model.wordMeanings));
+														} else {
+															return $elm$html$Html$text(model.error);
+														}
+													}()
 													])),
 												A2(
 												$elm$html$Html$div,
@@ -7380,8 +7444,8 @@ var $author$project$Main$view = function (model) {
 							]))
 					])),
 				function () {
-				var _v0 = model.showPopup;
-				if (!_v0) {
+				var _v1 = model.showPopup;
+				if (!_v1) {
 					return $elm$html$Html$text('');
 				} else {
 					return A2(

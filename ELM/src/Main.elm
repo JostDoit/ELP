@@ -1,5 +1,4 @@
 module Main exposing (..)
-
 import Browser
 import Html exposing (..)
 import Html.Attributes exposing (placeholder, value, type_, checked, class, href)
@@ -27,7 +26,6 @@ main =
 
 -- MODEL
 
-
 type alias Model = 
   { wordToGuess : Maybe String      -- The word to guess
   , meaningUsed : JsonDecoder.Meaning           -- Random meaning used in hard mode
@@ -42,6 +40,7 @@ type alias Model =
   , startGame : Bool                -- Indicates if the game has started
   , score : Int                     -- User score
   , difficulty : String             -- Difficulty of the game
+  , error : String                  -- Error message
   }
 
 init : () -> (Model, Cmd Msg)
@@ -63,6 +62,7 @@ initModel =
   , startGame = False
   , score = 0
   , difficulty = "Easy"
+  , error = ""
   }
 
 
@@ -112,21 +112,27 @@ update msg model =
           get rnumber (fromList model.wordsList)
       in
         case wordToGuess of
-          -- If we failed to get a word, we do nothing
+          -- If we failed to get a word, we try again
           Nothing ->
-            (model, Cmd.none)
+            (model, getWord model)
 
           -- If we successfully got a word, we ask the API for its meanings
           Just word ->
-            ( { model | wordToGuess = wordToGuess }, askApi word)
+            ( { model | wordToGuess = wordToGuess}, askApi word)
     
     -- If we successfully got the meanings from the API, we update the model with these meanings
     GotMeanings (Ok wordMeanings)  ->
-      ({ model | wordMeanings = wordMeanings }, Cmd.none)      
+      case model.difficulty of
+        "Easy" -> 
+          ({ model | wordMeanings = wordMeanings }, Cmd.none)
+        "Hard" ->
+          ( { model | wordMeanings = wordMeanings }, getMeaning model)
+        _ ->
+          ({ model | wordMeanings = wordMeanings }, Cmd.none)      
     
     -- If we failed to get the meanings from the API, we do nothing
-    GotMeanings (Err _) ->
-      (model, Cmd.none)
+    GotMeanings (Err error) ->
+      ( {model | error = errorToString error }, Cmd.none)
 
     -- Use to display the popup on screen
     ShowPopup ->
@@ -147,12 +153,8 @@ update msg model =
             (model, Cmd.none)
           
           -- If we have one or more meanings, we generate a random number to get a random meaning from the list
-          (x :: xs) ->          
-            let 
-              randomNumber =
-                Random.generate RandomNumberForMeaning (Random.int 0 (List.length model.wordMeanings - 1))
-            in
-              ( { model | difficulty = "Hard" }, randomNumber)
+          (x :: xs) ->            
+            ( { model | difficulty = "Hard" }, getMeaning model)
     
     -- Uses the random number generated in SetDiffHard to get a random meaning from the meaning list, then uses this meaning to get a random partofspeach from its partofspeach list
     RandomNumberForMeaning rnumber ->      
@@ -162,9 +164,9 @@ update msg model =
           get rnumber (fromList model.wordMeanings)          
       in
         case meaningUsed of
-          -- If we failed to get a meaning, we do nothing
+          -- If we failed to get a meaning, we try again
           Nothing ->
-            (model, Cmd.none)
+            (model, getMeaning model)
             
           -- If we successfully got a meaning, we call the function getPartOfSpeach to get a random partofspeach from the selected meaning
           Just meaning ->            
@@ -198,7 +200,7 @@ update msg model =
 
     -- Used to start the game
     StartGame ->
-      ( { model | startGame = True, showPopup = False }, Cmd.none )
+      ( { model | startGame = True, showPopup = False }, getWord model)
 
     -- Used to update the user input
     UserInput input ->
@@ -239,6 +241,13 @@ getWord model =
   in
     randomNumber
 
+getMeaning : Model -> Cmd Msg
+getMeaning model =
+  let
+    randomNumber =
+      Random.generate RandomNumberForMeaning (Random.int 0 (List.length model.wordMeanings - 1))
+  in
+    randomNumber
 
 -- Used to get a random partofspeach from a meaning
 getPartOfSpeach : JsonDecoder.Meaning -> Cmd Msg
@@ -282,7 +291,9 @@ clearModelIfQuit model =
   , userFoundword = False
   , wordMeanings =  []
   , showAnswerBoxChecked = False
-  , startGame = False}
+  , startGame = False
+  , difficulty = "Easy"
+  , score = 0}
 
   
   
@@ -328,7 +339,10 @@ view model =
               
               -- Div where the meanings of the word are displayed
               ,div [ class "option-list"]
-                [ ul[] (viewMeanings model model.wordMeanings)]
+                [ case model.error of
+                    "" -> ul[] (viewMeanings model model.wordMeanings)
+                    _ -> text model.error
+                  ]
               
               -- Div where the user can input his answer
               ,div [ class "quiz-input"]
@@ -482,7 +496,7 @@ viewMeaningsEasy : List JsonDecoder.Meaning -> List (Html Msg)
 viewMeaningsEasy listMeaning =
   case listMeaning of
     [] ->
-      [text ""]
+      [text "No meaning found"]
 
     (meaning :: rest) ->
       [ li [ class "meaning"] 
@@ -529,4 +543,22 @@ askApi word =
     { url = "https://api.dictionaryapi.dev/api/v2/entries/en/" ++ word
     , expect = Http.expectJson GotMeanings JsonDecoder.mainDecoder
     }
-    
+
+
+errorToString : Http.Error -> String
+errorToString error =
+    case error of
+        Http.BadUrl url ->
+            "The URL " ++ url ++ " was invalid"
+        Http.Timeout ->
+            "Unable to reach the server, try again"
+        Http.NetworkError ->
+            "Unable to reach the server, check your network connection"
+        Http.BadStatus 500 ->
+            "The server had a problem, try again later"
+        Http.BadStatus 400 ->
+            "Verify your information and try again"
+        Http.BadStatus x ->
+            "Unknown error with status " ++ (String.fromInt x)
+        Http.BadBody errorMessage ->
+            errorMessage
