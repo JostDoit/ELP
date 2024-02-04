@@ -55,7 +55,7 @@ function placeWord(word, currentPlayer, jarnacOrNot, draw, ligne) {
     let raw = -1;
 
     let playerJarnacOrNot;
-
+    // On reprend ce code pour Jarnac, on teste donc si le joueur a demandé un jarnac
     if (jarnacOrNot) {
       playerJarnacOrNot = switchPlayer(currentPlayer);
     } else {
@@ -185,6 +185,7 @@ function drawOrReplace(currentPlayer){
       } else if (optionpioche === '2'){
         rl.question('Entrez les 3 lettres que vous souhaitez remplacer : ', (lettres_a_remplacer) => {
           lettres_a_remplacer.toUpperCase()
+          // On teste si l'utilisateur a bien mis 3 lettres + si les 3 lettres sont bien présents dans la main du joueur
           if ((lettres_a_remplacer.length == 3) && (lettres_a_remplacer.split('').every(lettre => players[currentPlayer].letters.includes(lettre)))) {
             lettres_a_remplacer.split('').forEach(lettre => {
                 const letterIndex = players[currentPlayer].letters.indexOf(lettre);
@@ -222,7 +223,7 @@ function takeTurn(currentPlayer, oldPlayer) {
   // Afficher le plateau du joueur
   displayBoard(currentPlayer);
 
-  // Piocher une lettre ou remplacer des lettres si nécessaire
+  // Piocher une lettre ou remplacer des lettres si nécessaire (uniquement disponible lors du deuxieme tour)
   if (tour > 2 && oldPlayer !== currentPlayer) {
     drawOrReplace(currentPlayer);
   }
@@ -324,7 +325,7 @@ function modifyExistingWord(currentPlayer, jarnacOrNot) {
           players[playerJarnacOrNot].letters.push(letter);
         }
       }
-
+      // Si le joueur a joué un jarnac, alors on montre le jeu et le board de l'adversaire
       if (jarnacOrNot){
         console.log(`Joueur ${currentPlayer}, les lettres de votre adversaire : ${players[playerJarnacOrNot].letters.join(', ')}`);
       }
@@ -369,6 +370,7 @@ function modifyExistingWord(currentPlayer, jarnacOrNot) {
         } else {
           console.error('\x1b[31m%s\x1b[0m', `Vous devez jouer des lettres du mot : ${motUtile} et ajouter une nouvelle lettre`)
           let tailleMot = motUtile.length;
+          // De même, si y'a une erreur, on supprime les lettres pour éviter les doublons
           for (let suppression = 0; suppression < tailleMot; suppression++) {
             players[playerJarnacOrNot].letters.pop();
           }
