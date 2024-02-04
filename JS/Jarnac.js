@@ -49,30 +49,42 @@ function isWordValid(word) {
 }
 
 // Fonction pour placer un mot sur le plateau
-function placeWord(word, currentPlayer, jarnacOrNot, draw) {
+function placeWord(word, currentPlayer, jarnacOrNot, draw, ligne) {
   if (isWordValid(word)) {
     const usedLetters = [];
     let raw = -1;
 
-    // Trouver la première ligne vide sur le plateau du joueur
-    for (let j = 0; j < 8; j++) {
-      if (players[currentPlayer].board[j][0] === '') {
-        raw = j;
-        break;
-      }
+    let playerJarnacOrNot;
+
+    if (jarnacOrNot) {
+      playerJarnacOrNot = switchPlayer(currentPlayer);
+    } else {
+      playerJarnacOrNot = currentPlayer;
     }
 
-    // Placer chaque lettre du mot sur le plateau
-    for (let i = 0; i < word.length; i++) {
-      const letter = word[i].toUpperCase();
-      if (players[currentPlayer].letters.includes(letter) || (jarnacOrNot && players[switchPlayer(currentPlayer)].letters.includes(letter))) {
-        players[currentPlayer].board[raw][i] = letter;
-        usedLetters.push(letter);
-      } else {
-        console.error('\x1b[31m%s\x1b[0m', 'Vous ne pouvez utiliser que les lettres qui vous ont été attribuées.');
-        return false;
+    // Vérifier si le joueur possède toutes les lettres nécessaires
+    if (word.split('').every(letter => players[currentPlayer].letters.includes(letter)) || (jarnacOrNot && word.split('').every(letter => players[switchPlayer(currentPlayer)].letters.includes(letter)))) {
+      if (ligne!==-1){
+        clearRow(ligne, playerJarnacOrNot);
       }
+      // Trouver la première ligne vide sur le plateau du joueur
+      for (let j = 0; j < 8; j++) {
+        if (players[currentPlayer].board[j][0] === '') {
+          raw = j;
+          break;
+        }
+      }
+      // Le joueur possède toutes les lettres, on peut placer le mot sur le plateau
+      for (let i = 0; i < word.length; i++) {
+          const letter = word[i].toUpperCase();
+          players[currentPlayer].board[raw][i] = letter;
+          usedLetters.push(letter);
     }
+    } else {
+      // Le joueur ne possède pas toutes les lettres nécessaires
+      console.error('\x1b[31m%s\x1b[0m', 'Vous ne pouvez utiliser que les lettres qui vous ont été attribuées.');
+      return false;
+  }
 
     // Le mot est valide, retirer les lettres utilisées des lettres disponibles
     if (jarnacOrNot) {
@@ -257,13 +269,27 @@ function handleNewWord(currentPlayer, jarnacOrNot) {
     if (word !== '') {
       word = word.toUpperCase();
 
-      placeWord(word, currentPlayer, jarnacOrNot, true);
+      const YesOrNot=placeWord(word, currentPlayer, jarnacOrNot, true,-1);
 
-      ecritureDesCoups(`Joueur ${currentPlayer} a joué le mot ${word}`, (erreur) => {
-        if (erreur) {
-          console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
+      if (YesOrNot){
+
+        if (jarnacOrNot){
+          ecritureDesCoups(`Jarnac ! Le joueur ${currentPlayer} a joué le mot ${word} que le joueur ${switchPlayer(currentPlayer)} n'a pas vu !`, (erreur) => {
+            if (erreur) {
+              console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
+            }
+          });
         }
-      });
+        else {
+          ecritureDesCoups(`Joueur ${currentPlayer} a joué le mot ${word}`, (erreur) => {
+            if (erreur) {
+              console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
+            }
+          });
+        }
+        
+      }
+      
       takeTurn(currentPlayer, currentPlayer);
     } else {
       console.error('\x1b[31m%s\x1b[0m', "Le mot n'est pas valide !");
@@ -274,15 +300,12 @@ function handleNewWord(currentPlayer, jarnacOrNot) {
 // Fonction pour modifier un mot existant sur le plateau
 function modifyExistingWord(currentPlayer, jarnacOrNot) {
   let motUtile = "";
-
   let playerJarnacOrNot;
-
   if (jarnacOrNot) {
     playerJarnacOrNot = switchPlayer(currentPlayer);
   } else {
     playerJarnacOrNot = currentPlayer;
   }
-
   rl.question('Quelle ligne souhaitez-vous modifier ? : ', (ligne) => {
     if (/^\d+$/.test(ligne)) {
       // Construire le mot existant sur la ligne sélectionnée
@@ -308,21 +331,31 @@ function modifyExistingWord(currentPlayer, jarnacOrNot) {
       else {
         console.log(`Joueur ${currentPlayer}, vos lettres : ${players[playerJarnacOrNot].letters.join(', ')}`);
       }
-      
 
       // Demander au joueur d'entrer le nouveau mot
       rl.question('Entrez le mot que vous souhaitez utiliser : ', (word) => {
         word = word.toUpperCase();
         if (word !== '' && verifCaracteresDansMot(motUtile, word)) {
-          if (isWordValid(word)) {
-            // Effacer la ligne actuelle et placer le nouveau mot
-            clearRow(ligne, playerJarnacOrNot);
-            placeWord(word, currentPlayer, jarnacOrNot, false);
-            ecritureDesCoups(`Joueur ${currentPlayer} a modifié le mot ${motUtile} en ${word}`, (erreur) => {
-              if (erreur) {
-                console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
-              }
-            });
+          const YesOrNot=placeWord(word, currentPlayer, jarnacOrNot, false,ligne);
+
+          if (YesOrNot) {
+            // Effacer la ligne choisie et placer le nouveau mot
+            
+            if (jarnacOrNot) {
+              ecritureDesCoups(`Jarnac ! Le joueur ${currentPlayer} a volé le mot ${motUtile} du joueur ${switchPlayer(currentPlayer)} et la transformé en ${word}`, (erreur) => {
+                if (erreur) {
+                  console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
+                }
+              });
+            }
+            else {
+              ecritureDesCoups(`Joueur ${currentPlayer} a modifié le mot ${motUtile} en ${word}`, (erreur) => {
+                if (erreur) {
+                  console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
+                }
+              });
+            }
+            
             takeTurn(currentPlayer, currentPlayer);
           } else {
             // Si le mot n'est pas valide, retirer les lettres ajoutées aux lettres disponibles
@@ -370,11 +403,6 @@ function jarnac(currentPlayer) {
   console.log(`Joueur ${currentPlayer}, les lettres de votre adversaire sont : ${players[player].letters.join(', ')}`);
   rl.question('-\nChoisissez une option :\n1. Afficher un nouveau mot d\'au moins 3 lettres avec les lettres de votre adversaire \n2. Transformer un mot déjà affiché sur le tableau de votre adversaire \nChoix : ', (option) => {
     if (option === '1') {
-      ecritureDesCoups(`Jarnac ! Le joueur ${currentPlayer} s'apprete à jouer un mot`, (erreur) => {
-        if (erreur) {
-          console.error('\x1b[31m%s\x1b[0m', 'Une erreur s\'est produite lors de l\'écriture :', erreur);
-        }
-      });
       handleNewWord(currentPlayer, true);
     } else if (option === '2') {
       ecritureDesCoups(`Jarnac ! Le joueur ${currentPlayer} s'apprete à modifier un mot`, (erreur) => {
