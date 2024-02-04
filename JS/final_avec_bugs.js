@@ -337,8 +337,16 @@ function jarnac(currentPlayer){
   displayBoard(player);
   rl.question('Choisissez une option :\n1. Afficher un nouveau mot d\'au moins 3 lettres\n2. Transformer un mot déjà affiché sur le tableau de votre adversaire \nChoix : ', (option) => {
     if (option === '1') {
+      ecritureDesCoups(`Jarnac! Le joueur ${currentPlayer}s'apprete à jouer un mot`,(erreur)=>{
+        if (erreur){
+          console.error('Une erreur s\'est produite:',erreur);
+        }});
       handleNewWord(currentPlayer,true);
     } else if (option === '2') {
+      ecritureDesCoups(`Jarnac! Le joueur ${currentPlayer}s'apprete à modifier un mot`,(erreur)=>{
+        if (erreur){
+          console.error('Une erreur s\'est produite:',erreur);
+        }});
       modifyExistingWord(currentPlayer,true);
     } else {
       jarnac (currentPlayer);
