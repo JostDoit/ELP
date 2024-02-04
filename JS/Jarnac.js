@@ -44,7 +44,7 @@ function initializePlayerLetters(currentPlayer) {
 
 // Fonction pour vérifier si un mot est valide en lisant un fichier de dictionnaire
 function isWordValid(word) {
-  const validWords = fs.readFileSync('ods6.txt', 'utf-8').split('\n');
+  const validWords = fs.readFileSync('mots.txt', 'utf-8').split('\n');
   return validWords.includes(word);
 }
 
