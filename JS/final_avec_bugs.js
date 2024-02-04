@@ -38,7 +38,7 @@ function isWordValid(word) {
   return validWords.includes(word);
 }
 
-function placeWord(word, currentPlayer,jarnacOrNot) {
+function placeWord(word, currentPlayer,jarnacOrNot,draw) {
   if (isWordValid(word)) {
     const usedLetters = [];
     let row;
@@ -57,7 +57,7 @@ function placeWord(word, currentPlayer,jarnacOrNot) {
         
       } else {
         console.log('Vous ne pouvez utiliser que les lettres qui vous ont été attribuées. Annulez le mot.');
-        clearRow(row, currentPlayer);
+        //clearRow(row, currentPlayer);
         return false;
       }
     }
@@ -75,7 +75,10 @@ function placeWord(word, currentPlayer,jarnacOrNot) {
         const letterIndex = players[currentPlayer].letters.indexOf(usedLetter);
         players[currentPlayer].letters.splice(letterIndex, 1);
     }
-    drawRandomLetter(currentPlayer);
+    if (draw == true) {
+      drawRandomLetter(currentPlayer);
+    }
+    
     }
     
     return true;
@@ -229,7 +232,7 @@ function handleNewWord(currentPlayer,jarnacOrNot) {
     if (word !== '') {
       word = word.toUpperCase();
       
-      placeWord(word, currentPlayer,jarnacOrNot) ;
+      placeWord(word, currentPlayer,jarnacOrNot,true) ;
       
       ecritureDesCoups(`Joueur ${currentPlayer} a joué le mot ${word}`,(erreur)=>{
       if (erreur){
@@ -255,45 +258,65 @@ function modifyExistingWord(currentPlayer,jarnacOrNot) {
   }
 
   rl.question('Quelle ligne souhaitez-vous modifier ? : ', (ligne) => {
-    for (let i = 0; i < 8; i++) {
+    if(/^\d+$/.test(ligne)){
+      for (let i = 0; i < 8; i++) {
 
-      const letter = players[playerJarnacOrNot].board[ligne - 1][i];
-      motUtile=motUtile+letter;
-      
-      if (i===0 && letter === ''){
-        console.log("Choisissez une ligne avec un mot !");
-        takeTurn(currentPlayer, currentPlayer)
-      }
-      
-      
-      if (letter !== '') {
-        players[playerJarnacOrNot].letters.push(letter);
-      }
-    }
-    
-    console.log(motUtile);
-    console.log(`Joueur ${currentPlayer}, vos lettres : ${players[playerJarnacOrNot].letters.join(', ')}`);
-    
-    rl.question('Entrez le mot que vous souhaitez utiliser : ', (word) => {
-      
-      if (word !== '' && verifCaracteresDansMot(motUtile,word) ) {
-        clearRow(ligne,playerJarnacOrNot,jarnacOrNot)
-        word = word.toUpperCase();
-        placeWord(word, currentPlayer,jarnacOrNot)
-        ecritureDesCoups(`Joueur ${currentPlayer} a modifié le mot ${motUtile} en ${word}`,(erreur)=>{
-          if (erreur){
-            console.error('Une erreur s\'est produite:',erreur);
-          }});
-        takeTurn(currentPlayer, currentPlayer);
+        const letter = players[playerJarnacOrNot].board[ligne - 1][i];
+        motUtile=motUtile+letter;
         
+        if (i===0 && letter === ''){
+          console.log("Choisissez une ligne avec un mot !");
+          takeTurn(currentPlayer, currentPlayer)
+        }
+        
+        
+        if (letter !== '') {
+          players[playerJarnacOrNot].letters.push(letter);
+        }
       }
-      else {
-        console.log(`Vous devez jouer des lettres du mot : ${motUtile} et ajouter une nouvelle lettre`)
-        takeTurn(currentPlayer, currentPlayer);
-      }
-    });
+      
+      console.log(motUtile);
+      console.log(`Joueur ${currentPlayer}, vos lettres : ${players[playerJarnacOrNot].letters.join(', ')}`);
+      
+      rl.question('Entrez le mot que vous souhaitez utiliser : ', (word) => {
+        
+        if (word !== '' && verifCaracteresDansMot(motUtile,word) ) {
+          if(isWordValid(word)){
+            clearRow(ligne,playerJarnacOrNot,jarnacOrNot)
+          word = word.toUpperCase();
+          placeWord(word, currentPlayer,jarnacOrNot,false)
+          ecritureDesCoups(`Joueur ${currentPlayer} a modifié le mot ${motUtile} en ${word}`,(erreur)=>{
+            if (erreur){
+              console.error('Une erreur s\'est produite:',erreur);
+            }});
+          takeTurn(currentPlayer, currentPlayer);
+
+          } else {
+            let tailleMot = motUtile.length;
+          for (let suppression = 0; suppression < tailleMot;suppression ++){
+            players[playerJarnacOrNot].letters.pop();
+          }
+            console.log("Entrez un mot valide");
+            takeTurn(currentPlayer, currentPlayer);
+          }
+          
+          
+        }
+        else {
+          console.log(`Vous devez jouer des lettres du mot : ${motUtile} et ajouter une nouvelle lettre`)
+          let tailleMot = motUtile.length;
+          for (let suppression = 0; suppression < tailleMot;suppression ++){
+            players[playerJarnacOrNot].letters.pop();
+          }
+          takeTurn(currentPlayer, currentPlayer);
+        }
+      });
+      
+    } else {
+      console.log("Donnez le numéro d'une ligne");
+      takeTurn(currentPlayer,currentPlayer);
     
-  });
+  }});
 }
 
 function verifCaracteresDansMot(motPetit, motTot) {
@@ -317,6 +340,8 @@ function jarnac(currentPlayer){
       handleNewWord(currentPlayer,true);
     } else if (option === '2') {
       modifyExistingWord(currentPlayer,true);
+    } else {
+      jarnac (currentPlayer);
     }
   })}
 
