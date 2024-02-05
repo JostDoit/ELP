@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -104,8 +105,15 @@ func manger(URL string, prefixe string, nomDossier string, wgProf *sync.WaitGrou
 
 	defer wgProf.Done()
 
+	/*chiffre := nomDossier[:4]
+	temps, _ := strconv.Atoi(chiffre)
+	time.Sleep(time.Duration(temps*2) * time.Second)*/
+
+	chiffre := nomDossier[:4]
+	temps, _ := strconv.Atoi(chiffre)
+	time.Sleep(time.Duration(temps*2) * time.Second)
+
 	filePath := fmt.Sprintf("%s/Page0", nomDossier)
-	fmt.Println(filePath)
 
 	if _, err := os.Stat(nomDossier); os.IsNotExist(err) {
 		// Créer le dossier avec les permissions 0755 (permissions standard)
@@ -144,6 +152,13 @@ func main() {
 
 	filePath := "HTML0/Page0"
 
+	nomDossier := "HTML0"
+
+	if _, err := os.Stat(nomDossier); os.IsNotExist(err) {
+		// Créer le dossier avec les permissions 0755 (permissions standard)
+		_ = os.Mkdir(nomDossier, 0755)
+	}
+
 	// Utiliser une WaitGroup pour attendre la fin de la goroutine
 	var wg sync.WaitGroup
 	wg.Add(1)
@@ -158,13 +173,6 @@ func main() {
 
 	startTime := time.Now()
 
-	nomDossier := "HTML0"
-
-	if _, err := os.Stat(nomDossier); os.IsNotExist(err) {
-		// Créer le dossier avec les permissions 0755 (permissions standard)
-		_ = os.Mkdir(nomDossier, 0755)
-	}
-
 	var wgDepart sync.WaitGroup
 	wgDepart.Add(1)
 	manger(URL, prefixe, nomDossier, &wgDepart)
@@ -173,7 +181,7 @@ func main() {
 	var wgManger sync.WaitGroup
 
 	nbDossier := 1
-	for i := 50; i <= 55; i++ {
+	for i := 50; i <= 54; i++ {
 		wgManger.Add(1)
 		nomDossier := fmt.Sprintf("HTML%d", nbDossier)
 		nbDossier += 1
