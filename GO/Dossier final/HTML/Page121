@@ -1,0 +1,981 @@
+/wiki/Droit
+corps_du_texte
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Droit — Wikipédia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
+"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"216bf019-a55c-41a2-a276-ff2ed5ae2431","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Droit","wgTitle":"Droit","wgCurRevisionId":211355431,"wgRevisionId":211355431,"wgArticleId":900,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page avec ISBN invalide","Article manquant de références depuis février 2016","Article manquant de références/Liste complète","Page utilisant le modèle Extrait","Article avec section à recycler","Catégorie Commons avec lien local identique sur Wikidata","Page utilisant un modèle Bases inactif","Page utilisant P1417","Page utilisant P5019","Page utilisant P7685","Page utilisant P6404","Page utilisant P4223","Page utilisant P5395","Page utilisant P4613","Page utilisant P1296",
+"Page utilisant P3365","Page pointant vers des bases externes","Page pointant vers des dictionnaires ou encyclopédies généralistes","Article de Wikipédia avec notice d'autorité","Portail:Droit/Articles liés","Portail:Société/Articles liés","Article de qualité en latin","Article de qualité en portugais","Droit"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Droit","wgRelevantArticleId":900,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgULSCurrentAutonym":"français",
+"wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q7748","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready",
+"wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.quicksurveys.init","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.16">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bayong_weaving_in_Bulusan.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bayong_weaving_in_Bulusan.jpg/800px-Bayong_weaving_in_Bulusan.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="533">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bayong_weaving_in_Bulusan.jpg/640px-Bayong_weaving_in_Bulusan.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="427">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Droit — Wikipédia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//fr.m.wikipedia.org/wiki/Droit">
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=Droit&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)">
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://fr.wikipedia.org/wiki/Droit">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikipédia" href="/w/index.php?title=Spécial:Modifications_récentes&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Droit rootpage-Droit skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Menu principal"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Menu principal</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Menu principal</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">masquer</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_principal" title="Accueil général [z]" accesskey="z"><span>Accueil</span></a></li><li id="n-thema" class="mw-list-item"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Spécial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x"><span>Article au hasard</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikipédia:Contact"><span>Contact</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-Contribuer" class="vector-menu mw-portlet mw-portlet-Contribuer"  >
+	<div class="vector-menu-heading">
+		Contribuer
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-aboutwp" class="mw-list-item"><a href="/wiki/Aide:Débuter"><span>Débuter sur Wikipédia</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_de_la_communauté" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Spécial:Modifications_récentes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Langues</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br /><a href="#p-lang-btn">Aller en haut</a>.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikipédia:Accueil_principal" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipédia" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="l&#039;encyclopédie libre" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" width="120" height="13" style="width: 7.5em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Spécial:Recherche" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Rechercher sur Wikipédia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Rechercher</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Rechercher sur Wikipédia" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" title="Rechercher sur Wikipédia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Spécial:Recherche">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Rechercher</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Outils personnels" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+		
+		
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Droit" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire." class=""><span>Créer un compte</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Connexion&amp;returnto=Droit" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o" class=""><span>Se connecter</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Plus d’options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils personnels"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Outils personnels</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="Menu utilisateur" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Droit" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Connexion&amp;returnto=Droit" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages pour les contributeurs déconnectés <a href="/wiki/Aide:Introduction" aria-label="En savoir plus sur la contribution"><span>en savoir plus</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Spécial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Spécial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" role="navigation" aria-label="Sommaire" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Sommaire</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">masquer</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">Début</div>
+			</a>
+		</li>
+		<li id="toc-Terminologie"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Terminologie">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Terminologie</div>
+		</a>
+		
+		<ul id="toc-Terminologie-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Définitions"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Définitions">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Définitions</div>
+		</a>
+		
+			<button aria-controls="toc-Définitions-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Définitions</span>
+			</button>
+		
+		<ul id="toc-Définitions-sublist" class="vector-toc-list">
+			<li id="toc-Comme_commandement_supérieur"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Comme_commandement_supérieur">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Comme commandement supérieur</div>
+			</a>
+			
+			<ul id="toc-Comme_commandement_supérieur-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Comme_autorité_instituée"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Comme_autorité_instituée">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>Comme autorité instituée</div>
+			</a>
+			
+			<ul id="toc-Comme_autorité_instituée-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Comme_phénomène_social"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Comme_phénomène_social">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.3</span>Comme phénomène social</div>
+			</a>
+			
+			<ul id="toc-Comme_phénomène_social-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Comme_rhétorique_normative"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Comme_rhétorique_normative">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.4</span>Comme rhétorique normative</div>
+			</a>
+			
+			<ul id="toc-Comme_rhétorique_normative-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Approches"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Approches">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Approches</div>
+		</a>
+		
+			<button aria-controls="toc-Approches-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Approches</span>
+			</button>
+		
+		<ul id="toc-Approches-sublist" class="vector-toc-list">
+			<li id="toc-Scientifiques"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Scientifiques">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">3.1</span>Scientifiques</div>
+			</a>
+			
+			<ul id="toc-Scientifiques-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Pratiques"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Pratiques">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">3.2</span>Pratiques</div>
+			</a>
+			
+			<ul id="toc-Pratiques-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Organisation"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Organisation">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Organisation</div>
+		</a>
+		
+			<button aria-controls="toc-Organisation-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Organisation</span>
+			</button>
+		
+		<ul id="toc-Organisation-sublist" class="vector-toc-list">
+			<li id="toc-Branches"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Branches">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">4.1</span>Branches</div>
+			</a>
+			
+			<ul id="toc-Branches-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Sources"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Sources">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">4.2</span>Sources</div>
+			</a>
+			
+			<ul id="toc-Sources-sublist" class="vector-toc-list">
+				<li id="toc-Exemples_de_sources_du_droit"
+			class="vector-toc-list-item vector-toc-level-3">
+			<a class="vector-toc-link" href="#Exemples_de_sources_du_droit">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">4.2.1</span>Exemples de sources du droit</div>
+			</a>
+			
+			<ul id="toc-Exemples_de_sources_du_droit-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Diversité"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Diversité">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Diversité</div>
+		</a>
+		
+		<ul id="toc-Diversité-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Force_du_droit"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Force_du_droit">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Force du droit</div>
+		</a>
+		
+		<ul id="toc-Force_du_droit-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes_et_références"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes_et_références">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>Notes et références</div>
+		</a>
+		
+		<ul id="toc-Notes_et_références-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Voir_aussi"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Voir_aussi">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">8</span>Voir aussi</div>
+		</a>
+		
+			<button aria-controls="toc-Voir_aussi-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Voir aussi</span>
+			</button>
+		
+		<ul id="toc-Voir_aussi-sublist" class="vector-toc-list">
+			<li id="toc-Articles_connexes"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Articles_connexes">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">8.1</span>Articles connexes</div>
+			</a>
+			
+			<ul id="toc-Articles_connexes-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Bibliographie_indicative"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Bibliographie_indicative">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">8.2</span>Bibliographie indicative</div>
+			</a>
+			
+			<ul id="toc-Bibliographie_indicative-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Liens_externes"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Liens_externes">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">8.3</span>Liens externes</div>
+			</a>
+			
+			<ul id="toc-Liens_externes-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav role="navigation" aria-label="Sommaire" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Basculer la table des matières"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Basculer la table des matières</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Droit</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Aller à un article dans une autre langue. Disponible en 180 langues."   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-180" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">180 langues</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-af mw-list-item"><a href="https://af.wikipedia.org/wiki/Reg" title="Reg – afrikaans" lang="af" hreflang="af" class="interlanguage-link-target"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a href="https://als.wikipedia.org/wiki/Recht" title="Recht – suisse allemand" lang="gsw" hreflang="gsw" class="interlanguage-link-target"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a href="https://am.wikipedia.org/wiki/%E1%88%95%E1%8C%8D" title="ሕግ – amharique" lang="am" hreflang="am" class="interlanguage-link-target"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a href="https://an.wikipedia.org/wiki/Dreito" title="Dreito – aragonais" lang="an" hreflang="an" class="interlanguage-link-target"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86" title="قانون – arabe" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arc mw-list-item"><a href="https://arc.wikipedia.org/wiki/%DC%A9%DC%A2%DC%98%DC%A2%DC%90" title="ܩܢܘܢܐ – araméen" lang="arc" hreflang="arc" class="interlanguage-link-target"><span>ܐܪܡܝܐ</span></a></li><li class="interlanguage-link interwiki-ary mw-list-item"><a href="https://ary.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86" title="قانون – arabe marocain" lang="ary" hreflang="ary" class="interlanguage-link-target"><span>الدارجة</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86" title="قانون – arabe égyptien" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/Derechu" title="Derechu – asturien" lang="ast" hreflang="ast" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/H%C3%BCquq" title="Hüquq – azerbaïdjanais" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%D8%AD%D9%88%D9%82%D9%88%D9%82" title="حوقوق – South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a href="https://ba.wikipedia.org/wiki/%D0%A5%D0%BE%D2%A1%D1%83%D2%A1" title="Хоҡуҡ – bachkir" lang="ba" hreflang="ba" class="interlanguage-link-target"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bar mw-list-item"><a href="https://bar.wikipedia.org/wiki/Recht" title="Recht – bavarois" lang="bar" hreflang="bar" class="interlanguage-link-target"><span>Boarisch</span></a></li><li class="interlanguage-link interwiki-bat-smg mw-list-item"><a href="https://bat-smg.wikipedia.org/wiki/Teis%C4%97" title="Teisė – samogitien" lang="sgs" hreflang="sgs" class="interlanguage-link-target"><span>Žemaitėška</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a href="https://bcl.wikipedia.org/wiki/Ley" title="Ley – Central Bikol" lang="bcl" hreflang="bcl" class="interlanguage-link-target"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%B0" title="Права – biélorusse" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a href="https://be-tarask.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%B0" title="Права – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE" title="Право – bulgare" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a href="https://bh.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A5%82%E0%A4%A8" title="कानून – Bhojpuri" lang="bh" hreflang="bh" class="interlanguage-link-target"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bm mw-list-item"><a href="https://bm.wikipedia.org/wiki/Sàr%C3%ACya" title="Sàrìya – bambara" lang="bm" hreflang="bm" class="interlanguage-link-target"><span>Bamanankan</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%87%E0%A6%A8" title="আইন – bengali" lang="bn" hreflang="bn" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bo mw-list-item"><a href="https://bo.wikipedia.org/wiki/%E0%BD%81%E0%BE%B2%E0%BD%B2%E0%BD%98%E0%BD%A6%E0%BC%8D" title="ཁྲིམས། – tibétain" lang="bo" hreflang="bo" class="interlanguage-link-target"><span>བོད་ཡིག</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a href="https://br.wikipedia.org/wiki/Gwir_(lezenn)" title="Gwir (lezenn) – breton" lang="br" hreflang="br" class="interlanguage-link-target"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Pravo" title="Pravo – bosniaque" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a href="https://bxr.wikipedia.org/wiki/%D0%A5%D1%83%D1%83%D0%BB%D0%B8" title="Хуули – Russia Buriat" lang="bxr" hreflang="bxr" class="interlanguage-link-target"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Dret" title="Dret – catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-cdo mw-list-item"><a href="https://cdo.wikipedia.org/wiki/Hu%C3%A1k-l%C5%ADk" title="Huák-lŭk – Mindong" lang="cdo" hreflang="cdo" class="interlanguage-link-target"><span>閩東語 / Mìng-dĕ̤ng-ngṳ̄</span></a></li><li class="interlanguage-link interwiki-ce mw-list-item"><a href="https://ce.wikipedia.org/wiki/%D0%91%D0%B0%D0%BA%D1%8A%D0%BE" title="Бакъо – tchétchène" lang="ce" hreflang="ce" class="interlanguage-link-target"><span>Нохчийн</span></a></li><li class="interlanguage-link interwiki-ceb mw-list-item"><a href="https://ceb.wikipedia.org/wiki/Pamalaod" title="Pamalaod – cebuano" lang="ceb" hreflang="ceb" class="interlanguage-link-target"><span>Cebuano</span></a></li><li class="interlanguage-link interwiki-ch mw-list-item"><a href="https://ch.wikipedia.org/wiki/Lai" title="Lai – chamorro" lang="ch" hreflang="ch" class="interlanguage-link-target"><span>Chamoru</span></a></li><li class="interlanguage-link interwiki-chr mw-list-item"><a href="https://chr.wikipedia.org/wiki/%E1%8F%97%E1%8E%A7%E1%8E%BF%E1%8F%A9%E1%8F%9B%E1%8F%8D%E1%8F%97" title="ᏗᎧᎿᏩᏛᏍᏗ – cherokee" lang="chr" hreflang="chr" class="interlanguage-link-target"><span>ᏣᎳᎩ</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a href="https://ckb.wikipedia.org/wiki/%DB%8C%D8%A7%D8%B3%D8%A7" title="یاسا – sorani" lang="ckb" hreflang="ckb" class="interlanguage-link-target"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-co mw-list-item"><a href="https://co.wikipedia.org/wiki/Drittu" title="Drittu – corse" lang="co" hreflang="co" class="interlanguage-link-target"><span>Corsu</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Pr%C3%A1vo" title="Právo – tchèque" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a href="https://cv.wikipedia.org/wiki/%D0%A2%D0%B8%D0%B2%C4%95ç-%D0%B8%D1%80%C4%95%D0%BA" title="Тивĕç-ирĕк – tchouvache" lang="cv" hreflang="cv" class="interlanguage-link-target"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a href="https://cy.wikipedia.org/wiki/Cyfraith" title="Cyfraith – gallois" lang="cy" hreflang="cy" class="interlanguage-link-target"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Jura" title="Jura – danois" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Recht" title="Recht – allemand" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-diq mw-list-item"><a href="https://diq.wikipedia.org/wiki/H%C4%B1quq" title="Hıquq – Zazaki" lang="diq" hreflang="diq" class="interlanguage-link-target"><span>Zazaki</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%94%CE%AF%CE%BA%CE%B1%CE%B9%CE%BF" title="Δίκαιο – grec" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Law" title="Law – anglais" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Juro" title="Juro – espéranto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Derecho" title="Derecho – espagnol" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/%C3%95igus" title="Õigus – estonien" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Zuzenbide" title="Zuzenbide – basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-ext mw-list-item"><a href="https://ext.wikipedia.org/wiki/Derechu" title="Derechu – estrémègne" lang="ext" hreflang="ext" class="interlanguage-link-target"><span>Estremeñu</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86" title="قانون – persan" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Laki" title="Laki – finnois" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fj mw-list-item"><a href="https://fj.wikipedia.org/wiki/Lawa" title="Lawa – fidjien" lang="fj" hreflang="fj" class="interlanguage-link-target"><span>Na Vosa Vakaviti</span></a></li><li class="interlanguage-link interwiki-frp mw-list-item"><a href="https://frp.wikipedia.org/wiki/Dr%C3%AAt" title="Drêt – francoprovençal" lang="frp" hreflang="frp" class="interlanguage-link-target"><span>Arpetan</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a href="https://frr.wikipedia.org/wiki/Rocht" title="Rocht – frison septentrional" lang="frr" hreflang="frr" class="interlanguage-link-target"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-fur mw-list-item"><a href="https://fur.wikipedia.org/wiki/Dirit" title="Dirit – frioulan" lang="fur" hreflang="fur" class="interlanguage-link-target"><span>Furlan</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a href="https://fy.wikipedia.org/wiki/Rjocht" title="Rjocht – frison occidental" lang="fy" hreflang="fy" class="interlanguage-link-target"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Dl%C3%AD" title="Dlí – irlandais" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a href="https://gcr.wikipedia.org/wiki/Drwè" title="Drwè – créole guyanais" lang="gcr" hreflang="gcr" class="interlanguage-link-target"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gd mw-list-item"><a href="https://gd.wikipedia.org/wiki/Lagh" title="Lagh – gaélique écossais" lang="gd" hreflang="gd" class="interlanguage-link-target"><span>Gàidhlig</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Dereito" title="Dereito – galicien" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gn mw-list-item"><a href="https://gn.wikipedia.org/wiki/Tekoiterape" title="Tekoiterape – guarani" lang="gn" hreflang="gn" class="interlanguage-link-target"><span>Avañe'ẽ</span></a></li><li class="interlanguage-link interwiki-gv mw-list-item"><a href="https://gv.wikipedia.org/wiki/Leigh" title="Leigh – mannois" lang="gv" hreflang="gv" class="interlanguage-link-target"><span>Gaelg</span></a></li><li class="interlanguage-link interwiki-ha mw-list-item"><a href="https://ha.wikipedia.org/wiki/Doka" title="Doka – haoussa" lang="ha" hreflang="ha" class="interlanguage-link-target"><span>Hausa</span></a></li><li class="interlanguage-link interwiki-hak mw-list-item"><a href="https://hak.wikipedia.org/wiki/Fap-li%CC%8Dt" title="Fap-li̍t – hakka" lang="hak" hreflang="hak" class="interlanguage-link-target"><span>客家語/Hak-kâ-ngî</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%9F" title="דין – hébreu" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF" title="विधि – hindi" lang="hi" hreflang="hi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a href="https://hif.wikipedia.org/wiki/Kanuun" title="Kanuun – hindi fidjien" lang="hif" hreflang="hif" class="interlanguage-link-target"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Pravo" title="Pravo – croate" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-ht mw-list-item"><a href="https://ht.wikipedia.org/wiki/Lwa_(dwa)" title="Lwa (dwa) – créole haïtien" lang="ht" hreflang="ht" class="interlanguage-link-target"><span>Kreyòl ayisyen</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Jog" title="Jog – hongrois" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D4%BB%D6%80%D5%A1%D5%BE%D5%B8%D6%82%D5%B6%D6%84" title="Իրավունք – arménien" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hyw mw-list-item"><a href="https://hyw.wikipedia.org/wiki/%D4%BB%D6%80%D5%A1%D6%82%D5%B8%D6%82%D5%B6%D6%84" title="Իրաւունք – arménien occidental" lang="hyw" hreflang="hyw" class="interlanguage-link-target"><span>Արեւմտահայերէն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a href="https://ia.wikipedia.org/wiki/Derecto" title="Derecto – interlingua" lang="ia" hreflang="ia" class="interlanguage-link-target"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Hukum" title="Hukum – indonésien" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ie mw-list-item"><a href="https://ie.wikipedia.org/wiki/Jure" title="Jure – interlingue" lang="ie" hreflang="ie" class="interlanguage-link-target"><span>Interlingue</span></a></li><li class="interlanguage-link interwiki-ilo mw-list-item"><a href="https://ilo.wikipedia.org/wiki/Linteg" title="Linteg – ilocano" lang="ilo" hreflang="ilo" class="interlanguage-link-target"><span>Ilokano</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a href="https://io.wikipedia.org/wiki/Yurocienco" title="Yurocienco – ido" lang="io" hreflang="io" class="interlanguage-link-target"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wikipedia.org/wiki/L%C3%B6gfr%C3%A6%C3%B0i" title="Lögfræði – islandais" lang="is" hreflang="is" class="interlanguage-link-target"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Diritto" title="Diritto – italien" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E6%B3%95_(%E6%B3%95%E5%AD%A6)" title="法 (法学) – japonais" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a href="https://jam.wikipedia.org/wiki/Laa" title="Laa – créole jamaïcain" lang="jam" hreflang="jam" class="interlanguage-link-target"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jbo mw-list-item"><a href="https://jbo.wikipedia.org/wiki/flalu" title="flalu – lojban" lang="jbo" hreflang="jbo" class="interlanguage-link-target"><span>La .lojban.</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a href="https://jv.wikipedia.org/wiki/Ukum" title="Ukum – javanais" lang="jv" hreflang="jv" class="interlanguage-link-target"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%97%E1%83%90%E1%83%9A%E1%83%98" title="სამართალი – géorgien" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a href="https://kaa.wikipedia.org/wiki/Huq%C4%B1q" title="Huqıq – karakalpak" lang="kaa" hreflang="kaa" class="interlanguage-link-target"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D2%9A%D2%B1%D2%9B%D1%8B%D2%9B" title="Құқық – kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a href="https://km.wikipedia.org/wiki/%E1%9E%85%E1%9F%92%E1%9E%94%E1%9E%B6%E1%9E%94%E1%9F%8B" title="ច្បាប់ – khmer" lang="km" hreflang="km" class="interlanguage-link-target"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a href="https://kn.wikipedia.org/wiki/%E0%B2%95%E0%B2%BE%E0%B2%A8%E0%B3%82%E0%B2%A8%E0%B3%81" title="ಕಾನೂನು – kannada" lang="kn" hreflang="kn" class="interlanguage-link-target"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EB%B2%95" title="법 – coréen" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-krc mw-list-item"><a href="https://krc.wikipedia.org/wiki/%D0%A5%D0%B0%D0%BA%D1%8A" title="Хакъ – karatchaï balkar" lang="krc" hreflang="krc" class="interlanguage-link-target"><span>Къарачай-малкъар</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a href="https://ku.wikipedia.org/wiki/Dad" title="Dad – kurde" lang="ku" hreflang="ku" class="interlanguage-link-target"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-kv mw-list-item"><a href="https://kv.wikipedia.org/wiki/%D0%98%D0%BD%D3%A7%D0%B4" title="Инӧд – komi" lang="kv" hreflang="kv" class="interlanguage-link-target"><span>Коми</span></a></li><li class="interlanguage-link interwiki-kw mw-list-item"><a href="https://kw.wikipedia.org/wiki/Lagha" title="Lagha – cornique" lang="kw" hreflang="kw" class="interlanguage-link-target"><span>Kernowek</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wikipedia.org/wiki/%D0%A3%D0%BA%D1%83%D0%BA" title="Укук – kirghize" lang="ky" hreflang="ky" class="interlanguage-link-target"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a href="https://la.wikipedia.org/wiki/Ius" title="Ius – latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lad mw-list-item"><a href="https://lad.wikipedia.org/wiki/Dirito" title="Dirito – ladino" lang="lad" hreflang="lad" class="interlanguage-link-target"><span>Ladino</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/Droit" title="Droit – luxembourgeois" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a href="https://lfn.wikipedia.org/wiki/Lege" title="Lege – lingua franca nova" lang="lfn" hreflang="lfn" class="interlanguage-link-target"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a href="https://li.wikipedia.org/wiki/Rech" title="Rech – limbourgeois" lang="li" hreflang="li" class="interlanguage-link-target"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lij mw-list-item"><a href="https://lij.wikipedia.org/wiki/Diritto" title="Diritto – ligure" lang="lij" hreflang="lij" class="interlanguage-link-target"><span>Ligure</span></a></li><li class="interlanguage-link interwiki-ln mw-list-item"><a href="https://ln.wikipedia.org/wiki/Zébi-bosémbo" title="Zébi-bosémbo – lingala" lang="ln" hreflang="ln" class="interlanguage-link-target"><span>Lingála</span></a></li><li class="interlanguage-link interwiki-lo mw-list-item"><a href="https://lo.wikipedia.org/wiki/%E0%BA%81%E0%BA%BB%E0%BA%94%E0%BB%9D%E0%BA%B2%E0%BA%8D" title="ກົດໝາຍ – lao" lang="lo" hreflang="lo" class="interlanguage-link-target"><span>ລາວ</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Teis%C4%97" title="Teisė – lituanien" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Tieslietas" title="Tieslietas – letton" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mai mw-list-item"><a href="https://mai.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A5%82%E0%A4%A8" title="कानून – maïthili" lang="mai" hreflang="mai" class="interlanguage-link-target"><span>मैथिली</span></a></li><li class="interlanguage-link interwiki-map-bms mw-list-item"><a href="https://map-bms.wikipedia.org/wiki/Hukum" title="Hukum – Basa Banyumasan" lang="jv-x-bms" hreflang="jv-x-bms" class="interlanguage-link-target"><span>Basa Banyumasan</span></a></li><li class="interlanguage-link interwiki-mi mw-list-item"><a href="https://mi.wikipedia.org/wiki/Ture" title="Ture – maori" lang="mi" hreflang="mi" class="interlanguage-link-target"><span>Māori</span></a></li><li class="interlanguage-link interwiki-min mw-list-item"><a href="https://min.wikipedia.org/wiki/Hukum" title="Hukum – minangkabau" lang="min" hreflang="min" class="interlanguage-link-target"><span>Minangkabau</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE" title="Право – macédonien" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a href="https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B4%BF%E0%B4%AF%E0%B4%AE%E0%B4%82" title="നിയമം – malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a href="https://mn.wikipedia.org/wiki/%D0%AD%D1%80%D1%85_%D0%B7%D2%AF%D0%B9" title="Эрх зүй – mongol" lang="mn" hreflang="mn" class="interlanguage-link-target"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a href="https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%AF%E0%A4%A6%E0%A4%BE" title="कायदा – marathi" lang="mr" hreflang="mr" class="interlanguage-link-target"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/Undang-undang" title="Undang-undang – malais" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a href="https://mt.wikipedia.org/wiki/Dritt" title="Dritt – maltais" lang="mt" hreflang="mt" class="interlanguage-link-target"><span>Malti</span></a></li><li class="interlanguage-link interwiki-mwl mw-list-item"><a href="https://mwl.wikipedia.org/wiki/Dreito" title="Dreito – mirandais" lang="mwl" hreflang="mwl" class="interlanguage-link-target"><span>Mirandés</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a href="https://my.wikipedia.org/wiki/%E1%80%A5%E1%80%95%E1%80%92%E1%80%B1" title="ဥပဒေ – birman" lang="my" hreflang="my" class="interlanguage-link-target"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-myv mw-list-item"><a href="https://myv.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%B0" title="Права – erzya" lang="myv" hreflang="myv" class="interlanguage-link-target"><span>Эрзянь</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a href="https://nds.wikipedia.org/wiki/Juristeree" title="Juristeree – bas-allemand" lang="nds" hreflang="nds" class="interlanguage-link-target"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-nds-nl mw-list-item"><a href="https://nds-nl.wikipedia.org/wiki/Recht" title="Recht – bas-saxon néerlandais" lang="nds-NL" hreflang="nds-NL" class="interlanguage-link-target"><span>Nedersaksies</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a href="https://ne.wikipedia.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%A8%E0%A5%82%E0%A4%A8" title="कानून – népalais" lang="ne" hreflang="ne" class="interlanguage-link-target"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Recht" title="Recht – néerlandais" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wikipedia.org/wiki/Lov_og_rett" title="Lov og rett – norvégien nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-nrm mw-list-item"><a href="https://nrm.wikipedia.org/wiki/Loué" title="Loué – Norman" lang="nrf" hreflang="nrf" class="interlanguage-link-target"><span>Nouormand</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a href="https://oc.wikipedia.org/wiki/Drech" title="Drech – occitan" lang="oc" hreflang="oc" class="interlanguage-link-target"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-os mw-list-item"><a href="https://os.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B0%D0%B4" title="Барад – ossète" lang="os" hreflang="os" class="interlanguage-link-target"><span>Ирон</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a href="https://pa.wikipedia.org/wiki/%E0%A8%95%E0%A8%BE%E0%A8%A8%E0%A9%82%E0%A9%B0%E0%A8%A8" title="ਕਾਨੂੰਨ – pendjabi" lang="pa" hreflang="pa" class="interlanguage-link-target"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pap mw-list-item"><a href="https://pap.wikipedia.org/wiki/Derecho" title="Derecho – papiamento" lang="pap" hreflang="pap" class="interlanguage-link-target"><span>Papiamentu</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Prawo" title="Prawo – polonais" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a href="https://pms.wikipedia.org/wiki/Lej" title="Lej – piémontais" lang="pms" hreflang="pms" class="interlanguage-link-target"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a href="https://pnb.wikipedia.org/wiki/%D9%82%D9%86%D9%88%D9%86" title="قنون – Western Punjabi" lang="pnb" hreflang="pnb" class="interlanguage-link-target"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a href="https://pt.wikipedia.org/wiki/Direito" title="Direito – portugais" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a href="https://qu.wikipedia.org/wiki/Chiqa" title="Chiqa – quechua" lang="qu" hreflang="qu" class="interlanguage-link-target"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Drept" title="Drept – roumain" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE" title="Право – russe" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a href="https://rue.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE" title="Право – ruthène" lang="rue" hreflang="rue" class="interlanguage-link-target"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a href="https://sah.wikipedia.org/wiki/%D0%A2%D3%A9%D1%80%D2%AF%D0%BD" title="Төрүн – iakoute" lang="sah" hreflang="sah" class="interlanguage-link-target"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sc mw-list-item"><a href="https://sc.wikipedia.org/wiki/Deretu" title="Deretu – sarde" lang="sc" hreflang="sc" class="interlanguage-link-target"><span>Sardu</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a href="https://scn.wikipedia.org/wiki/Liggi" title="Liggi – sicilien" lang="scn" hreflang="scn" class="interlanguage-link-target"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a href="https://sco.wikipedia.org/wiki/Law" title="Law – écossais" lang="sco" hreflang="sco" class="interlanguage-link-target"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a href="https://sd.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86" title="قانون – sindhi" lang="sd" hreflang="sd" class="interlanguage-link-target"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Pravo" title="Pravo – serbo-croate" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a href="https://si.wikipedia.org/wiki/%E0%B6%B1%E0%B7%93%E0%B6%AD%E0%B7%92%E0%B6%BA" title="නීතිය – cingalais" lang="si" hreflang="si" class="interlanguage-link-target"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Law" title="Law – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Objekt%C3%ADvne_pr%C3%A1vo" title="Objektívne právo – slovaque" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Pravo" title="Pravo – slovène" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sm mw-list-item"><a href="https://sm.wikipedia.org/wiki/Tul%C4%81fono" title="Tulāfono – samoan" lang="sm" hreflang="sm" class="interlanguage-link-target"><span>Gagana Samoa</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a href="https://sn.wikipedia.org/wiki/Mutemo" title="Mutemo – shona" lang="sn" hreflang="sn" class="interlanguage-link-target"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a href="https://so.wikipedia.org/wiki/Sharci" title="Sharci – somali" lang="so" hreflang="so" class="interlanguage-link-target"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Ligji" title="Ligji – albanais" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE" title="Право – serbe" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a href="https://su.wikipedia.org/wiki/Hukum" title="Hukum – soundanais" lang="su" hreflang="su" class="interlanguage-link-target"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Juridik" title="Juridik – suédois" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Sheria" title="Sheria – swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-szy mw-list-item"><a href="https://szy.wikipedia.org/wiki/hulic" title="hulic – Sakizaya" lang="szy" hreflang="szy" class="interlanguage-link-target"><span>Sakizaya</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D" title="சட்டம் – tamoul" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a href="https://te.wikipedia.org/wiki/%E0%B0%9A%E0%B0%9F%E0%B1%8D%E0%B0%9F%E0%B0%82" title="చట్టం – télougou" lang="te" hreflang="te" class="interlanguage-link-target"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a href="https://tg.wikipedia.org/wiki/%D2%B2%D1%83%D2%9B%D1%83%D2%9B" title="Ҳуқуқ – tadjik" lang="tg" hreflang="tg" class="interlanguage-link-target"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%8E%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2" title="กฎหมาย – thaï" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a href="https://tl.wikipedia.org/wiki/Batas" title="Batas – tagalog" lang="tl" hreflang="tl" class="interlanguage-link-target"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tpi mw-list-item"><a href="https://tpi.wikipedia.org/wiki/Lo" title="Lo – tok pisin" lang="tpi" hreflang="tpi" class="interlanguage-link-target"><span>Tok Pisin</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Hukuk" title="Hukuk – turc" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-trv mw-list-item"><a href="https://trv.wikipedia.org/wiki/Gaya" title="Gaya – taroko" lang="trv" hreflang="trv" class="interlanguage-link-target"><span>Seediq</span></a></li><li class="interlanguage-link interwiki-ts mw-list-item"><a href="https://ts.wikipedia.org/wiki/Nawu" title="Nawu – tsonga" lang="ts" hreflang="ts" class="interlanguage-link-target"><span>Xitsonga</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a href="https://tt.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BA%D1%83%D0%BA" title="Хокук – tatar" lang="tt" hreflang="tt" class="interlanguage-link-target"><span>Татарча / tatarça</span></a></li><li class="interlanguage-link interwiki-tw mw-list-item"><a href="https://tw.wikipedia.org/wiki/Mmara" title="Mmara – twi" lang="tw" hreflang="tw" class="interlanguage-link-target"><span>Twi</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B2%D0%BE" title="Право – ukrainien" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a href="https://ur.wikipedia.org/wiki/%D9%82%D8%A7%D9%86%D9%88%D9%86" title="قانون – ourdou" lang="ur" hreflang="ur" class="interlanguage-link-target"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/Huquq" title="Huquq – ouzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha / ўзбекча</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a href="https://vec.wikipedia.org/wiki/Derito" title="Derito – vénitien" lang="vec" hreflang="vec" class="interlanguage-link-target"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/Lu%E1%BA%ADt_ph%C3%A1p" title="Luật pháp – vietnamien" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-vo mw-list-item"><a href="https://vo.wikipedia.org/wiki/Detik" title="Detik – volapük" lang="vo" hreflang="vo" class="interlanguage-link-target"><span>Volapük</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a href="https://war.wikipedia.org/wiki/Balaud" title="Balaud – waray" lang="war" hreflang="war" class="interlanguage-link-target"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a href="https://wuu.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B" title="法律 – wu" lang="wuu" hreflang="wuu" class="interlanguage-link-target"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xh mw-list-item"><a href="https://xh.wikipedia.org/wiki/Umthetho" title="Umthetho – xhosa" lang="xh" hreflang="xh" class="interlanguage-link-target"><span>IsiXhosa</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a href="https://xmf.wikipedia.org/wiki/%E1%83%A1%E1%83%90%E1%83%9B%E1%83%90%E1%83%A0%E1%83%97%E1%83%90%E1%83%9A%E1%83%98" title="სამართალი – mingrélien" lang="xmf" hreflang="xmf" class="interlanguage-link-target"><span>მარგალური</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a href="https://yi.wikipedia.org/wiki/%D7%92%D7%A2%D7%96%D7%A2%D7%A5" title="געזעץ – yiddish" lang="yi" hreflang="yi" class="interlanguage-link-target"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a href="https://yo.wikipedia.org/wiki/%C3%92fin" title="Òfin – yoruba" lang="yo" hreflang="yo" class="interlanguage-link-target"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-za mw-list-item"><a href="https://za.wikipedia.org/wiki/Faplwd" title="Faplwd – zhuang" lang="za" hreflang="za" class="interlanguage-link-target"><span>Vahcuengh</span></a></li><li class="interlanguage-link interwiki-zea mw-list-item"><a href="https://zea.wikipedia.org/wiki/Recht" title="Recht – zélandais" lang="zea" hreflang="zea" class="interlanguage-link-target"><span>Zeêuws</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B" title="法律 – chinois" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a href="https://zh-classical.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B" title="法律 – chinois littéraire" lang="lzh" hreflang="lzh" class="interlanguage-link-target"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a href="https://zh-min-nan.wikipedia.org/wiki/Hoat-lu%CC%8Dt" title="Hoat-lu̍t – minnan" lang="nan" hreflang="nan" class="interlanguage-link-target"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E6%B3%95%E5%BE%8B" title="法律 – cantonais" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7748#sitelinks-wikipedia" title="Modifier les liens interlangues" class="wbc-editpage">Modifier les liens</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Espaces de noms">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Droit" title="Voir le contenu de la page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Discussion:Droit" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Modifier la variante de langue"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">français</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Affichages">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Droit"><span>Lire</span></a></li><li id="ca-ve-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Droit&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v"><span>Modifier</span></a></li><li id="ca-edit" class="collapsible vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Droit&amp;action=edit" title="Modifier le wikicode de cette page [e]" accesskey="e"><span>Modifier le code</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Droit&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Outils</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Outils</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">masquer</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="Plus d’options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Droit"><span>Lire</span></a></li><li id="ca-more-ve-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Droit&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v"><span>Modifier</span></a></li><li id="ca-more-edit" class="collapsible vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Droit&amp;action=edit" title="Modifier le wikicode de cette page [e]" accesskey="e"><span>Modifier le code</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Droit&amp;action=history"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		Général
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Spécial:Pages_liées/Droit" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Spécial:Suivi_des_liens/Droit" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Aide:Importer_un_fichier" title="Téléverser des fichiers [u]" accesskey="u"><span>Téléverser un fichier</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Spécial:Pages_spéciales" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Droit&amp;oldid=211355431" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Droit&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Spécial:Citer&amp;page=Droit&amp;id=211355431&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Spécial:UrlShortener&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FDroit"><span>Obtenir l'URL raccourcie</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Spécial:QrCode&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FDroit"><span>Download QR code</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q7748" title="Lien vers l’élément dans le dépôt de données connecté [g]" accesskey="g"><span>Élément Wikidata</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Imprimer / exporter
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Spécial:Livre&amp;bookcmd=book_creator&amp;referer=Droit"><span>Créer un livre</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Spécial:DownloadAsPdf&amp;page=Droit&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Droit&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		Dans d’autres projets
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Law" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://fr.wikibooks.org/wiki/Droit" hreflang="fr"><span>Wikilivres</span></a></li><li class="wb-otherproject-link wb-otherproject-wikinews mw-list-item"><a href="https://fr.wikinews.org/wiki/Catégorie:Droit" hreflang="fr"><span>Wikinews</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiquote mw-list-item"><a href="https://fr.wikiquote.org/wiki/Droit" hreflang="fr"><span>Wikiquote</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+						</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">Un article de Wikipédia, l&#039;encyclopédie libre.</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="fr" dir="ltr"><div class="bandeau-container metadata homonymie hatnote"><div class="bandeau-cell bandeau-icone" style="display:table-cell;padding-right:0.5em"><span class="noviewer" typeof="mw:File"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" decoding="async" width="20" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" data-file-width="512" data-file-height="375" /></a></span></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Cet article concerne le droit en tant qu'institution sociale.&#32;Pour les droits en tant que prérogatives juridiques, voir <a href="/wiki/Droit_subjectif" title="Droit subjectif">Droit subjectif</a>. Pour les disciplines étudiant le droit, voir <a href="/wiki/Sciences_juridiques" title="Sciences juridiques">Sciences juridiques</a>.
+</p>
+</div></div>
+<div class="bandeau-container metadata homonymie hatnote"><div class="bandeau-cell bandeau-icone" style="display:table-cell;padding-right:0.5em"><span class="noviewer" typeof="mw:File"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" decoding="async" width="20" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" data-file-width="512" data-file-height="375" /></a></span></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a href="/wiki/Droit_(homonymie)" class="mw-disambig" title="Droit (homonymie)">Droit (homonymie)</a>.
+</p>
+</div></div>
+<div class="bandeau-container metadata bandeau-article bandeau-niveau-modere"><figure class="mw-halign-right noviewer" typeof="mw:File"><a href="/wiki/Modèle:%C3%80_sourcer" title="Si ce bandeau n&#39;est plus pertinent, retirez-le. Cliquez ici pour en savoir plus."><img alt="Si ce bandeau n&#39;est plus pertinent, retirez-le. Cliquez ici pour en savoir plus." src="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/12px-Info_Simple.svg.png" decoding="async" width="12" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/18px-Info_Simple.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/24px-Info_Simple.svg.png 2x" data-file-width="512" data-file-height="512" /></a><figcaption>Si ce bandeau n'est plus pertinent, retirez-le. Cliquez ici pour en savoir plus.</figcaption></figure><div class="bandeau-cell bandeau-icone" style="display:table-cell;padding-right:0.5em"><span class="noviewer" typeof="mw:File"><a href="/wiki/Fichier:2017-fr.wp-orange-source.svg" class="mw-file-description"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017-fr.wp-orange-source.svg/45px-2017-fr.wp-orange-source.svg.png" decoding="async" width="45" height="45" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017-fr.wp-orange-source.svg/68px-2017-fr.wp-orange-source.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017-fr.wp-orange-source.svg/90px-2017-fr.wp-orange-source.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p><strong class="bandeau-titre">Cet article <a href="/wiki/Wikipédia:Citez_vos_sources" title="Wikipédia:Citez vos sources">ne cite pas suffisamment ses sources</a></strong> <small>(<time class="nowrap" datetime="2016-02" data-sort-value="2016-02">février 2016</time>).</small>
+</p><p>Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les <b>références utiles à sa <a href="/wiki/Wikipédia:Vérifiabilité" title="Wikipédia:Vérifiabilité">vérifiabilité</a></b> et en les liant à la section «&#160;<a href="/wiki/Aide:Insérer_une_référence" title="Aide:Insérer une référence">Notes et références</a>&#160;» 
+</p><p><b>En pratique&#160;:</b> <a href="/wiki/Wikipédia:Citez_vos_sources#Qualité_des_sources" title="Wikipédia:Citez vos sources">Quelles sources sont attendues&#160;?</a> <a href="/wiki/Aide:Insérer_une_référence_(Éditeur_visuel)" title="Aide:Insérer une référence (Éditeur visuel)">Comment ajouter mes sources&#160;?</a>
+</p>
+</div></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/Fichier:Bayong_weaving_in_Bulusan.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bayong_weaving_in_Bulusan.jpg/220px-Bayong_weaving_in_Bulusan.jpg" decoding="async" width="220" height="147" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bayong_weaving_in_Bulusan.jpg/330px-Bayong_weaving_in_Bulusan.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bayong_weaving_in_Bulusan.jpg/440px-Bayong_weaving_in_Bulusan.jpg 2x" data-file-width="960" data-file-height="640" /></a><figcaption>Le tressage est un symbole du droit dans la <span class="ouvrage">«&#160;<a rel="nofollow" class="external text" href="https://www.thecanadianencyclopedia.ca/fr/article/cris"><cite style="font-style:normal;">culture kiristinon</cite></a>&#160;»</span> des indiens du nord de l'Amérique.</figcaption></figure>
+<p>Le <b>droit</b>, ou <b>droit objectif</b>, est défini comme <span class="citation">«&#160;l'ensemble des règles qui régissent la conduite de l'Homme en <span class="page_h"><a href="/wiki/Société" class="mw-disambig" title="Société">société</a></span>, les <a href="/wiki/Rapports_sociaux" class="mw-redirect" title="Rapports sociaux">rapports sociaux</a>&#160;»</span><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>, ou de façon plus complète <span class="citation">«&#160;l'ensemble des règles imposées aux membres d'une société pour que leurs rapports sociaux échappent à l'<a href="/wiki/Arbitraire" title="Arbitraire">arbitraire</a> et à la <a href="/wiki/Violence" title="Violence">violence</a> des individus et soient conformes à l'<a href="/wiki/Éthique" title="Éthique">éthique</a> dominante&#160;»</span><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Terminologie">Terminologie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=1" title="Modifier la section : Terminologie" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=1" title="Modifier le code source de la section : Terminologie"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>En français, le mot <i>droit</i> a une certaine <a href="/wiki/Polysémie" title="Polysémie">polysémie</a>, c'est-à-dire qu'il signifie plusieurs choses à la fois
+<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>.
+Ainsi, quand on dit que <b>le droit</b> est ceci ou cela, on veut généralement parler du droit objectif. D'autre part, quand on parle d'<b>un droit</b> de quelqu'un, on fait référence à un de ses <a href="/wiki/Droit_subjectif" title="Droit subjectif">droits subjectifs</a>. Enfin, quand on entend que quelqu'un fait <b>du droit</b>, cela veut dire que cette personne pratique les <a href="/wiki/Sciences_juridiques" title="Sciences juridiques">sciences juridiques</a>
+<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup>.
+</p>
+<h2><span id="D.C3.A9finitions"></span><span class="mw-headline" id="Définitions">Définitions</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=2" title="Modifier la section : Définitions" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=2" title="Modifier le code source de la section : Définitions"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Articles détaillés&#160;: <a href="/wiki/Théorie_du_droit" title="Théorie du droit">Théorie du droit</a> et <a href="/wiki/Philosophie_du_droit" title="Philosophie du droit">Philosophie du droit</a>.</div></div>
+<p>Il n´y a pas de consensus sur la définition du droit, ni même sur la nécessité de le définir
+<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup>.
+</p>
+<h3><span id="Comme_commandement_sup.C3.A9rieur"></span><span class="mw-headline" id="Comme_commandement_supérieur">Comme commandement supérieur</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=3" title="Modifier la section : Comme commandement supérieur" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=3" title="Modifier le code source de la section : Comme commandement supérieur"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé&#160;: <a href="/wiki/Droit_naturel" title="Droit naturel">Droit naturel</a>.</div></div>
+<p>Pour les tenants du jusnaturalisme, les règles qui composent le droit existent indépendamment de ce qu'en pensent les humains, parce qu'elles viendraient d'une source naturelle ou divine.
+</p>
+<h3><span id="Comme_autorit.C3.A9_institu.C3.A9e"></span><span class="mw-headline" id="Comme_autorité_instituée">Comme autorité instituée</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=4" title="Modifier la section : Comme autorité instituée" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=4" title="Modifier le code source de la section : Comme autorité instituée"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="excerpt-block"><style data-mw-deduplicate="TemplateStyles:r201193861">.mw-parser-output .excerpt-more{text-align:right}</style><div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Cette section est un extrait de <a href="/wiki/Positivisme_juridique" title="Positivisme juridique">Positivisme juridique</a>.<span class="mw-editsection-like plainlinks"><span class="mw-editsection-bracket">[</span><a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Positivisme_juridique&amp;action=edit">modifier</a><span class="mw-editsection-bracket">]</span></span>.</div></div><div class="excerpt">
+<p>Le <a href="/wiki/Positivisme_juridique" title="Positivisme juridique">positivisme juridique</a> est un courant en <a href="/wiki/Théorie_du_droit" title="Théorie du droit">théorie du droit</a> qui décrit le droit tel qu'il existe dans la société, plus que tel qu'il devrait être. Il s'oppose au <a href="/wiki/Jusnaturalisme" class="mw-redirect" title="Jusnaturalisme">jusnaturalisme</a>.
+</p><p>Le positivisme juridique consiste à rejeter l'importance d’un droit idéal (appelé <a href="/wiki/Droit_naturel" title="Droit naturel">droit naturel</a>) et à affirmer que seul le <a href="/wiki/Droit_positif" title="Droit positif">droit positif</a> (<a href="/wiki/Loi" title="Loi">lois</a>, <a href="/wiki/Jurisprudence" title="Jurisprudence">jurisprudence</a>,&#160;<abbr class="abbr" title="et cetera">etc.</abbr>) a une valeur juridique. Ainsi, la loi ou la <a href="/wiki/Jurisprudence" title="Jurisprudence">jurisprudence</a> serait donc la seule <a href="/wiki/Norme" title="Norme">norme</a> à respecter (positivisme légaliste).
+</p>
+Par exemple, un positiviste juridique dira qu'il ne faut pas tuer car cela va contre la <a href="/wiki/Loi" title="Loi">loi</a> décidée par les hommes, alors qu'un <a href="/wiki/Droit_naturel" title="Droit naturel">jusnaturaliste</a> pensera qu'il ne faut pas tuer car cela est contre le droit (pour un jusnaturaliste, le droit précède la loi censée le faire respecter).</div></div>
+<h3><span id="Comme_ph.C3.A9nom.C3.A8ne_social"></span><span class="mw-headline" id="Comme_phénomène_social">Comme phénomène social</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=5" title="Modifier la section : Comme phénomène social" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=5" title="Modifier le code source de la section : Comme phénomène social"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé&#160;: <a href="/wiki/Réalisme_juridique" title="Réalisme juridique">Réalisme juridique</a>.</div></div>
+<p>Pour les tenants du réalisme juridique, le droit est ni plus ni moins que l'ensemble des décisions rendues par les <a href="/wiki/Juridiction" title="Juridiction">juridictions</a>. Cette approche veut être <a href="/wiki/Empirique" class="mw-redirect" title="Empirique">empirique</a>, et ne prend pas en considération l'idée de <a href="/wiki/Norme_juridique" class="mw-redirect" title="Norme juridique">norme juridique</a>, qu'elle juge abstraite.
+</p>
+<h3><span id="Comme_rh.C3.A9torique_normative"></span><span class="mw-headline" id="Comme_rhétorique_normative">Comme rhétorique normative</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=6" title="Modifier la section : Comme rhétorique normative" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=6" title="Modifier le code source de la section : Comme rhétorique normative"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Pour James Boyd White, le droit n'est pas un objet scientifique, mais une forme de relation sociale qui passe par des <a href="/wiki/Rhétorique" title="Rhétorique">discours</a> pour intervenir dans les processus normatifs d'une société<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup>. Dans cette vision, le droit objectif ne peut pas être imaginé comme abstraitement distinct de son <a href="/wiki/Herméneutique" title="Herméneutique">interprétation</a>, car les discours juridiques agissent sur le droit autant qu'ils le décrivent<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup>. Cette vision du droit met l'accent sur sa nature narrative<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span class="cite_crochet">[</span>8<span class="cite_crochet">]</span></a></sup>.
+</p>
+<h2><span class="mw-headline" id="Approches">Approches</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=7" title="Modifier la section : Approches" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=7" title="Modifier le code source de la section : Approches"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Scientifiques">Scientifiques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=8" title="Modifier la section : Scientifiques" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=8" title="Modifier le code source de la section : Scientifiques"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Plusieurs disciplines des sciences humaines étudient le droit et le définissent parfois de manières différentes.
+</p>
+<ul><li>L'<a href="/wiki/Analyse_économique_du_droit" title="Analyse économique du droit">analyse économique du droit</a> cherche la raison d'être des institutions juridiques en faisant appel à des concepts empruntés à la <a href="/wiki/Économie_(discipline)" title="Économie (discipline)">science économique</a>.</li>
+<li>La <a href="/wiki/Sociologie_du_droit" title="Sociologie du droit">sociologie du droit</a> étudie le droit en tant que phénomène social.</li>
+<li>L'<a href="/wiki/Histoire_du_droit" title="Histoire du droit">histoire du droit</a> étudie le droit dans la perspective historique avec ses constances et son évolution.</li>
+<li>L'<a href="/wiki/Anthropologie_juridique" title="Anthropologie juridique">anthropologie juridique</a> étudie les phénomènes juridiques avec une approche culturelle, sociale et symbolique.</li></ul>
+<h3><span class="mw-headline" id="Pratiques">Pratiques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=9" title="Modifier la section : Pratiques" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=9" title="Modifier le code source de la section : Pratiques"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Voir la catégorie&#160;: <a href="/wiki/Catégorie:Métier_du_droit" title="Catégorie:Métier du droit">Métier du droit</a>.</div></div>
+<h2><span class="mw-headline" id="Organisation">Organisation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=10" title="Modifier la section : Organisation" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=10" title="Modifier le code source de la section : Organisation"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Branches">Branches</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=11" title="Modifier la section : Branches" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=11" title="Modifier le code source de la section : Branches"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="excerpt-block"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r201193861"><div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Cette section est un extrait de <a href="/wiki/Branche_du_droit" title="Branche du droit">Branche du droit</a>.<span class="mw-editsection-like plainlinks"><span class="mw-editsection-bracket">[</span><a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Branche_du_droit&amp;action=edit">modifier</a><span class="mw-editsection-bracket">]</span></span>.</div></div><div class="excerpt">
+Une <a href="/wiki/Branche_du_droit" title="Branche du droit">branche du droit</a><sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup> ou domaine du droit est une subdivision du droit qui contient des règles relatives à une même matière. Le droit n'est pas une science unitaire et les <a href="/wiki/Règle_de_droit" title="Règle de droit">règles de droit</a> forment un ensemble hétérogène que l'on divise selon des critères empiriques. Cette division résulte à la fois de la <a href="/wiki/Codification_(droit)" title="Codification (droit)">codification</a> qui a été opérée, des textes, de la pratique, et des enseignements universitaires.</div></div>
+<h3><span class="mw-headline" id="Sources">Sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=12" title="Modifier la section : Sources" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=12" title="Modifier le code source de la section : Sources"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé&#160;: <a href="/wiki/Sources_du_droit" class="mw-redirect" title="Sources du droit">Sources du droit</a>.</div></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/Fichier:JMR-Memphis1.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/JMR-Memphis1.jpg/220px-JMR-Memphis1.jpg" decoding="async" width="220" height="331" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/JMR-Memphis1.jpg/330px-JMR-Memphis1.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/JMR-Memphis1.jpg/440px-JMR-Memphis1.jpg 2x" data-file-width="448" data-file-height="675" /></a><figcaption>Allégorie de la justice.</figcaption></figure>
+<p>Dans les sociétés revendiquant la <a href="/wiki/Séparation_des_pouvoirs" title="Séparation des pouvoirs">séparation des pouvoirs</a>, l'application du droit résulte d'une collaboration entre le <a href="/wiki/Pouvoir_législatif" title="Pouvoir législatif">pouvoir législatif</a> qui définit le droit, le <a href="/wiki/Pouvoir_exécutif" title="Pouvoir exécutif">pouvoir exécutif</a> qui veille à son exécution — en collaboration avec les <a href="/wiki/Citoyens" class="mw-redirect" title="Citoyens">citoyens</a> — et le <a href="/wiki/Pouvoir_judiciaire" title="Pouvoir judiciaire">pouvoir judiciaire</a> qui reçoit mission d'interpréter et de sanctionner les <a href="/wiki/Éventualité" class="mw-redirect" title="Éventualité">éventuels</a> manquements ou contestations soulevées par son application.
+</p>
+<h4><span class="mw-headline" id="Exemples_de_sources_du_droit">Exemples de sources du droit</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=13" title="Modifier la section : Exemples de sources du droit" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=13" title="Modifier le code source de la section : Exemples de sources du droit"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li>Les <i>sources d'exception</i> qui expriment et créent une légitimité de rupture à l'exemple de mouvement de revendication, révolution, démonstration de force, etc.</li>
+<li>Les <i>sources institutionnelles</i> sont celles qui rendent concrète l'existence du droit, ce sont les trois pouvoirs classiques qui existent dans l'État&#160;: le pouvoir législatif, judiciaire et exécutif. Ils sont appelés à donner matériellement naissance au droit.</li>
+<li>Les <i>sources documentaires</i> du droit national qui émanent de tous procédés par lesquels le droit s'exprime. Ainsi la loi, les règlements, la coutume, les codes, les publications parues dans les Journaux Officiels, etc.</li>
+<li>Les <i>sources documentaires</i> du <a href="/wiki/Droit_international_public" title="Droit international public">droit international</a> qui émanent des <a href="/wiki/Convention_(droit)" title="Convention (droit)">conventions</a> internationales, protocoles, chartes, la coutume internationale, la <a href="/wiki/Jurisprudence" title="Jurisprudence">jurisprudence</a> internationale et les <a href="/wiki/Principes_généraux_du_droit" class="mw-redirect mw-disambig" title="Principes généraux du droit">principes généraux du droit</a> reconnus par la plupart des pays.</li></ul>
+<h2><span id="Diversit.C3.A9"></span><span class="mw-headline" id="Diversité">Diversité</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=14" title="Modifier la section : Diversité" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=14" title="Modifier le code source de la section : Diversité"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé&#160;: <a href="/wiki/Droit_comparé" title="Droit comparé">Droit comparé</a>.</div></div>
+<p>La création ou l'élaboration de règles juridiques est un phénomène qui <a href="/wiki/Ubi_societas,_ibi_ius" title="Ubi societas, ibi ius">se retrouve dans chaque société</a>, considérée développée ou non. Chaque <a href="/wiki/Ordre_juridique" title="Ordre juridique">ordre juridique</a> élabore des normes, des droits comme des responsabilités, de différentes manières.
+</p>
+<ul><li>La plupart des pays ont un système juridique codifié, dit de <a href="/wiki/Droits_de_tradition_civiliste" class="mw-redirect" title="Droits de tradition civiliste">droit civiliste</a> ou romano-germanique, qui s'est développé à travers la <a href="/wiki/Doctrine_juridique_française" title="Doctrine juridique française">doctrine</a>, mais qui adhère de nos jours au <a href="/wiki/Positivisme_juridique" title="Positivisme juridique">positivisme</a> légaliste selon lequel la <a href="/wiki/Doctrine" title="Doctrine">doctrine</a> et la <a href="/wiki/Jurisprudence" title="Jurisprudence">jurisprudence</a> sont subordonnées à la loi qui est modifiée plus ou moins régulièrement.</li>
+<li>D'autres utilisent un système dit de <i><a href="/wiki/Common_law" title="Common law">common law</a></i>, qui s'est développé à travers la jurisprudence des juridictions royales anglaises, mais qui met de nos jours la jurisprudence et la loi sur un pied d'égalité, les deux en rapport complémentaire, s'apportant des modifications l'une à l'autre. La doctrine y joue un rôle minime.</li>
+<li>Certains pays fondent leurs règles sur les <a href="/wiki/Droit_religieux" title="Droit religieux">textes religieux</a>.</li></ul>
+<p>Mais dans chaque pays il existe une riche <a href="/wiki/Histoire_du_droit" title="Histoire du droit">histoire juridique</a>, avec des <a href="/wiki/Philosophie_du_droit" title="Philosophie du droit">philosophies</a> différentes, qui parfois s'affrontent.
+</p>
+<h2><span class="mw-headline" id="Force_du_droit">Force du droit</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=15" title="Modifier la section : Force du droit" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=15" title="Modifier le code source de la section : Force du droit"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-modere"><div class="bandeau-cell bandeau-icone"><span class="mw-valign-text-top noviewer" typeof="mw:File"><a href="/wiki/Fichier:Emojione_267B.svg" class="mw-file-description"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emojione_267B.svg/17px-Emojione_267B.svg.png" decoding="async" width="17" height="17" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emojione_267B.svg/26px-Emojione_267B.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emojione_267B.svg/34px-Emojione_267B.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></div><div class="bandeau-cell">Cette section a besoin d'être <b><a href="/wiki/Aide:Recyclage" title="Aide:Recyclage">recyclée</a></b><small>&#160;(octobre 2023)</small>.<br />
+Une réorganisation et une clarification du contenu sont nécessaires. <span class="navigation-only"><span class="noprint plainlinks"><a href="/wiki/Spécial:EditPage/Droit" title="Spécial:EditPage/Droit">Améliorez-le</a></span> ou <a href="/wiki/Discussion:Droit" title="Discussion:Droit">discutez des points à améliorer</a>.</span></div></div>
+<p>La «&#160;force&#160;» obligatoire du droit suppose&#160;:
+</p>
+<ul><li>que la <a href="/wiki/Source_du_droit" title="Source du droit">source du droit</a> soit reconnue et acceptée comme <a href="/wiki/Légitimité" title="Légitimité">légitime</a>&#160;;</li>
+<li>que l'<a href="/wiki/Énoncé" title="Énoncé">énoncé</a> de la loi soit <a href="/wiki/Connaissance_(philosophie)" title="Connaissance (philosophie)">connu</a> de tous, ce qui implique qu'il fasse l'objet d'une large <a href="/wiki/Publication" title="Publication">publication</a> ou d'une <a href="/wiki/Accessibilité" title="Accessibilité">accessibilité</a> certaine. Cette exigence est reflétée par l'adage «&#160;Nul n'est censé ignorer la loi&#160;»&#160;;</li>
+<li>que l'application de la loi puisse être <a href="/wiki/Garantie" title="Garantie">garantie</a> par l'<a href="/wiki/Existence_(philosophie)" class="mw-redirect" title="Existence (philosophie)">existence</a> de moyens de <span class="page_h"><a href="/wiki/Contrainte" class="mw-disambig" title="Contrainte">contrainte</a></span> prévus par elle et organisés soit par toute procédure d'<a href="/wiki/Arbitrage_(droit)" title="Arbitrage (droit)">arbitrage</a> convenue entre les <a href="/wiki/Partie_(droit)" title="Partie (droit)">parties</a>, soit par l'<a href="/wiki/État" title="État">État</a> ou par une instance spécialisée.</li></ul>
+<p>Il importe cependant de nuancer le caractère obligatoire de la règle de droit, avec l'avènement du <a href="/wiki/Droit_mou" title="Droit mou">droit mou</a> (la <i>soft law</i> en anglais), qui prend différentes formes des moins aux plus contraignantes. Il peut ainsi se présenter sous la forme d'un <a href="/wiki/Théorie_du_nudge" title="Théorie du nudge">nudge</a> ou de règlementations privées (par exemple, les normes privées comme le standard <a href="/wiki/USB" title="USB">USB</a>). Cependant, le droit mou se retrouve principalement en <a href="/wiki/Droit_international_public" title="Droit international public">droit international</a>, caractérisé par la souveraineté des États et l'absence de force obligatoire de la règle de droit.
+</p><p><br />
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=16" title="Modifier la section : Notes et références" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=16" title="Modifier le code source de la section : Notes et références"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style="column-width:30em;"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text"><a href="/wiki/Émile_Littré" title="Émile Littré">Émile Littré</a>, <i>Dictionnaire de la langue française</i>, 1863, <small>&#91;<a rel="nofollow" class="external text" href="http://www.littre.org/definition/droit.3#var5">lire en ligne</a>&#93;</small></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink noprint"><a href="#cite_ref-2">↑</a> </span><span class="reference-text">Dictionnaire de l'économie et des sciences sociales, Nathan, Paris 1993</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text">
+<span class="ouvrage" id="Barraud2017"><span class="ouvrage" id="Boris_Barraud2017">Boris <span class="nom_auteur">Barraud</span>, <cite class="italique">Qu'est-ce que le droit&#160;? – Théorie syncrétique et échelle de juridicité</cite>, L'Harmattan, <time>2017</time> <small style="line-height:1em;">(<a rel="nofollow" class="external text" href="https://hal.science/hal-01618420">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Qu'est-ce+que+le+droit+%3F+%E2%80%93+Théorie+syncrétique+et+échelle+de+juridicité&amp;rft.pub=L'Harmattan&amp;rft.aulast=Barraud&amp;rft.aufirst=Boris&amp;rft.date=2017&amp;rft_id=https%3A%2F%2Fhal.science%2Fhal-01618420&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink noprint"><a href="#cite_ref-4">↑</a> </span><span class="reference-text">
+<span class="ouvrage"><cite style="font-style:normal">«&#160;Droit&#160;»</cite>, dans <cite class="italique">Trésor de la langue française informatisé</cite> <small style="line-height:1em;">(<a rel="nofollow" class="external text" href="https://www.cnrtl.fr/definition/droit">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.btitle=Trésor+de+la+langue+française+informatisé&amp;rft.atitle=Droit&amp;rft_id=https%3A%2F%2Fwww.cnrtl.fr%2Fdefinition%2Fdroit&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span><small> (consulté le <time class="nowrap" datetime="2023-10-19" data-sort-value="2023-10-19">19 octobre 2023</time>)</small></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink noprint"><a href="#cite_ref-5">↑</a> </span><span class="reference-text">
+<span class="ouvrage" id="Colonna_d&#39;IstriaMagnon2021"><span class="ouvrage" id="François_Colonna_d&#39;IstriaXavier_Magnon2021">François <span class="nom_auteur">Colonna d'Istria</span> et Xavier <span class="nom_auteur">Magnon</span>, «&#160;<cite style="font-style:normal">Est-il utile et nécessaire de définir le droit pour l’étudier&#160;?</cite>&#160;», <i>Les Cahiers Portalis</i>, <abbr class="abbr" title="volume">vol.</abbr>&#160;8, <abbr class="abbr" title="numéro">n<sup>o</sup></abbr>&#160;1,&#8206; <time>2021</time>, <abbr class="abbr" title="pages">p.</abbr>&#160;77–103 <small style="line-height:1em;">(<a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<span class="plainlinks noarchive"><a rel="nofollow" class="external text" href="https://portal.issn.org/resource/issn/0981-1966">0981-1966</a></span>, <a href="/wiki/Digital_Object_Identifier" title="Digital Object Identifier">DOI</a>&#160;<span class="plainlinks noarchive nowrap"><a rel="nofollow" class="external text" href="https://dx.doi.org/10.3917/capo.008.0077">10.3917/capo.008.0077</a></span>, <a rel="nofollow" class="external text" href="https://www.cairn.info/revue-les-cahiers-portalis-2021-1-page-77.htm">lire en ligne</a>, consulté le <time class="nowrap" datetime="2023-10-19" data-sort-value="2023-10-19">19 octobre 2023</time>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Est-il+utile+et+nécessaire+de+définir+le+droit+pour+l%E2%80%99étudier+%3F&amp;rft.jtitle=Les+Cahiers+Portalis&amp;rft.issue=1&amp;rft.aulast=Colonna+d'Istria&amp;rft.aufirst=François&amp;rft.au=Magnon%2C+Xavier&amp;rft.date=2021&amp;rft.volume=8&amp;rft.pages=77%E2%80%93103&amp;rft.issn=0981-1966&amp;rft_id=info%3Adoi%2F10.3917%2Fcapo.008.0077&amp;rft_id=https%3A%2F%2Fwww.cairn.info%2Frevue-les-cahiers-portalis-2021-1-page-77.htm&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink noprint"><a href="#cite_ref-6">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Boyd_White2022"><span class="ouvrage" id="James_Boyd_White2022">James <span class="nom_auteur">Boyd White</span> (Mireille Fournier (trans.)), «&#160;<cite style="font-style:normal">La rhétorique du droit&#160;: les arts de la vie culturelle en commun</cite>&#160;», <i>Droit et société</i>, <abbr class="abbr" title="volume">vol.</abbr>&#160;111, <abbr class="abbr" title="numéro">n<sup>o</sup></abbr>&#160;2,&#8206; <time>2022</time>, <abbr class="abbr" title="pages">p.</abbr>&#160;425–445 <small style="line-height:1em;">(<a href="/wiki/International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<span class="plainlinks noarchive"><a rel="nofollow" class="external text" href="https://portal.issn.org/resource/issn/0769-3362">0769-3362</a></span>, <a href="/wiki/Digital_Object_Identifier" title="Digital Object Identifier">DOI</a>&#160;<span class="plainlinks noarchive nowrap"><a rel="nofollow" class="external text" href="https://dx.doi.org/10.3917/drs1.111.0425">10.3917/drs1.111.0425</a></span>, <a rel="nofollow" class="external text" href="https://www.cairn.info/revue-droit-et-societe-2022-2-page-425.htm">lire en ligne</a>, consulté le <time class="nowrap" datetime="2023-12-14" data-sort-value="2023-12-14">14 décembre 2023</time>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=La+rhétorique+du+droit%C2%A0%3A+les+arts+de+la+vie+culturelle+en+commun&amp;rft.jtitle=Droit+et+société&amp;rft.issue=2&amp;rft.aulast=Boyd+White&amp;rft.aufirst=James&amp;rft.date=2022&amp;rft.volume=111&amp;rft.pages=425%E2%80%93445&amp;rft.issn=0769-3362&amp;rft_id=info%3Adoi%2F10.3917%2Fdrs1.111.0425&amp;rft_id=https%3A%2F%2Fwww.cairn.info%2Frevue-droit-et-societe-2022-2-page-425.htm&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink noprint"><a href="#cite_ref-7">↑</a> </span><span class="reference-text"><span class="ouvrage" id="ForrayPimont2017"><span class="ouvrage" id="Vincent_ForraySébastien_Pimont2017">Vincent <span class="nom_auteur">Forray</span> et Sébastien <span class="nom_auteur">Pimont</span>, <cite class="italique">Décrire le droit... et le transformer: essai sur la décriture du droit</cite>, Paris, Dalloz, <abbr class="abbr" title="collection">coll.</abbr>&#160;«&#160;Méthodes du droit&#160;», <time>2017</time> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Spécial:Ouvrages_de_référence/978-2-247-17351-8" title="Spécial:Ouvrages de référence/978-2-247-17351-8"><span class="nowrap">978-2-247-17351-8</span></a>, <a rel="nofollow" class="external text" href="https://bibliotheque.lefebvre-dalloz.fr/secure/isbn/9782247173518">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Décrire+le+droit...+et+le+transformer%3A+essai+sur+la+décriture+du+droit&amp;rft.place=Paris&amp;rft.pub=Dalloz&amp;rft.aulast=Forray&amp;rft.aufirst=Vincent&amp;rft.au=Pimont%2C+Sébastien&amp;rft.date=2017&amp;rft.isbn=978-2-247-17351-8&amp;rft_id=https%3A%2F%2Fbibliotheque.lefebvre-dalloz.fr%2Fsecure%2Fisbn%2F9782247173518&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink noprint"><a href="#cite_ref-8">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Macdonald2002"><span class="ouvrage" id="Roderick_A._Macdonald2002">Roderick A. <span class="nom_auteur">Macdonald</span>, <cite class="italique">Le droit du quotidien</cite>, Montreal, Published for the Law Commission of Canada and the School of Policy Studies, Queen's University by McGill-Queen's University Press, <time>2002</time> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;978-0-88911-913-0 978-0-88911-915-4<sup style="color:red">[à vérifier&#160;: <a href="/wiki/Catégorie:Page_avec_ISBN_invalide" title="Catégorie:Page avec ISBN invalide">ISBN invalide</a>]</sup>, <a rel="nofollow" class="external text" href="http://archive.org/details/lessonsofeveryda0000macd">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Le+droit+du+quotidien&amp;rft.place=Montreal&amp;rft.pub=Published+for+the+Law+Commission+of+Canada+and+the+School+of+Policy+Studies%2C+Queen's+University+by+McGill-Queen's+University+Press&amp;rft.aulast=Macdonald&amp;rft.aufirst=Roderick+A.&amp;rft.date=2002&amp;rft.isbn=978-0-88911-913-0+978-0-88911-915-4&amp;rft_id=http%3A%2F%2Farchive.org%2Fdetails%2Flessonsofeveryda0000macd&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink noprint"><a href="#cite_ref-9">↑</a> </span><span class="reference-text"><span class="ouvrage" id="GRUA1993"><span class="ouvrage" id="François_GRUA1993">François GRUA, «&#160;<cite style="font-style:normal">Les divisions du droit</cite>&#160;», <i>RTD Civ.</i>,&#8206; <time>1993</time>, <abbr class="abbr" title="pages">p.</abbr>&#160;59-71<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Les+divisions+du+droit&amp;rft.jtitle=RTD+Civ.&amp;rft.aulast=GRUA&amp;rft.aufirst=François&amp;rft.date=1993&amp;rft.pages=59-71&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></span>
+</li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=17" title="Modifier la section : Voir aussi" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=17" title="Modifier le code source de la section : Voir aussi"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia&#160;:</p>
+<ul class="noarchive plainlinks">
+<li class="commons"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Law?uselang=fr">Droit</a>, sur <span class="project">Wikimedia Commons</span></li><li class="wiktionary"><a href="https://fr.wiktionary.org/wiki/droit" class="extiw" title="wikt:droit">droit</a>, <span class="nowrap">sur le <span class="project">Wiktionnaire</span></span></li><li class="wikiversity"><a href="https://fr.wikiversity.org/wiki/Faculté:Droit" class="extiw" title="v:Faculté:Droit">Droit</a>, <span class="nowrap">sur <span class="project">Wikiversity</span></span></li><li class="wikibooks"><a href="https://fr.wikibooks.org/wiki/Catégorie:Droit" class="extiw" title="b:Catégorie:Droit">Droit</a>, <span class="nowrap">sur <span class="project">Wikibooks</span></span></li><li class="wikisource"><a href="https://fr.wikisource.org/wiki/Catégorie:Droit" class="extiw" title="s:Catégorie:Droit">Droit</a>, <span class="nowrap">sur <span class="project">Wikisource</span></span></li><li class="wikiquote"><a href="https://fr.wikiquote.org/wiki/Droit" class="extiw" title="q:Droit">Droit</a>, <span class="nowrap">sur <span class="project">Wikiquote</span></span></li><li class="wikinews"><a href="https://fr.wikinews.org/wiki/Page:Droit" class="extiw" title="n:Page:Droit">Droit</a>, <span class="nowrap">sur <span class="project">Wikinews</span></span></li>
+</ul>
+</div>
+<div class="noprint boite-grise boite-a-droite" style="text-align:left;">
+<div style="float:left;"><span typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Circle-icons-frames.svg/45px-Circle-icons-frames.svg.png" decoding="async" width="45" height="45" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Circle-icons-frames.svg/68px-Circle-icons-frames.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Circle-icons-frames.svg/90px-Circle-icons-frames.svg.png 2x" data-file-width="512" data-file-height="512" /></span></span></div>
+<div style="margin-left:60px;">Il existe une <a href="/wiki/Aide:Catégorie" title="Aide:Catégorie">catégorie</a> consacrée à ce sujet&#160;: <i><a href="/wiki/Catégorie:Droit" title="Catégorie:Droit">Droit</a></i>.</div>
+<div style="clear:left;"></div>
+</div>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=18" title="Modifier la section : Articles connexes" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=18" title="Modifier le code source de la section : Articles connexes"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/État_de_droit" title="État de droit">État de droit</a></li>
+<li><a href="/wiki/Justice" title="Justice">Justice</a></li>
+<li><span class="page_h"><a href="/wiki/Organisation_judiciaire" class="mw-disambig" title="Organisation judiciaire">Organisation judiciaire</a></span></li>
+<li><a href="/wiki/Procédure_(droit)" title="Procédure (droit)">Procédure</a></li>
+<li><a href="/wiki/Domaines_du_droit" class="mw-redirect" title="Domaines du droit">Domaines du droit</a></li>
+<li><a href="/wiki/Philosophie_du_droit" title="Philosophie du droit">Philosophie du droit</a></li></ul>
+<h3><span class="mw-headline" id="Bibliographie_indicative">Bibliographie indicative</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=19" title="Modifier la section : Bibliographie indicative" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=19" title="Modifier le code source de la section : Bibliographie indicative"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><span class="ouvrage" id="Lagarde2019"><span class="ouvrage" id="Xavier_Lagarde2019">Xavier <span class="nom_auteur">Lagarde</span>, <cite class="italique">Introduction au droit privé</cite>, <time class="nowrap" datetime="2019-12-12" data-sort-value="2019-12-12">12 décembre 2019</time> <small style="line-height:1em;">(<a rel="nofollow" class="external text" href="https://shs.hal.science/halshs-02936485">lire en ligne</a> <span typeof="mw:File"><span title="Accès libre au document"><img alt="Accès libre" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/9px-Lock-green.svg.png" decoding="async" width="9" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/14px-Lock-green.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Lock-green.svg/18px-Lock-green.svg.png 2x" data-file-width="512" data-file-height="813" /></span></span>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Introduction+au+droit+privé&amp;rft.aulast=Lagarde&amp;rft.aufirst=Xavier&amp;rft.date=2019-12-12&amp;rft_id=https%3A%2F%2Fshs.hal.science%2Fhalshs-02936485&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></li>
+<li><span class="ouvrage" id="OlsonCassia2006"><span class="ouvrage" id="Terry_OlsonPaul_Cassia2006">Terry Olson et <a href="/wiki/Paul_Cassia" title="Paul Cassia">Paul Cassia</a>, <cite class="italique">Le droit international, le droit européen et la hiérarchie des normes</cite>, Paris, Presses universitaires de France, <abbr class="abbr" title="collection">coll.</abbr>&#160;«&#160;Droit et justice, Notes de la Mission&#160;», <time>2006</time>, 59&#160;<abbr class="abbr" title="pages">p.</abbr> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Spécial:Ouvrages_de_référence/978-2-13-055494-3" title="Spécial:Ouvrages de référence/978-2-13-055494-3"><span class="nowrap">978-2-13-055494-3</span></a>, <a href="/wiki/Online_Computer_Library_Center" title="Online Computer Library Center">OCLC</a>&#160;<span class="plainlinks noarchive nowrap"><a rel="nofollow" class="external text" href="https://worldcat.org/fr/title/470228988">470228988</a></span>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Le+droit+international%2C+le+droit+européen+et+la+hiérarchie+des+normes&amp;rft.place=Paris&amp;rft.pub=Presses+universitaires+de+France&amp;rft.aulast=Olson&amp;rft.aufirst=Terry&amp;rft.au=Paul+Cassia&amp;rft.date=2006&amp;rft.tpages=59&amp;rft.isbn=978-2-13-055494-3&amp;rft_id=info%3Aoclcnum%2F470228988&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></span></li>
+<li><span class="ouvrage"><cite class="italique">Lexique des termes juridiques</cite>, <a href="/wiki/Dalloz" title="Dalloz">Dalloz</a> <small>&#91;<a href="/wiki/Référence:Lexique_des_termes_juridiques" title="Référence:Lexique des termes juridiques">détail des éditions</a>&#93;</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Lexique+des+termes+juridiques&amp;rft.pub=Dalloz&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ADroit"></span></span></li></ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Droit&amp;veaction=edit&amp;section=20" title="Modifier la section : Liens externes" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Droit&amp;action=edit&amp;section=20" title="Modifier le code source de la section : Liens externes"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h3>
+<p class="mw-empty-elt">
+</p>
+<ul><li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers">Notices dans des dictionnaires ou encyclopédies généralistes<span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q7748?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><a rel="nofollow" class="external text" href="https://www.britannica.com/topic/law"><i>Britannica</i></a></li> <li><a rel="nofollow" class="external text" href="https://brockhaus.de/ecs/enzy/article/law"><i>Brockhaus</i></a></li> <li><a rel="nofollow" class="external text" href="https://encyclopediaofarkansas.net/entries/law-2901/"><i>CALS Encyclopedia of Arkansas</i></a></li> <li><a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/diritto_(Dizionario-di-Storia)/"><i>Dizionario di Storia</i></a></li> <li><a rel="nofollow" class="external text" href="https://www.treccani.it/enciclopedia/diritto_(Enciclopedia-Italiana)/"><i>Enciclopedia italiana</i></a></li> <li><a rel="nofollow" class="external text" href="https://www.thecanadianencyclopedia.ca/fr/article/law"><i>L'Encyclopédie canadienne</i></a></li> <li><a rel="nofollow" class="external text" href="http://esu.com.ua/search_articles.php?id=14660"><i>Encyclopédie de l'Ukraine moderne</i></a></li> <li><a rel="nofollow" class="external text" href="https://www.enciclopedia.cat/EC-GEC-0099894.xml"><i>Gran Enciclopèdia Catalana</i></a></li> <li><a rel="nofollow" class="external text" href="http://www.treccani.it/enciclopedia/diritto"><i>Treccani</i></a></li> </ul></div></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers"><a href="/wiki/Autorité_(sciences_de_l'information)" title="Autorité (sciences de l&#39;information)">Notices d'autorité</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q7748?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://id.loc.gov/authorities/sh85075119">LCCN</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://d-nb.info/gnd/4048737-4">GND</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX526381">Espagne</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://olduli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007558011205171">Israël</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://aut.nkp.cz/ph115914">Tchéquie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://kopkatalogs.lv/F/?func=direct&amp;local_base=lnc10&amp;doc_number=000037720">Lettonie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://lod.nl.go.kr/resource/KSH1998003033">Corée du Sud</a></span></li> </ul></div></li></ul>
+<ul id="bandeau-portail" class="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:Droit" title="Portail du droit"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/P_parthenon.svg/27px-P_parthenon.svg.png" decoding="async" width="27" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/P_parthenon.svg/40px-P_parthenon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f4/P_parthenon.svg/53px-P_parthenon.svg.png 2x" data-file-width="400" data-file-height="360" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Droit" title="Portail:Droit">Portail du droit</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:Société" title="Portail de la société"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Icone_wikipedia_creator_f.svg/24px-Icone_wikipedia_creator_f.svg.png" decoding="async" width="24" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Icone_wikipedia_creator_f.svg/36px-Icone_wikipedia_creator_f.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Icone_wikipedia_creator_f.svg/48px-Icone_wikipedia_creator_f.svg.png 2x" data-file-width="177" data-file-height="177" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Société" title="Portail:Société">Portail de la société</a></span> </span></li>                   </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1479
+Cached time: 20240205075416
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.524 seconds
+Real time usage: 0.706 seconds
+Preprocessor visited node count: 2968/1000000
+Post‐expand include size: 68325/2097152 bytes
+Template argument size: 5589/2097152 bytes
+Highest expansion depth: 16/100
+Expensive parser function count: 5/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 12813/5000000 bytes
+Lua time usage: 0.362/10.000 seconds
+Lua memory usage: 8494227/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  625.978      1 -total
+ 53.35%  333.974      1 Modèle:Liens
+ 12.15%   76.044      1 Modèle:Références
+  6.58%   41.177      2 Modèle:Extrait
+  6.28%   39.320      6 Modèle:Ouvrage
+  5.44%   34.080      2 Modèle:Méta_bandeau_de_note
+  5.22%   32.668      2 Modèle:Méta_bandeau
+  4.96%   31.048      1 Modèle:2autres
+  4.44%   27.766      1 Modèle:À_sourcer
+  4.30%   26.908      1 Modèle:Autres_projets
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:900-0!canonical and timestamp 20240205075415 and revision id 211355431. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Droit&amp;oldid=211355431">https://fr.wikipedia.org/w/index.php?title=Droit&amp;oldid=211355431</a>&#160;».</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Catégorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Catégorie:Droit" title="Catégorie:Droit">Droit</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégories cachées : <ul><li><a href="/wiki/Catégorie:Page_avec_ISBN_invalide" title="Catégorie:Page avec ISBN invalide">Page avec ISBN invalide</a></li><li><a href="/wiki/Catégorie:Article_manquant_de_références_depuis_février_2016" title="Catégorie:Article manquant de références depuis février 2016">Article manquant de références depuis février 2016</a></li><li><a href="/wiki/Catégorie:Article_manquant_de_références/Liste_complète" title="Catégorie:Article manquant de références/Liste complète">Article manquant de références/Liste complète</a></li><li><a href="/wiki/Catégorie:Page_utilisant_le_modèle_Extrait" title="Catégorie:Page utilisant le modèle Extrait">Page utilisant le modèle Extrait</a></li><li><a href="/wiki/Catégorie:Article_avec_section_à_recycler" title="Catégorie:Article avec section à recycler">Article avec section à recycler</a></li><li><a href="/wiki/Catégorie:Catégorie_Commons_avec_lien_local_identique_sur_Wikidata" title="Catégorie:Catégorie Commons avec lien local identique sur Wikidata">Catégorie Commons avec lien local identique sur Wikidata</a></li><li><a href="/wiki/Catégorie:Page_utilisant_un_modèle_Bases_inactif" title="Catégorie:Page utilisant un modèle Bases inactif">Page utilisant un modèle Bases inactif</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P1417" title="Catégorie:Page utilisant P1417">Page utilisant P1417</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P5019" title="Catégorie:Page utilisant P5019">Page utilisant P5019</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P7685" title="Catégorie:Page utilisant P7685">Page utilisant P7685</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P6404" title="Catégorie:Page utilisant P6404">Page utilisant P6404</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P4223" title="Catégorie:Page utilisant P4223">Page utilisant P4223</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P5395" title="Catégorie:Page utilisant P5395">Page utilisant P5395</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P4613" title="Catégorie:Page utilisant P4613">Page utilisant P4613</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P1296" title="Catégorie:Page utilisant P1296">Page utilisant P1296</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P3365" title="Catégorie:Page utilisant P3365">Page utilisant P3365</a></li><li><a href="/wiki/Catégorie:Page_pointant_vers_des_bases_externes" title="Catégorie:Page pointant vers des bases externes">Page pointant vers des bases externes</a></li><li><a href="/wiki/Catégorie:Page_pointant_vers_des_dictionnaires_ou_encyclopédies_généralistes" title="Catégorie:Page pointant vers des dictionnaires ou encyclopédies généralistes">Page pointant vers des dictionnaires ou encyclopédies généralistes</a></li><li><a href="/wiki/Catégorie:Article_de_Wikipédia_avec_notice_d'autorité" title="Catégorie:Article de Wikipédia avec notice d&#039;autorité">Article de Wikipédia avec notice d'autorité</a></li><li><a href="/wiki/Catégorie:Portail:Droit/Articles_liés" title="Catégorie:Portail:Droit/Articles liés">Portail:Droit/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Société/Articles_liés" title="Catégorie:Portail:Société/Articles liés">Portail:Société/Articles liés</a></li><li><a href="/wiki/Catégorie:Article_de_qualité_en_latin" title="Catégorie:Article de qualité en latin">Article de qualité en latin</a></li><li><a href="/wiki/Catégorie:Article_de_qualité_en_portugais" title="Catégorie:Article de qualité en portugais">Article de qualité en portugais</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 9 janvier 2024 à 19:09.</li>
+	<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikipédia:Citation_et_réutilisation_du_contenu_de_Wikipédia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 4.0 international">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d'utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikipédia:Crédits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Spécial:Citer/Droit" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br />
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia">À propos de Wikipédia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipédia:Avertissements_généraux">Avertissements</a></li>
+	<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code de conduite</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+	<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=Droit&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Activer ou désactiver la limitation de largeur du contenu</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1385","wgBackendResponseTime":160,"wgPageParseReport":{"limitreport":{"cputime":"0.524","walltime":"0.706","ppvisitednodes":{"value":2968,"limit":1000000},"postexpandincludesize":{"value":68325,"limit":2097152},"templateargumentsize":{"value":5589,"limit":2097152},"expansiondepth":{"value":16,"limit":100},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":12813,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  625.978      1 -total"," 53.35%  333.974      1 Modèle:Liens"," 12.15%   76.044      1 Modèle:Références","  6.58%   41.177      2 Modèle:Extrait","  6.28%   39.320      6 Modèle:Ouvrage","  5.44%   34.080      2 Modèle:Méta_bandeau_de_note","  5.22%   32.668      2 Modèle:Méta_bandeau","  4.96%   31.048      1 Modèle:2autres","  4.44%   27.766      1 Modèle:À_sourcer","  4.30%   26.908      1 Modèle:Autres_projets"]},"scribunto":{"limitreport-timeusage":{"value":"0.362","limit":"10.000"},"limitreport-memusage":{"value":8494227,"limit":52428800}},"cachereport":{"origin":"mw1479","timestamp":"20240205075416","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Droit","url":"https:\/\/fr.wikipedia.org\/wiki\/Droit","sameAs":"http:\/\/www.wikidata.org\/entity\/Q7748","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q7748","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-07-07T20:35:47Z","dateModified":"2024-01-09T18:09:19Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4b\/Bayong_weaving_in_Bulusan.jpg","headline":"ensemble des r\u00e8gles qui r\u00e9gissent la conduite des personnes en soci\u00e9t\u00e9"}</script>
+</body>
+</html>

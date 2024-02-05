@@ -1,0 +1,734 @@
+/wiki/Pierre_Charles_Le_Monnier
+corps_du_texte
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Pierre Charles Le Monnier — Wikipédia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
+"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"328f63c4-66c1-45cf-a11f-c3e35f277d0d","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Pierre_Charles_Le_Monnier","wgTitle":"Pierre Charles Le Monnier","wgCurRevisionId":209264085,"wgRevisionId":209264085,"wgArticleId":963694,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page utilisant P569","Page utilisant P19","Page utilisant P570","Page utilisant P20","Page utilisant P27","Page utilisant P69","Page utilisant P106","Page utilisant P22","Page utilisant P3373","Page utilisant P40","Page utilisant P1038","Page utilisant P108","Page utilisant P463","Page utilisant P1066","Article utilisant l'infobox Biographie2 avec la charte par défaut","Article utilisant l'infobox Biographie2","Article utilisant une Infobox",
+"Page utilisant P2383","Page utilisant P4491","Page utilisant P549","Page pointant vers des bases externes","Page pointant vers des bases relatives à la recherche","Page utilisant P9626","Page pointant vers des bases relatives à l'astronomie","Page utilisant P7902","Page utilisant P6706","Page pointant vers des dictionnaires ou encyclopédies généralistes","Article de Wikipédia avec notice d'autorité","Portail:Astronomie/Articles liés","Portail:Sciences de la Terre et de l'Univers/Articles liés","Portail:Sciences/Articles liés","Portail:Géodésie et géophysique/Articles liés","Portail:France/Articles liés","Portail:Europe/Articles liés","Portail:XVIIIe siècle/Articles liés","Portail:Époque moderne/Articles liés","Portail:Histoire/Articles liés","Wikipédia:Article biographique","Portail:Biographie/Articles liés/Sciences","Portail:Biographie/Articles liés/Entreprises","Astronome français du XVIIIe siècle","Géophysicien français",
+"Membre de l'Académie des sciences (France)","Membre de l'Académie de marine","Professeur au Collège de France","Membre de la Royal Society","Naissance à Paris","Naissance en novembre 1715","Décès à Bayeux","Décès en avril 1799","Décès à 83 ans"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Pierre_Charles_Le_Monnier","wgRelevantArticleId":963694,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":6000,"wgULSCurrentAutonym":"français","wgCentralAuthMobileDomain":false,
+"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q563553","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges"
+:"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.quicksurveys.init","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.16">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png/1200px-The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1516">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png/800px-The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="1010">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png/640px-The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="808">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Pierre Charles Le Monnier — Wikipédia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//fr.m.wikipedia.org/wiki/Pierre_Charles_Le_Monnier">
+<link rel="alternate" type="application/x-wiki" title="Modifier" href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)">
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://fr.wikipedia.org/wiki/Pierre_Charles_Le_Monnier">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikipédia" href="/w/index.php?title=Spécial:Modifications_récentes&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Pierre_Charles_Le_Monnier rootpage-Pierre_Charles_Le_Monnier skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Menu principal"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Menu principal</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Menu principal</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">masquer</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_principal" title="Accueil général [z]" accesskey="z"><span>Accueil</span></a></li><li id="n-thema" class="mw-list-item"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Spécial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x"><span>Article au hasard</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikipédia:Contact"><span>Contact</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-Contribuer" class="vector-menu mw-portlet mw-portlet-Contribuer"  >
+	<div class="vector-menu-heading">
+		Contribuer
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-aboutwp" class="mw-list-item"><a href="/wiki/Aide:Débuter"><span>Débuter sur Wikipédia</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_de_la_communauté" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Spécial:Modifications_récentes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Langues</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br /><a href="#p-lang-btn">Aller en haut</a>.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikipédia:Accueil_principal" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipédia" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="l&#039;encyclopédie libre" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" width="120" height="13" style="width: 7.5em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Spécial:Recherche" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Rechercher sur Wikipédia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Rechercher</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Rechercher sur Wikipédia" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" title="Rechercher sur Wikipédia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Spécial:Recherche">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Rechercher</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Outils personnels" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+		
+		
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Pierre+Charles+Le+Monnier" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire." class=""><span>Créer un compte</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Connexion&amp;returnto=Pierre+Charles+Le+Monnier" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o" class=""><span>Se connecter</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Plus d’options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils personnels"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Outils personnels</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="Menu utilisateur" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Pierre+Charles+Le+Monnier" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Connexion&amp;returnto=Pierre+Charles+Le+Monnier" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages pour les contributeurs déconnectés <a href="/wiki/Aide:Introduction" aria-label="En savoir plus sur la contribution"><span>en savoir plus</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Spécial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Spécial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" role="navigation" aria-label="Sommaire" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Sommaire</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">masquer</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">Début</div>
+			</a>
+		</li>
+		<li id="toc-Biographie"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Biographie">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Biographie</div>
+		</a>
+		
+		<ul id="toc-Biographie-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Sa_famille"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Sa_famille">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Sa famille</div>
+		</a>
+		
+		<ul id="toc-Sa_famille-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Principales_publications"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Principales_publications">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Principales publications</div>
+		</a>
+		
+		<ul id="toc-Principales_publications-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Références"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Références">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Références</div>
+		</a>
+		
+		<ul id="toc-Références-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Liens_externes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Liens_externes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Liens externes</div>
+		</a>
+		
+		<ul id="toc-Liens_externes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav role="navigation" aria-label="Sommaire" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Basculer la table des matières"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Basculer la table des matières</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Pierre Charles Le Monnier</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Aller à un article dans une autre langue. Disponible en 15 langues."   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-15" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">15 langues</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D9%8A%D8%B1_%D8%B4%D8%A7%D8%B1%D9%84_%D9%84%D9%88%D9%85%D9%88%D9%86%D9%8A%D9%8A%D9%87" title="بيير شارل لومونييه – arabe" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%A8%D9%8A%D9%8A%D8%B1_%D8%B4%D8%A7%D8%B1%D9%84_%D9%84%D9%88%D9%85%D9%88%D9%86%D9%8A%D9%8A%D9%87" title="بيير شارل لومونييه – arabe égyptien" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Pierre_Charles_Lemonnier" title="Pierre Charles Lemonnier – allemand" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%A0%CE%B9%CE%B5%CF%81_%CE%A3%CE%B1%CF%81%CE%BB_%CE%9B%CE%B5%CE%BC%CE%BF%CE%BD%CE%B9%CE%AD" title="Πιερ Σαρλ Λεμονιέ – grec" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – anglais" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – espagnol" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – finnois" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – italien" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%AB%E3%83%BB%E3%83%AB%E3%83%A2%E3%83%8B%E3%82%A8" title="ピエール・シャルル・ルモニエ – japonais" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Petrus_Carolus_Le_Monnier" title="Petrus Carolus Le Monnier – latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Pierre_Lemonnier" title="Pierre Lemonnier – polonais" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – portugais" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BC%D0%BE%D0%BD%D1%8C%D0%B5,_%D0%9F%D1%8C%D0%B5%D1%80_%D0%A8%D0%B0%D1%80%D0%BB%D1%8C" title="Лемонье, Пьер Шарль – russe" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – slovène" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Pierre_Charles_Le_Monnier" title="Pierre Charles Le Monnier – suédois" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q563553#sitelinks-wikipedia" title="Modifier les liens interlangues" class="wbc-editpage">Modifier les liens</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Espaces de noms">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Pierre_Charles_Le_Monnier" title="Voir le contenu de la page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Discussion:Pierre_Charles_Le_Monnier" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Modifier la variante de langue"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">français</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Affichages">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Pierre_Charles_Le_Monnier"><span>Lire</span></a></li><li id="ca-ve-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v"><span>Modifier</span></a></li><li id="ca-edit" class="collapsible vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit" title="Modifier le wikicode de cette page [e]" accesskey="e"><span>Modifier le code</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Outils</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Outils</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">masquer</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="Plus d’options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Pierre_Charles_Le_Monnier"><span>Lire</span></a></li><li id="ca-more-ve-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit" title="Modifier cette page [v]" accesskey="v"><span>Modifier</span></a></li><li id="ca-more-edit" class="collapsible vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit" title="Modifier le wikicode de cette page [e]" accesskey="e"><span>Modifier le code</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=history"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		Général
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Spécial:Pages_liées/Pierre_Charles_Le_Monnier" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Spécial:Suivi_des_liens/Pierre_Charles_Le_Monnier" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Aide:Importer_un_fichier" title="Téléverser des fichiers [u]" accesskey="u"><span>Téléverser un fichier</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Spécial:Pages_spéciales" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;oldid=209264085" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Spécial:Citer&amp;page=Pierre_Charles_Le_Monnier&amp;id=209264085&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Spécial:UrlShortener&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FPierre_Charles_Le_Monnier"><span>Obtenir l'URL raccourcie</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Spécial:QrCode&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FPierre_Charles_Le_Monnier"><span>Download QR code</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q563553" title="Lien vers l’élément dans le dépôt de données connecté [g]" accesskey="g"><span>Élément Wikidata</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Imprimer / exporter
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Spécial:Livre&amp;bookcmd=book_creator&amp;referer=Pierre+Charles+Le+Monnier"><span>Créer un livre</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Spécial:DownloadAsPdf&amp;page=Pierre_Charles_Le_Monnier&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		Dans d’autres projets
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Pierre-Charles_Lemonnier" hreflang="en"><span>Wikimedia Commons</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+						</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">Un article de Wikipédia, l&#039;encyclopédie libre.</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="fr" dir="ltr"><div class="bandeau-container metadata homonymie hatnote"><div class="bandeau-cell bandeau-icone" style="display:table-cell;padding-right:0.5em"><span class="noviewer" typeof="mw:File"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" decoding="async" width="20" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" data-file-width="512" data-file-height="375" /></a></span></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a href="/wiki/Le_Monnier" class="mw-redirect mw-disambig" title="Le Monnier">Le Monnier</a>.
+</p>
+</div></div>
+<div class="infobox_v3 noarchive large"><div class="entete defaut" style="background-color:#EEEEFF;color:#000000"><div>Pierre Charles Le Monnier</div></div><div><div class="images" style="padding:2px 0"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/Fichier:The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png/260px-The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png" decoding="async" width="260" height="328" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png/390px-The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/29/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png/520px-The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png 2x" data-file-width="2145" data-file-height="2709" /></a></span></div><div class="legend">Pierre Charles Le Monnier, par <a href="/wiki/Nicolas-Bernard_Lépicié" title="Nicolas-Bernard Lépicié">Nicolas-Bernard Lépicié</a> (v. 1777). <a href="/wiki/Calouste_Gulbenkian" title="Calouste Gulbenkian">Musée Calouste Gulbenkian</a>, <a href="/wiki/Lisbonne" title="Lisbonne">Lisbonne</a>.</div></div><table><caption style="color:#000000;text-align:center;background-color:#EEEEFF">Biographie</caption><tbody><tr class=""><th scope="row">Naissance</th><td class=""><div>
+<span class="wd_p569"><time class="nowrap date-lien" datetime="1715-11-20" data-sort-value="1715-11-20"><a href="/wiki/20_novembre" title="20 novembre">20 novembre</a> <a href="/wiki/1715" title="1715">1715</a></time><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P569" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span><br /><span class="wd_p19"><a href="/wiki/Paris" title="Paris">Paris</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P19" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Décès</th><td class=""><div>
+<span class="wd_p570"><time class="nowrap date-lien" datetime="1799-04-03" data-sort-value="1799-04-03"><a href="/wiki/3_avril" title="3 avril">3</a> <a href="/wiki/Avril_1799" title="Avril 1799">avril</a> <a href="/wiki/1799" title="1799">1799</a></time><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P570" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span> (à 83&#160;ans)<br /><span class="wd_p20">Les Hérils <small>(<a href="https://www.wikidata.org/wiki/Q109572471" class="extiw" title="d:Q109572471"><span class="indicateur-langue" title="Voir l&#39;élément Wikidata correspondant">d</span></a>)</small> ou <a href="/wiki/Bayeux" title="Bayeux">Bayeux</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P20" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Nationalité</th><td class=""><div>
+<span class="wd_p27"><a href="/wiki/France" title="France">française</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P27" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Formation</th><td class=""><div>
+<span class="wd_p69"><a href="/wiki/Académie_des_sciences_(France)" title="Académie des sciences (France)">Académie des sciences</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P69" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Activités</th><td class=""><div>
+<span class="wd_p106"><a href="/wiki/Astronome" title="Astronome">Astronome</a>, <a href="/wiki/Professeur_(titre)" title="Professeur (titre)">professeur</a>, <a href="/wiki/Physicien" title="Physicien">physicien</a>, <a href="/wiki/Scientifique" title="Scientifique">scientifique</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P106" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Père</th><td class=""><div>
+<span class="wd_p22"><a href="/wiki/Pierre_Lemonnier_(mathématicien)" title="Pierre Lemonnier (mathématicien)">Pierre Lemonnier</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P22" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Fratrie</th><td class=""><div>
+<span class="wd_p3373"><a href="/wiki/Louis_Guillaume_Le_Monnier" title="Louis Guillaume Le Monnier">Louis Guillaume Le Monnier</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P3373" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Enfant</th><td class=""><div>
+<span class="wd_p40">Adélaïde Le Monnier <small>(<a href="https://www.wikidata.org/wiki/Q104721253" class="extiw" title="d:Q104721253"><span class="indicateur-langue" title="Voir l&#39;élément Wikidata correspondant">d</span></a>)</small><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P40" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Parentèle</th><td class=""><div>
+<span class="wd_p1038"><a href="/wiki/Joseph-Louis_Lagrange" title="Joseph-Louis Lagrange">Joseph-Louis Lagrange</a> &#32;(gendre)<span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P1038" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr></tbody></table><table><caption style="color:#000000;text-align:center;background-color:#EEEEFF">Autres informations</caption><tbody><tr class=""><th scope="row">A travaillé pour</th><td class=""><div>
+<span class="wd_p108"><a href="/wiki/Collège_de_France" title="Collège de France">Collège de France</a> <small>(<time>1749</time>-<wbr /><time>1799</time>)</small><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P108" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Membre de</th><td class=""><div>
+<span class="wd_p463"><a href="/wiki/Royal_Society" title="Royal Society">Royal Society</a><br /><a href="/wiki/Académie_royale_des_sciences_de_Prusse" title="Académie royale des sciences de Prusse">Académie royale des sciences de Prusse</a><br /><a href="/wiki/Académie_de_marine" title="Académie de marine">Académie de marine</a><br /><a href="/wiki/Académie_des_sciences_(France)" title="Académie des sciences (France)">Académie des sciences</a><br /><a href="/wiki/Académie_royale_des_sciences_de_Suède" title="Académie royale des sciences de Suède">Académie royale des sciences de Suède</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P463" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr><tr class=""><th scope="row">Maîtres</th><td class=""><div>
+<span class="wd_p1066"><a href="/wiki/Pierre_Louis_Moreau_de_Maupertuis" title="Pierre Louis Moreau de Maupertuis">Pierre-Louis Moreau de Maupertuis</a>, <a href="/wiki/Alexis_Claude_Clairaut" title="Alexis Claude Clairaut">Alexis Claude Clairaut</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#P1066" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span></div></td></tr></tbody></table><p class="navbar noprint bordered navigation-not-searchable" style="border-top:1px solid #EEEEFF"><span class="plainlinks" style="text-align:left"><a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit&amp;section=0">modifier</a> - <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit&amp;section=0">modifier le code</a> - <a href="https://www.wikidata.org/wiki/Q563553" class="extiw" title="d:Q563553">modifier Wikidata</a></span><span style="text-align:right"><span typeof="mw:File"><a href="/wiki/Modèle:Infobox_Biographie2" title="Documentation du modèle"><img alt="Documentation du modèle" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/12px-Info_Simple.svg.png" decoding="async" width="12" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/18px-Info_Simple.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/38/Info_Simple.svg/24px-Info_Simple.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></span></p></div>
+<p><b>Pierre Charles Le Monnier</b> (ou Lemonnier), né le <time class="nowrap bday" datetime="1715-11-20" data-sort-value="1715-11-20">20 novembre 1715</time> à <a href="/wiki/Paris" title="Paris">Paris</a> et mort le <time class="nowrap dday" datetime="1799-04-03" data-sort-value="1799-04-03">3 avril 1799</time> à Hérils, commune de <a href="/wiki/Maisons_(Calvados)" title="Maisons (Calvados)">Maisons</a> à 5&#160;<abbr class="abbr" title="kilomètre">km</abbr> de <a href="/wiki/Bayeux" title="Bayeux">Bayeux</a>, est un astronome français à qui l'on doit d'importants travaux à la fois en <a href="/wiki/Astronomie" title="Astronomie">astronomie</a> et en <a href="/wiki/Géodésie" title="Géodésie">géodésie</a>.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Biographie">Biographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit&amp;section=1" title="Modifier la section : Biographie" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit&amp;section=1" title="Modifier le code source de la section : Biographie"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Il est le fils du philosophe et mathématicien <a href="/wiki/Pierre_Lemonnier_(mathématicien)" title="Pierre Lemonnier (mathématicien)">Pierre Lemonnier</a>. Il devient membre de l'<a href="/wiki/Académie_des_sciences_(France)" title="Académie des sciences (France)">Académie royale des sciences</a> en 1736 et il est professeur au <a href="/wiki/Collège_de_France" title="Collège de France">Collège de France</a> à partir de 1746. Il est le premier maître de l'astronome <a href="/wiki/Joseph_Jér%C3%B4me_Lefrançois_de_Lalande" title="Joseph Jérôme Lefrançois de Lalande">Joseph de Lalande</a>, avec lequel il aura par la suite de vives disputes. Il semble avoir été l'astronome privilégié de <a href="/wiki/Louis_XV" title="Louis XV">Louis XV</a>. À 21&#160;ans, il participe à l'expédition de 1736–1737 en <a href="/wiki/Laponie" title="Laponie">Laponie</a>, dirigée par <a href="/wiki/Pierre_Louis_Moreau_de_Maupertuis" title="Pierre Louis Moreau de Maupertuis">Pierre Louis Moreau de Maupertuis</a>, pour déterminer si la Terre est un <a href="/wiki/Expéditions_géodésiques_françaises" title="Expéditions géodésiques françaises">ellipsoïde allongé ou aplati aux pôles</a>. Pour commémorer cette fructueuse expédition, il créa la constellation du <a href="/wiki/Renne_(constellation)" title="Renne (constellation)">Renne</a>, aujourd'hui obsolète. Il devient membre de la <a href="/wiki/Royal_Society" title="Royal Society">Royal Society</a> le <time class="nowrap" datetime="1739-04-05" data-sort-value="1739-04-05">5 avril 1739</time>.
+</p><p>La détermination des changements de la <a href="/wiki/Réfraction_atmosphérique" title="Réfraction atmosphérique">réfraction atmosphérique</a> en été et en hiver et la réforme des tables du <a href="/wiki/Soleil" title="Soleil">Soleil</a> comptent parmi ses contributions majeures à l'<a href="/wiki/Astronomie" title="Astronomie">astronomie</a>. Il régla sa <a href="/wiki/Lunette_astronomique" title="Lunette astronomique">lunette astronomique</a> grâce au cadran solaire légèrement déclinant de l'après-midi de l'église saint Eustache à Paris dans le premier arrondissement. Ses observations effectuées en 1743 à l'aide d'un <a href="/wiki/Gnomon" title="Gnomon">gnomon</a> ou plutôt d'une <a href="/wiki/Méridienne_(gnomonique)" title="Méridienne (gnomonique)">méridienne </a> en l'<a href="/wiki/Église_Saint-Sulpice_de_Paris" title="Église Saint-Sulpice de Paris">église Saint-Sulpice</a> à <a href="/wiki/Paris" title="Paris">Paris</a> indiquent, par comparaison avec celles effectuées par <a href="/wiki/Giovanni_Domenico_Cassini" class="mw-redirect" title="Giovanni Domenico Cassini">Jean-Dominique Cassini</a> à <a href="/wiki/Bologne" title="Bologne">Bologne</a> en 1656, une diminution de l'<a href="/wiki/Inclinaison_de_l'axe" title="Inclinaison de l&#39;axe">obliquité</a> de l'<a href="/wiki/Écliptique" title="Écliptique">écliptique</a> ainsi que de la <a href="/wiki/Hauteur_(angle)" title="Hauteur (angle)">hauteur polaire</a> à Paris. Le Monnier est reconnu comme un observateur infatigable qui fait progresser la pratique des mesures astronomiques en France<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>. Il participe aussi activement à la diffusion des travaux de ses confrères anglais, notamment <a href="/wiki/John_Flamsteed" title="John Flamsteed">John Flamsteed</a> et <a href="/wiki/Isaac_Newton" title="Isaac Newton">Isaac Newton</a>. On lui attribue une douzaine d'observations de l'étoile de cinquième grandeur qu'était <a href="/wiki/Uranus_(planète)" title="Uranus (planète)">Uranus</a> avant que celle-ci ne soit officiellement découverte par <a href="/wiki/William_Herschel" title="William Herschel">William Herschel</a> en 1781 et identifiée un peu plus tard comme une planète. L'anecdote voudrait que ses observations aient été négligemment consignées sur le papier d'emballage de sa poudre à perruque. 
+</p><p>En 1935, l'<a href="/wiki/Union_astronomique_internationale" title="Union astronomique internationale">Union astronomique internationale</a> a donné le nom de <a href="/wiki/Le_Monnier_(cratère)" title="Le Monnier (cratère)">Le Monnier</a> à un <a href="/wiki/Cratères_lunaires" class="mw-redirect" title="Cratères lunaires">cratère lunaire</a>.
+</p><p>Situé en bordure de la Mer de la Sérénité, le cratère Le Monnier a été exploré en 1973 par le rover Russe Lunokhod 2. Abandonné en panne, il s'y trouve toujours.
+</p>
+<h2><span class="mw-headline" id="Sa_famille">Sa famille</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit&amp;section=2" title="Modifier la section : Sa famille" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit&amp;section=2" title="Modifier le code source de la section : Sa famille"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Son père est <a href="/wiki/Pierre_Lemonnier_(mathématicien)" title="Pierre Lemonnier (mathématicien)">Pierre Le Monnier .</a></li>
+<li>La famille est Normande originaire de Saint-Sever (Calvados)</li>
+<li>Sa fille Renée Françoise <i>Adélaïde</i> Lemonnier (1767-1833) à vingt-cinq ans épousa en 1792 le mathématicien <a href="/wiki/Joseph-Louis_Lagrange" title="Joseph-Louis Lagrange">Joseph-Louis Lagrange</a> (1736-1813).</li>
+<li>Sa fille Renée Michelle Lemonnier (1772-1820) à vingt-six ans épousa en 1798 son oncle, Louis Guillaume Le Monnier (1717-1799), alors âgé de 81 ans.</li>
+<li>Sa maîtresse Finnoise-<a href="/wiki/Laponie" title="Laponie">Laponne</a>, Mademoiselle Forsström, qu'il avait rencontré lorsqu'il était malade en Laponie en 1736.</li>
+<li>Son frère <a href="/wiki/Louis_Guillaume_Le_Monnier" title="Louis Guillaume Le Monnier">Louis Guillaume Le Monnier</a> (1717–1799) s'est également illustré parmi les savants français du <abbr class="abbr" title="18ᵉ siècle"><span class="romain">XVIII</span><sup style="font-size:72%">e</sup></abbr>&#160;siècle.</li></ul>
+<h2><span class="mw-headline" id="Principales_publications">Principales publications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit&amp;section=3" title="Modifier la section : Principales publications" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit&amp;section=3" title="Modifier le code source de la section : Principales publications"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><i>Histoire céleste</i>, 1741.</li>
+<li><i>Théorie des comètes</i>, 1743.</li>
+<li><i>Institution astronomique</i>, 1746.</li>
+<li><i>Loix du magnétisme comparées aux expériences dans les différentes parties du Globe terrestre, pour perfectionner la théorie de l’aimant, &amp; indiquer par-là les courbes magnétiques qu’on cherche à la mer, sur les cartes réduites</i>, par M. Le Monnier... – À Paris, de l’Imprimerie royale, 1776-1778. 2 parties en 1 vol. in-8°, 4 cartes.</li>
+<li><i>Astronomie nautique lunaire, où l'on traite de la Latitude &amp; de la Longitude en mer, de la Période ou Saros, des parallaxes de la Lune...suivie d'autres Tables des mouvemens du Soleil &amp; des Étoiles fixes, auxquelles la Lune sera comparée dans les voyages de long cours</i>, Paris, Imprimerie Royale, 1771.</li>
+<li><i>Essai sur les marées</i>, 1774.</li>
+<li><i>Exposition des moyens les plus faciles de résoudre plusieurs questions dans l'art de la navigation</i>, Paris, Saillant et Nyon, 1772.</li></ul>
+<h2><span id="R.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Références">Références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit&amp;section=4" title="Modifier la section : Références" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit&amp;section=4" title="Modifier le code source de la section : Références"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text">En Perse, <a href="/wiki/Simon_de_Verville" class="mw-redirect" title="Simon de Verville">Simon de Verville</a> fait, pour lui, l’acquisition du grand <i>Almageste</i>, en arabe, du célèbre <a href="/wiki/Nasir_al-Din_al-Tusi" title="Nasir al-Din al-Tusi">Nasir al-Din al-Tusi</a>, grand in-fol., au premier feuillet duquel on lit, sur le recto, la note suivante, écrite de sa main&#160;: «&#160;à Ispahan, le 28 décembre 1755, à la latitude de <span class="nowrap">32<abbr class="abbr" title="degrés">°</abbr>&#160;05<abbr class="abbr" title="minutes">′</abbr>&#160;05<abbr class="abbr" title="secondes">″</abbr></span> — Au Nassir Eddin Toussi de ce siècle, mon intime ami M. Lemonnier&#160;».</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;veaction=edit&amp;section=5" title="Modifier la section : Liens externes" class="mw-editsection-visualeditor"><span>modifier</span></a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Pierre_Charles_Le_Monnier&amp;action=edit&amp;section=5" title="Modifier le code source de la section : Liens externes"><span>modifier le code</span></a><span class="mw-editsection-bracket">]</span></span></h2>
+<p class="mw-empty-elt">
+</p>
+<ul><li class="mw-empty-elt"></li>
+<li><span class="liste-horizontale noarchive"><span class="wd_identifiers">Ressources relatives à la recherche<span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><a rel="nofollow" class="external text" href="https://cths.fr/an/savant.php?id=100619"><i>La France savante</i></a></li> <li><a rel="nofollow" class="external text" href="https://isidore.science/a/le_monnier_pierre_charles_auteur_du_texte">Isidore</a></li> <li><a rel="nofollow" class="external text" href="https://genealogy.math.ndsu.nodak.edu/id.php?id=112876"><span class="lang-en" lang="en">Mathematics Genealogy Project</span></a></li> </ul></span></li>
+<li><span class="liste-horizontale noarchive"><span class="wd_identifiers">Ressource relative à l'astronomie<span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><a rel="nofollow" class="external text" href="https://doi.org/10.1007/978-0-387-30400-7_972"><span class="lang-en" lang="en">Biographical Encyclopedia of Astronomers</span></a></li> </ul></span></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers">Notices dans des dictionnaires ou encyclopédies généralistes<span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><a rel="nofollow" class="external text" href="http://www.deutsche-biographie.de/117636169.html"><i>Deutsche Biographie</i></a></li> <li><a rel="nofollow" class="external text" href="http://www.sapere.it/enciclopedia/Lemonnier%2C%2BPierre-Charles.html"><i>Enciclopedia De Agostini</i></a></li> </ul></div></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers"><a href="/wiki/Autorité_(sciences_de_l'information)" title="Autorité (sciences de l&#39;information)">Notices d'autorité</a><span class="noprint wikidata-linkback"><span class="mw-valign-baseline noviewer" typeof="mw:File"><a href="https://www.wikidata.org/wiki/Q563553?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" decoding="async" width="10" height="10" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" data-file-width="600" data-file-height="600" /></a></span></span></span>&#160;: <ul><li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://viaf.org/viaf/9877713">VIAF</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://isni.org/isni/0000000083558181">ISNI</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb121064574">BnF</a></span> (<span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb121064574">données</a></span>)</li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://www.idref.fr/029436818">IdRef</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://id.loc.gov/authorities/n85050013">LCCN</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://d-nb.info/gnd/117636169">GND</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://opac.sbn.it/nome/UFIV122812">Italie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://ci.nii.ac.jp/author/DA00834814?l=en">CiNii</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX1677930">Espagne</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://opac.kbr.be/LIBRARY/doc/AUTHORITY/14624081">Belgique</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://data.bibliotheken.nl/id/thes/p07195760X">Pays-Bas</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://nukat.edu.pl/aut/n 2018041372">NUKAT</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://libris.kb.se/auth/334420">Suède</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://authority.bibsys.no/authority/rest/authorities/html/9009740">Norvège</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://aut.nkp.cz/ola2016918696">Tchéquie</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="http://urn.bn.pt/nca/unimarc-authorities/txt?id=1219331">Portugal</a></span></li> <li><span class="nowrap uid noarchive"><a rel="nofollow" class="external text" href="https://www.worldcat.org/identities/lccn-n85050013">WorldCat</a></span></li> </ul></div></li></ul>
+<ul id="bandeau-portail" class="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:Astronomie" title="Portail de l’astronomie"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Noun_Astronomy_Icon2.svg/25px-Noun_Astronomy_Icon2.svg.png" decoding="async" width="25" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Noun_Astronomy_Icon2.svg/37px-Noun_Astronomy_Icon2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/27/Noun_Astronomy_Icon2.svg/50px-Noun_Astronomy_Icon2.svg.png 2x" data-file-width="755" data-file-height="730" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Astronomie" title="Portail:Astronomie">Portail de l’astronomie</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:Géodésie_et_géophysique" title="Portail de la géodésie et de la géophysique"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jordens_inre.svg/23px-Jordens_inre.svg.png" decoding="async" width="23" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jordens_inre.svg/35px-Jordens_inre.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jordens_inre.svg/46px-Jordens_inre.svg.png 2x" data-file-width="800" data-file-height="833" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Géodésie_et_géophysique" title="Portail:Géodésie et géophysique">Portail de la géodésie et de la géophysique</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="mw-image-border noviewer" typeof="mw:File"><a href="/wiki/Portail:France" title="Portail de la France"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/33px-Flag_of_France.svg.png" decoding="async" width="33" height="22" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/50px-Flag_of_France.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/66px-Flag_of_France.svg.png 2x" data-file-width="900" data-file-height="600" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:France" title="Portail:France">Portail de la France</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><span class="noviewer" typeof="mw:File"><a href="/wiki/Portail:XVIIIe_siècle" title="Portail du XVIIIe&#160;siècle"><img alt="icône décorative" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/D'après_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Bibliothèque-musée_de_la_Comédie-Française%29_-001.jpg/18px-D'après_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Bibliothèque-musée_de_la_Comédie-Française%29_-001.jpg" decoding="async" width="18" height="24" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ae/D'après_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Bibliothèque-musée_de_la_Comédie-Française%29_-001.jpg/28px-D'après_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Bibliothèque-musée_de_la_Comédie-Française%29_-001.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ae/D'après_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Bibliothèque-musée_de_la_Comédie-Française%29_-001.jpg/37px-D'après_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Bibliothèque-musée_de_la_Comédie-Française%29_-001.jpg 2x" data-file-width="442" data-file-height="571" /></a></span></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:XVIIIe_siècle" title="Portail:XVIIIe siècle">Portail du <abbr class="abbr" title="18ᵉ siècle"><span class="romain">XVIII</span><sup style="font-size:72%">e</sup></abbr>&#160;siècle</a></span> </span></li>                 </ul>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐85dbbb967f‐dpslb
+Cached time: 20240205093146
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 1.200 seconds
+Real time usage: 1.522 seconds
+Preprocessor visited node count: 1292/1000000
+Post‐expand include size: 48566/2097152 bytes
+Template argument size: 1790/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 23/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 962/5000000 bytes
+Lua time usage: 1.027/10.000 seconds
+Lua memory usage: 11114039/52428800 bytes
+Lua Profile:
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      480 ms       46.2%
+    ?                                                                140 ms       13.5%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::sub       80 ms        7.7%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::lc       40 ms        3.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::addStatementUsage       40 ms        3.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityId       40 ms        3.8%
+    gsub                                                              20 ms        1.9%
+    langue <Module:Langue:188>                                        20 ms        1.9%
+    <mw.html.lua:114>                                                 20 ms        1.9%
+    split <mw.text.lua:216>                                           20 ms        1.9%
+    [others]                                                         140 ms       13.5%
+Number of Wikibase entities loaded: 32/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1433.784      1 -total
+ 46.76%  670.413      1 Modèle:Infobox_Biographie2
+ 39.87%  571.598      1 Modèle:Liens
+  6.50%   93.250      1 Modèle:Portail
+  3.96%   56.766      1 Modèle:Suivi_des_biographies
+  2.77%   39.751      1 Modèle:Voir_homonymes
+  2.58%   36.943      1 Modèle:Méta_bandeau_de_note
+  2.45%   35.190      1 Modèle:Méta_bandeau
+  1.48%   21.245      1 Modèle:Références
+  1.32%   18.975      1 Modèle:Dictionnaires
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:963694-0!canonical and timestamp 20240205093144 and revision id 209264085. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Pierre_Charles_Le_Monnier&amp;oldid=209264085">https://fr.wikipedia.org/w/index.php?title=Pierre_Charles_Le_Monnier&amp;oldid=209264085</a>&#160;».</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Catégorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Catégorie:Astronome_français_du_XVIIIe_siècle" title="Catégorie:Astronome français du XVIIIe siècle">Astronome français du XVIIIe siècle</a></li><li><a href="/wiki/Catégorie:Géophysicien_français" title="Catégorie:Géophysicien français">Géophysicien français</a></li><li><a href="/wiki/Catégorie:Membre_de_l'Académie_des_sciences_(France)" title="Catégorie:Membre de l&#039;Académie des sciences (France)">Membre de l'Académie des sciences (France)</a></li><li><a href="/wiki/Catégorie:Membre_de_l'Académie_de_marine" title="Catégorie:Membre de l&#039;Académie de marine">Membre de l'Académie de marine</a></li><li><a href="/wiki/Catégorie:Professeur_au_Collège_de_France" title="Catégorie:Professeur au Collège de France">Professeur au Collège de France</a></li><li><a href="/wiki/Catégorie:Membre_de_la_Royal_Society" title="Catégorie:Membre de la Royal Society">Membre de la Royal Society</a></li><li><a href="/wiki/Catégorie:Naissance_à_Paris" title="Catégorie:Naissance à Paris">Naissance à Paris</a></li><li><a href="/wiki/Catégorie:Naissance_en_novembre_1715" title="Catégorie:Naissance en novembre 1715">Naissance en novembre 1715</a></li><li><a href="/wiki/Catégorie:Décès_à_Bayeux" title="Catégorie:Décès à Bayeux">Décès à Bayeux</a></li><li><a href="/wiki/Catégorie:Décès_en_avril_1799" title="Catégorie:Décès en avril 1799">Décès en avril 1799</a></li><li><a href="/wiki/Catégorie:Décès_à_83_ans" title="Catégorie:Décès à 83 ans">Décès à 83 ans</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégories cachées : <ul><li><a href="/wiki/Catégorie:Page_utilisant_P569" title="Catégorie:Page utilisant P569">Page utilisant P569</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P19" title="Catégorie:Page utilisant P19">Page utilisant P19</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P570" title="Catégorie:Page utilisant P570">Page utilisant P570</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P20" title="Catégorie:Page utilisant P20">Page utilisant P20</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P27" title="Catégorie:Page utilisant P27">Page utilisant P27</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P69" title="Catégorie:Page utilisant P69">Page utilisant P69</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P106" title="Catégorie:Page utilisant P106">Page utilisant P106</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P22" title="Catégorie:Page utilisant P22">Page utilisant P22</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P3373" title="Catégorie:Page utilisant P3373">Page utilisant P3373</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P40" title="Catégorie:Page utilisant P40">Page utilisant P40</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P1038" title="Catégorie:Page utilisant P1038">Page utilisant P1038</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P108" title="Catégorie:Page utilisant P108">Page utilisant P108</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P463" title="Catégorie:Page utilisant P463">Page utilisant P463</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P1066" title="Catégorie:Page utilisant P1066">Page utilisant P1066</a></li><li><a href="/wiki/Catégorie:Article_utilisant_l'infobox_Biographie2_avec_la_charte_par_défaut" title="Catégorie:Article utilisant l&#039;infobox Biographie2 avec la charte par défaut">Article utilisant l'infobox Biographie2 avec la charte par défaut</a></li><li><a href="/wiki/Catégorie:Article_utilisant_l'infobox_Biographie2" title="Catégorie:Article utilisant l&#039;infobox Biographie2">Article utilisant l'infobox Biographie2</a></li><li><a href="/wiki/Catégorie:Article_utilisant_une_Infobox" title="Catégorie:Article utilisant une Infobox">Article utilisant une Infobox</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P2383" title="Catégorie:Page utilisant P2383">Page utilisant P2383</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P4491" title="Catégorie:Page utilisant P4491">Page utilisant P4491</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P549" title="Catégorie:Page utilisant P549">Page utilisant P549</a></li><li><a href="/wiki/Catégorie:Page_pointant_vers_des_bases_externes" title="Catégorie:Page pointant vers des bases externes">Page pointant vers des bases externes</a></li><li><a href="/wiki/Catégorie:Page_pointant_vers_des_bases_relatives_à_la_recherche" title="Catégorie:Page pointant vers des bases relatives à la recherche">Page pointant vers des bases relatives à la recherche</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P9626" title="Catégorie:Page utilisant P9626">Page utilisant P9626</a></li><li><a href="/wiki/Catégorie:Page_pointant_vers_des_bases_relatives_à_l'astronomie" title="Catégorie:Page pointant vers des bases relatives à l&#039;astronomie">Page pointant vers des bases relatives à l'astronomie</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P7902" title="Catégorie:Page utilisant P7902">Page utilisant P7902</a></li><li><a href="/wiki/Catégorie:Page_utilisant_P6706" title="Catégorie:Page utilisant P6706">Page utilisant P6706</a></li><li><a href="/wiki/Catégorie:Page_pointant_vers_des_dictionnaires_ou_encyclopédies_généralistes" title="Catégorie:Page pointant vers des dictionnaires ou encyclopédies généralistes">Page pointant vers des dictionnaires ou encyclopédies généralistes</a></li><li><a href="/wiki/Catégorie:Article_de_Wikipédia_avec_notice_d'autorité" title="Catégorie:Article de Wikipédia avec notice d&#039;autorité">Article de Wikipédia avec notice d'autorité</a></li><li><a href="/wiki/Catégorie:Portail:Astronomie/Articles_liés" title="Catégorie:Portail:Astronomie/Articles liés">Portail:Astronomie/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Sciences_de_la_Terre_et_de_l'Univers/Articles_liés" title="Catégorie:Portail:Sciences de la Terre et de l&#039;Univers/Articles liés">Portail:Sciences de la Terre et de l'Univers/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Sciences/Articles_liés" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Géodésie_et_géophysique/Articles_liés" title="Catégorie:Portail:Géodésie et géophysique/Articles liés">Portail:Géodésie et géophysique/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:France/Articles_liés" title="Catégorie:Portail:France/Articles liés">Portail:France/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Europe/Articles_liés" title="Catégorie:Portail:Europe/Articles liés">Portail:Europe/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:XVIIIe_siècle/Articles_liés" title="Catégorie:Portail:XVIIIe siècle/Articles liés">Portail:XVIIIe siècle/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Époque_moderne/Articles_liés" title="Catégorie:Portail:Époque moderne/Articles liés">Portail:Époque moderne/Articles liés</a></li><li><a href="/wiki/Catégorie:Portail:Histoire/Articles_liés" title="Catégorie:Portail:Histoire/Articles liés">Portail:Histoire/Articles liés</a></li><li><a href="/wiki/Catégorie:Wikipédia:Article_biographique" title="Catégorie:Wikipédia:Article biographique">Wikipédia:Article biographique</a></li><li><a href="/wiki/Catégorie:Portail:Biographie/Articles_liés/Sciences" title="Catégorie:Portail:Biographie/Articles liés/Sciences">Portail:Biographie/Articles liés/Sciences</a></li><li><a href="/wiki/Catégorie:Portail:Biographie/Articles_liés/Entreprises" title="Catégorie:Portail:Biographie/Articles liés/Entreprises">Portail:Biographie/Articles liés/Entreprises</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 2 novembre 2023 à 10:46.</li>
+	<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikipédia:Citation_et_réutilisation_du_contenu_de_Wikipédia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 4.0 international">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d'utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikipédia:Crédits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Spécial:Citer/Pierre_Charles_Le_Monnier" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br />
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia">À propos de Wikipédia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipédia:Avertissements_généraux">Avertissements</a></li>
+	<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code de conduite</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+	<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=Pierre_Charles_Le_Monnier&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Activer ou désactiver la limitation de largeur du contenu</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1451","wgBackendResponseTime":122,"wgPageParseReport":{"limitreport":{"cputime":"1.200","walltime":"1.522","ppvisitednodes":{"value":1292,"limit":1000000},"postexpandincludesize":{"value":48566,"limit":2097152},"templateargumentsize":{"value":1790,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":23,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":962,"limit":5000000},"entityaccesscount":{"value":32,"limit":400},"timingprofile":["100.00% 1433.784      1 -total"," 46.76%  670.413      1 Modèle:Infobox_Biographie2"," 39.87%  571.598      1 Modèle:Liens","  6.50%   93.250      1 Modèle:Portail","  3.96%   56.766      1 Modèle:Suivi_des_biographies","  2.77%   39.751      1 Modèle:Voir_homonymes","  2.58%   36.943      1 Modèle:Méta_bandeau_de_note","  2.45%   35.190      1 Modèle:Méta_bandeau","  1.48%   21.245      1 Modèle:Références","  1.32%   18.975      1 Modèle:Dictionnaires"]},"scribunto":{"limitreport-timeusage":{"value":"1.027","limit":"10.000"},"limitreport-memusage":{"value":11114039,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","480","46.2"],["?","140","13.5"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::sub","80","7.7"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::lc","40","3.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::addStatementUsage","40","3.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityId","40","3.8"],["gsub","20","1.9"],["langue \u003CModule:Langue:188\u003E","20","1.9"],["\u003Cmw.html.lua:114\u003E","20","1.9"],["split \u003Cmw.text.lua:216\u003E","20","1.9"],["[others]","140","13.5"]]},"cachereport":{"origin":"mw-web.eqiad.main-85dbbb967f-dpslb","timestamp":"20240205093146","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Pierre Charles Le Monnier","url":"https:\/\/fr.wikipedia.org\/wiki\/Pierre_Charles_Le_Monnier","sameAs":"http:\/\/www.wikidata.org\/entity\/Q563553","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q563553","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-08-13T13:26:35Z","dateModified":"2023-11-02T09:46:33Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/29\/The_Astronomer_Nicolas-Bernard_Lépicié_détouré.png","headline":"astronome fran\u00e7ais"}</script>
+</body>
+</html>
