@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"os"
 	"strings"
+	"sync"
+	"time"
 )
 
 const port = ":8080"
@@ -13,7 +15,10 @@ func Home(w http.ResponseWriter, r *http.Request, body string) {
 	fmt.Fprintf(w, body)
 }
 
-func Lire(filePath string) {
+func Lire(filePath string, wg_poster *sync.WaitGroup) {
+
+	defer wg_poster.Done()
+
 	content, _ := os.ReadFile(filePath)
 	fileContent := string(content)
 
@@ -29,10 +34,6 @@ func Lire(filePath string) {
 	titre := fileContent[:index]
 	body := fileContent[index+len("\ncorps_du_texte\n"):]
 
-	Lancement(titre, body)
-}
-
-func Lancement(titre string, body string) {
 	http.HandleFunc(titre, func(w http.ResponseWriter, r *http.Request) { poster(w, r, body) })
 }
 
@@ -70,13 +71,24 @@ func main() {
 	fmt.Printf("Le lien : localhost:8080%s \n", titre)
 	fmt.Printf("Serveur écoutant sur le port %s...\n", port)
 
+	startTime := time.Now()
+
 	infos, err := os.ReadDir("HTML")
 	nb_fichiers := len(infos)
 
+	var wg_poster sync.WaitGroup
+
 	for i := 1; i < nb_fichiers; i++ {
-		Lire(fmt.Sprintf("HTML/Test%d", i))
+
+		wg_poster.Add(1)
+		Lire(fmt.Sprintf("HTML/Test%d", i), &wg_poster)
 
 	}
+
+	wg_poster.Wait()
+
+	elapsedTime := time.Since(startTime)
+	fmt.Printf("Temps total d'exécution : %s\n", elapsedTime)
 
 	err = http.ListenAndServe(port, nil)
 	if err != nil {
