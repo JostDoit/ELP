@@ -48,7 +48,7 @@ func HTML(filePath string, URL string, wg *sync.WaitGroup) string {
 	err2 := writetxt(filePath, bodyString, URL)
 
 	if err2 != nil {
-		fmt.Printf("Une erreur s'est produite : %s\n", err)
+		fmt.Printf("Une erreur s'est produite pour écrire : %s\n", err)
 		return ""
 	}
 
@@ -100,10 +100,49 @@ func writetxt(filePath, corps string, lien string) error {
 	return nil
 }
 
+func manger(URL string, prefixe string, nomDossier string, wgProf *sync.WaitGroup) {
+
+	defer wgProf.Done()
+
+	filePath := fmt.Sprintf("%s/Page0", nomDossier)
+	fmt.Println(filePath)
+
+	if _, err := os.Stat(nomDossier); os.IsNotExist(err) {
+		// Créer le dossier avec les permissions 0755 (permissions standard)
+		_ = os.Mkdir(nomDossier, 0755)
+	}
+
+	// Utiliser une WaitGroup pour attendre la fin de la goroutine
+	var wg sync.WaitGroup
+	wg.Add(1)
+
+	// Exécuter HTML2 en parallèle en tant que goroutine
+	texte := HTML(filePath, URL, &wg)
+
+	// Attendre la fin de la goroutine
+	wg.Wait()
+
+	liens := liens(URL, texte, prefixe)
+
+	// Utiliser une WaitGroup pour attendre la fin des goroutines
+	var wgConcu sync.WaitGroup
+
+	for i, lien := range liens {
+		// Incrémente le compteur de la WaitGroup
+		wgConcu.Add(1)
+		go HTML(fmt.Sprintf("%s/Page%d", nomDossier, i+1), lien, &wgConcu)
+	}
+
+	// Attendre la fin de toutes les goroutines
+	wgConcu.Wait()
+}
+
 func main() {
+
 	URL := "https://fr.wikipedia.org/wiki/Collaborateurs_de_l'Encyclopédie"
 	prefixe := "https://fr.wikipedia.org"
-	filePath := "HTML/Test0"
+
+	filePath := "HTML0/Page0"
 
 	// Utiliser une WaitGroup pour attendre la fin de la goroutine
 	var wg sync.WaitGroup
@@ -119,19 +158,30 @@ func main() {
 
 	startTime := time.Now()
 
-	// Utiliser une WaitGroup pour attendre la fin des goroutines
-	var wgParallel sync.WaitGroup
+	nomDossier := "HTML0"
 
-	for i, lien := range liens {
-		// Incrémente le compteur de la WaitGroup
-		wgParallel.Add(1)
-		go HTML(fmt.Sprintf("HTML/Test%d", i+1), lien, &wgParallel)
+	if _, err := os.Stat(nomDossier); os.IsNotExist(err) {
+		// Créer le dossier avec les permissions 0755 (permissions standard)
+		_ = os.Mkdir(nomDossier, 0755)
 	}
 
-	// Attendre la fin de toutes les goroutines
-	wgParallel.Wait()
+	var wgDepart sync.WaitGroup
+	wgDepart.Add(1)
+	manger(URL, prefixe, nomDossier, &wgDepart)
+	wgDepart.Wait()
+
+	var wgManger sync.WaitGroup
+
+	nbDossier := 1
+	for i := 50; i <= 55; i++ {
+		wgManger.Add(1)
+		nomDossier := fmt.Sprintf("HTML%d", nbDossier)
+		nbDossier += 1
+		fmt.Println(nomDossier)
+		go manger(liens[i], prefixe, nomDossier, &wgManger)
+	}
+	wgManger.Wait()
 
 	elapsedTime := time.Since(startTime)
 	fmt.Printf("Temps total d'exécution : %s\n", elapsedTime)
-
 }

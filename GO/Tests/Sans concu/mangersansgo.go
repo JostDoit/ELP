@@ -7,13 +7,11 @@ import (
 	"os"
 	"regexp"
 	"strings"
-	"sync"
 	"time"
 )
 
-func HTML(filePath string, URL string, wg *sync.WaitGroup) string {
+func HTML(filePath string, URL string) string {
 	// Décrémente le compteur de la WaitGroup lorsque la fonction est terminée
-	defer wg.Done()
 	response, err := http.Get(URL)
 
 	if err != nil {
@@ -106,30 +104,24 @@ func main() {
 	filePath := "HTML/Test0"
 
 	// Utiliser une WaitGroup pour attendre la fin de la goroutine
-	var wg sync.WaitGroup
-	wg.Add(1)
 
 	// Exécuter HTML2 en parallèle en tant que goroutine
-	texte := HTML(filePath, URL, &wg)
+	texte := HTML(filePath, URL)
 
 	// Attendre la fin de la goroutine
-	wg.Wait()
 
 	liens := liens(URL, texte, prefixe)
 
 	startTime := time.Now()
 
 	// Utiliser une WaitGroup pour attendre la fin des goroutines
-	var wgParallel sync.WaitGroup
 
 	for i, lien := range liens {
 		// Incrémente le compteur de la WaitGroup
-		wgParallel.Add(1)
-		go HTML(fmt.Sprintf("HTML/Test%d", i+1), lien, &wgParallel)
+		HTML(fmt.Sprintf("HTML/Test%d", i+1), lien)
 	}
 
 	// Attendre la fin de toutes les goroutines
-	wgParallel.Wait()
 
 	elapsedTime := time.Since(startTime)
 	fmt.Printf("Temps total d'exécution : %s\n", elapsedTime)
