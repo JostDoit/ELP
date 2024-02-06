@@ -29,12 +29,11 @@ type Server struct {
 	connection chan net.Conn
 }
 
-func runAlgortihm(url string, nombre int) string {
+func runAlgortihm(url string, nombre int) {
 	fmt.Println("Running algorithm")
 	fmt.Printf("Résumé : Vous avez demandé pour le site %s avec le nombre %d.\n", url, nombre)
-	fileName := "testfile.txt"
+	manger_profondeur.manger_profond(url, nombre)
 	fmt.Println("Algorithm finished")
-	return fileName
 }
 
 /*
@@ -122,19 +121,20 @@ func (s *Server) handleRequest(conn net.Conn) {
 			}
 
 			// Exécution de l'algorithme
-			resultat := runAlgortihm(url, nombreInt)
+			runAlgortihm(url, nombreInt)
 
-			// Envoie du nom du fichier au client
-			_, err = io.WriteString(conn, fmt.Sprintf("%s\n", resultat))
-			if err != nil {
-				fmt.Println("Error sending message to client : ", err)
-				return
-			} else {
-				fmt.Printf("Message sent to client : %s\n", resultat)
-			}
-			time.Sleep(1 * time.Second)
-			// Envoie du fichier au client
-			s.uploadFile(conn, resultat)
+			/*
+				// Envoie du nom du fichier au client
+				_, err = io.WriteString(conn, fmt.Sprintf("%s\n", resultat))
+				if err != nil {
+					fmt.Println("Error sending message to client : ", err)
+					return
+				} else {
+					fmt.Printf("Message sent to client : %s\n", resultat)
+				}
+				time.Sleep(1 * time.Second)
+				// Envoie du fichier au client
+				s.uploadFile(conn, resultat)*/
 		} else {
 			fmt.Println("User chose 2")
 			dossier := parts[1]
