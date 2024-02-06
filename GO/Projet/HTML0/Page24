@@ -1,0 +1,822 @@
+/wiki/Aide:Importer_un_fichier
+corps_du_texte
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-not-available" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Aide:Importer un fichier — Wikipédia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-not-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
+"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"eedee58c-3fa4-4949-8aa0-c0afa137ac18","wgCanonicalNamespace":"Help","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":12,"wgPageName":"Aide:Importer_un_fichier","wgTitle":"Importer un fichier","wgCurRevisionId":211178186,"wgRevisionId":211178186,"wgArticleId":100011,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page en semi-protection étendue","Aide de niveau débutant","Aide pour l'insertion de contenus sur Wikipédia","Aide:Premiers pas","Aide:Fichier","Aide aux contributeurs débutants"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Aide:Importer_un_fichier","wgRelevantArticleId":100011,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["editextendedsemiprotected"]
+,"wgRestrictionMove":["editextendedsemiprotected"],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgULSCurrentAutonym":"français","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual","wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q8989284",
+"wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.inputBox.styles":"ready","mediawiki.ui.input":"ready","mediawiki.ui.checkbox":"ready","mediawiki.ui.button":"ready","ext.tmh.player.styles":"ready","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":
+"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["mediawiki.page.media","ext.tmh.player","mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.discussionTools.init","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","wikibase.client.vector-2022","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=codex-search-styles%7Cext.discussionTools.init.styles%7Cext.inputBox.styles%7Cext.tmh.player.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Ccheckbox%2Cinput%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.16">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Aide:Importer un fichier — Wikipédia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//fr.m.wikipedia.org/wiki/Aide:Importer_un_fichier">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)">
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://fr.wikipedia.org/wiki/Aide:Importer_un_fichier">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikipédia" href="/w/index.php?title=Spécial:Modifications_récentes&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-12 ns-subject page-Aide_Importer_un_fichier rootpage-Aide_Importer_un_fichier skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Menu principal"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Menu principal</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Menu principal</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">masquer</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_principal" title="Accueil général [z]" accesskey="z"><span>Accueil</span></a></li><li id="n-thema" class="mw-list-item"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Spécial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x"><span>Article au hasard</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikipédia:Contact"><span>Contact</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-Contribuer" class="vector-menu mw-portlet mw-portlet-Contribuer"  >
+	<div class="vector-menu-heading">
+		Contribuer
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-aboutwp" class="mw-list-item"><a href="/wiki/Aide:Débuter"><span>Débuter sur Wikipédia</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_de_la_communauté" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Spécial:Modifications_récentes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Langues</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br /><a href="#p-lang-btn">Aller en haut</a>.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikipédia:Accueil_principal" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipédia" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="l&#039;encyclopédie libre" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" width="120" height="13" style="width: 7.5em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Spécial:Recherche" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Rechercher sur Wikipédia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Rechercher</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Rechercher sur Wikipédia" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" title="Rechercher sur Wikipédia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Spécial:Recherche">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Rechercher</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Outils personnels" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+		
+		
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Aide%3AImporter+un+fichier" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire." class=""><span>Créer un compte</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Connexion&amp;returnto=Aide%3AImporter+un+fichier" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o" class=""><span>Se connecter</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Plus d’options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils personnels"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Outils personnels</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="Menu utilisateur" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Aide%3AImporter+un+fichier" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Connexion&amp;returnto=Aide%3AImporter+un+fichier" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages pour les contributeurs déconnectés <a href="/wiki/Aide:Introduction" aria-label="En savoir plus sur la contribution"><span>en savoir plus</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Spécial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Spécial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Aide</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">Importer un fichier</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Aller à un article dans une autre langue. Disponible en 62 langues."   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-62" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">62 langues</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%B1%D9%81%D8%B9" title="ويكيبيديا:رفع – arabe" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ary mw-list-item"><a href="https://ary.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D9%BE%D9%8A%D8%AF%D9%8A%D8%A7:%D8%A3%D9%BE%D9%84%D9%88%D8%AF%D9%8A_%D9%81%D9%8A%D8%B4%D9%8A" title="ويكيپيديا:أپلودي فيشي – arabe marocain" lang="ary" hreflang="ary" class="interlanguage-link-target"><span>الدارجة</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a href="https://as.wikipedia.org/wiki/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%86%E0%A6%AA%E0%A6%B2%E2%80%99%E0%A6%A1" title="ৱিকিপিডিয়া:আপল’ড – assamais" lang="as" hreflang="as" class="interlanguage-link-target"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/Vikipediya:Y%C3%BCkl%C9%99" title="Vikipediya:Yüklə – azerbaïdjanais" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%DB%8C%D9%88%DA%A9%D9%84%D9%87%E2%80%8C%D9%85%D9%87" title="ویکی‌پدیا:یوکله‌مه – South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a href="https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%AB%E0%A4%BE%E0%A4%87%E0%A4%B2_%E0%A4%85%E0%A4%AA%E0%A4%B2%E0%A5%8B%E0%A4%A1" title="विकिपीडिया:फाइल अपलोड – Bhojpuri" lang="bh" hreflang="bh" class="interlanguage-link-target"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%86%E0%A6%AA%E0%A6%B2%E0%A7%8B%E0%A6%A1" title="উইকিপিডিয়া:আপলোড – bengali" lang="bn" hreflang="bn" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Wikipedia:Vodi%C4%8D_za_slanje_slika" title="Wikipedia:Vodič za slanje slika – bosniaque" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ce mw-list-item"><a href="https://ce.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:File_Upload_Wizard" title="Википеди:File Upload Wizard – tchétchène" lang="ce" hreflang="ce" class="interlanguage-link-target"><span>Нохчийн</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a href="https://ckb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%D8%AF%DB%8C%D8%A7:%D8%A8%D8%A7%D8%B1%DA%A9%D8%B1%D8%AF%D9%86" title="ویکیپیدیا:بارکردن – sorani" lang="ckb" hreflang="ckb" class="interlanguage-link-target"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-co mw-list-item"><a href="https://co.wikipedia.org/wiki/Wikipedia:Par_incaricà_una_imagina" title="Wikipedia:Par incaricà una imagina – corse" lang="co" hreflang="co" class="interlanguage-link-target"><span>Corsu</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%92%CE%BF%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1:%CE%95%CF%80%CE%B9%CF%86%CF%8C%CF%81%CF%84%CF%89%CF%83%CE%B7_%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CE%BF%CF%85" title="Βοήθεια:Επιφόρτωση αρχείου – grec" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard" title="Wikipedia:File upload wizard – anglais" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Helpo:Al%C5%9Duti_dosieron" title="Helpo:Alŝuti dosieron – espéranto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C" title="ویکی‌پدیا:بارگذاری – persan" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Toiminnot:Tallenna" title="Toiminnot:Tallenna – finnois" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-gag mw-list-item"><a href="https://gag.wikipedia.org/wiki/Vikipediya:%C3%9Ckle" title="Vikipediya:Ükle – gagaouze" lang="gag" hreflang="gag" class="interlanguage-link-target"><span>Gagauz</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a href="https://gan.wikipedia.org/wiki/Wikipedia:Upload" title="Wikipedia:Upload – gan" lang="gan" hreflang="gan" class="interlanguage-link-target"><span>贛語</span></a></li><li class="interlanguage-link interwiki-haw mw-list-item"><a href="https://haw.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Wikipedia:File Upload Wizard – hawaïen" lang="haw" hreflang="haw" class="interlanguage-link-target"><span>Hawaiʻi</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%85%E0%A4%AA%E0%A4%B2%E0%A5%8B%E0%A4%A1" title="विकिपीडिया:अपलोड – hindi" lang="hi" hreflang="hi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Wikipedija:Upload" title="Wikipedija:Upload – croate" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Wikipédia:Kép_felt%C3%B6ltése_a_Commonsra" title="Wikipédia:Kép feltöltése a Commonsra – hongrois" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Wikipedia:Pengunggahan" title="Wikipedia:Pengunggahan – indonésien" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wikipedia.org/wiki/Wikipedia:Hla%C3%B0a_inn_skr%C3%A1" title="Wikipedia:Hlaða inn skrá – islandais" lang="is" hreflang="is" class="interlanguage-link-target"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Aiuto:Carica_un_file" title="Aiuto:Carica un file – italien" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/Wikipedia:%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89" title="Wikipedia:ファイルのアップロード – japonais" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%9E%E1%83%94%E1%83%AA%E1%83%98%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98:%E1%83%90%E1%83%A2%E1%83%95%E1%83%98%E1%83%A0%E1%83%97%E1%83%95%E1%83%90" title="სპეციალური:ატვირთვა – géorgien" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a href="https://kaa.wikipedia.org/wiki/Wikipedia:Aploud_q%C4%B1l%C4%B1w" title="Wikipedia:Aploud qılıw – karakalpak" lang="kaa" hreflang="kaa" class="interlanguage-link-target"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%96%D2%AF%D0%BA%D1%82%D0%B5%D1%83" title="Уикипедия:Жүктеу – kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%ED%8C%8C%EC%9D%BC_%EC%98%AC%EB%A6%AC%EA%B8%B0" title="위키백과:파일 올리기 – coréen" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-lld mw-list-item"><a href="https://lld.wikipedia.org/wiki/Wikipedia:C%C3%ABria_su_n_docum%C3%ABnt" title="Wikipedia:Cëria su n documënt – Ladin" lang="lld" hreflang="lld" class="interlanguage-link-target"><span>Ladin</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0:%D0%9F%D0%BE%D0%B4%D0%B8%D0%B3%D0%BD%D0%B8_%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D1%82%D0%B5%D0%BA%D0%B0" title="Википедија:Подигни податотека – macédonien" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a href="https://ml.wikipedia.org/wiki/%E0%B4%B5%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%BF%E0%B4%AA%E0%B5%80%E0%B4%A1%E0%B4%BF%E0%B4%AF:%E0%B4%85%E0%B4%AA%E0%B5%8D%E2%80%8C%E0%B4%B2%E0%B5%8B%E0%B4%A1%E0%B5%8D" title="വിക്കിപീഡിയ:അപ്‌ലോഡ് – malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a href="https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%9A%E0%A4%A2%E0%A4%B5%E0%A4%BE" title="विकिपीडिया:संचिका चढवा – marathi" lang="mr" hreflang="mr" class="interlanguage-link-target"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/Wikipedia:Muat_naik" title="Wikipedia:Muat naik – malais" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a href="https://my.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%80%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%96%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%90%E1%80%84%E1%80%BA%E1%80%80%E1%80%B0%E1%80%8A%E1%80%AE%E1%80%80%E1%80%AD%E1%80%9B%E1%80%AD%E1%80%9A%E1%80%AC" title="ဝီကီပီးဒီးယား:ဖိုင်တင်ကူညီကိရိယာ – birman" lang="my" hreflang="my" class="interlanguage-link-target"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-mzn mw-list-item"><a href="https://mzn.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A8%D8%A7%D8%B1%D8%A8%DB%8C%E2%80%8C%DB%8C%D8%B4%D8%AA%D9%86" title="ویکی‌پدیا:باربی‌یشتن – mazandérani" lang="mzn" hreflang="mzn" class="interlanguage-link-target"><span>مازِرونی</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a href="https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A4%BF%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%85%E0%A4%AA%E0%A4%B2%E0%A5%8B%E0%A4%A1" title="विकिपिडिया:अपलोड – népalais" lang="ne" hreflang="ne" class="interlanguage-link-target"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Wikipedia:Upload" title="Wikipedia:Upload – néerlandais" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Wikipedia:Przesy%C5%82anie_plik%C3%B3w" title="Wikipedia:Przesyłanie plików – polonais" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-ps mw-list-item"><a href="https://ps.wikipedia.org/wiki/%D9%88%D9%8A%DA%A9%D9%8A%D9%BE%DB%90%DA%89%D9%8A%D8%A7:%D8%AF%D9%88%D8%AA%D9%86%D9%87_%D9%BE%D9%88%D8%B1%D8%AA%D9%87_%DA%A9%D9%88%D9%84" title="ويکيپېډيا:دوتنه پورته کول – pachto" lang="ps" hreflang="ps" class="interlanguage-link-target"><span>پښتو</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Wikipédia:Carregar_ficheiro" title="Wikipédia:Carregar ficheiro – portugais" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Wikipedia:Trimite_fi%C8%99ier" title="Wikipedia:Trimite fișier – roumain" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Wikipedija:Vodi%C4%8D_za_slanje_slika" title="Wikipedija:Vodič za slanje slika – serbo-croate" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a href="https://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%92%E0%B6%9A%E0%B7%92%E0%B6%B4%E0%B7%93%E0%B6%A9%E0%B7%92%E0%B6%BA%E0%B7%8F:File_Upload_Wizard" title="විකිපීඩියා:File Upload Wizard – cingalais" lang="si" hreflang="si" class="interlanguage-link-target"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Wikipedija:Nalo%C5%BEi_datoteko" title="Wikipedija:Naloži datoteko – slovène" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a href="https://sn.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Wikipedia:File Upload Wizard – shona" lang="sn" hreflang="sn" class="interlanguage-link-target"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a href="https://so.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Wikipedia:File Upload Wizard – somali" lang="so" hreflang="so" class="interlanguage-link-target"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0:%D0%92%D0%BE%D0%B4%D0%B8%D1%87_%D0%B7%D0%B0_%D0%BE%D1%82%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%9A%D0%B5" title="Википедија:Водич за отпремање – serbe" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a href="https://su.wikipedia.org/wiki/Wikipedia:Pangunjalan" title="Wikipedia:Pangunjalan – soundanais" lang="su" hreflang="su" class="interlanguage-link-target"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AE%BE:File_Upload_Wizard" title="விக்கிப்பீடியா:File Upload Wizard – tamoul" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a href="https://te.wikipedia.org/wiki/%E0%B0%B5%E0%B0%BF%E0%B0%95%E0%B1%80%E0%B0%AA%E0%B1%80%E0%B0%A1%E0%B0%BF%E0%B0%AF%E0%B0%BE:%E0%B0%AB%E0%B1%88%E0%B0%B2%E0%B1%8D_%E0%B0%8E%E0%B0%95%E0%B1%8D%E0%B0%95%E0%B0%BF%E0%B0%82%E0%B0%AA%E0%B1%81_%E0%B0%B5%E0%B0%BF%E0%B0%9C%E0%B0%B0%E0%B1%8D%E0%B0%A1%E0%B1%81" title="వికీపీడియా:ఫైల్ ఎక్కింపు విజర్డు – télougou" lang="te" hreflang="te" class="interlanguage-link-target"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%B4%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2:%E0%B8%AD%E0%B8%B1%E0%B8%9B%E0%B9%82%E0%B8%AB%E0%B8%A5%E0%B8%94" title="วิกิพีเดีย:อัปโหลด – thaï" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a href="https://tl.wikipedia.org/wiki/Wikipedia:Pagkakarga" title="Wikipedia:Pagkakarga – tagalog" lang="tl" hreflang="tl" class="interlanguage-link-target"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Vikipedi:Dosya_Y%C3%BCkleme_Sihirbaz%C4%B1" title="Vikipedi:Dosya Yükleme Sihirbazı – turc" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9C%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80_%D0%B7%D0%B0%D0%B2%D0%B0%D0%BD%D1%82%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2" title="Вікіпедія:Майстер завантаження файлів – ukrainien" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a href="https://ur.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%DA%88%DB%8C%D8%A7:%D8%B3%D8%A7%D8%AD%D8%B1_%D8%A8%D8%B1%D8%A7%D8%A6%DB%92_%D8%A7%D9%BE%D9%84%D9%88%DA%88_%D9%81%D8%A7%D8%A6%D9%84" title="ویکیپیڈیا:ساحر برائے اپلوڈ فائل – ourdou" lang="ur" hreflang="ur" class="interlanguage-link-target"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/Vikipediya:Fayl_yuklash_ustaxonasi" title="Vikipediya:Fayl yuklash ustaxonasi – ouzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha / ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/Wikipedia:Tr%C3%ACnh_t%E1%BA%A3i_l%C3%AAn_t%E1%BA%ADp_tin" title="Wikipedia:Trình tải lên tập tin – vietnamien" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/Wikipedia:%E4%B8%8A%E4%BC%A0" title="Wikipedia:上传 – chinois" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a href="https://zh-min-nan.wikipedia.org/wiki/Wikipedia:Chi%C5%AB%E2%81%BF-b%C4%81ng" title="Wikipedia:Chiūⁿ-bāng – minnan" lang="nan" hreflang="nan" class="interlanguage-link-target"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/Wikipedia:%E4%B8%8A%E8%BC%89" title="Wikipedia:上載 – cantonais" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q8989284#sitelinks-wikipedia" title="Modifier les liens interlangues" class="wbc-editpage">Modifier les liens</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Espaces de noms">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-help" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Aide:Importer_un_fichier" title="Consulter la page d’aide [c]" accesskey="c"><span>Aide</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Discussion_aide:Importer_un_fichier" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Modifier la variante de langue"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">français</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Affichages">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Aide:Importer_un_fichier"><span>Lire</span></a></li><li id="ca-viewsource" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;action=edit" title="Cette page est protégée.&#10;Vous pouvez toutefois en visualiser la source. [e]" accesskey="e"><span>Voir le texte source</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Outils</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Outils</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">masquer</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="Plus d’options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Aide:Importer_un_fichier"><span>Lire</span></a></li><li id="ca-more-viewsource" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;action=edit"><span>Voir le texte source</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;action=history"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		Général
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Spécial:Pages_liées/Aide:Importer_un_fichier" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Spécial:Suivi_des_liens/Aide:Importer_un_fichier" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Aide:Importer_un_fichier" title="Téléverser des fichiers [u]" accesskey="u"><span>Téléverser un fichier</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Spécial:Pages_spéciales" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;oldid=211178186" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Spécial:UrlShortener&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FAide%3AImporter_un_fichier"><span>Obtenir l'URL raccourcie</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Spécial:QrCode&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FAide%3AImporter_un_fichier"><span>Download QR code</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q8989284" title="Lien vers l’élément dans le dépôt de données connecté [g]" accesskey="g"><span>Élément Wikidata</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Imprimer / exporter
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Spécial:Livre&amp;bookcmd=book_creator&amp;referer=Aide%3AImporter+un+fichier"><span>Créer un livre</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Spécial:DownloadAsPdf&amp;page=Aide%3AImporter_un_fichier&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Aide:Importer_un_fichier&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		Dans d’autres projets
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Commons:Upload" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiquote mw-list-item"><a href="https://fr.wikiquote.org/wiki/Aide:Importer_un_fichier" hreflang="fr"><span>Wikiquote</span></a></li><li class="wb-otherproject-link wb-otherproject-wikisource mw-list-item"><a href="https://fr.wikisource.org/wiki/Aide:Importer_un_fichier" hreflang="fr"><span>Wikisource</span></a></li><li class="wb-otherproject-link wb-otherproject-wiktionary mw-list-item"><a href="https://fr.wiktionary.org/wiki/Aide:Importer_un_fichier" hreflang="fr"><span>Wiktionnaire</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+						</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-protection-205" class="mw-indicator"><div class="mw-parser-output"><div class="nopopups"><span class="noviewer" typeof="mw:File"><a href="//fr.wikipedia.org/wiki/Wikipédia:Semi-protection_étendue" title="Cette page fait l’objet d’une mesure de semi-protection étendue."><img alt="Cette page fait l’objet d’une mesure de semi-protection étendue." src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Extended-semi-protection-shackle-frwiki.svg/15px-Extended-semi-protection-shackle-frwiki.svg.png" decoding="async" width="15" height="21" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Extended-semi-protection-shackle-frwiki.svg/23px-Extended-semi-protection-shackle-frwiki.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/Extended-semi-protection-shackle-frwiki.svg/30px-Extended-semi-protection-shackle-frwiki.svg.png 2x" data-file-width="512" data-file-height="725" /></a></span></div></div></div>
+		</div>
+
+						<div id="siteSub" class="noprint">Une page de Wikipédia, l&#039;encyclopédie libre.</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="fr" dir="ltr"><p class="mw-empty-elt">
+</p>
+ <div>
+<div style="float:right;"><div class="mw-inputbox-centered" style="background-color: none;"><form name="searchbox" class="searchbox" action="/wiki/Spécial:Recherche"><input class="mw-searchInput searchboxInput mw-ui-input mw-ui-input-inline" name="search" placeholder="" size="20" dir="ltr"/> <input type="hidden" name="ns12" value="1" id="mw-inputbox-ns12-0.743008433120" checked="checked"/> <input type="submit" name="fulltext" class="mw-ui-button" value="Rechercher dans l'aide"/></form></div></div><div class="aa-en-tete-aide-ariane">
+<a href="/wiki/Aide:Accueil" title="Aide:Accueil"><strong class="aa-couleur-aide">Aide de Wikipédia</strong></a> <span typeof="mw:File"><span><img alt=">" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Breadcrumb_separator_2.svg/8px-Breadcrumb_separator_2.svg.png" decoding="async" width="8" height="11" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Breadcrumb_separator_2.svg/12px-Breadcrumb_separator_2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/09/Breadcrumb_separator_2.svg/16px-Breadcrumb_separator_2.svg.png 2x" data-file-width="431" data-file-height="600"/></span></span> <a href="/wiki/Aide:Accueil/Insérer" title="Aide:Accueil/Insérer">Insérer une image, une référence</a> <span typeof="mw:File"><span><img alt=">" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Breadcrumb_separator_2.svg/8px-Breadcrumb_separator_2.svg.png" decoding="async" width="8" height="11" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Breadcrumb_separator_2.svg/12px-Breadcrumb_separator_2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/09/Breadcrumb_separator_2.svg/16px-Breadcrumb_separator_2.svg.png 2x" data-file-width="431" data-file-height="600"/></span></span> <a href="/wiki/Aide:Accueil/Insérer/Images" title="Aide:Accueil/Insérer/Images">Importer des images, mise en page et droit d'auteur</a></div></div><div class="clear" style="clear:both;"></div><div class="aa-fond-blanc aa-en-tete-aide-largeur" style="margin-bottom:10px;"><div class="aa-en-tete-aide-droite"><div class="aa-en-tete-aide-statut">Vous devez avoir <a href="/wiki/Aide:Compte_utilisateur" title="Aide:Compte utilisateur">un compte</a> et <a href="/wiki/Aide:Connexion" class="mw-redirect" title="Aide:Connexion">y être connecté</a> pour faire cette action.</div></div><div class="aa-en-tete-aide-chapo"><div class="aa-en-tete-aide-petit" style="margin:0; margin-bottom: 3px;"><strong class="aa-couleur-niveau-debutant">Niveau débutant</strong></div>
+<div class="aa-en-tete-aide-petit" style="padding-bottom:10px;">Nous vous recommandons de lire auparavant <a href="/wiki/Wikipédia:Droit_d'auteur" title="Wikipédia:Droit d'auteur">la page relative au droit d'auteur sur Wikipédia</a>.</div><div class="aa-en-tete-aide-description" style="clear:left;">Importer une image pour illustrer Wikipédia fait que celle-ci est réutilisable par n'importe qui. Il est donc important de respecter le droit d'auteur. Pour éviter les problèmes, <b>n'importez donc que des images que vous avez créées vous-même</b>. Toutefois, des cas particuliers existent et ne permettent pas d'importer une photo, même prise par soi-même (par exemple les photos de travaux d'artistes ou d'architectes encore vivants, ou décédés il y a moins d'un siècle environ).
+<p><br/>
+</p>
+Les images, et autres fichiers multimédia, doivent être importés et centralisés sur <a href="https://commons.wikimedia.org/wiki/Accueil" class="extiw" title="commons:Accueil">Wikimedia Commons</a>, une médiathèque commune à tous les projets Wikimedia. Vos images seront ainsi directement utilisables sur tous les <a href="/wiki/Projets_Wikimedia" class="mw-redirect" title="Projets Wikimedia">projets Wikimedia</a>.</div></div>
+</div>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="En_bref" data-mw-thread-id="h-En_bref"><span data-mw-comment-start="" id="h-En_bref"></span>En bref<span data-mw-comment-end="h-En_bref"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-En_bref","replies":[],"uneditableSection":true}}--></div>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><span><video id="mwe_player_0" poster="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/220px--WikiMOOC_-_vidéo_24_-_Commons.webm.jpg" controls="" preload="none" class="mw-file-element" width="220" height="124" data-durationhint="588" data-mwtitle="WikiMOOC_-_vidéo_24_-_Commons.webm" data-mwprovider="wikimediacommons" resource="/wiki/Fichier:WikiMOOC_-_vidéo_24_-_Commons.webm"><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="480p.vp9.webm" data-width="854" data-height="480"/><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.720p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="720p.vp9.webm" data-width="1280" data-height="720"/><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.1080p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="1080p.vp9.webm" data-width="1920" data-height="1080"/><source src="//upload.wikimedia.org/wikipedia/commons/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-width="1920" data-height="1080"/><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.m3u8" type="application/vnd.apple.mpegurl" data-transcodekey="m3u8" data-width="0" data-height="0"/><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.240p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="240p.vp9.webm" data-width="426" data-height="240"/><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.360p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="360p.vp9.webm" data-width="640" data-height="360"/><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/2/28/WikiMOOC_-_vidéo_24_-_Commons.webm/WikiMOOC_-_vidéo_24_-_Commons.webm.360p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-transcodekey="360p.webm" data-width="640" data-height="360"/></video></span><figcaption>Explication vidéo sur l'importation d'une image sur Commons à partir de 4:55 min <small>(cette vidéo a fait partie du <a href="/wiki/Projet:Aide_et_accueil/WikiMOOC/Présentation" class="mw-redirect" title="Projet:Aide et accueil/WikiMOOC/Présentation">WikiMOOC</a>)</small>.</figcaption></figure><p>La majorité des images illustrant Wikipédia sont publiées sous une <a href="/wiki/Licence_libre" title="Licence libre">licence libre</a>, permettant à chacun de les utiliser, les transformer, les commercialiser, à la condition de citer leur auteur.
+</p><p><b>Pour importer un fichier, vous devez vous assurer (voir ci-après) que vous avez les droits suffisants pour le faire</b> (photo que vous avez prise vous-même, œuvres dans le domaine public, œuvres sous <a href="https://commons.wikimedia.org/wiki/Commons:%C3%80_propos_des_licences" class="extiw" title="commons:Commons:À propos des licences">licence libre compatible</a>, etc.). Dans le doute, <a href="/wiki/Wikipédia:Forum_des_nouveaux" title="Wikipédia:Forum des nouveaux">posez la question à un utilisateur expérimenté</a> ! 
+</p><p>Dans certains cas, les images prises soi-même peuvent être malgré tout supprimées. C'est principalement le cas pour des photos d'œuvres d'auteurs (artistes, architectes...) pour lesquels le droit d'auteur n'a pas expiré (en Belgique et en France, artiste encore vivant ou décédé depuis moins de 70 ans ; 100 ans en Côte d'Ivoire). 
+</p><p>Les images et autres fichiers multimédia sont centralisés sur <b><a href="https://commons.wikimedia.org/wiki/Accueil" class="extiw" title="commons:Accueil">Wikimedia Commons</a></b>, une médiathèque commune à tous les projets Wikimedia. Ainsi, vos images seront directement utilisables dans les Wikipédia de toutes les langues. À de très rares exceptions près, <b>une image prise sur Internet</b> n'est pas compatible avec cela : n'en importez pas.
+</p>
+<div class="center"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&amp;uselang=fr"><span class="mw-ui-button mw-ui-progressive" role="button">Lancer l'assistant d'import sur Commons</span></a></span></div>
+<p>Il existe cependant <a href="#Exceptions">des exceptions</a>, strictement encadrées.
+</p><p><span id="Conditions"></span>
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Conditions_pour_importer_un_fichier" data-mw-thread-id="h-Conditions_pour_importer_un_fichier"><span data-mw-comment-start="" id="h-Conditions_pour_importer_un_fichier"></span>Conditions pour importer un fichier<span data-mw-comment-end="h-Conditions_pour_importer_un_fichier"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Conditions_pour_importer_un_fichier","replies":["h-Fichier_dont_vous_\u00eates_l'auteur_(except\u00e9_les_logos,_voir_plus_bas)-Conditions_pour_importer_un_fichier","h-Fichier_dans_le_domaine_public-Conditions_pour_importer_un_fichier","h-Fichier_sous_licence_libre_compatible-Conditions_pour_importer_un_fichier"],"uneditableSection":true}}--></div>
+<p>Il existe plusieurs cas de figure pour importer un fichier.
+</p>
+<h3><span id="Fichier_dont_vous_.C3.AAtes_l.27auteur_.28except.C3.A9_les_logos.2C_voir_plus_bas.29"></span><span class="mw-headline" id="Fichier_dont_vous_êtes_l'auteur_(excepté_les_logos,_voir_plus_bas)" data-mw-thread-id="h-Fichier_dont_vous_êtes_l'auteur_(excepté_les_logos,_voir_plus_bas)-Conditions_pour_importer_un_fichier"><span data-mw-comment-start="" id="h-Fichier_dont_vous_êtes_l'auteur_(excepté_les_logos,_voir_plus_bas)-Conditions_pour_importer_un_fichier"></span>Fichier dont vous êtes l'auteur (excepté les logos, voir plus bas)<span data-mw-comment-end="h-Fichier_dont_vous_êtes_l'auteur_(excepté_les_logos,_voir_plus_bas)-Conditions_pour_importer_un_fichier"></span></span></h3>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/Fichier:Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg/220px-Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg" decoding="async" width="220" height="132" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg/330px-Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg/440px-Photographers_at_Oxbow_Bend_in_Grand_Teton_NP-NPS.jpg 2x" data-file-width="1200" data-file-height="718"/></a><figcaption>Êtes-vous l'auteur d'une photo dont le sujet n'est pas soumis à des <a href="/wiki/Droit_d'auteur" title="Droit d'auteur">droits d'auteur</a> ou <a href="/wiki/Copyright" title="Copyright">copyrights</a> ? Si oui, vous pouvez sans risque <a class="external text" href="https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&amp;uselang=fr">importer le fichier sur Commons</a> sous une <a href="https://commons.wikimedia.org/wiki/Commons:%C3%80_propos_des_licences" class="extiw" title="commons:Commons:À propos des licences">licence compatible</a> pour, ensuite, <a href="/wiki/Aide:Insérer_une_image" title="Aide:Insérer une image">insérer l'image</a> dans Wikipédia.</figcaption></figure>
+<p><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_check-constructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/30px-OOjs_UI_icon_check-constructive.svg.png" decoding="async" width="30" height="30" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/45px-OOjs_UI_icon_check-constructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/60px-OOjs_UI_icon_check-constructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Vous pouvez importer les œuvres que vous avez créées vous-même</b> <small>(ou un proche, en votre nom)</small>. Cela inclut les photos et vidéos :
+</p>
+<ul><li>de paysages naturels, animaux, plantes ;</li>
+<li>de personnalités publiques ou de personnes prises lors de manifestations publiques ;</li>
+<li>d'objets utilitaires sans caractère artistique ;</li>
+<li>les graphiques, cartes, diagrammes et sons que vous avez créés.</li></ul>
+<p>Souvenez-vous : en partageant votre œuvre sur Wikimedia Commons, vous autorisez quiconque à l'utiliser, la copier, la modifier et la vendre sans vous le demander.
+</p><p><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_close-ltr-destructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/30px-OOjs_UI_icon_close-ltr-destructive.svg.png" decoding="async" width="30" height="30" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/45px-OOjs_UI_icon_close-ltr-destructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/60px-OOjs_UI_icon_close-ltr-destructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Les œuvres créées ou inspirées par quelqu'un d'autre ne sont pas acceptées.</b> Par défaut, vous ne pouvez pas importer l’œuvre de quelqu'un d'autre ou une <a href="/wiki/%C5%92uvre_dérivée" title="Œuvre dérivée">œuvre dérivée</a>. Cela inclut :
+</p>
+<ul><li>les logos ;</li>
+<li>les couvertures de CD et DVD ;</li>
+<li>les photos promotionnelles ;</li>
+<li>les captures d'écran d'émissions de télévision, de films, de DVD et de logiciels ;</li>
+<li>les dessins de personnages de télévision, de bandes dessinées ou de films, même si vous les avez dessinés vous-même ;</li>
+<li>les photos prises dans un espace public qui ne bénéficie pas de la <a href="/wiki/Liberté_de_panorama" title="Liberté de panorama">liberté de panorama</a> (variable selon les pays)</li>
+<li>la plupart des images trouvées sur internet.</li></ul>
+<p><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_check-constructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/30px-OOjs_UI_icon_check-constructive.svg.png" decoding="async" width="30" height="30" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/45px-OOjs_UI_icon_check-constructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/60px-OOjs_UI_icon_check-constructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> Sauf dans deux cas :
+</p>
+<ul><li>vous pouvez importer l’œuvre de quelqu'un d'autre si l'auteur a autorisé quiconque à l'utiliser, la copier, la modifier et la vendre (la plupart du temps signalées par les licences CC-by ou CC-by-sa) ;</li>
+<li>vous pouvez importer vos propres photos d'art ancien, de vieilles statues et vieux immeubles appartenant au <a href="/wiki/Domaine_public_(propriété_intellectuelle)" title="Domaine public (propriété intellectuelle)">domaine public</a> (variable selon les pays).</li></ul>
+<p><b>En résumé</b>, vous pouvez importer vos œuvres originales dont le sujet n'est pas déjà légalement protégé, mais nous ne pouvons pas accepter les œuvres d'autres personnes sans leur autorisation expresse.
+</p>
+<div class="center"><span class="plainlinks"><a class="external text" href="https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&amp;uselang=fr"><span class="mw-ui-button mw-ui-progressive" role="button">Lancer l'assistant d'import sur Commons</span></a></span></div>
+<h3><span class="mw-headline" id="Fichier_dans_le_domaine_public" data-mw-thread-id="h-Fichier_dans_le_domaine_public-Conditions_pour_importer_un_fichier"><span data-mw-comment-start="" id="h-Fichier_dans_le_domaine_public-Conditions_pour_importer_un_fichier"></span>Fichier dans le domaine public<span data-mw-comment-end="h-Fichier_dans_le_domaine_public-Conditions_pour_importer_un_fichier"></span></span></h3>
+<figure class="mw-halign-right" typeof="mw:File"><a href="/wiki/Fichier:PD-icon.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/100px-PD-icon.svg.png" decoding="async" width="100" height="100" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/150px-PD-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/200px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196"/></a><figcaption></figcaption></figure>
+<p>Pour importer un fichier sous licence « Domaine public » sur Wikimedia Commons, le fichier doit à la fois être dans le <b>domaine public aux <a href="/wiki/États-Unis" title="États-Unis">États-Unis</a> ainsi que dans son pays d'origine</b>.
+</p><p>Une œuvre est dans le <b><a href="/wiki/Domaine_public_en_droit_de_la_propriété_intellectuelle_français" title="Domaine public en droit de la propriété intellectuelle français">domaine public en France</a></b> pour l'une des raisons suivantes :
+</p>
+<ul><li><b>Son auteur</b> (ou le dernier de ses auteurs dans le cas d'une œuvre en collaboration) <b>est décédé depuis plus de 70 ans</b> et n'a pas bénéficié d'une prorogation de ses droits d'auteur (les prorogations de guerre sont à prendre en compte uniquement dans le cas des œuvres musicales et des auteurs « morts pour la France » ; dans les autres cas, elles sont absorbées par le passage de la durée de protection à 70 ans).
+<dl><dd>→ le modèle de licence à utiliser est <a href="https://commons.wikimedia.org/wiki/Template:PD-old-70" class="extiw" title="commons:Template:PD-old-70">{{PD-old-70}}</a></dd></dl></li>
+<li>C'est une œuvre anonyme ou pseudonyme (l'identité de l'auteur n'ayant jamais été révélée) ou une œuvre collective (le statut d'œuvre collective est assez restrictif, assurez-vous que ce statut est véritablement établi) et plus de 70 ans se sont écoulés depuis sa publication.
+<dl><dd>→ le modèle de licence à utiliser est <a href="https://commons.wikimedia.org/wiki/Template:Anonymous-EU" class="extiw" title="commons:Template:Anonymous-EU">{{Anonymous-EU}}</a></dd></dl></li></ul>
+<p>Une œuvre est dans le <b><a href="/wiki/Domaine_public_(propriété_intellectuelle)" title="Domaine public (propriété intellectuelle)">domaine public aux États-Unis</a></b> pour l'une des raisons suivantes :
+</p>
+<ul><li>L’œuvre a été publiée avant le <abbr class="abbr" title="Premier">1<sup>er</sup></abbr> janvier 1929.
+<dl><dd>→ le modèle de licence à utiliser est <a href="https://commons.wikimedia.org/wiki/Template:PD-US-expired" class="extiw" title="commons:Template:PD-US-expired">{{PD-US-expired}}</a></dd></dl></li>
+<li>L’œuvre a d'abord été publiée en dehors des États-Unis (et pas publiée aux États-Unis dans les 30 jours) <b>et</b> elle a d'abord été publiée avant 1978 sans respecter les formalités du droit d'auteur des États-Unis ou après 1978 sans copyright <b>et</b> elle était dans le domaine public dans son pays d'origine à la date de prise en compte de l'<a href="/wiki/Uruguay_Round_Agreements_Act" class="mw-redirect" title="Uruguay Round Agreements Act">Uruguay Round Agreements Act</a> (<abbr class="abbr" title="Premier">1<sup>er</sup></abbr> janvier 1996 pour la plupart des pays).
+<dl><dd>→ le modèle de licence à utiliser est <a href="https://commons.wikimedia.org/wiki/Template:PD-1996" class="extiw" title="commons:Template:PD-1996">{{PD-1996}}</a></dd></dl></li></ul>
+<p>Voir aussi : <a href="/wiki/Durée_du_droit_d'auteur_par_pays" title="Durée du droit d'auteur par pays">Durée du droit d'auteur par pays</a>.
+</p>
+<h3><span class="mw-headline" id="Fichier_sous_licence_libre_compatible" data-mw-thread-id="h-Fichier_sous_licence_libre_compatible-Conditions_pour_importer_un_fichier"><span data-mw-comment-start="" id="h-Fichier_sous_licence_libre_compatible-Conditions_pour_importer_un_fichier"></span>Fichier sous licence libre compatible<span data-mw-comment-end="h-Fichier_sous_licence_libre_compatible-Conditions_pour_importer_un_fichier"></span></span></h3>
+<table class="wikitable centre" style="width=80%;">
+<tbody><tr>
+<th>Quelle est la licence indiquée ?
+</th>
+<th><a rel="nofollow" class="external text" href="https://creativecommons.org/about/licenses/meet-the-licenses">Licence</a>
+</th>
+<th>Acceptée ou non ?
+</th></tr>
+<tr>
+<td>© Tous droits réservés
+</td>
+<td>Soumise au droit d'auteur
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_close-ltr-destructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/25px-OOjs_UI_icon_close-ltr-destructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/38px-OOjs_UI_icon_close-ltr-destructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/50px-OOjs_UI_icon_close-ltr-destructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Non acceptée</b>
+</td></tr>
+<tr>
+<td><span class="nowrap"><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nc_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/25px-Cc-nc_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/38px-Cc-nc_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/50px-Cc-nc_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nd_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/25px-Cc-nd_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/38px-Cc-nd_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/50px-Cc-nd_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> Certains droits réservés</span>
+</td>
+<td><span class="nowrap"><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nc-nd/2.0">CC-BY-NC-ND</a></span>
+</td>
+<td><span class="nowrap"><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_close-ltr-destructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/25px-OOjs_UI_icon_close-ltr-destructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/38px-OOjs_UI_icon_close-ltr-destructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/50px-OOjs_UI_icon_close-ltr-destructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Non acceptée</b></span>
+</td></tr>
+<tr>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nc_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/25px-Cc-nc_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/38px-Cc-nc_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/50px-Cc-nc_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-sa_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/25px-Cc-sa_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/38px-Cc-sa_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/50px-Cc-sa_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> Certains droits réservés
+</td>
+<td><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nc-sa/2.0">CC-BY-NC-SA</a>
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_close-ltr-destructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/25px-OOjs_UI_icon_close-ltr-destructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/38px-OOjs_UI_icon_close-ltr-destructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/50px-OOjs_UI_icon_close-ltr-destructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Non acceptée</b>
+</td></tr>
+<tr>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nc_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/25px-Cc-nc_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/38px-Cc-nc_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/50px-Cc-nc_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> Certains droits réservés
+</td>
+<td><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nc/2.0">CC-BY-NC</a>
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_close-ltr-destructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/25px-OOjs_UI_icon_close-ltr-destructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/38px-OOjs_UI_icon_close-ltr-destructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/50px-OOjs_UI_icon_close-ltr-destructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Non acceptée</b>
+</td></tr>
+<tr>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nd_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/25px-Cc-nd_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/38px-Cc-nd_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/50px-Cc-nd_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> Certains droits réservés
+</td>
+<td><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nd/2.0">CC-BY-ND</a>
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_close-ltr-destructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/25px-OOjs_UI_icon_close-ltr-destructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/38px-OOjs_UI_icon_close-ltr-destructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/OOjs_UI_icon_close-ltr-destructive.svg/50px-OOjs_UI_icon_close-ltr-destructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Non acceptée</b>
+</td></tr>
+<tr>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> Certains droits réservés
+</td>
+<td><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by/2.0">CC-BY</a>
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_check-constructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/25px-OOjs_UI_icon_check-constructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/38px-OOjs_UI_icon_check-constructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/50px-OOjs_UI_icon_check-constructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Acceptée</b>
+</td></tr>
+<tr>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span><span typeof="mw:File"><a href="/wiki/Fichier:Cc-sa_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/25px-Cc-sa_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/38px-Cc-sa_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/50px-Cc-sa_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> Certains droits réservés
+</td>
+<td><a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA</a>
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_check-constructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/25px-OOjs_UI_icon_check-constructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/38px-OOjs_UI_icon_check-constructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/50px-OOjs_UI_icon_check-constructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Acceptée</b>
+</td></tr>
+<tr>
+<td>Aucune restriction au droit d'auteur connue
+</td>
+<td>Domaine public
+</td>
+<td><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_check-constructive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/25px-OOjs_UI_icon_check-constructive.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/38px-OOjs_UI_icon_check-constructive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/OOjs_UI_icon_check-constructive.svg/50px-OOjs_UI_icon_check-constructive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <b>Acceptée</b>
+</td></tr>
+</tbody></table>
+<p><span typeof="mw:File"><a href="/wiki/Fichier:Cc-by_new_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/25px-Cc-by_new_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/38px-Cc-by_new_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/50px-Cc-by_new_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> <b>BY</b> signifie que la licence de l'image requiert une attribution, « BY » signifiant « PAR » (une certaine personne) en anglais.<br/><span typeof="mw:File"><a href="/wiki/Fichier:Cc-sa_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/25px-Cc-sa_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/38px-Cc-sa_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/50px-Cc-sa_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> <b>SA</b> signifie de rediffuser avec au moins autant de droit, « Share Alike » signifiant littéralement, « partagez dans les mêmes conditions ».<br/><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nc_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/25px-Cc-nc_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/38px-Cc-nc_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/50px-Cc-nc_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> <b>NC</b> signifie une utilisation non-commerciale uniquement.<br/><span typeof="mw:File"><a href="/wiki/Fichier:Cc-nd_white.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/25px-Cc-nd_white.svg.png" decoding="async" width="25" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/38px-Cc-nd_white.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cc-nd_white.svg/50px-Cc-nd_white.svg.png 2x" data-file-width="64" data-file-height="64"/></a></span> <b>ND</b> signifie non-dérivé. L'image n'est pas modifiable.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Foire_aux_questions" data-mw-thread-id="h-Foire_aux_questions"><span data-mw-comment-start="" id="h-Foire_aux_questions"></span>Foire aux questions<span data-mw-comment-end="h-Foire_aux_questions"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Foire_aux_questions","replies":[],"uneditableSection":true}}--></div>
+<figure class="mw-halign-right" typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/Commons:Foire_aux_questions" title="commons:Commons:Foire aux questions"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Commons_with_magnifying_glass_logo.svg/120px-Commons_with_magnifying_glass_logo.svg.png" decoding="async" width="120" height="154" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Commons_with_magnifying_glass_logo.svg/180px-Commons_with_magnifying_glass_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Commons_with_magnifying_glass_logo.svg/240px-Commons_with_magnifying_glass_logo.svg.png 2x" data-file-width="1115" data-file-height="1431"/></a><figcaption></figcaption></figure>
+<ul><li><a href="/wiki/Aide:Importer_un_fichier_sur_Commons#S'inscrire_sur_Commons" title="Aide:Importer un fichier sur Commons">Ai-je besoin de m'inscrire pour importer un fichier sur Commons ?</a></li>
+<li><a href="/wiki/Aide:Importer_un_fichier_sur_Commons#Transférer_un_fichier_depuis_un_autre_projet_Wikimedia_sur_Commons" title="Aide:Importer un fichier sur Commons">Comment transférer sur Commons un fichier venant d'une autre version linguistique de Wikipédia ?</a></li>
+<li><a href="/wiki/Aide:Republication/Courriel_Image" title="Aide:Republication/Courriel Image">Comment placer sous licence libre une image dont je suis l'auteur déjà publié ailleurs que sur Commons ?</a></li>
+<li><a href="/wiki/Aide:Demande_d'image_libre" title="Aide:Demande d'image libre">Comment demander l'autorisation à un auteur d'importer une image sous licence libre sur Commons ?</a></li>
+<li><a href="/wiki/Aide:Importer_un_fichier/Flickr" title="Aide:Importer un fichier/Flickr">Est-ce qu'une image trouvée sur Flickr peut être importée sur Commons ?</a></li>
+<li><a href="/wiki/Aide:Importer_un_fichier/Audiotool" title="Aide:Importer un fichier/Audiotool">Est-ce qu'un son trouvé sur Audiotool peut être importé sur Commons ?</a></li>
+<li><a href="/wiki/Aide:Importer_un_fichier/YouTube" title="Aide:Importer un fichier/YouTube">Est-ce qu'une vidéo trouvée sur YouTube peut être importée sur Commons ?</a></li></ul>
+<p>Si vous avez d'autres questions, consultez la <a href="https://commons.wikimedia.org/wiki/Commons:Foire_aux_questions" class="extiw" title="commons:Commons:Foire aux questions">foire aux questions</a> ou adressez vous à des utilisateurs expérimentés <a href="https://commons.wikimedia.org/wiki/Commons:Service_d'aide" class="extiw" title="commons:Commons:Service d'aide">sur Commons</a>.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2 id="Exception" data-mw-thread-id="h-Exception"><span data-mw-comment-start="" id="h-Exception"></span><span class="mw-headline" id="Exceptions">Exceptions</span><span data-mw-comment-end="h-Exception"></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Exception","replies":[],"uneditableSection":true}}--></div>
+<figure class="mw-halign-right" typeof="mw:File"><a href="/wiki/Wikipédia:Exceptions_au_droit_d'auteur" title="Wikipédia:Exceptions au droit d'auteur"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Red_copyright.svg/90px-Red_copyright.svg.png" decoding="async" width="90" height="90" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Red_copyright.svg/135px-Red_copyright.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Red_copyright.svg/180px-Red_copyright.svg.png 2x" data-file-width="197" data-file-height="197"/></a><figcaption></figcaption></figure>
+<p>Tous les médias sous licence libre doivent être <b><a href="https://commons.wikimedia.org/wiki/Special:UploadWizard" class="extiw" title="commons:Special:UploadWizard">importés sur Commons</a></b>. L'import sur Wikipédia francophone est <b>uniquement</b> réservé aux images de <b><span style="color:#ff0000">logos de marques déposées</span></b>, de <b><span style="color:#ff0000">bâtiments récents</span></b> et de <b><span style="color:#ff0000">monnaies</span></b>, protégées par le <a href="/wiki/Droit_d'auteur" title="Droit d'auteur">droit d'auteur</a>. Leur utilisation doit être parcimonieuse et répondre à un besoin encyclopédique identifié. L'origine et l'ayant droit de chacune des images doivent être établis.
+</p><p>Tout média (image, son, vidéo...) importé sur Wikipédia doit ainsi indiquer <a href="/wiki/Aide:Description_d'une_image#Présentation_de_l'image" title="Aide:Description d'une image">sa description</a>, <a href="/wiki/Aide:Description_d'une_image#Origine_de_l'image" title="Aide:Description d'une image">son origine</a>, son auteur et <a href="/wiki/Aide:Licences_des_fichiers_importés#Exceptions_au_droit_d'auteur" title="Aide:Licences des fichiers importés">sa licence</a>. <b>Tout média qui ne fait pas partie des <a href="/wiki/Wikipédia:Exceptions_au_droit_d'auteur" title="Wikipédia:Exceptions au droit d'auteur">exceptions</a> ou pour lequel l'une des informations est manquante sera supprimé sans préavis</b>. Également, l'utilisation de médias non libres est soumise à <a href="/wiki/Wikipédia:Exceptions_au_droit_d'auteur#Règles_d'utilisation_communes" title="Wikipédia:Exceptions au droit d'auteur">certaines conditions</a>.
+</p><p>La <a href="/wiki/Wikimedia_Foundation" class="mw-redirect" title="Wikimedia Foundation">Wikimedia Foundation</a> ne revendique aucune responsabilité quant à la légalité du contenu hébergé. En dernière instance, c'est l'utilisateur qui est légalement responsable des médias qu'il importe sur les serveurs de la fondation. De plus, il n'est pas garanti que ces médias soient autorisés sur Wikipédia dans l'avenir.
+</p><p>Vous pouvez importer une image qui correspond à une de ces trois exceptions sur Wikipédia francophone :
+</p>
+<dl><dd><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_arrowNext-ltr-progressive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/20px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/30px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/40px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Spécial:Upload&amp;setlang=fr&amp;wpUploadDescription={{Information%0A+%7C+Description+=+Logo+de+%5B%5Bnom+de+l'article%5D%5D%0A+%7C+Source++++++=+Indiquez+ici+l'adresse+web+où+a+été+trouvée+l'image+initialement%0A+%7C+Date++++++++=+%0A+%7C+Auteur++++++=+%0A+%7C+Licence+++++=+{{Marque+déposée}}+%3C!--+Ne+pas+modifier+cette+ligne+--%3E%0A+%7C+portail+++++=+%0A}}">importer un <b>logo de marque déposée</b></a> (chaque logo doit être <a href="/wiki/Aide:Catégorisation" title="Aide:Catégorisation">classé dans une sous-catégorie</a> de la <a href="/wiki/Catégorie:Image_non_libre_de_logo" title="Catégorie:Image non libre de logo">catégorie « Image non libre de logo »</a>)</dd>
+<dd><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_arrowNext-ltr-progressive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/20px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/30px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/40px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Spécial:Upload&amp;setlang=fr&amp;wpUploadDescription={{Information%0A+%7C+Description+=+Indiquez+ici+ce+que+l'image+représente%0A+%7C+Source++++++=+Indiquez+ici+l'origine+de+l'image%0A+%7C+Date++++++++=%0A+%7C+Auteur++++++=+Indiquez+ici+l'auteur+de+la+photographie+et+l'architecte+du+bâtiment%0A+%7C+Licence+++++=+{{Bâtiment+récent%7CGFDL%7CCC-BY-SA-3.0%7Cmort+de+l'architecte=}}%0A}}%0A%3C!--+Si+l'architecte+de+ce+bâtiment+est+mort,+merci+de+préciser+l'année+du+décès.+Si+l'architecte+est+vivant,+merci+d'écrire+«+non+»+dans+le+paramètre+correspondant+et+d'indiquer+son+nom.+Si+vous+ne+savez+pas+qui+est+l'architecte,+laissez+le+paramètre+vide.+--%3E">importer une image de <b>bâtiment récent</b></a> <b>(vous devez être l'auteur de la photographie)</b></dd>
+<dd><span typeof="mw:File"><a href="/wiki/Fichier:OOjs_UI_icon_arrowNext-ltr-progressive.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/20px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/30px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3d/OOjs_UI_icon_arrowNext-ltr-progressive.svg/40px-OOjs_UI_icon_arrowNext-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20"/></a></span> <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Spécial:Upload&amp;setlang=fr&amp;wpUploadDescription={{Information%0A+%7C+Description+=+Indiquez+ici+ce+que+l'image+représente%0A+%7C+Source++++++=+Indiquez+ici+l'origine+de+l'image%0A+%7C+Date++++++++=%0A+%7C+Auteur++++++=+Indiquez+ici+l'auteur+de+la+photographie+ou+du+scan%0A+%7C+Licence+++++=+{{Fair+use+monnaie%7CCC-BY-SA-3.0%7Cauteur=}}%0A}}%0A%3C!--+Merci+de+préciser+le+nom+de+l'auteur+de+la+monnaie+(graveur,+dessinateur)+ci-dessus.+--%3E">importer une image de <b>monnaie</b></a> <b>(vous devez être l’auteur de la photographie ou du scan)</b></dd></dl>
+<p>Pour les images de bâtiment récent et de monnaie, une <a href="/wiki/Aide:Licences#Les_licences_libres" class="mw-redirect" title="Aide:Licences">licence libre</a> concernant la prise de la photo doit être précisée (CC-BY-SA-3.0 et GFDL par défaut).
+</p><p>Certains logos n'atteignent pas le <a href="/wiki/Seuil_d'originalité" title="Seuil d'originalité">seuil d'originalité</a> nécessaire pour la protection du droit d’auteur et sont donc dans le domaine public (cas où l'image représentée est seulement composée de formes géométriques simples et de texte). Ce type de logos doit alors être importé sur Wikimedia Commons avec le modèle de licence <a href="https://commons.wikimedia.org/wiki/Template:PD-textlogo" class="extiw" title="commons:Template:PD-textlogo">{{PD-textlogo}}</a> ainsi que <a href="https://commons.wikimedia.org/wiki/Template:Trademarked" class="extiw" title="commons:Template:Trademarked">{{Trademarked}}</a> (voir <i><a href="https://commons.wikimedia.org/wiki/Commons:Threshold_of_originality" class="extiw" title="commons:Commons:Threshold of originality">Commons:Threshold of originality</a></i> pour plus de détails).
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Trucs_et_astuces" data-mw-thread-id="h-Trucs_et_astuces"><span data-mw-comment-start="" id="h-Trucs_et_astuces"></span>Trucs et astuces<span data-mw-comment-end="h-Trucs_et_astuces"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Trucs_et_astuces","replies":[],"uneditableSection":true}}--></div>
+<ul><li>L'<a href="/wiki/Wikipédia:Atelier_graphique" title="Wikipédia:Atelier graphique">atelier graphique</a> de Wikipédia s'occupe d'améliorer et de retoucher les images si nécessaire. Vous pouvez demander de l'aide afin d'augmenter la qualité, la crédibilité et la clarté pédagogique de cette encyclopédie.</li>
+<li>Il existe une <a class="external text" href="https://commons.wikimedia.org/wiki/Special:Upload?uselang=fr">ancienne version du formulaire d'import sur Commons</a>, similaire à celui de Wikipédia.</li>
+<li>Pour les utilisateurs expérimentés, <a href="/wiki/Wikipédia:Le_Bistro/31_octobre_2006#Import_des_fichiers" title="Wikipédia:Le Bistro/31 octobre 2006">une astuce permet d'ajouter les liens directs d'importation à votre interface</a>.</li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Modèle:Palette_Aide" title="Modèle:Palette Aide"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Modèle:Palette_Aide&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%">Aide</div></th>
+</tr>  <tr>
+<th class="navbox-group" style="width:190px;">Débuter</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Accueil" title="Aide:Accueil">Accueil de l'aide</a></li>
+<li><a href="/wiki/Aide:Débuter" title="Aide:Débuter">Débuter</a></li>
+<li><a href="/wiki/Aide:Wikipédia_pas_à_pas" title="Aide:Wikipédia pas à pas">Découvrir Wikipédia pas à pas</a></li>
+<li><a href="/wiki/Aide:Wikipédia_en_bref" title="Aide:Wikipédia en bref">L'essentiel à savoir</a></li>
+<li><a href="/wiki/Spécial:Accueil_de_l%E2%80%99espace_personnel" title="Spécial:Accueil de l’espace personnel">Votre page d'accueil personnelle</a> <small>(nécessite un compte)</small></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Règles</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Wikipédia:Principes_fondateurs" title="Wikipédia:Principes fondateurs">Principes fondateurs</a></li>
+<li><a href="/wiki/Wikipédia:Conventions_de_plan" title="Wikipédia:Conventions de plan">Conventions de plan</a></li>
+<li><a href="/wiki/Aide:Règles" title="Aide:Règles">Règles et recommandations</a> (<a href="/wiki/Aide:Règles#Recommandations_et_conventions_en_tous_genres" title="Aide:Règles">Résumé</a>)</li>
+<li><a href="/wiki/Wikipédia:Conventions_de_style" title="Wikipédia:Conventions de style">Conventions de style</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Consultation de Wikipédia</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Consultation" title="Aide:Consultation">Consultation de l’encyclopédie</a></li>
+<li><a href="/wiki/Aide:Recherche" title="Aide:Recherche">Recherche d'un article</a></li>
+<li><a href="/wiki/Aide:Lecture_critique" title="Aide:Lecture critique">Lecture critique</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Ressources et listes</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Catégorie" title="Aide:Catégorie">Catégories</a></li>
+<li><a href="/wiki/Aide:Couleurs" title="Aide:Couleurs">Couleurs</a></li>
+<li><a href="/wiki/Aide:Pages_spéciales" title="Aide:Pages spéciales">Pages spéciales</a></li>
+<li><a href="/wiki/Aide:Modèle" title="Aide:Modèle">Modèles</a></li>
+<li><a href="/wiki/Aide:Bandeau" title="Aide:Bandeau">Bandeaux</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Création et modification</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:ÉditeurVisuel" title="Aide:ÉditeurVisuel">Éditeur visuel</a></li>
+<li><a href="/wiki/Aide:Syntaxe" title="Aide:Syntaxe">Syntaxe wiki</a></li>
+<li><a href="/wiki/Aide:Que_faire_sur_Wikipédia_%3F" title="Aide:Que faire sur Wikipédia ?">Que faire sur Wikipédia ?</a></li>
+<li><a href="/wiki/Aide:Orthographe" title="Aide:Orthographe">Orthographe</a></li>
+<li><a href="/wiki/Aide:Tableau" title="Aide:Tableau">Tableau</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Suivi des changements</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Historique" title="Aide:Historique">Historique des pages</a></li>
+<li><a href="/wiki/Aide:Contributions" title="Aide:Contributions">Contributions des utilisateurs</a></li>
+<li><a href="/wiki/Aide:Vandalisme" title="Aide:Vandalisme">Vandalisme</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Liens et références</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Liens_internes" title="Aide:Liens internes">Liens internes</a></li>
+<li><a href="/wiki/Aide:Liens_externes" title="Aide:Liens externes">Liens externes</a></li>
+<li><a href="/wiki/Aide:Insérer_une_référence" title="Aide:Insérer une référence">Insérer une référence</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Images et médias</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Wikipédia:Atelier_graphique" title="Wikipédia:Atelier graphique">Atelier graphique</a></li>
+<li><a class="mw-selflink selflink">Importation de média</a></li>
+<li><a href="/wiki/Aide:Licences_des_fichiers_importés" title="Aide:Licences des fichiers importés">Licences des fichiers</a></li>
+<li><a href="/wiki/Aide:Insérer_une_image" title="Aide:Insérer une image">Insérer une image</a></li>
+<li><a href="/wiki/Wikipédia:Mise_en_forme_des_images" title="Wikipédia:Mise en forme des images">Mise en forme des images</a></li>
+<li><a href="/wiki/Aide:Taille_des_images" title="Aide:Taille des images">Taille des images</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Gestion du compte utilisateur</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Préférences" title="Aide:Préférences">Modification de ses préférences</a></li>
+<li><a href="/wiki/Aide:Page_utilisateur" title="Aide:Page utilisateur">Page personnelle</a></li>
+<li><a href="/wiki/Aide:Signature" title="Aide:Signature">Signature</a></li>
+<li><a href="/wiki/Aide:Gadgets" title="Aide:Gadgets">Gadgets</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Informations techniques</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Utilitaires" title="Aide:Utilitaires">Utilitaires</a></li>
+<li><a href="/wiki/Aide:MediaWiki" title="Aide:MediaWiki">Logiciel MediaWiki</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Moyens de communication</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Wikipédia:Le_Bistro" title="Wikipédia:Le Bistro">Bistro</a></li>
+<li><a href="/wiki/Aide:Discussion" title="Aide:Discussion">Pages de discussion</a></li>
+<li><a href="/wiki/Wikipédia:Forum_des_nouveaux" title="Wikipédia:Forum des nouveaux">Forum des nouveaux contributeurs</a></li>
+<li><a href="/wiki/Wikipédia:Questions_techniques" title="Wikipédia:Questions techniques">Question techniques</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:190px;">Communauté de Wikipédia</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Aide:Statuts_des_utilisateurs" title="Aide:Statuts des utilisateurs">Statuts des utilisateurs</a></li>
+<li><a href="/wiki/Wikipédia:Accueil_de_la_communauté" title="Wikipédia:Accueil de la communauté">Accueil</a></li>
+<li><a href="/wiki/Wikipédia:Annonces" title="Wikipédia:Annonces">Annonces</a></li>
+<li><a href="/wiki/Wikipédia:Résolution_de_conflit" title="Wikipédia:Résolution de conflit">Résolution de conflit</a></li>
+<li><a href="/wiki/Wikipédia:Wikimag" title="Wikipédia:Wikimag">Wikimag</a></li></ul>
+</div></td>
+</tr>                   </tbody></table>
+</div>
+
+<!-- 
+NewPP limit report
+Parsed by mw2438
+Cached time: 20240201070147
+Cache expiry: 2592000
+Reduced expiry: false
+Complications: [no‐toc]
+DiscussionTools time usage: 0.024 seconds
+CPU time usage: 0.110 seconds
+Real time usage: 0.146 seconds
+Preprocessor visited node count: 1027/1000000
+Post‐expand include size: 48721/2097152 bytes
+Template argument size: 13906/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 481/5000000 bytes
+Lua time usage: 0.002/10.000 seconds
+Lua memory usage: 618323/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   57.470      1 -total
+ 51.99%   29.878      1 Modèle:Palette
+ 25.56%   14.689      1 Modèle:Palette_Aide
+ 21.99%   12.640      1 Modèle:Méta_palette_de_navigation
+ 13.30%    7.646      1 MediaWiki:Uploadtext
+  9.86%    5.664      1 Modèle:Semi-protection_étendue
+  8.53%    4.904      1 Modèle:En-tête_Aide
+  7.50%    4.311     12 Modèle:Liste_horizontale
+  6.51%    3.739      1 Modèle:Icône_de_titre
+  4.95%    2.844      3 Modèle:Red
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:100011-0!canonical and timestamp 20240201070146 and revision id 211178186. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Aide:Importer_un_fichier&amp;oldid=211178186">https://fr.wikipedia.org/w/index.php?title=Aide:Importer_un_fichier&amp;oldid=211178186</a>&#160;».</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Catégorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Catégorie:Aide_de_niveau_débutant" title="Catégorie:Aide de niveau débutant">Aide de niveau débutant</a></li><li><a href="/wiki/Catégorie:Aide_pour_l'insertion_de_contenus_sur_Wikipédia" title="Catégorie:Aide pour l&#039;insertion de contenus sur Wikipédia">Aide pour l'insertion de contenus sur Wikipédia</a></li><li><a href="/wiki/Catégorie:Aide:Premiers_pas" title="Catégorie:Aide:Premiers pas">Aide:Premiers pas</a></li><li><a href="/wiki/Catégorie:Aide:Fichier" title="Catégorie:Aide:Fichier">Aide:Fichier</a></li><li><a href="/wiki/Catégorie:Aide_aux_contributeurs_débutants" title="Catégorie:Aide aux contributeurs débutants">Aide aux contributeurs débutants</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégorie cachée : <ul><li><a href="/wiki/Catégorie:Page_en_semi-protection_étendue" title="Catégorie:Page en semi-protection étendue">Page en semi-protection étendue</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 4 janvier 2024 à 17:00.</li>
+	<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikipédia:Citation_et_réutilisation_du_contenu_de_Wikipédia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 4.0 international">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d'utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikipédia:Crédits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. <br />
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia">À propos de Wikipédia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipédia:Avertissements_généraux">Avertissements</a></li>
+	<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code de conduite</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+	<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=Aide:Importer_un_fichier&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Activer ou désactiver la limitation de largeur du contenu</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui.input\".\n[1.41] Please use Codex. See migration guidelines: https://www.mediawiki.org/wiki/Codex/Migrating_from_MediaWiki_UI");mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui.checkbox\".\n[1.41] Please use Codex. See migration guidelines: https://www.mediawiki.org/wiki/Codex/Migrating_from_MediaWiki_UI");mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui.button\".\n[1.41] Please use Codex. See migration guidelines: https://www.mediawiki.org/wiki/Codex/Migrating_from_MediaWiki_UI");mw.config.set({"wgHostname":"mw1354","wgBackendResponseTime":124,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-En_bref","replies":[],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Conditions_pour_importer_un_fichier","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Fichier_dont_vous_êtes_l'auteur_(excepté_les_logos,_voir_plus_bas)-Conditions_pour_importer_un_fichier","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Fichier_dans_le_domaine_public-Conditions_pour_importer_un_fichier","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Fichier_sous_licence_libre_compatible-Conditions_pour_importer_un_fichier","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Foire_aux_questions","replies":[],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Exception","replies":[],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Trucs_et_astuces","replies":[],"uneditableSection":true}],"wgPageParseReport":{"discussiontools":{"limitreport-timeusage":"0.024"},"limitreport":{"cputime":"0.110","walltime":"0.146","ppvisitednodes":{"value":1027,"limit":1000000},"postexpandincludesize":{"value":48721,"limit":2097152},"templateargumentsize":{"value":13906,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":481,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   57.470      1 -total"," 51.99%   29.878      1 Modèle:Palette"," 25.56%   14.689      1 Modèle:Palette_Aide"," 21.99%   12.640      1 Modèle:Méta_palette_de_navigation"," 13.30%    7.646      1 MediaWiki:Uploadtext","  9.86%    5.664      1 Modèle:Semi-protection_étendue","  8.53%    4.904      1 Modèle:En-tête_Aide","  7.50%    4.311     12 Modèle:Liste_horizontale","  6.51%    3.739      1 Modèle:Icône_de_titre","  4.95%    2.844      3 Modèle:Red"]},"scribunto":{"limitreport-timeusage":{"value":"0.002","limit":"10.000"},"limitreport-memusage":{"value":618323,"limit":52428800}},"cachereport":{"origin":"mw2438","timestamp":"20240201070147","ttl":2592000,"transientcontent":false}}});});</script>
+</body>
+</html>

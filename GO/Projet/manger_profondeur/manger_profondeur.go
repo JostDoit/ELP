@@ -145,8 +145,7 @@ func manger(URL string, prefixe string, nomDossier string, wgProf *sync.WaitGrou
 	wgConcu.Wait()
 }
 
-func manger_profond(URL string, nombre int) {
-
+func Manger_profond(URL string, nombre int) {
 	//si l'url vaut a, on prend l'url par défaut
 	if URL == "a" {
 		URL = "https://fr.wikipedia.org/wiki/Collaborateurs_de_l'Encyclopédie"
@@ -187,7 +186,7 @@ func manger_profond(URL string, nombre int) {
 	var wgManger sync.WaitGroup
 
 	nbDossier := 1
-	for i := 50; i <= 54; i++ {
+	for i := 50; i <= 53; i++ {
 		wgManger.Add(1)
 		nomDossier := fmt.Sprintf("HTML%d", nbDossier)
 		nbDossier += 1

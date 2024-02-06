@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Scrap/vomir"
 	"bufio"
 	"fmt"
 	"io"
@@ -32,7 +33,8 @@ type Server struct {
 func runAlgortihm(url string, nombre int) {
 	fmt.Println("Running algorithm")
 	fmt.Printf("Résumé : Vous avez demandé pour le site %s avec le nombre %d.\n", url, nombre)
-	manger_profondeur.manger_profond(url, nombre)
+	//manger_profondeur.Manger_profond(url, nombre)
+	vomir.OpenBrowser()
 	fmt.Println("Algorithm finished")
 }
 

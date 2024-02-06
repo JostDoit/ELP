@@ -1,0 +1,863 @@
+/wiki/Wikipédia:%C3%80_propos_de_Wikipédia
+corps_du_texte
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available" lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Wikipédia:À propos de Wikipédia — Wikipédia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
+"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"1d90596e-6a45-4348-9414-a87d4f614423","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipédia:À_propos_de_Wikipédia","wgTitle":"À propos de Wikipédia","wgCurRevisionId":211795857,"wgRevisionId":211795857,"wgArticleId":695431,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page semi-protégée","Information sur Wikipédia"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Wikipédia:À_propos_de_Wikipédia","wgRelevantArticleId":695431,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgULSCurrentAutonym":"français","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual","wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q4387616","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],
+"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["mediawiki.page.media","mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP",
+"ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.discussionTools.init","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","wikibase.client.vector-2022","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=codex-search-styles%7Cext.discussionTools.init.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.14">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Wikipédia:À propos de Wikipédia — Wikipédia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//fr.m.wikipedia.org/wiki/Wikipédia:%C3%80_propos_de_Wikipédia">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipédia (fr)">
+<link rel="EditURI" type="application/rsd+xml" href="//fr.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://fr.wikipedia.org/wiki/Wikipédia:%C3%80_propos_de_Wikipédia">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">
+<link rel="alternate" type="application/atom+xml" title="Flux Atom de Wikipédia" href="/w/index.php?title=Spécial:Modifications_récentes&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="ext-discussiontools-replytool-enabled ext-discussiontools-newtopictool-enabled ext-discussiontools-sourcemodetoolbar-enabled skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-4 ns-subject page-Wikipédia_À_propos_de_Wikipédia rootpage-Wikipédia_À_propos_de_Wikipédia skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Menu principal"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Menu principal</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Menu principal</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">masquer</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_principal" title="Accueil général [z]" accesskey="z"><span>Accueil</span></a></li><li id="n-thema" class="mw-list-item"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Spécial:Page_au_hasard" title="Affiche un article au hasard [x]" accesskey="x"><span>Article au hasard</span></a></li><li id="n-contact" class="mw-list-item"><a href="/wiki/Wikipédia:Contact"><span>Contact</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-Contribuer" class="vector-menu mw-portlet mw-portlet-Contribuer"  >
+	<div class="vector-menu-heading">
+		Contribuer
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-aboutwp" class="mw-list-item"><a href="/wiki/Aide:Débuter"><span>Débuter sur Wikipédia</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipédia:Accueil_de_la_communauté" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Spécial:Modifications_récentes" title="Liste des modifications récentes sur le wiki [r]" accesskey="r"><span>Modifications récentes</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Langues</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br /><a href="#p-lang-btn">Aller en haut</a>.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Wikipédia:Accueil_principal" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipédia" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="l&#039;encyclopédie libre" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" width="120" height="13" style="width: 7.5em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Spécial:Recherche" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Rechercher sur Wikipédia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Rechercher</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Rechercher sur Wikipédia" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" title="Rechercher sur Wikipédia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Spécial:Recherche">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Rechercher</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Outils personnels" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+		
+		
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Wikipédia%3A%C3%80+propos+de+Wikipédia" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire." class=""><span>Créer un compte</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Spécial:Connexion&amp;returnto=Wikipédia%3A%C3%80+propos+de+Wikipédia" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o" class=""><span>Se connecter</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Plus d’options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils personnels"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Outils personnels</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="Menu utilisateur" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Créer_un_compte&amp;returnto=Wikipédia%3A%C3%80+propos+de+Wikipédia" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Spécial:Connexion&amp;returnto=Wikipédia%3A%C3%80+propos+de+Wikipédia" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages pour les contributeurs déconnectés <a href="/wiki/Aide:Introduction" aria-label="En savoir plus sur la contribution"><span>en savoir plus</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Spécial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Spécial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]" accesskey="n"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" role="navigation" aria-label="Sommaire" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Sommaire</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">masquer</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">Début</div>
+			</a>
+		</li>
+		<li id="toc-Histoire"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Histoire">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Histoire</div>
+		</a>
+		
+			<button aria-controls="toc-Histoire-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Histoire</span>
+			</button>
+		
+		<ul id="toc-Histoire-sublist" class="vector-toc-list">
+			<li id="toc-Site_multilingue"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Site_multilingue">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.1</span>Site multilingue</div>
+			</a>
+			
+			<ul id="toc-Site_multilingue-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Croissance"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Croissance">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">1.2</span>Croissance</div>
+			</a>
+			
+			<ul id="toc-Croissance-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Contenu_libre"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Contenu_libre">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Contenu libre</div>
+		</a>
+		
+		<ul id="toc-Contenu_libre-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Neutralité_de_point_de_vue"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Neutralité_de_point_de_vue">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Neutralité de point de vue</div>
+		</a>
+		
+		<ul id="toc-Neutralité_de_point_de_vue-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Fonctionnement_de_Wikipédia"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Fonctionnement_de_Wikipédia">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Fonctionnement de Wikipédia</div>
+		</a>
+		
+		<ul id="toc-Fonctionnement_de_Wikipédia-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Information_technique"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Information_technique">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Information technique</div>
+		</a>
+		
+		<ul id="toc-Information_technique-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Wikimedia_Foundation"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Wikimedia_Foundation">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>Wikimedia Foundation</div>
+		</a>
+		
+		<ul id="toc-Wikimedia_Foundation-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Autres_projets"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Autres_projets">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>Autres projets</div>
+		</a>
+		
+			<button aria-controls="toc-Autres_projets-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Afficher / masquer la sous-section Autres projets</span>
+			</button>
+		
+		<ul id="toc-Autres_projets-sublist" class="vector-toc-list">
+			<li id="toc-Projets_publics"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Projets_publics">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">7.1</span>Projets publics</div>
+			</a>
+			
+			<ul id="toc-Projets_publics-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-Projets_internes"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Projets_internes">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">7.2</span>Projets internes</div>
+			</a>
+			
+			<ul id="toc-Projets_internes-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav role="navigation" aria-label="Sommaire" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Basculer la table des matières"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Basculer la table des matières</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span style="opacity:0;position:absolute;">Wikipédia:</span>À propos de Wikipédia</h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Aller à un article dans une autre langue. Disponible en 133 langues."   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-133" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">133 langues</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ab mw-list-item"><a href="https://ab.wikipedia.org/wiki/%D0%90%D0%B2%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D0%B0:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" title="Авикипедиа:Описание – abkhaze" lang="ab" hreflang="ab" class="interlanguage-link-target"><span>Аԥсшәа</span></a></li><li class="interlanguage-link interwiki-af mw-list-item"><a href="https://af.wikipedia.org/wiki/Wikipedia:Omtrent" title="Wikipedia:Omtrent – afrikaans" lang="af" hreflang="af" class="interlanguage-link-target"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a href="https://als.wikipedia.org/wiki/Wikipedia:Iber_Wikipedia" title="Wikipedia:Iber Wikipedia – suisse allemand" lang="gsw" hreflang="gsw" class="interlanguage-link-target"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-alt mw-list-item"><a href="https://alt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%88%D0%B0%D1%80%D1%82%D0%B0%D0%BC%D0%B0%D0%BB%D1%8B" title="Википедия:Јартамалы – altaï du Sud" lang="alt" hreflang="alt" class="interlanguage-link-target"><span>Алтай тил</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a href="https://an.wikipedia.org/wiki/Wikipedia:Sobre" title="Wikipedia:Sobre – aragonais" lang="an" hreflang="an" class="interlanguage-link-target"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-anp mw-list-item"><a href="https://anp.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF" title="विकिपीडिया:परिचय – angika" lang="anp" hreflang="anp" class="interlanguage-link-target"><span>अंगिका</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%B9%D9%86" title="ويكيبيديا:عن – arabe" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ary mw-list-item"><a href="https://ary.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D9%BE%D9%8A%D8%AF%D9%8A%D8%A7:%D8%B9%D9%84%D9%89" title="ويكيپيديا:على – arabe marocain" lang="ary" hreflang="ary" class="interlanguage-link-target"><span>الدارجة</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA_%D8%B9%D9%86" title="ويكيبيديا:معلومات عن – arabe égyptien" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a href="https://as.wikipedia.org/wiki/%E0%A7%B1%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4" title="ৱিকিপিডিয়া:ইতিবৃত্ত – assamais" lang="as" hreflang="as" class="interlanguage-link-target"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/Wikipedia:Tocante_a" title="Wikipedia:Tocante a – asturien" lang="ast" hreflang="ast" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/Vikipediya:Haqq%C4%B1nda" title="Vikipediya:Haqqında – azerbaïdjanais" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A8%DB%8C%D9%84%DB%8C%DA%A9%D9%84%DB%8C%DA%A9_%D8%A7%DB%8C%D9%84%D9%87_%D8%AA%D8%A7%D9%86%DB%8C%D8%B4%D9%84%DB%8C%D9%82" title="ویکی‌پدیا:بیلیکلیک ایله تانیشلیق – South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a href="https://ba.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A2%D0%B0%D1%81%D1%83%D0%B8%D1%80%D0%BB%D0%B0%D0%BC%D0%B0" title="Википедия:Тасуирлама – bachkir" lang="ba" hreflang="ba" class="interlanguage-link-target"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bar mw-list-item"><a href="https://bar.wikipedia.org/wiki/Wikipedia:Iba_Wikipedia" title="Wikipedia:Iba Wikipedia – bavarois" lang="bar" hreflang="bar" class="interlanguage-link-target"><span>Boarisch</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a href="https://bcl.wikipedia.org/wiki/Wikipedia:Manungod" title="Wikipedia:Manungod – Central Bikol" lang="bcl" hreflang="bcl" class="interlanguage-link-target"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%8B%D1%8F:%D0%A8%D1%82%D0%BE_%D1%82%D0%B0%D0%BA%D0%BE%D0%B5_%D1%81%D0%B2%D0%B0%D0%B1%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D1%8D%D0%BD%D1%86%D1%8B%D0%BA%D0%BB%D0%B0%D0%BF%D0%B5%D0%B4%D1%8B%D1%8F" title="Вікіпедыя:Што такое свабодная энцыклапедыя – biélorusse" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a href="https://be-tarask.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D1%8D%D0%B4%D1%8B%D1%8F:%D0%9F%D1%80%D0%B0_%D0%92%D1%96%D0%BA%D1%96%D0%BF%D1%8D%D0%B4%D1%8B%D1%8E" title="Вікіпэдыя:Пра Вікіпэдыю – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%97%D0%B0_%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F" title="Уикипедия:За Уикипедия – bulgare" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a href="https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%95%E0%A5%87_%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87_%E0%A4%AE%E0%A5%87%E0%A4%82" title="विकिपीडिया:के बारे में – Bhojpuri" lang="bh" hreflang="bh" class="interlanguage-link-target"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bjn mw-list-item"><a href="https://bjn.wikipedia.org/wiki/Wikipidia:Pasal" title="Wikipidia:Pasal – banjar" lang="bjn" hreflang="bjn" class="interlanguage-link-target"><span>Banjar</span></a></li><li class="interlanguage-link interwiki-blk mw-list-item"><a href="https://blk.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%81%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%A1%E1%80%80%E1%80%BB%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%EA%A9%BB%E1%80%81%E1%80%9B%E1%80%AC%E1%82%8F" title="ဝီခီပီးဒီးယား:အကျောင်ꩻခရာႏ – Pa&#039;O" lang="blk" hreflang="blk" class="interlanguage-link-target"><span>ပအိုဝ်ႏဘာႏသာႏ</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%89%E0%A6%87%E0%A6%95%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%A1%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE:%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4" title="উইকিপিডিয়া:বৃত্তান্ত – bengali" lang="bn" hreflang="bn" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bo mw-list-item"><a href="https://bo.wikipedia.org/wiki/Wikipedia:%E0%BD%A1%E0%BD%B2%E0%BC%8B%E0%BD%A6%E0%BE%90%E0%BD%BC%E0%BD%A2%E0%BC%8D" title="Wikipedia:ཡི་སྐོར། – tibétain" lang="bo" hreflang="bo" class="interlanguage-link-target"><span>བོད་ཡིག</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Viquipèdia:Quant_a_la_Viquipèdia" title="Viquipèdia:Quant a la Viquipèdia – catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-ce mw-list-item"><a href="https://ce.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%A6%D1%83%D1%8C%D0%BD%D0%B0%D1%85_%D0%BB%D0%B0%D1%8C%D1%86%D0%BD%D0%B0" title="Википеди:Цуьнах лаьцна – tchétchène" lang="ce" hreflang="ce" class="interlanguage-link-target"><span>Нохчийн</span></a></li><li class="interlanguage-link interwiki-ceb mw-list-item"><a href="https://ceb.wikipedia.org/wiki/Wikipedia:Mahitungod_sa_Wikipedya" title="Wikipedia:Mahitungod sa Wikipedya – cebuano" lang="ceb" hreflang="ceb" class="interlanguage-link-target"><span>Cebuano</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a href="https://ckb.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%D9%BE%DB%8C%D8%AF%DB%8C%D8%A7:%D8%B3%DB%95%D8%A8%D8%A7%D8%B1%DB%95%D8%AA" title="ویکیپیدیا:سەبارەت – sorani" lang="ckb" hreflang="ckb" class="interlanguage-link-target"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a href="https://cv.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8_ç%D0%B8%D0%BD%D1%87%D0%B5%D0%BD" title="Википеди:Википеди çинчен – tchouvache" lang="cv" hreflang="cv" class="interlanguage-link-target"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a href="https://cy.wikipedia.org/wiki/Wicipedia:Yngl%C5%B7n_â_Wicipedia" title="Wicipedia:Ynglŷn â Wicipedia – gallois" lang="cy" hreflang="cy" class="interlanguage-link-target"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Hj%C3%A6lp:Om" title="Hjælp:Om – danois" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Wikipedia:%C3%9Cber_Wikipedia" title="Wikipedia:Über Wikipedia – allemand" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-diq mw-list-item"><a href="https://diq.wikipedia.org/wiki/Wikipedia:Heqa_c%C4%B1_de" title="Wikipedia:Heqa cı de – Zazaki" lang="diq" hreflang="diq" class="interlanguage-link-target"><span>Zazaki</span></a></li><li class="interlanguage-link interwiki-dv mw-list-item"><a href="https://dv.wikipedia.org/wiki/%DE%88%DE%A8%DE%86%DE%A8%DE%95%DE%A9%DE%91%DE%A8%DE%87%DE%A7:%DE%87%DE%A6%DE%87%DE%AA%DE%84%DE%AD%DE%8A%DE%AA%DE%85%DE%AA%DE%82%DE%B0%DE%82%DE%A6%DE%81%DE%B0_%DE%89%DE%A6%DE%83%DE%AA%DE%99%DE%A6%DE%84%DE%A7" title="ވިކިޕީޑިއާ:އައުބޭފުޅުންނަށް މަރުޙަބާ – maldivien" lang="dv" hreflang="dv" class="interlanguage-link-target"><span>ދިވެހިބަސް</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%92%CE%B9%CE%BA%CE%B9%CF%80%CE%B1%CE%AF%CE%B4%CE%B5%CE%B9%CE%B1:%CE%A3%CF%87%CE%B5%CF%84%CE%B9%CE%BA%CE%AC" title="Βικιπαίδεια:Σχετικά – grec" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a href="https://en.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About – anglais" lang="en" hreflang="en" class="interlanguage-link-target"><span>English</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Wikipedia:Acerca_de" title="Wikipedia:Acerca de – espagnol" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Laguntza:Wikipediari_buruz" title="Laguntza:Wikipediari buruz – basque" lang="eu" hreflang="eu" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C_%D8%A8%D8%A7_%D8%AF%D8%A7%D9%86%D8%B4%D9%86%D8%A7%D9%85%D9%87" title="ویکی‌پدیا:آشنایی با دانشنامه – persan" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Wikipedia:Tietoja" title="Wikipedia:Tietoja – finnois" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a href="https://fo.wikipedia.org/wiki/Wikipedia:Um" title="Wikipedia:Um – féroïen" lang="fo" hreflang="fo" class="interlanguage-link-target"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a href="https://frr.wikipedia.org/wiki/Wikipedia:Auer" title="Wikipedia:Auer – frison septentrional" lang="frr" hreflang="frr" class="interlanguage-link-target"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a href="https://fy.wikipedia.org/wiki/Wikipedy:Wat_is_Wikipedia" title="Wikipedy:Wat is Wikipedia – frison occidental" lang="fy" hreflang="fy" class="interlanguage-link-target"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a href="https://gan.wikipedia.org/wiki/Wikipedia:%E9%97%9C%E6%96%BC" title="Wikipedia:關於 – gan" lang="gan" hreflang="gan" class="interlanguage-link-target"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Wikipedia:Acerca_de" title="Wikipedia:Acerca de – galicien" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gn badge-Q17437798 badge-goodarticle mw-list-item" title="bon article"><a href="https://gn.wikipedia.org/wiki/Vikipet%C3%A3:Rehegua" title="Vikipetã:Rehegua – guarani" lang="gn" hreflang="gn" class="interlanguage-link-target"><span>Avañe'ẽ</span></a></li><li class="interlanguage-link interwiki-gor mw-list-item"><a href="https://gor.wikipedia.org/wiki/Wikipedia:Tomimbihu" title="Wikipedia:Tomimbihu – gorontalo" lang="gor" hreflang="gor" class="interlanguage-link-target"><span>Bahasa Hulontalo</span></a></li><li class="interlanguage-link interwiki-got mw-list-item"><a href="https://got.wikipedia.org/wiki/Wikipedia:%F0%90%8C%B1%F0%90%8C%B9_%F0%90%8D%85%F0%90%8C%B9%F0%90%8C%BA%F0%90%8C%B9%F0%90%8D%80%F0%90%8C%B0%F0%90%8C%B9%F0%90%8C%B3%F0%90%8C%BE%F0%90%8C%B0" title="Wikipedia:𐌱𐌹 𐍅𐌹𐌺𐌹𐍀𐌰𐌹𐌳𐌾𐌰 – gotique" lang="got" hreflang="got" class="interlanguage-link-target"><span>𐌲𐌿𐍄𐌹𐍃𐌺</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a href="https://gu.wikipedia.org/wiki/%E0%AA%B5%E0%AA%BF%E0%AA%95%E0%AA%BF%E0%AA%AA%E0%AB%80%E0%AA%A1%E0%AA%BF%E0%AA%AF%E0%AA%BE:%E0%AA%B8%E0%AB%8D%E0%AA%B5%E0%AA%BE%E0%AA%97%E0%AA%A4" title="વિકિપીડિયા:સ્વાગત – goudjarati" lang="gu" hreflang="gu" class="interlanguage-link-target"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%90%D7%95%D7%93%D7%95%D7%AA" title="ויקיפדיה:אודות – hébreu" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%95%E0%A5%87_%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87_%E0%A4%AE%E0%A5%87%E0%A4%82" title="विकिपीडिया:विकिपीडिया के बारे में – hindi" lang="hi" hreflang="hi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Wikipédia:R%C3%B3lunk" title="Wikipédia:Rólunk – hongrois" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D5%8E%D5%AB%D6%84%D5%AB%D5%BA%D5%A5%D5%A4%D5%AB%D5%A1:%D5%8E%D5%AB%D6%84%D5%AB%D5%BA%D5%A5%D5%A4%D5%AB%D5%A1%D5%B5%D5%AB_%D5%B4%D5%A1%D5%BD%D5%AB%D5%B6" title="Վիքիպեդիա:Վիքիպեդիայի մասին – arménien" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a href="https://ia.wikipedia.org/wiki/Wikipedia:A_proposito" title="Wikipedia:A proposito – interlingua" lang="ia" hreflang="ia" class="interlanguage-link-target"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Wikipedia:Perihal" title="Wikipedia:Perihal – indonésien" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ii mw-list-item"><a href="https://ii.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="Wikipedia:关于 – yi du Sichuan" lang="ii" hreflang="ii" class="interlanguage-link-target"><span>ꆇꉙ</span></a></li><li class="interlanguage-link interwiki-ilo mw-list-item"><a href="https://ilo.wikipedia.org/wiki/Wikipedia:Maipanggep" title="Wikipedia:Maipanggep – ilocano" lang="ilo" hreflang="ilo" class="interlanguage-link-target"><span>Ilokano</span></a></li><li class="interlanguage-link interwiki-inh mw-list-item"><a href="https://inh.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%A1%D1%83%D1%80%D1%82_%D0%BE%D1%82%D1%82%D0%B0%D0%B4%D0%B0%D1%80" title="Википеди:Сурт оттадар – ingouche" lang="inh" hreflang="inh" class="interlanguage-link-target"><span>ГӀалгӀай</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wikipedia.org/wiki/Wikipedia:Um_verkefni%C3%B0" title="Wikipedia:Um verkefnið – islandais" lang="is" hreflang="is" class="interlanguage-link-target"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Wikipedia:Sala_stampa/Wikipedia" title="Wikipedia:Sala stampa/Wikipedia – italien" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/Wikipedia:%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="Wikipedia:ウィキペディアについて – japonais" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a href="https://jv.wikipedia.org/wiki/Wikipédia:Bab" title="Wikipédia:Bab – javanais" lang="jv" hreflang="jv" class="interlanguage-link-target"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a href="https://kaa.wikipedia.org/wiki/Wikipedia:Wikipedia_haqq%C4%B1nda" title="Wikipedia:Wikipedia haqqında – karakalpak" lang="kaa" hreflang="kaa" class="interlanguage-link-target"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-kcg mw-list-item"><a href="https://kcg.wikipedia.org/wiki/Wukipedia:Tazwa" title="Wukipedia:Tazwa – tyap" lang="kcg" hreflang="kcg" class="interlanguage-link-target"><span>Tyap</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a href="https://kk.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F_%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8B" title="Уикипедия:Уикипедия туралы – kazakh" lang="kk" hreflang="kk" class="interlanguage-link-target"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a href="https://km.wikipedia.org/wiki/%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6:%E1%9E%A2%E1%9F%86%E1%9E%96%E1%9E%B8%E1%9E%9C%E1%9E%B7%E1%9E%82%E1%9E%B8%E1%9E%97%E1%9E%B8%E1%9E%8C%E1%9E%B6" title="វិគីភីឌា:អំពីវិគីភីឌា – khmer" lang="km" hreflang="km" class="interlanguage-link-target"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a href="https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B2%BF%E0%B2%95%E0%B2%BF%E0%B2%AA%E0%B3%80%E0%B2%A1%E0%B2%BF%E0%B2%AF:%E0%B2%A8%E0%B2%AE%E0%B3%8D%E0%B2%AE_%E0%B2%AC%E0%B2%97%E0%B3%8D%E0%B2%97%E0%B3%86" title="ವಿಕಿಪೀಡಿಯ:ನಮ್ಮ ಬಗ್ಗೆ – kannada" lang="kn" hreflang="kn" class="interlanguage-link-target"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EC%86%8C%EA%B0%9C" title="위키백과:소개 – coréen" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ks mw-list-item"><a href="https://ks.wikipedia.org/wiki/%D9%88%D9%90%DA%A9%DB%8C%D9%96%D9%BE%DB%8C%D9%96%DA%88%DB%8C%D8%A7:%D9%85%D9%8F%D8%AA%D9%84%D9%90%D9%82" title="وِکیٖپیٖڈیا:مُتلِق – cachemiri" lang="ks" hreflang="ks" class="interlanguage-link-target"><span>कॉशुर / کٲشُر</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a href="https://ku.wikipedia.org/wiki/W%C3%AEk%C3%AEpediya:Derbar%C3%AA_W%C3%AEk%C3%AEpediyay%C3%AA_de" title="Wîkîpediya:Derbarê Wîkîpediyayê de – kurde" lang="ku" hreflang="ku" class="interlanguage-link-target"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F_%D1%82%D1%83%D1%83%D1%80%D0%B0%D0%BB%D1%83%D1%83" title="Википедия:Википедия тууралуу – kirghize" lang="ky" hreflang="ky" class="interlanguage-link-target"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a href="https://lb.wikipedia.org/wiki/Wikipedia:Iwwer_d'Wikipedia" title="Wikipedia:Iwwer d&#039;Wikipedia – luxembourgeois" lang="lb" hreflang="lb" class="interlanguage-link-target"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Vikipedija:Projekto_apra%C5%A1ymas" title="Vikipedija:Projekto aprašymas – lituanien" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Vikip%C4%93dija:Par" title="Vikipēdija:Par – letton" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mi mw-list-item"><a href="https://mi.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About – maori" lang="mi" hreflang="mi" class="interlanguage-link-target"><span>Māori</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0:%D0%97%D0%B0_%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0" title="Википедија:За Википедија – macédonien" lang="mk" hreflang="mk" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a href="https://mn.wikipedia.org/wiki/Wikipedia:%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D0%B0%D0%B3%D0%B8%D0%B9%D0%BD_%D1%82%D1%83%D1%85%D0%B0%D0%B9" title="Wikipedia:Википедиагийн тухай – mongol" lang="mn" hreflang="mn" class="interlanguage-link-target"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/Wikipedia:Perihal" title="Wikipedia:Perihal – malais" lang="ms" hreflang="ms" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a href="https://mt.wikipedia.org/wiki/Wikipedija:Dwar" title="Wikipedija:Dwar – maltais" lang="mt" hreflang="mt" class="interlanguage-link-target"><span>Malti</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a href="https://my.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%80%80%E1%80%AE%E1%80%95%E1%80%AE%E1%80%B8%E1%80%92%E1%80%AE%E1%80%B8%E1%80%9A%E1%80%AC%E1%80%B8:%E1%80%A1%E1%80%80%E1%80%BC%E1%80%B1%E1%80%AC%E1%80%84%E1%80%BA%E1%80%B8" title="ဝီကီပီးဒီးယား:အကြောင်း – birman" lang="my" hreflang="my" class="interlanguage-link-target"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-mzn mw-list-item"><a href="https://mzn.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%A7%D9%85%D9%87_%D8%AE%D9%88%D8%B1%DB%8C" title="ویکی‌پدیا:امه خوری – mazandérani" lang="mzn" hreflang="mzn" class="interlanguage-link-target"><span>مازِرونی</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a href="https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A4%BF%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A4%BF%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%95%E0%A5%8B_%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%AE%E0%A4%BE" title="विकिपिडिया:विकिपिडियाको बारेमा – népalais" lang="ne" hreflang="ne" class="interlanguage-link-target"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Help:Unieke_van_Wikipedia" title="Help:Unieke van Wikipedia – néerlandais" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wikipedia.org/wiki/Wikipedia:Om" title="Wikipedia:Om – norvégien nynorsk" lang="nn" hreflang="nn" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Wikipedia:Om" title="Wikipedia:Om – norvégien bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-nv mw-list-item"><a href="https://nv.wikipedia.org/wiki/Wikiib%C3%AD%C3%ADdiiya:Baa_hane%CA%BC" title="Wikiibíídiiya:Baa haneʼ – navajo" lang="nv" hreflang="nv" class="interlanguage-link-target"><span>Diné bizaad</span></a></li><li class="interlanguage-link interwiki-ny mw-list-item"><a href="https://ny.wikipedia.org/wiki/Wikipedia:Za_Wikipedia" title="Wikipedia:Za Wikipedia – chewa" lang="ny" hreflang="ny" class="interlanguage-link-target"><span>Chi-Chewa</span></a></li><li class="interlanguage-link interwiki-or mw-list-item"><a href="https://or.wikipedia.org/wiki/%E0%AC%89%E0%AC%87%E0%AC%95%E0%AC%BF%E0%AC%AA%E0%AC%BF%E0%AC%A1%E0%AC%BC%E0%AC%BF%E0%AC%86:%E0%AC%89%E0%AC%87%E0%AC%95%E0%AC%BF%E0%AC%AA%E0%AC%BF%E0%AC%A1%E0%AC%BC%E0%AC%BF%E0%AC%86_%E0%AC%AC%E0%AC%BE%E0%AC%AC%E0%AC%A6%E0%AC%B0%E0%AD%87" title="ଉଇକିପିଡ଼ିଆ:ଉଇକିପିଡ଼ିଆ ବାବଦରେ – odia" lang="or" hreflang="or" class="interlanguage-link-target"><span>ଓଡ଼ିଆ</span></a></li><li class="interlanguage-link interwiki-os mw-list-item"><a href="https://os.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8:%D0%90%D1%84%D1%8B%D1%81%D1%82" title="Википеди:Афыст – ossète" lang="os" hreflang="os" class="interlanguage-link-target"><span>Ирон</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a href="https://pa.wikipedia.org/wiki/%E0%A8%B5%E0%A8%BF%E0%A8%95%E0%A9%80%E0%A8%AA%E0%A9%80%E0%A8%A1%E0%A9%80%E0%A8%86:%E0%A8%AC%E0%A8%BE%E0%A8%B0%E0%A9%87" title="ਵਿਕੀਪੀਡੀਆ:ਬਾਰੇ – pendjabi" lang="pa" hreflang="pa" class="interlanguage-link-target"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pam mw-list-item"><a href="https://pam.wikipedia.org/wiki/Wikipedia:Tungkul_king" title="Wikipedia:Tungkul king – pampangan" lang="pam" hreflang="pam" class="interlanguage-link-target"><span>Kapampangan</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Wikipedia:O_Wikipedii" title="Wikipedia:O Wikipedii – polonais" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Wikipédia:Sobre_a_Wikipédia" title="Wikipédia:Sobre a Wikipédia – portugais" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a href="https://qu.wikipedia.org/wiki/Wikipedia:Wikipidiyamanta" title="Wikipedia:Wikipidiyamanta – quechua" lang="qu" hreflang="qu" class="interlanguage-link-target"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Wikipedia:Despre_Wikipedia" title="Wikipedia:Despre Wikipedia – roumain" lang="ro" hreflang="ro" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5" title="Википедия:Описание – russe" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a href="https://sah.wikipedia.org/wiki/%D0%91%D0%B8%D0%BA%D0%B8%D0%BF%D0%B8%D1%8D%D0%B4%D1%8C%D0%B8%D0%B9%D1%8D:%D0%91%D1%83_%D1%82%D1%83%D2%BB%D1%83%D0%BD%D0%B0%D0%BD" title="Бикипиэдьийэ:Бу туһунан – iakoute" lang="sah" hreflang="sah" class="interlanguage-link-target"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a href="https://sco.wikipedia.org/wiki/Wikipedia:Aboot" title="Wikipedia:Aboot – écossais" lang="sco" hreflang="sco" class="interlanguage-link-target"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a href="https://sd.wikipedia.org/wiki/%D9%88%DA%AA%D9%8A%D9%BE%D9%8A%DA%8A%D9%8A%D8%A7:%D8%A8%D8%A7%D8%A8%D8%AA" title="وڪيپيڊيا:بابت – sindhi" lang="sd" hreflang="sd" class="interlanguage-link-target"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-se mw-list-item"><a href="https://se.wikipedia.org/wiki/Wikipedia:Birra" title="Wikipedia:Birra – same du Nord" lang="se" hreflang="se" class="interlanguage-link-target"><span>Davvisámegiella</span></a></li><li class="interlanguage-link interwiki-sg mw-list-item"><a href="https://sg.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About – sango" lang="sg" hreflang="sg" class="interlanguage-link-target"><span>Sängö</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Wikipedija:O_projektu" title="Wikipedija:O projektu – serbo-croate" lang="sh" hreflang="sh" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-shn mw-list-item"><a href="https://shn.wikipedia.org/wiki/%E1%80%9D%E1%80%AE%E1%82%87%E1%81%B6%E1%80%AE%E1%82%87%E1%81%BD%E1%80%AE%E1%80%B8%E1%80%90%E1%80%AE%E1%80%B8%E1%80%9A%E1%82%83%E1%80%B8:%E1%80%9C%E1%80%BD%E1%80%84%E1%80%BA%E1%82%88%E1%80%9D%E1%82%85%E1%80%95%E1%80%BA%E1%82%89%E1%80%9E%E1%81%A2%E1%82%86%E1%82%89" title="ဝီႇၶီႇၽီးတီးယႃး:လွင်ႈဝႅပ်ႉသၢႆႉ – shan" lang="shn" hreflang="shn" class="interlanguage-link-target"><span>ၽႃႇသႃႇတႆး </span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a href="https://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%92%E0%B6%9A%E0%B7%92%E0%B6%B4%E0%B7%93%E0%B6%A9%E0%B7%92%E0%B6%BA%E0%B7%8F:%E0%B6%B4%E0%B7%92%E0%B7%85%E0%B7%92%E0%B6%B6%E0%B6%B3" title="විකිපීඩියා:පිළිබඳ – cingalais" lang="si" hreflang="si" class="interlanguage-link-target"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Wikipédia:O_Wikipédii" title="Wikipédia:O Wikipédii – slovaque" lang="sk" hreflang="sk" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a href="https://sl.wikipedia.org/wiki/Wikipedija:O_Wikipediji" title="Wikipedija:O Wikipediji – slovène" lang="sl" hreflang="sl" class="interlanguage-link-target"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a href="https://so.wikipedia.org/wiki/Wikipedia:Ku_saabsan" title="Wikipedia:Ku saabsan – somali" lang="so" hreflang="so" class="interlanguage-link-target"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0:%D0%9E_%D0%BD%D0%B0%D0%BC%D0%B0" title="Википедија:О нама – serbe" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a href="https://su.wikipedia.org/wiki/Wikipedia:Ngeunaan" title="Wikipedia:Ngeunaan – soundanais" lang="su" hreflang="su" class="interlanguage-link-target"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Wikipedia:Om" title="Wikipedia:Om – suédois" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a href="https://sw.wikipedia.org/wiki/Wikipedia:About" title="Wikipedia:About – swahili" lang="sw" hreflang="sw" class="interlanguage-link-target"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AE%BE:%E0%AE%B5%E0%AE%BF%E0%AE%AA%E0%AE%B0%E0%AE%AE%E0%AF%8D" title="விக்கிப்பீடியா:விபரம் – tamoul" lang="ta" hreflang="ta" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a href="https://te.wikipedia.org/wiki/%E0%B0%B5%E0%B0%BF%E0%B0%95%E0%B1%80%E0%B0%AA%E0%B1%80%E0%B0%A1%E0%B0%BF%E0%B0%AF%E0%B0%BE:%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF" title="వికీపీడియా:గురించి – télougou" lang="te" hreflang="te" class="interlanguage-link-target"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a href="https://tg.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D0%B0:%D0%9E%D1%88%D0%BD%D0%BE%D3%A3_%D0%B1%D0%BE_%D0%B4%D0%BE%D0%BD%D0%B8%D1%88%D0%BD%D0%BE%D0%BC%D0%B0" title="Википедиа:Ошноӣ бо донишнома – tadjik" lang="tg" hreflang="tg" class="interlanguage-link-target"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%B4%E0%B8%9E%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2:%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%B1%E0%B8%9A" title="วิกิพีเดีย:เกี่ยวกับ – thaï" lang="th" hreflang="th" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tk mw-list-item"><a href="https://tk.wikipedia.org/wiki/Wikipedi%C3%BDa:Hakynda" title="Wikipediýa:Hakynda – turkmène" lang="tk" hreflang="tk" class="interlanguage-link-target"><span>Türkmençe</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a href="https://tl.wikipedia.org/wiki/Wikipedia:Patungkol" title="Wikipedia:Patungkol – tagalog" lang="tl" hreflang="tl" class="interlanguage-link-target"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Vikipedi:Hakk%C4%B1nda" title="Vikipedi:Hakkında – turc" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a href="https://tt.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:Tur%C4%B1nda" title="Википедия:Turında – tatar" lang="tt" hreflang="tt" class="interlanguage-link-target"><span>Татарча / tatarça</span></a></li><li class="interlanguage-link interwiki-ug mw-list-item"><a href="https://ug.wikipedia.org/wiki/Wikipedia:%DA%BE%DB%95%D9%82%D9%82%D9%89%D8%AF%DB%95" title="Wikipedia:ھەققىدە – ouïghour" lang="ug" hreflang="ug" class="interlanguage-link-target"><span>ئۇيغۇرچە / Uyghurche</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE" title="Вікіпедія:Про – ukrainien" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/Vikipediya:Haqida" title="Vikipediya:Haqida – ouzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha / ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/Wikipedia:Gi%E1%BB%9Bi_thi%E1%BB%87u" title="Wikipedia:Giới thiệu – vietnamien" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wa mw-list-item"><a href="https://wa.wikipedia.org/wiki/Wikipedia:%C3%85d_fwait" title="Wikipedia:Åd fwait – wallon" lang="wa" hreflang="wa" class="interlanguage-link-target"><span>Walon</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a href="https://war.wikipedia.org/wiki/Wikipedia:Mahitungod" title="Wikipedia:Mahitungod – waray" lang="war" hreflang="war" class="interlanguage-link-target"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wo mw-list-item"><a href="https://wo.wikipedia.org/wiki/Ndimbal:Dalal-jàmm" title="Ndimbal:Dalal-jàmm – wolof" lang="wo" hreflang="wo" class="interlanguage-link-target"><span>Wolof</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a href="https://wuu.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="Wikipedia:关于 – wu" lang="wuu" hreflang="wuu" class="interlanguage-link-target"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a href="https://xmf.wikipedia.org/wiki/%E1%83%95%E1%83%98%E1%83%99%E1%83%98%E1%83%9E%E1%83%94%E1%83%93%E1%83%98%E1%83%90:%E1%83%A8%E1%83%94%E1%83%9C%E1%83%98" title="ვიკიპედია:შენი – mingrélien" lang="xmf" hreflang="xmf" class="interlanguage-link-target"><span>მარგალური</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a href="https://yi.wikipedia.org/wiki/%D7%B0%D7%99%D7%A7%D7%99%D7%A4%D6%BC%D7%A2%D7%93%D7%99%D7%A2:%D7%95%D7%95%D7%A2%D7%92%D7%9F" title="װיקיפּעדיע:וועגן – yiddish" lang="yi" hreflang="yi" class="interlanguage-link-target"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a href="https://yo.wikipedia.org/wiki/Wikipedia:N%C3%ADpa_Wikipedia" title="Wikipedia:Nípa Wikipedia – yoruba" lang="yo" hreflang="yo" class="interlanguage-link-target"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="Wikipedia:关于 – chinois" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/Wikipedia:%E4%BB%8B%E7%B4%B9" title="Wikipedia:介紹 – cantonais" lang="yue" hreflang="yue" class="interlanguage-link-target"><span>粵語</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q4387616#sitelinks-wikipedia" title="Modifier les liens interlangues" class="wbc-editpage">Modifier les liens</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Espaces de noms">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-project" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia" title="Voir la page du projet [c]" accesskey="c"><span>Page</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Discussion_Wikipédia:%C3%80_propos_de_Wikipédia" rel="discussion" title="Discussion au sujet de cette page de contenu [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Modifier la variante de langue"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">français</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Affichages">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia"><span>Lire</span></a></li><li id="ca-viewsource" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;action=edit" title="Cette page est protégée.&#10;Vous pouvez toutefois en visualiser la source. [e]" accesskey="e"><span>Voir le texte source</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;action=history" title="Historique des versions de cette page [h]" accesskey="h"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Outils"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Outils</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Outils</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">déplacer vers la barre latérale</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">masquer</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="Plus d’options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia"><span>Lire</span></a></li><li id="ca-more-viewsource" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;action=edit"><span>Voir le texte source</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;action=history"><span>Voir l’historique</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		Général
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Spécial:Pages_liées/Wikipédia:%C3%80_propos_de_Wikipédia" title="Liste des pages liées qui pointent sur celle-ci [j]" accesskey="j"><span>Pages liées</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Spécial:Suivi_des_liens/Wikipédia:%C3%80_propos_de_Wikipédia" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]" accesskey="k"><span>Suivi des pages liées</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Aide:Importer_un_fichier" title="Téléverser des fichiers [u]" accesskey="u"><span>Téléverser un fichier</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Spécial:Pages_spéciales" title="Liste de toutes les pages spéciales [q]" accesskey="q"><span>Pages spéciales</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;oldid=211795857" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Spécial:UrlShortener&amp;url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FWikip%25C3%25A9dia%3A%25C3%2580_propos_de_Wikip%25C3%25A9dia"><span>Obtenir l'URL raccourcie</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q4387616" title="Lien vers l’élément dans le dépôt de données connecté [g]" accesskey="g"><span>Élément Wikidata</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Imprimer / exporter
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-create_a_book" class="mw-list-item"><a href="/w/index.php?title=Spécial:Livre&amp;bookcmd=book_creator&amp;referer=Wikipédia%3A%C3%80+propos+de+Wikipédia"><span>Créer un livre</span></a></li><li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Spécial:DownloadAsPdf&amp;page=Wikipédia%3A%C3%80_propos_de_Wikipédia&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;printable=yes" title="Version imprimable de cette page [p]" accesskey="p"><span>Version imprimable</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		Dans d’autres projets
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Commons:Welcome" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-mediawiki mw-list-item"><a href="https://www.mediawiki.org/wiki/Project:About" hreflang="en"><span>MediaWiki</span></a></li><li class="wb-otherproject-link wb-otherproject-meta mw-list-item"><a href="https://meta.wikimedia.org/wiki/Meta:About" hreflang="en"><span>Méta-Wiki</span></a></li><li class="wb-otherproject-link wb-otherproject-sources mw-list-item"><a href="https://wikisource.org/wiki/Wikisource:About_Wikisource" hreflang="en"><span>Wikisource multilingue</span></a></li><li class="wb-otherproject-link wb-otherproject-species mw-list-item"><a href="https://species.wikimedia.org/wiki/Wikispecies:About" hreflang="en"><span>Wikispecies</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://fr.wikibooks.org/wiki/Wikilivres:Présentation" hreflang="fr"><span>Wikilivres</span></a></li><li class="wb-otherproject-link wb-otherproject-wikidata mw-list-item"><a href="https://www.wikidata.org/wiki/Wikidata:Introduction" hreflang="en"><span>Wikidata</span></a></li><li class="wb-otherproject-link wb-otherproject-wikifunctions mw-list-item"><a href="https://www.wikifunctions.org/wiki/Wikifunctions:About" hreflang="en"><span>Wikifunctions</span></a></li><li class="wb-otherproject-link wb-otherproject-wikivoyage mw-list-item"><a href="https://fr.wikivoyage.org/wiki/Wikivoyage:Présentation_de_Wikivoyage" hreflang="fr"><span>Wikivoyage</span></a></li><li class="wb-otherproject-link wb-otherproject-wiktionary mw-list-item"><a href="https://fr.wiktionary.org/wiki/Wiktionnaire:%C3%80_propos" hreflang="fr"><span>Wiktionnaire</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Outils de la page">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-client-prefs-landmark" aria-label="Apparence">
+						</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-protection-edition" class="mw-indicator"><div class="mw-parser-output"><div class="nopopups"><span class="noviewer" typeof="mw:File"><a href="//fr.wikipedia.org/wiki/Catégorie:Page_semi-protégée" title="Cette page est semi-protégée."><img alt="Cette page est semi-protégée." src="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Semi-protection-shackle-frwiki.svg/15px-Semi-protection-shackle-frwiki.svg.png" decoding="async" width="15" height="21" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Semi-protection-shackle-frwiki.svg/23px-Semi-protection-shackle-frwiki.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/de/Semi-protection-shackle-frwiki.svg/30px-Semi-protection-shackle-frwiki.svg.png 2x" data-file-width="512" data-file-height="725" /></a></span></div></div></div>
+		</div>
+
+						<div id="siteSub" class="noprint">Une page de Wikipédia, l&#039;encyclopédie libre.</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="fr" dir="ltr"><p class="mw-empty-elt">
+</p>
+<figure class="mw-default-size" typeof="mw:File/Thumb"><a href="/wiki/Fichier:Wikipédia_en_français_sur_mobile_android_(cropped).jpg" class="mw-file-description"><img alt="main tenant un téléphone avec l'article Dame Blanche (légende) de Wikipédia en français en train d'être consulté." src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Wikipédia_en_français_sur_mobile_android_%28cropped%29.jpg/220px-Wikipédia_en_français_sur_mobile_android_%28cropped%29.jpg" decoding="async" width="220" height="220" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Wikipédia_en_français_sur_mobile_android_%28cropped%29.jpg/330px-Wikipédia_en_français_sur_mobile_android_%28cropped%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/Wikipédia_en_français_sur_mobile_android_%28cropped%29.jpg/440px-Wikipédia_en_français_sur_mobile_android_%28cropped%29.jpg 2x" data-file-width="3074" data-file-height="3074"/></a><figcaption>L'encyclopédie Wikipédia est accessible par <a href="/wiki/Internet" title="Internet">Internet</a> et peut être améliorée par tout le monde.</figcaption></figure>
+<p><b>Wikipédia</b> est une <a href="/wiki/Encyclopédie" title="Encyclopédie">encyclopédie</a> alimentée sur Internet par des volontaires. Universelle, multilingue et fonctionnant sur le principe du <a href="/wiki/Wiki" title="Wiki">wiki</a>, chacun peut y collaborer immédiatement. Wikipédia a pour objectif d'offrir un <a href="/wiki/%C5%92uvre_libre" title="Œuvre libre">contenu libre</a>, <a href="/wiki/Wikipédia:Neutralité_de_point_de_vue" title="Wikipédia:Neutralité de point de vue">objectif</a> et <a href="/wiki/Wikipédia:Vérifiabilité" title="Wikipédia:Vérifiabilité">vérifiable</a> que chacun peut modifier et améliorer, sans nécessiter de s'enregistrer. Tous les articles de Wikipédia sont un <i>travail en progression</i> qui peut être modifié et amélioré par tout le monde. 
+</p><p>Wikipédia est un des <a href="/wiki/Wikipédia:Projets_frères" title="Wikipédia:Projets frères">projets</a> portés par le <a href="/wiki/Mouvement_Wikimédia" title="Mouvement Wikimédia">mouvement Wikimédia</a>, soutenus et hébergés par la <a href="/wiki/Wikimedia_Foundation" class="mw-redirect" title="Wikimedia Foundation">Wikimedia Foundation</a>. Pour plus d'informations, lire l'article <a href="/wiki/Wikipédia" title="Wikipédia">Wikipédia</a>. Lisez également <a href="/wiki/Aide:Wikipédia_en_bref" title="Aide:Wikipédia en bref">un résumé rapide</a> du fonctionnement de l'encyclopédie.
+</p>
+<meta property="mw:PageProp/toc"/>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Histoire" data-mw-thread-id="h-Histoire"><span data-mw-comment-start="" id="h-Histoire"></span>Histoire<span data-mw-comment-end="h-Histoire"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Histoire","replies":["h-Site_multilingue-Histoire","h-Croissance-Histoire"]}}--></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Histoire_de_Wikipédia" title="Histoire de Wikipédia">Histoire de Wikipédia</a>.</div></div>
+<p>Wikipédia est un projet cofondé par <a href="/wiki/Jimmy_Wales" title="Jimmy Wales">Jimmy Wales</a> en janvier 2001.
+</p><p>Une fondation de droit américain, la <a href="/wiki/Wikimedia_Foundation" class="mw-redirect" title="Wikimedia Foundation">fondation Wikimédia</a>, a été créée le 20 juin 2003. Sa mission est de soutenir le développement de l'ensemble des projets Wikimédia (dont Wikipédia) et d'aider à la diffusion de l'information collectée. Cette fondation possède les noms de domaine, les noms de marques et les <a href="https://meta.wikimedia.org/wiki/Wikimedia_servers" class="extiw" title="m:Wikimedia servers">serveurs</a> du site.
+</p><p>À l'automne 2003, une très forte croissance a rendu nécessaire l'achat de plusieurs serveurs supplémentaires. À cette occasion, un système permettant les dons a été mis en place. En l'espace de quinze jours, 40 000 dollars ont été recueillis. La majeure partie de cette somme a été réinvestie dans l'infrastructure. Un an plus tard, dans le même temps, 50 000 dollars sont collectés. Au total, depuis 2003, plusieurs millions de dollars de dons ont été faits à la fondation Wikimédia. L'essentiel de nos revenus provient de dons de lecteurs.
+</p>
+<h3><span class="mw-headline" id="Site_multilingue" data-mw-thread-id="h-Site_multilingue-Histoire"><span data-mw-comment-start="" id="h-Site_multilingue-Histoire"></span>Site multilingue<span data-mw-comment-end="h-Site_multilingue-Histoire"></span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="https://meta.wikimedia.org/wiki/List_of_Wikipedias/fr" class="extiw" title="meta:List of Wikipedias/fr">meta:List of Wikipedias/fr</a>.</div></div>
+<p>Assez rapidement après sa création (<a href="/wiki/Wikipédia_en_anglais" title="Wikipédia en anglais">Wikipédia en anglais</a> a été fondée le <time class="nowrap" datetime="2001-01-15" data-sort-value="2001-01-15">15 janvier 2001</time>), les contributeurs ont poussé au développement des versions en d'autres langues que l'anglais. Envisagées au début comme de simples traductions, les versions dans les autres langues que l'anglais font maintenant partie intégrante du projet. Chaque langue partage une adresse similaire, commençant par un code de langue, suivi de .wikipedia.org. Par exemple : <i>en</i> pour l'anglais, <i>fr</i> pour le français, <i>ja</i> pour le japonais, <abbr class="abbr" title="et cetera">etc.</abbr> Le plus fort taux de croissance est observé sur les Wikipédias en versions non anglophones démontrant par là même la nature de plus en plus internationale du projet. Le projet totalise rapidement plus d'articles dans d'autres langues qu'en anglais.
+</p><p>Vous pouvez consulter les <a href="/wiki/Wikipédia:Statistiques#Wikipédia_en_langue_française" title="Wikipédia:Statistiques">statistiques de fréquentation de la partie francophone ici</a>, ainsi que des statistiques détaillées sur l'ensemble de l'encyclopédie à <a class="external autonumber" href="https://stats.wikimedia.org/FR/Sitemap.htm">[1]</a>.
+</p>
+<h3><span class="mw-headline" id="Croissance" data-mw-thread-id="h-Croissance-Histoire"><span data-mw-comment-start="" id="h-Croissance-Histoire"></span>Croissance<span data-mw-comment-end="h-Croissance-Histoire"></span></span></h3>
+<p>Le 7 juillet 2004, Wikipédia a annoncé que le projet comportait désormais 800 000 articles, en plus de cinquante langues différentes, contre 137 000 en janvier 2003. Un an plus tard, le million d'articles est franchi. 
+</p><p>Plus de 8 000 articles sont créés quotidiennement et plus de douze millions de modifications sont faites sur ceux-ci mensuellement, toutes versions linguistiques confondues. Elles sont visitées chaque mois par près de 480 millions d'internautes.
+</p><p>En 2015, Wikipédia existe dans plus de 290 langues et regroupe plus de trente millions d'articles au total. Chaque jour environ 7 000 articles sont ajoutés au projet. Les plus importantes Wikipédia en nombre d'articles sont les Wikipédias en <a href="/wiki/Wikipédia_en_anglais" title="Wikipédia en anglais">anglais</a>, en <a href="/wiki/Wikipédia_en_allemand" title="Wikipédia en allemand">allemand</a>, en <a href="/wiki/Wikipédia_en_français" title="Wikipédia en français">français</a>, en <a href="/wiki/Wikipédia_en_néerlandais" title="Wikipédia en néerlandais">néerlandais</a> et en <a href="/wiki/Wikipédia_en_suédois" title="Wikipédia en suédois">suédois</a>. Wikipédia est ainsi le site encyclopédique le plus visité au monde. C'est aussi le plus grand wiki. Sa fréquentation dépasse celle de nombreux grands médias d'audience internationale. 
+</p><p>Wikipédia en français contient à cette heure 2 586 279 articles dont <a href="/wiki/Catégorie:Bon_article" title="Catégorie:Bon article">3 966</a> de bonne et <a href="/wiki/Catégorie:Article_de_qualité" title="Catégorie:Article de qualité">2 126</a> de très bonne qualité (<a href="/wiki/Wikipédia:Articles_de_qualité" title="Wikipédia:Articles de qualité">Wikipédia:Articles de qualité</a>). Elle compte plus de <a class="external text" href="https://stats.wikimedia.org/#/fr.wikipedia.org/contributing/active-editors/normal%7Cline%7Call%7C(page_type)~content*non-content%7Cmonthly">5 000 contributeurs actifs</a> (ayant contribué au moins cinq fois durant le mois précédent).
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Contenu_libre" data-mw-thread-id="h-Contenu_libre"><span data-mw-comment-start="" id="h-Contenu_libre"></span>Contenu libre<span data-mw-comment-end="h-Contenu_libre"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Contenu_libre","replies":[]}}--></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article connexe : <a href="/wiki/Wikipédia:Réutilisation_du_contenu_de_Wikipédia" class="mw-redirect" title="Wikipédia:Réutilisation du contenu de Wikipédia">Wikipédia:Réutilisation du contenu de Wikipédia</a>.</div></div>
+<p>Wikipédia est librement distribuable : elle est non seulement offerte gratuitement sur Internet, mais peut aussi être copiée, utilisée et vendue librement, tant que <a href="/wiki/Wikipédia:Citation_et_réutilisation_du_contenu_de_Wikipédia" title="Wikipédia:Citation et réutilisation du contenu de Wikipédia">la source et les auteurs sont mentionnés</a>. En effet, les auteurs permettent la réutilisation du contenu à travers la <a rel="nofollow" class="external text" href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr">licence Creative Commons BY-SA 3.0</a>.
+</p><p>La licence CC BY-SA 3.0 sous laquelle sont distribués tous les articles de Wikipédia permet à chacun de réutiliser librement et gratuitement le contenu de l'encyclopédie comme il le souhaite, y compris pour des usages commerciaux. L'utilisateur s'engage à respecter les engagements de la CC BY-SA 3.0 tant dans les copies conformes que dans les versions modifiées et doit créditer les auteurs des articles comme source.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span id="Neutralit.C3.A9_de_point_de_vue"></span><span class="mw-headline" id="Neutralité_de_point_de_vue" data-mw-thread-id="h-Neutralité_de_point_de_vue"><span data-mw-comment-start="" id="h-Neutralité_de_point_de_vue"></span>Neutralité de point de vue<span data-mw-comment-end="h-Neutralité_de_point_de_vue"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Neutralit\u00e9_de_point_de_vue","replies":[]}}--></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Wikipédia:Neutralité_de_point_de_vue" title="Wikipédia:Neutralité de point de vue">Wikipédia:Neutralité de point de vue</a>.</div></div>
+<p>La neutralité de point de vue est un élément absolument essentiel du projet. L'objectif d'une encyclopédie telle que Wikipédia est de fournir un ensemble cohérent de connaissances synthétiques, exposées dans le respect de la neutralité des points de vue. Dans la mesure du possible, toute écriture encyclopédique, telle que nous la concevons, doit se garder de prendre parti pour un point de vue ou un autre.
+</p><p>La neutralité consiste à présenter les idées et les faits de façon à satisfaire les partisans autant que les détracteurs. Bien entendu, il est difficile de parvenir à un accord dans 100 <abbr class="abbr" title="pourcent">%</abbr> des cas ; certains idéologues seront sans concession et chercheront à imposer leur propre point de vue. Sur Wikipédia, nous cherchons uniquement à respecter des règles d'écriture à même de convenir aux personnes rationnelles, même si celles-ci ne sont pas toujours du même avis.
+</p><p>La politique de neutralité de Wikipédia indique que nous nous devons d'évoquer toutes les facettes pertinentes d'un point controversé, et que l'article ne doit en aucune façon déclarer, sous-entendre ou même insinuer, qu'un des points de vue est celui qui est correct <i>a priori</i>.
+</p><p>La neutralité de point de vue n'implique cependant pas la représentation <i>à égalité</i> des différents points de vue. On accordera naturellement plus de place à des points de vue répandus, notamment chez les spécialistes, et bien étayés, qu'au point de vue de certains groupes minoritaires. De plus, si un point de vue est très minoritaire, par exemple soutenu uniquement par des groupes de tendances idéologiques précises, il sera décrit comme tel.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span id="Fonctionnement_de_Wikip.C3.A9dia"></span><span class="mw-headline" id="Fonctionnement_de_Wikipédia" data-mw-thread-id="h-Fonctionnement_de_Wikipédia"><span data-mw-comment-start="" id="h-Fonctionnement_de_Wikipédia"></span>Fonctionnement de Wikipédia<span data-mw-comment-end="h-Fonctionnement_de_Wikipédia"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Fonctionnement_de_Wikip\u00e9dia","replies":[]}}--></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Aide:Wikipédia_en_bref" title="Aide:Wikipédia en bref">Aide:Wikipédia en bref</a>.</div></div>
+<p>Chaque page du site comporte un lien « Modifier » sur lequel tout visiteur peut cliquer pour modifier ce qu'elle contient, ajouter ou supprimer des éléments d'information. Chacun peut aussi créer de nouvelles pages, amenant le site à grandir.
+</p><p>Le site est aussi assorti de multiples fonctionnalités permettant de faciliter sa consultation et sa gestion. Il est ainsi possible de consulter à tout moment les dernières modifications apportées à l'ensemble du site (<a href="/wiki/Spécial:Nouvelles_pages" title="Spécial:Nouvelles pages">nouvelles pages</a>, <a href="/wiki/Spécial:Modifications_récentes" title="Spécial:Modifications récentes">nouvelles contributions</a>…). Pour l'édition des pages, une syntaxe wiki, sorte de langage HTML très simplifié, permet de traiter la mise en page et l'activation de liens.
+</p><p>Dans Wikipédia, les participants ajoutent leurs contributions à celles des autres ; ils corrigent les erreurs d'autres rédacteurs et travaillent ensemble sur les thèmes éventuellement controversés en respectant une neutralité de point de vue. Un dispositif de sauvegarde permanent permet de revenir au besoin à une version précédente. Tout l'historique des contributions est conservé. Ainsi, même en présence d'un <span class="citation">« vandale »</span> (le nom donné aux personnes qui effacent ou détériorent une page wiki), l'encyclopédie n'est pas mise en danger.
+</p><p>Tout contributeur peut se créer un compte avec un nom et un mot de passe, mais ce n'est pas obligatoire. Les contributeurs enregistrés bénéficient d'une page personnelle et de fonctionnalités supplémentaires. De fait, la plupart des contributeurs sont enregistrés. Il y a actuellement plusieurs dizaines de milliers de contributeurs qui contribuent chaque mois sur la partie francophone.
+</p><p>Certains contributeurs ont des droits supplémentaires : ce sont des administrateurs. Ceux-ci peuvent supprimer des pages, bloquer ou débloquer une page, et aussi bloquer un contributeur, lorsque les règles de l'encyclopédie ne sont pas respectées. Ils n'ont en revanche aucune prérogative éditoriale. Les admins ou <i>sysop</i> sont choisis par consensus parmi les contributeurs ayant déjà plusieurs mois de participation.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Information_technique" data-mw-thread-id="h-Information_technique"><span data-mw-comment-start="" id="h-Information_technique"></span>Information technique<span data-mw-comment-end="h-Information_technique"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Information_technique","replies":[]}}--></div>
+<p>L'encyclopédie peut exister grâce à un logiciel de type <a href="/wiki/Wiki" title="Wiki">wiki</a> : <a href="/wiki/MediaWiki" title="MediaWiki">MediaWiki</a>. Développés à l'origine par des communautés de développeurs de logiciels <i>open source</i>, les wikis sont des sites web dynamiques et collaboratifs : chaque lecteur peut modifier la page qu'il est en train de lire, simplement et rapidement. Le langage utilisé, dit <i>wiki</i>, est plus simple que le HTML (deux apostrophes pour mettre en italique, trois pour mettre en gras, deux crochets pour un lien, etc.). Sur un wiki, la limite entre le visiteur et l'auteur tend à disparaître. Créé en 1995 par Ward Cunningham, le wiki tire son nom du mot hawaïen <i>wikiwiki</i>, qui signifie <span class="citation">« vite »</span>.
+</p><p>Les besoins techniques sont importants. En décembre 2003, les projets Wikimédia nécessitaient quatre serveurs, en septembre 2004, nous possédons vingt-quatre serveurs, fin 2004, plus de quarante serveurs, et en octobre 2005, plus de cent vingt serveurs sont en cours d'utilisation. L'achat de serveurs, la bande passante, l'hébergement forment le plus gros du budget.
+</p><p>Pour en savoir plus : <a href="https://meta.wikimedia.org/wiki/server" class="extiw" title="m:server">m:server</a>.
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Wikimedia_Foundation" data-mw-thread-id="h-Wikimedia_Foundation"><span data-mw-comment-start="" id="h-Wikimedia_Foundation"></span>Wikimedia Foundation<span data-mw-comment-end="h-Wikimedia_Foundation"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Wikimedia_Foundation","replies":[]}}--></div>
+<p>La <a href="/wiki/Wikimedia_Foundation" class="mw-redirect" title="Wikimedia Foundation">Wikimedia Foundation</a> est un organisme de bienfaisance régi par le paragraphe <a href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des <a href="/wiki/États-Unis" title="États-Unis">États-Unis</a>. Elle héberge les différents projets Wikimedia multilingues de contenu libre, dont Wikipédia. Elle ne possède donc aucun droit éditorial sur les contenus proposés sur le site de Wikipédia.
+</p><p>L'objectif de Wikimedia Foundation est de promouvoir la croissance et le développement de projets de diffusion du savoir libre fondés sur le principe du <a href="/wiki/Wiki" title="Wiki">wiki</a>, et d'en distribuer le contenu publiquement et <a href="/wiki/Gratuité_(économie)" class="mw-redirect" title="Gratuité (économie)">gratuitement</a>. Wikimedia Foundation est financée principalement par les <a class="external text" href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector">dons</a> des utilisateurs des divers projets Wikimedia.
+</p><p>Il existe également des <a href="/wiki/Catégorie:Wikipédia:Wikimédia_par_lieu" title="Catégorie:Wikipédia:Wikimédia par lieu">associations locales Wikimedia</a> que vous pouvez soutenir.
+</p><p><b>Pour plus d'informations, lire <a href="https://foundation.wikimedia.org/wiki/%C3%80_propos_de_Wikimédia" class="extiw" title="wikimedia:À propos de Wikimédia">À propos de Wikimédia</a>.</b>
+</p>
+<ul><li>Sur son conseil d’administration : <a href="https://meta.wikimedia.org/wiki/Board_of_Trustees" class="extiw" title="m:Board of Trustees">Board of Trustees</a>.</li>
+<li>Sur son budget : <a href="https://meta.wikimedia.org/wiki/Wikimedia_budget" class="extiw" title="m:Wikimedia budget">Wikimedia budget</a>.</li>
+<li>Sur sa communauté : <a href="https://fr.wikiversity.org/wiki/Recherche:Culture_fr.wikipedia" class="extiw" title="v:Recherche:Culture fr.wikipedia">Culture fr.wikipedia</a>.</li></ul>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Autres_projets" data-mw-thread-id="h-Autres_projets"><span data-mw-comment-start="" id="h-Autres_projets"></span>Autres projets<span data-mw-comment-end="h-Autres_projets"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Autres_projets","replies":["h-Projets_publics-Autres_projets","h-Projets_internes-Autres_projets"]}}--></div>
+<p>Outre <a href="/wiki/Wikipédia" title="Wikipédia">Wikipédia</a>, la <a href="/wiki/Wikipédia:Wikimedia" title="Wikipédia:Wikimedia">Wikimedia Foundation</a> coordonne un certain nombre de projets, complémentaires ou non à l'encyclopédie. Ils sont également gratuits, modifiables, sous licence libre et disponibles dans de nombreuses langues.
+</p>
+<h3><span class="mw-headline" id="Projets_publics" data-mw-thread-id="h-Projets_publics-Autres_projets"><span data-mw-comment-start="" id="h-Projets_publics-Autres_projets"></span>Projets publics<span data-mw-comment-end="h-Projets_publics-Autres_projets"></span></span></h3>
+<table>
+<tbody><tr>
+<td width="35"><span typeof="mw:File"><a href="https://commons.wikimedia.org/wiki/" title="Accueil de Commons"><img alt="Accueil de Commons" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/35px-Commons-logo.svg.png" decoding="async" width="35" height="47" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/53px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/70px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376"/></a></span>
+</td>
+<td width="50%"><b><a href="https://commons.wikimedia.org/wiki/" class="extiw" title="c:">Wikimedia Commons</a></b> est une médiathèque numérique de fichiers du domaine public ou sous licence libre. <i><a href="/wiki/Wikimedia_Commons" title="Wikimedia Commons">En savoir plus</a></i>
+</td>
+<td width="35"><span typeof="mw:File"><a href="https://fr.wikisource.org/wiki/" title="Accueil de Wikisource"><img alt="Accueil de Wikisource" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/35px-Wikisource-logo.svg.png" decoding="async" width="35" height="37" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/53px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/70px-Wikisource-logo.svg.png 2x" data-file-width="410" data-file-height="430"/></a></span>
+</td>
+<td width="49%"><b><a href="https://fr.wikisource.org/wiki/" class="extiw" title="s:">Wikisource</a></b> est une bibliothèque numérique de livres du domaine public ou sous licence libre. <i><a href="/wiki/Wikisource" title="Wikisource">En savoir plus</a></i>
+</td></tr>
+<tr valign="top">
+<td><span typeof="mw:File"><a href="https://fr.wiktionary.org/wiki/" title="Accueil de Wiktionnaire"><img alt="Accueil de Wiktionnaire" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/35px-Wiktionary-logo.svg.png" decoding="async" width="35" height="33" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/53px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/70px-Wiktionary-logo.svg.png 2x" data-file-width="370" data-file-height="350"/></a></span>
+</td>
+<td><b><a href="https://fr.wiktionary.org/wiki/" class="extiw" title="wikt:">Wiktionnaire</a></b> est un dictionnaire numérique visant à décrire tous les mots de toutes les langues. <i><a href="/wiki/Wiktionnaire" title="Wiktionnaire">En savoir plus</a></i>
+</td>
+<td><span typeof="mw:File"><a href="https://www.wikidata.org/wiki/" title="Accueil de Wikidata"><img alt="Accueil de Wikidata" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wikidata-logo-en.svg/35px-Wikidata-logo-en.svg.png" decoding="async" width="35" height="25" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wikidata-logo-en.svg/53px-Wikidata-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wikidata-logo-en.svg/70px-Wikidata-logo-en.svg.png 2x" data-file-width="1052" data-file-height="744"/></a></span>
+</td>
+<td><b><a href="https://www.wikidata.org/wiki/" class="extiw" title="d:">Wikidata</a></b> est une base de connaissances universelle. <i><a href="/wiki/Wikidata" title="Wikidata">En savoir plus</a></i>
+</td></tr>
+<tr valign="top">
+<td><span typeof="mw:File"><a href="https://fr.wikinews.org/wiki/" title="Accueil de Wikinews"><img alt="Accueil de Wikinews" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/35px-Wikinews-logo.svg.png" decoding="async" width="35" height="19" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/53px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/70px-Wikinews-logo.svg.png 2x" data-file-width="759" data-file-height="415"/></a></span>
+</td>
+<td><b><a href="https://fr.wikinews.org/wiki/" class="extiw" title="n:">Wikinews</a></b> est un site d'actualité universel. <i><a href="/wiki/Wikinews" title="Wikinews">En savoir plus</a></i>
+</td>
+<td><span typeof="mw:File"><a href="https://fr.wikiquote.org/wiki/" title="Accueil de Wikiquote"><img alt="Accueil de Wikiquote" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/30px-Wikiquote-logo.svg.png" decoding="async" width="30" height="36" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/45px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/60px-Wikiquote-logo.svg.png 2x" data-file-width="300" data-file-height="355"/></a></span>
+</td>
+<td><b><a href="https://fr.wikiquote.org/wiki/" class="extiw" title="q:">Wikiquote</a></b> est un recueil de citations universel. <i><a href="/wiki/Wikiquote" title="Wikiquote">En savoir plus</a></i>
+</td></tr>
+<tr valign="top">
+<td><span typeof="mw:File"><a href="https://fr.wikibooks.org/wiki/" title="Accueil de Wikibooks"><img alt="Accueil de Wikibooks" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/35px-Wikibooks-logo.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/53px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/70px-Wikibooks-logo.svg.png 2x" data-file-width="300" data-file-height="300"/></a></span>
+</td>
+<td><b><a href="https://fr.wikibooks.org/wiki/" class="extiw" title="b:">Wikibooks</a></b> est une bibliothèque de guides pratiques, comme des recettes de cuisine et des manuels informatiques. <i><a href="/wiki/Wikibooks" title="Wikibooks">En savoir plus</a></i>
+</td>
+<td><span typeof="mw:File"><a href="https://fr.wikiversity.org/wiki/" title="Accueil de Wikiversité"><img alt="Accueil de Wikiversité" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/35px-Wikiversity_logo_2017.svg.png" decoding="async" width="35" height="29" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/53px-Wikiversity_logo_2017.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/70px-Wikiversity_logo_2017.svg.png 2x" data-file-width="626" data-file-height="512"/></a></span>
+</td>
+<td><b><a href="https://fr.wikiversity.org/wiki/" class="extiw" title="v:">Wikiversité</a></b> est une communauté pédagogique et un laboratoire de recherche participatif. <i><a href="/wiki/Wikiversité" title="Wikiversité">En savoir plus</a></i>
+</td></tr>
+<tr valign="top">
+<td><span typeof="mw:File"><a href="https://species.wikimedia.org/wiki/" title="Accueil de Wikispecies"><img alt="Accueil de Wikispecies" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/35px-Wikispecies-logo.svg.png" decoding="async" width="35" height="41" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/53px-Wikispecies-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/70px-Wikispecies-logo.svg.png 2x" data-file-width="941" data-file-height="1103"/></a></span>
+</td>
+<td><b><a href="https://species.wikimedia.org/wiki/" class="extiw" title="wikispecies:">Wikispecies</a></b> est un répertoire des espèces du vivant. <i><a href="/wiki/Wikispecies" title="Wikispecies">En savoir plus</a></i>
+</td>
+<td><span typeof="mw:File"><a href="https://fr.wikivoyage.org/wiki/" title="Accueil de Wikivoyage"><img alt="Accueil de Wikivoyage" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/35px-Wikivoyage-logo.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/53px-Wikivoyage-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/70px-Wikivoyage-logo.svg.png 2x" data-file-width="193" data-file-height="193"/></a></span>
+</td>
+<td><b><a href="https://fr.wikivoyage.org/wiki/" class="extiw" title="voy:">Wikivoyage</a></b> est un guide touristique. <i><a href="/wiki/Wikivoyage" title="Wikivoyage">En savoir plus</a></i>
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Projets_internes" data-mw-thread-id="h-Projets_internes-Autres_projets"><span data-mw-comment-start="" id="h-Projets_internes-Autres_projets"></span>Projets internes<span data-mw-comment-end="h-Projets_internes-Autres_projets"></span></span></h3>
+<table>
+<tbody><tr>
+<td width="35"><span typeof="mw:File"><a href="https://meta.wikimedia.org/wiki/Accueil" title="Accueil de Méta-Wiki"><img alt="Accueil de Méta-Wiki" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wikimedia_Community_Logo_optimized.svg/35px-Wikimedia_Community_Logo_optimized.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wikimedia_Community_Logo_optimized.svg/53px-Wikimedia_Community_Logo_optimized.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wikimedia_Community_Logo_optimized.svg/70px-Wikimedia_Community_Logo_optimized.svg.png 2x" data-file-width="900" data-file-height="900"/></a></span>
+</td>
+<td width="50%"><b><a href="https://meta.wikimedia.org/wiki/Accueil" class="extiw" title="m:Accueil">Méta-Wiki</a></b> est un site de travail multilingue utilisé par les contributeurs afin de coordonner les projets Wikimedia. <i><a href="/wiki/Méta-Wiki" title="Méta-Wiki">En savoir plus</a></i>
+</td>
+<td width="35"><span typeof="mw:File"><a href="https://www.mediawiki.org/wiki/MediaWiki/fr" title="Accueil de MediaWiki"><img alt="Accueil de MediaWiki" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MediaWiki-2020-icon-spinning.svg/35px-MediaWiki-2020-icon-spinning.svg.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MediaWiki-2020-icon-spinning.svg/53px-MediaWiki-2020-icon-spinning.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MediaWiki-2020-icon-spinning.svg/70px-MediaWiki-2020-icon-spinning.svg.png 2x" data-file-width="100" data-file-height="100"/></a></span>
+</td>
+<td width="49%"><b><a href="https://www.mediawiki.org/wiki/MediaWiki/fr" class="extiw" title="mw:MediaWiki/fr">MediaWiki</a></b> est un logiciel libre développé à l'origine pour Wikipédia et utilisé aujourd'hui par de nombreux autres projets de Wikimedia Foundation. <i><a href="/wiki/MediaWiki" title="MediaWiki">En savoir plus</a></i>
+</td></tr>
+<tr valign="top">
+<td><span typeof="mw:File"><a href="https://wikimania.wikimedia.org/wiki/Wikimania/fr" title="Accueil de Wikimania"><img alt="Accueil de Wikimania" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Wikimania.svg/35px-Wikimania.svg.png" decoding="async" width="35" height="43" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Wikimania.svg/53px-Wikimania.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Wikimania.svg/70px-Wikimania.svg.png 2x" data-file-width="99" data-file-height="121"/></a></span>
+</td>
+<td><b><a href="https://wikimania.wikimedia.org/wiki/Wikimania/fr" class="extiw" title="wmania:Wikimania/fr">Wikimania</a></b> est une conférence annuelle pour les utilisateurs des projets de <i>Wikimedia</i>. Elle se déroule chaque fois dans une ville différente. <i><a href="/wiki/Wikimania" title="Wikimania">En savoir plus</a></i>
+</td>
+<td><span typeof="mw:File"><a href="https://incubator.wikimedia.org/wiki/Main_Page/fr" title="Accueil de l'Incubateur Wikimedia"><img alt="Accueil de l'Incubateur Wikimedia" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Incubator-logo.svg/35px-Incubator-logo.svg.png" decoding="async" width="35" height="44" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Incubator-logo.svg/53px-Incubator-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Incubator-logo.svg/70px-Incubator-logo.svg.png 2x" data-file-width="799" data-file-height="1000"/></a></span>
+</td>
+<td><b>L'<a href="https://incubator.wikimedia.org/wiki/Incubator:Main_Page/fr" class="extiw" title="incubator:Incubator:Main Page/fr">incubateur Wikimedia</a></b> est utilisé afin de tester le développement de nouveaux projets potentiels et l'extension des projets existants à d'autres langues.
+</td></tr>
+<tr valign="top">
+<td><span typeof="mw:File"><a href="https://phabricator.wikimedia.org/" title="Accueil de Phabricator"><img alt="Accueil de Phabricator" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Wikimedia_Phabricator_logo_unpadded.svg/35px-Wikimedia_Phabricator_logo_unpadded.svg.png" decoding="async" width="35" height="22" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Wikimedia_Phabricator_logo_unpadded.svg/53px-Wikimedia_Phabricator_logo_unpadded.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/10/Wikimedia_Phabricator_logo_unpadded.svg/70px-Wikimedia_Phabricator_logo_unpadded.svg.png 2x" data-file-width="120" data-file-height="77"/></a></span>
+</td>
+<td><b><a href="https://phabricator.wikimedia.org/" class="extiw" title="phab:">Phabricator</a></b> est utilisé pour améliorer le fonctionnement de MediaWiki, le logiciel utilisé par les projets de la <i>Wikimedia Foundation</i>. <i><a href="/wiki/Phabricator" title="Phabricator">En savoir plus</a></i>
+</td>
+<td><span typeof="mw:File"><a href="https://test.wikipedia.org/wiki/Main_Page" title="Accueil de « Test Wiki »"><img alt="Accueil de « Test Wiki »" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Test_wiki_logo_notext.png/35px-Test_wiki_logo_notext.png" decoding="async" width="35" height="35" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Test_wiki_logo_notext.png/53px-Test_wiki_logo_notext.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Test_wiki_logo_notext.png/70px-Test_wiki_logo_notext.png 2x" data-file-width="1058" data-file-height="1058"/></a></span>
+</td>
+<td><b><a href="https://test.wikipedia.org/wiki/Main_Page" class="extiw" title="testwiki:Main Page">Test Wiki</a></b> est un site web destiné aux développeurs des projets Wikimedia, afin de tester leurs codages sans endommager d'autres wikis. <i><a href="https://test.wikipedia.org/wiki/Wikipedia:What_test_wiki_is_not" class="extiw" title="testwiki:Wikipedia:What test wiki is not">En savoir plus</a></i>
+</td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐74d7ffc594‐qfsj8
+Cached time: 20240124045810
+Cache expiry: 3600
+Reduced expiry: true
+Complications: [show‐toc]
+DiscussionTools time usage: 0.016 seconds
+CPU time usage: 0.121 seconds
+Real time usage: 0.162 seconds
+Preprocessor visited node count: 582/1000000
+Post‐expand include size: 5358/2097152 bytes
+Template argument size: 562/2097152 bytes
+Highest expansion depth: 9/100
+Expensive parser function count: 2/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Lua time usage: 0.026/10.000 seconds
+Lua memory usage: 2519108/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   89.988      1 -total
+ 38.74%   34.858      5 Modèle:Méta_bandeau_de_section
+ 38.68%   34.809      4 Modèle:Article_détaillé
+ 15.57%   14.008      8 Modèle:Unité
+ 14.75%   13.277      1 Modèle:Date
+  8.85%    7.963      5 Modèle:Multiparamètres-Lien
+  8.84%    7.959      1 Modèle:Semi-protection
+  7.26%    6.530      2 Modèle:Citation
+  6.31%    5.681      1 Modèle:Icône_de_titre
+  4.99%    4.486      1 Modèle:Article_connexe
+-->
+
+<!-- Saved in parser cache with key frwiki:pcache:idhash:695431-0!canonical and timestamp 20240124045810 and revision id 211795857. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Wikipédia:À_propos_de_Wikipédia&amp;oldid=211795857">https://fr.wikipedia.org/w/index.php?title=Wikipédia:À_propos_de_Wikipédia&amp;oldid=211795857</a>&#160;».</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Catégorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Catégorie:Information_sur_Wikipédia" title="Catégorie:Information sur Wikipédia">Information sur Wikipédia</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Catégorie cachée : <ul><li><a href="/wiki/Catégorie:Page_semi-protégée" title="Catégorie:Page semi-protégée">Page semi-protégée</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 24 janvier 2024 à 03:53.</li>
+	<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikipédia:Citation_et_réutilisation_du_contenu_de_Wikipédia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 4.0 international">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d'utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikipédia:Crédits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. <br />
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br /></li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/fr">Politique de confidentialité</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipédia:%C3%80_propos_de_Wikipédia">À propos de Wikipédia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipédia:Avertissements_généraux">Avertissements</a></li>
+	<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code de conduite</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+	<li id="footer-places-mobileview"><a href="//fr.m.wikipedia.org/w/index.php?title=Wikipédia:%C3%80_propos_de_Wikipédia&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Version mobile</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Activer ou désactiver la limitation de largeur du contenu</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1434","wgBackendResponseTime":114,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Histoire","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Site_multilingue-Histoire","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Croissance-Histoire","replies":[]}]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Contenu_libre","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Neutralité_de_point_de_vue","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Fonctionnement_de_Wikipédia","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Information_technique","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Wikimedia_Foundation","replies":[]},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Autres_projets","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Projets_publics-Autres_projets","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Projets_internes-Autres_projets","replies":[]}]}],"wgPageParseReport":{"discussiontools":{"limitreport-timeusage":"0.016"},"limitreport":{"cputime":"0.121","walltime":"0.162","ppvisitednodes":{"value":582,"limit":1000000},"postexpandincludesize":{"value":5358,"limit":2097152},"templateargumentsize":{"value":562,"limit":2097152},"expansiondepth":{"value":9,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   89.988      1 -total"," 38.74%   34.858      5 Modèle:Méta_bandeau_de_section"," 38.68%   34.809      4 Modèle:Article_détaillé"," 15.57%   14.008      8 Modèle:Unité"," 14.75%   13.277      1 Modèle:Date","  8.85%    7.963      5 Modèle:Multiparamètres-Lien","  8.84%    7.959      1 Modèle:Semi-protection","  7.26%    6.530      2 Modèle:Citation","  6.31%    5.681      1 Modèle:Icône_de_titre","  4.99%    4.486      1 Modèle:Article_connexe"]},"scribunto":{"limitreport-timeusage":{"value":"0.026","limit":"10.000"},"limitreport-memusage":{"value":2519108,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-74d7ffc594-qfsj8","timestamp":"20240124045810","ttl":3600,"transientcontent":true}}});});</script>
+</body>
+</html>

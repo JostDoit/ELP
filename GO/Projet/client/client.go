@@ -6,7 +6,6 @@ import (
 	"io"
 	"net"
 	"os"
-	"scrapping/vomir"
 	"sync"
 )
 
@@ -27,32 +26,12 @@ func listen(conn net.Conn, wg *sync.WaitGroup) {
 		} else {
 			fmt.Printf("Message received from server : %s", Message)
 			// Recupération du fichier
-			downloadFile("client"+Message[:len(Message)-1], conn)
+			//downloadFile("client"+Message[:len(Message)-1], conn)
 			fmt.Println("Closing connection")
-
-			// Ouverture du fichier dans un navigateur
-			vomir.OpenBrowser()
 
 			conn.Close()
 			os.Exit(0)
 		}
-	}
-}
-
-func downloadFile(fileToDownload string, conn net.Conn) {
-	// Création du fichier
-	file, err := os.Create(fileToDownload)
-	if err != nil {
-		fmt.Println("Error creating file : ", err)
-		return
-	}
-	defer file.Close()
-
-	// Copie du contenu du fichier reçu dans le fichier créé
-	_, err = io.Copy(file, conn)
-	if err != nil {
-		fmt.Println("Error copying file : ", err)
-		return
 	}
 }
 
@@ -132,3 +111,23 @@ func main() {
 	go listen(conn, &wg)
 	wg.Wait()
 }
+
+/*
+func downloadFile(fileToDownload string, conn net.Conn) {
+	// Création du fichier
+	file, err := os.Create(fileToDownload)
+	if err != nil {
+		fmt.Println("Error creating file : ", err)
+		return
+	}
+	defer file.Close()
+
+	// Copie du contenu du fichier reçu dans le fichier créé
+	_, err = io.Copy(file, conn)
+	if err != nil {
+		fmt.Println("Error copying file : ", err)
+		return
+	}
+}
+
+*/
