@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Scrap/manger_profondeur"
 	"Scrap/vomir"
 	"bufio"
 	"fmt"
@@ -33,8 +34,14 @@ type Server struct {
 func runAlgortihm(url string, nombre int) {
 	fmt.Println("Running algorithm")
 	fmt.Printf("Résumé : Vous avez demandé pour le site %s avec le nombre %d.\n", url, nombre)
-	//manger_profondeur.Manger_profond(url, nombre)
+
+	// Scrapping
+	manger_profondeur.Manger_profond(url, nombre)
+
+	// Affichage du résultat dans le navigateur
+	// On voudrait normalement renvoyer le résultat au client dans un dossier ZIP mais pour l'instant on l'affiche dans le navigateur
 	vomir.OpenBrowser()
+
 	fmt.Println("Algorithm finished")
 }
 
@@ -105,60 +112,33 @@ func (s *Server) handleRequest(conn net.Conn) {
 		line := scanner.Text()
 		parts := strings.Fields(line)
 
-		fmt.Println(len(parts))
+		url := parts[0]
+		nombre := parts[1]
 
-		choice := parts[0]
-
-		// Vérification du choix de l'utilisateur (1 ou 2)
-		if choice == "1" {
-			fmt.Println("User chose 1")
-			url := parts[1]
-			nombre := parts[2]
-
-			// Conversion du nombre en int
-			nombreInt, err := strconv.Atoi(nombre)
-			if err != nil {
-				fmt.Println("Invalid number : ", err)
-				return
-			}
-
-			// Exécution de l'algorithme
-			runAlgortihm(url, nombreInt)
-
-			/*
-				// Envoie du nom du fichier au client
-				_, err = io.WriteString(conn, fmt.Sprintf("%s\n", resultat))
-				if err != nil {
-					fmt.Println("Error sending message to client : ", err)
-					return
-				} else {
-					fmt.Printf("Message sent to client : %s\n", resultat)
-				}
-				time.Sleep(1 * time.Second)
-				// Envoie du fichier au client
-				s.uploadFile(conn, resultat)*/
-		} else {
-			fmt.Println("User chose 2")
-			dossier := parts[1]
-			fmt.Println("Opening folder : ", dossier)
+		// Conversion du nombre en int
+		nombreInt, err := strconv.Atoi(nombre)
+		if err != nil {
+			fmt.Println("Invalid number : ", err)
+			return
 		}
-	}
-}
 
-func (s *Server) uploadFile(conn net.Conn, fileToSend string) {
-	// Ouverture du fichier à envoyer
-	file, err := os.Open(fileToSend)
-	if err != nil {
-		fmt.Println("Error opening file : ", err)
-		return
-	}
-	defer file.Close()
+		// Exécution de l'algorithme utilisé, ici celui de scraping
+		runAlgortihm(url, nombreInt)
 
-	// Envoie du fichier
-	_, err = io.Copy(conn, file)
-	if err != nil {
-		fmt.Println("Error sending file : ", err)
-		return
+		/*
+			// Envoie du nom du fichier au client
+			_, err = io.WriteString(conn, fmt.Sprintf("%s\n", resultat))
+			if err != nil {
+				fmt.Println("Error sending message to client : ", err)
+				return
+			} else {
+				fmt.Printf("Message sent to client : %s\n", resultat)
+			}
+			time.Sleep(1 * time.Second)
+			// Envoie du fichier au client
+			s.uploadFile(conn, resultat)
+		*/
+
 	}
 }
 
@@ -224,3 +204,24 @@ func main() {
 	s.Stop()
 	fmt.Println("Server stopped.")
 }
+
+/*
+
+func (s *Server) uploadFile(conn net.Conn, fileToSend string) {
+	// Ouverture du fichier à envoyer
+	file, err := os.Open(fileToSend)
+	if err != nil {
+		fmt.Println("Error opening file : ", err)
+		return
+	}
+	defer file.Close()
+
+	// Envoie du fichier
+	_, err = io.Copy(conn, file)
+	if err != nil {
+		fmt.Println("Error sending file : ", err)
+		return
+	}
+}
+
+*/

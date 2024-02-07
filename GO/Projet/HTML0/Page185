@@ -6,7 +6,7 @@ corps_du_texte
 <meta charset="UTF-8">
 <title>Jean-Jacques Rousseau — Wikipédia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
-"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"8fa1b8df-a994-4d25-9c22-9237d805e919","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Jean-Jacques_Rousseau","wgTitle":"Jean-Jacques Rousseau","wgCurRevisionId":212082481,"wgRevisionId":212082481,"wgArticleId":1607,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page en semi-protection longue","Page utilisant P109","Article utilisant l'infobox Philosophe","Article utilisant une Infobox","Page utilisant un sommaire limité","Article à référence nécessaire","Catégorie Commons avec lien local différent sur Wikidata","Page utilisant P839","Page utilisant P865","Page utilisant P4104","Page utilisant P4457","Page utilisant P1953","Page utilisant P8591","Page utilisant P434","Page utilisant P5882","Page utilisant P5504",
+"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"40ae2e56-cec6-48b1-9e11-b4d3f64d4af9","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Jean-Jacques_Rousseau","wgTitle":"Jean-Jacques Rousseau","wgCurRevisionId":212082481,"wgRevisionId":212082481,"wgArticleId":1607,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Page en semi-protection longue","Page utilisant P109","Article utilisant l'infobox Philosophe","Article utilisant une Infobox","Page utilisant un sommaire limité","Article à référence nécessaire","Catégorie Commons avec lien local différent sur Wikidata","Page utilisant P839","Page utilisant P865","Page utilisant P4104","Page utilisant P4457","Page utilisant P1953","Page utilisant P8591","Page utilisant P434","Page utilisant P5882","Page utilisant P5504",
 "Page pointant vers des bases externes","Page pointant vers des bases relatives à la musique","Page utilisant P4081","Page utilisant P5605","Page utilisant P6264","Page utilisant P586","Page utilisant P5088","Page utilisant P4491","Page utilisant P3123","Page pointant vers des bases relatives à la recherche","Page utilisant P2342","Page utilisant P2843","Page utilisant P1711","Page utilisant P8406","Page utilisant P1816","Page utilisant P2538","Page utilisant P245","Page pointant vers des bases relatives aux beaux-arts","Page utilisant P1977","Page utilisant P2340","Page utilisant P1362","Page pointant vers des bases relatives au spectacle","Page utilisant P5491","Page utilisant P5905","Page pointant vers des bases relatives à la bande dessinée","Page utilisant P2639","Page utilisant P345","Page pointant vers des bases relatives à l'audiovisuel","Page utilisant P701","Page pointant vers des bases relatives à la vie publique","Page utilisant P1233",
 "Page pointant vers des bases relatives à la littérature","Page utilisant P5375","Page pointant vers des bases relatives à la santé","Page utilisant P10780","Page pointant vers des bases relatives à plusieurs domaines","Page utilisant P1417","Page utilisant P5019","Page utilisant P7902","Page utilisant P902","Page utilisant P6404","Page utilisant P4223","Page utilisant P6706","Page utilisant P1296","Page utilisant P7982","Page utilisant P6058","Page utilisant P3222","Page utilisant P4342","Page utilisant P3365","Page utilisant P3219","Page utilisant P7666","Page pointant vers des dictionnaires ou encyclopédies généralistes","Article de Wikipédia avec notice d'autorité","Autorité taxonomique","Portail:Lumières/Articles liés","Portail:XVIIIe siècle/Articles liés","Portail:Époque moderne/Articles liés","Portail:Histoire/Articles liés","Portail:Littérature française ou francophone/Articles liés","Portail:Littérature/Articles liés","Portail:Philosophie/Articles liés"
 ,"Portail:Société/Articles liés","Portail:Sciences humaines et sociales/Articles liés","Portail:Éducation/Articles liés","Portail:Musique classique/Articles liés","Portail:Musique/Articles liés","Portail:Culture de la Suisse/Articles liés","Portail:Arts/Articles liés","Portail:Culture/Articles liés","Portail:Suisse/Articles liés","Portail:Europe/Articles liés","Portail:Histoire de Savoie/Articles liés","Portail:Savoie/Articles liés","Portail:France/Articles liés","Portail:Genève/Articles liés","Portail:Histoire de la zoologie et de la botanique/Articles liés","Portail:Histoire des sciences/Articles liés","Portail:Biologie/Articles liés","Projet:Biologie/Pages liées","Portail:Sciences/Articles liés","Portail:Botanique/Articles liés","Portail:Droit/Articles liés","Portail:Politique/Articles liés","Article de qualité en italien","Article de qualité en afrikaans","Bon article en espéranto","Wikipédia:Article biographique",
@@ -3526,51 +3526,51 @@ L'entrée au Panthéon se fait au son de l'orgue, dans un «&#160;recueillement 
 </div></div></div>
 <!-- 
 NewPP limit report
-Parsed by mw1430
-Cached time: 20240206005240
+Parsed by mw1359
+Cached time: 20240206195826
 Cache expiry: 2592000
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 3.032 seconds
-Real time usage: 3.651 seconds
+CPU time usage: 4.383 seconds
+Real time usage: 5.005 seconds
 Preprocessor visited node count: 59702/1000000
 Post‐expand include size: 820017/2097152 bytes
 Template argument size: 152365/2097152 bytes
 Highest expansion depth: 17/100
-Expensive parser function count: 34/500
+Expensive parser function count: 35/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 291892/5000000 bytes
-Lua time usage: 1.292/10.000 seconds
-Lua memory usage: 14539625/52428800 bytes
+Lua time usage: 1.999/10.000 seconds
+Lua memory usage: 14480413/52428800 bytes
 Lua Profile:
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      600 ms       42.3%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      240 ms       16.9%
-    recursiveClone <mwInit.lua:41>                                   220 ms       15.5%
-    ?                                                                100 ms        7.0%
-    makePackageModule <mw.lua:18>                                     40 ms        2.8%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntity       40 ms        2.8%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::gsub       40 ms        2.8%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::len       20 ms        1.4%
-    create <Module:Wikidata/Chemin/Path:92>                           20 ms        1.4%
-    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityId       20 ms        1.4%
-    [others]                                                          80 ms        5.6%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getEntityStatements      680 ms       32.1%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getExpandedArgument      520 ms       24.5%
+    ?                                                                220 ms       10.4%
+    recursiveClone <mwInit.lua:41>                                   100 ms        4.7%
+    type                                                              80 ms        3.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::len       80 ms        3.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::anchorEncode       60 ms        2.8%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::getAllExpandedArguments       40 ms        1.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::fullUrl       40 ms        1.9%
+    MediaWiki\Extension\Scribunto\Engines\LuaSandbox\LuaSandboxCallback::find       20 ms        0.9%
+    [others]                                                         280 ms       13.2%
 Number of Wikibase entities loaded: 74/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2902.590      1 -total
- 27.24%  790.767      1 Modèle:Liens
- 18.20%  528.197      4 Modèle:Références
- 16.76%  486.494      1 Modèle:Références_nombreuses
-  9.19%  266.653      1 Modèle:Portail
-  8.35%  242.279    159 Modèle:Sfn
-  7.35%  213.448    118 Modèle:Ouvrage
-  7.20%  209.122      1 Modèle:Suivi_des_biographies
-  6.82%  197.895    226 Modèle:Citation
-  4.72%  136.921      1 Modèle:Infobox_Philosophe
+100.00% 4119.992      1 -total
+ 25.92% 1067.865      1 Modèle:Liens
+ 21.09%  869.016      4 Modèle:Références
+ 19.54%  804.922      1 Modèle:Références_nombreuses
+  9.10%  374.722    118 Modèle:Ouvrage
+  7.99%  329.017    159 Modèle:Sfn
+  7.88%  324.827      1 Modèle:Portail
+  7.06%  290.917    226 Modèle:Citation
+  6.30%  259.445      1 Modèle:Suivi_des_biographies
+  4.29%  176.924     63 Modèle:Lien_web
 -->
 
-<!-- Saved in parser cache with key frwiki:pcache:idhash:1607-0!canonical and timestamp 20240206005237 and revision id 212082481. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key frwiki:pcache:idhash:1607-0!canonical and timestamp 20240206195821 and revision id 212082481. Rendering was triggered because: api-parse
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Jean-Jacques_Rousseau&amp;oldid=212082481">https://fr.wikipedia.org/w/index.php?title=Jean-Jacques_Rousseau&amp;oldid=212082481</a>&#160;».</div></div>
@@ -3620,7 +3620,7 @@ Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1430","wgBackendResponseTime":3824,"wgPageParseReport":{"limitreport":{"cputime":"3.032","walltime":"3.651","ppvisitednodes":{"value":59702,"limit":1000000},"postexpandincludesize":{"value":820017,"limit":2097152},"templateargumentsize":{"value":152365,"limit":2097152},"expansiondepth":{"value":17,"limit":100},"expensivefunctioncount":{"value":34,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":291892,"limit":5000000},"entityaccesscount":{"value":74,"limit":400},"timingprofile":["100.00% 2902.590      1 -total"," 27.24%  790.767      1 Modèle:Liens"," 18.20%  528.197      4 Modèle:Références"," 16.76%  486.494      1 Modèle:Références_nombreuses","  9.19%  266.653      1 Modèle:Portail","  8.35%  242.279    159 Modèle:Sfn","  7.35%  213.448    118 Modèle:Ouvrage","  7.20%  209.122      1 Modèle:Suivi_des_biographies","  6.82%  197.895    226 Modèle:Citation","  4.72%  136.921      1 Modèle:Infobox_Philosophe"]},"scribunto":{"limitreport-timeusage":{"value":"1.292","limit":"10.000"},"limitreport-memusage":{"value":14539625,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","600","42.3"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","240","16.9"],["recursiveClone \u003CmwInit.lua:41\u003E","220","15.5"],["?","100","7.0"],["makePackageModule \u003Cmw.lua:18\u003E","40","2.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntity","40","2.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::gsub","40","2.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::len","20","1.4"],["create \u003CModule:Wikidata/Chemin/Path:92\u003E","20","1.4"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityId","20","1.4"],["[others]","80","5.6"]]},"cachereport":{"origin":"mw1430","timestamp":"20240206005240","ttl":2592000,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-6fbc6665f7-jbbt2","wgBackendResponseTime":161,"wgPageParseReport":{"limitreport":{"cputime":"4.383","walltime":"5.005","ppvisitednodes":{"value":59702,"limit":1000000},"postexpandincludesize":{"value":820017,"limit":2097152},"templateargumentsize":{"value":152365,"limit":2097152},"expansiondepth":{"value":17,"limit":100},"expensivefunctioncount":{"value":35,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":291892,"limit":5000000},"entityaccesscount":{"value":74,"limit":400},"timingprofile":["100.00% 4119.992      1 -total"," 25.92% 1067.865      1 Modèle:Liens"," 21.09%  869.016      4 Modèle:Références"," 19.54%  804.922      1 Modèle:Références_nombreuses","  9.10%  374.722    118 Modèle:Ouvrage","  7.99%  329.017    159 Modèle:Sfn","  7.88%  324.827      1 Modèle:Portail","  7.06%  290.917    226 Modèle:Citation","  6.30%  259.445      1 Modèle:Suivi_des_biographies","  4.29%  176.924     63 Modèle:Lien_web"]},"scribunto":{"limitreport-timeusage":{"value":"1.999","limit":"10.000"},"limitreport-memusage":{"value":14480413,"limit":52428800},"limitreport-profile":[["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getEntityStatements","680","32.1"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getExpandedArgument","520","24.5"],["?","220","10.4"],["recursiveClone \u003CmwInit.lua:41\u003E","100","4.7"],["type","80","3.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::len","80","3.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::anchorEncode","60","2.8"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::getAllExpandedArguments","40","1.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::fullUrl","40","1.9"],["MediaWiki\\Extension\\Scribunto\\Engines\\LuaSandbox\\LuaSandboxCallback::find","20","0.9"],["[others]","280","13.2"]]},"cachereport":{"origin":"mw1359","timestamp":"20240206195826","ttl":2592000,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Jean-Jacques Rousseau","url":"https:\/\/fr.wikipedia.org\/wiki\/Jean-Jacques_Rousseau","sameAs":"http:\/\/www.wikidata.org\/entity\/Q6527","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q6527","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-04-08T17:36:30Z","dateModified":"2024-02-02T13:38:35Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b7\/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg","headline":"philosophe, compositeur et critique musical genevois (1712-1778)"}</script>
 </body>
 </html>

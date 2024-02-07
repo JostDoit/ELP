@@ -25,8 +25,11 @@ func listen(conn net.Conn, wg *sync.WaitGroup) {
 			os.Exit(0)
 		} else {
 			fmt.Printf("Message received from server : %s", Message)
+
+			// TODO : Récupréation du dossier ZIP envoyé par le serveur et lancer le serveur local
 			// Recupération du fichier
 			//downloadFile("client"+Message[:len(Message)-1], conn)
+
 			fmt.Println("Closing connection")
 
 			conn.Close()
@@ -46,11 +49,32 @@ func sendMessages(conn net.Conn, message string) {
 	fmt.Printf("Message sent to server : %s", message)
 }
 
-func askScraping(conn net.Conn, wg *sync.WaitGroup) {
+func askScraping(conn net.Conn, wg *sync.WaitGroup, scanner *bufio.Scanner) {
 	defer wg.Done()
 
-	// Demande si l'utilisateur veut scrapper un nouvea site ou ouvrir dans un serveur local un
-	// site précédemment scrappé
+	// Demande de l'url du site à scraper et le nombre de lien à sraper
+
+	// Demande de l'url du site à scraper
+	fmt.Print("Entrez l'URL du site : ")
+	scanner.Scan()
+	url := scanner.Text()
+
+	// Demande du nombre de lien à scraper
+	fmt.Print("Entrez le nombre de lien à scraper : ")
+	scanner.Scan()
+	linkNumber := scanner.Text()
+
+	// Combinaison des trois informations en une seule string
+	message := fmt.Sprintf("%s %s\n", url, linkNumber)
+
+	// Envoie de la requête au serveur
+	sendMessages(conn, message)
+
+}
+
+func main() {
+
+	// Demande si l'utilisateur veut scrapper un nouveau site ou ouvrir dans un serveur local un site précédemment scrappé
 	fmt.Print("Que voulez vous faire ?\n	1- Scraper un nouveau site\n	2- Ouvrir un site précédemment scrappé\n")
 	scanner := bufio.NewScanner(os.Stdin)
 	choice := "0"
@@ -62,54 +86,37 @@ func askScraping(conn net.Conn, wg *sync.WaitGroup) {
 		choice = scanner.Text()
 	}
 
-	// Demande de l'url du site à scraper et le nombre de lien à sraper si l'utilisateur a choisi 1
 	if choice == "1" {
-		// Demande de l'url du site à scraper
-		fmt.Print("Entrez l'URL du site : ")
-		scanner.Scan()
-		url := scanner.Text()
 
-		// Demande du nombre de lien à scraper
-		fmt.Print("Entrez le nombre de lien à scraper : ")
-		scanner.Scan()
-		linkNumber := scanner.Text()
+		// Connexion au serveur TCP
+		conn, err := net.Dial("tcp", "localhost:8080")
+		if err != nil {
+			fmt.Println("Error connecting to server : ", err)
+			return
+		}
 
-		// Combinaison des trois informations en une seule string
-		message := fmt.Sprintf("%s %s %s\n", choice, url, linkNumber)
+		defer conn.Close()
+		fmt.Println("Connected to server")
 
-		// Envoie de la requête au serveur
-		sendMessages(conn, message)
+		var wg sync.WaitGroup
+		wg.Add(2)
+		go askScraping(conn, &wg, scanner)
+		go listen(conn, &wg)
+		wg.Wait()
 	} else {
-		// Demande du nom du dossier à ouvrir
-		fmt.Print("Entrez le nom du dossier à ouvrir : ")
-		scanner.Scan()
-		folderName := scanner.Text()
 
-		// Combinaison des deux informations en une seule string
-		message := fmt.Sprintf("%s %s\n", choice, folderName)
+		/*
+			// Demander quel dossier ouvrir dans un serveur local
 
-		// Envoie de la requête au serveur
-		sendMessages(conn, message)
+			// Demande du nom du dossier à ouvrir
+			fmt.Print("Entrez le nom du dossier à ouvrir : ")
+			scanner.Scan()
+			folderName := scanner.Text()
+
+			// TODO : La suite
+		*/
+
 	}
-}
-
-func main() {
-
-	// Connexion au serveur TCP
-	conn, err := net.Dial("tcp", "localhost:8080")
-	if err != nil {
-		fmt.Println("Error connecting to server : ", err)
-		return
-	}
-
-	defer conn.Close()
-	fmt.Println("Connected to server")
-
-	var wg sync.WaitGroup
-	wg.Add(2)
-	go askScraping(conn, &wg)
-	go listen(conn, &wg)
-	wg.Wait()
 }
 
 /*

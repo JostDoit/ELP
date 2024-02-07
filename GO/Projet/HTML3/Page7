@@ -6,8 +6,8 @@ corps_du_texte
 <meta charset="UTF-8">
 <title>Wikipédia:Accueil de la communauté — Wikipédia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-client-prefs-pinned-disabled vector-toc-not-available";var cookie=document.cookie.match(/(?:^|; )frwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy",
-"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"1d7063ae-9456-42cb-9569-07303b05e9e7","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipédia:Accueil_de_la_communauté","wgTitle":"Accueil de la communauté","wgCurRevisionId":196207933,"wgRevisionId":196207933,"wgArticleId":4369206,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Communauté Wikipédia"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Wikipédia:Accueil_de_la_communauté","wgRelevantArticleId":4369206,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["editextendedsemiprotected"],"wgRestrictionMove":["editextendedsemiprotected"],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,
-"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":5000,"wgULSCurrentAutonym":"français","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"visual","wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q4654925","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform",
+"wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"a3de209b-5031-4451-8636-13c856998240","wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipédia:Accueil_de_la_communauté","wgTitle":"Accueil de la communauté","wgCurRevisionId":196207933,"wgRevisionId":196207933,"wgArticleId":4369206,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Communauté Wikipédia"],"wgPageViewLanguage":"fr","wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Wikipédia:Accueil_de_la_communauté","wgRelevantArticleId":4369206,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["editextendedsemiprotected"],"wgRestrictionMove":["editextendedsemiprotected"],"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":4,"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":5000,"wgULSCurrentAutonym":"français","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgDiscussionToolsFeaturesEnabled":{"replytool":true,"newtopictool":true,"sourcemodetoolbar":true,"topicsubscription":false,"autotopicsub":false,"visualenhancements":false,"visualenhancements_reply":false,"visualenhancements_pageframe":false},"wgDiscussionToolsFallbackEditMode":"source","wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q4654925","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform",
 "platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.discussionTools.init.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.button":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["mediawiki.toggleAllCollapsibles","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP",
 "ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.discussionTools.init","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","wikibase.client.vector-2022","ext.checkUser.clientHints"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
@@ -473,7 +473,7 @@ corps_du_texte
 <tbody><tr>
 <td style="height:3em; padding-left:3em;"><span style="font-size:185%;">Accueil de la communauté</span>
 </td>
-<td style="padding:1em;text-align:right;line-height:1.3"><b>18 022</b> contributeurs actifs<br/> <span style="font-size:90%;">sur les <i><a href="/wiki/Spécial:Statistiques" title="Spécial:Statistiques">4 854 010</a></i> utilisateurs inscrits</span>
+<td style="padding:1em;text-align:right;line-height:1.3"><b>18 079</b> contributeurs actifs<br/> <span style="font-size:90%;">sur les <i><a href="/wiki/Spécial:Statistiques" title="Spécial:Statistiques">4 854 764</a></i> utilisateurs inscrits</span>
 </td></tr>
 <tr>
 <td colspan="2">
@@ -487,7 +487,7 @@ corps_du_texte
 <div class="accueil_2017_cadre">
 <div class="mw-heading mw-heading2 ext-discussiontools-init-section"><h2><span class="mw-headline" id="Espaces_communautaires" data-mw-thread-id="h-Espaces_communautaires"><span data-mw-comment-start="" id="h-Espaces_communautaires"></span>Espaces communautaires<span data-mw-comment-end="h-Espaces_communautaires"></span></span></h2><!--__DTELLIPSISBUTTON__{"threadItem":{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Espaces_communautaires","replies":["h-Probl\u00e9matiques_r\u00e9dactionnelles-Espaces_communautaires","h-Accueil_et_promotion-Espaces_communautaires","h-Vandalisme_et_conflits-Espaces_communautaires","h-Technique-Espaces_communautaires","h-Pense-b\u00eate-Espaces_communautaires","h-Autres_projets-Espaces_communautaires"],"uneditableSection":true}}--></div>
 <div class="liste-horizontale"><b>Discussions générales</b> :
-<ul><li><a href="/wiki/Wikipédia:Avenue_des_cafés_et_bistros" title="Wikipédia:Avenue des cafés et bistros">Tous les cafés et bistros</a> ; <a href="/wiki/Wikipédia:Le_Bistro" title="Wikipédia:Le Bistro">Le Bistro</a> <small>(<a href="/wiki/Wikipédia:Le_Bistro/6_février_2024" title="Wikipédia:Le Bistro/6 février 2024">du jour</a> ; <a href="/wiki/Wikipédia:Bistro_des_non-francophones" title="Wikipédia:Bistro des non-francophones">non-FR</a>)</small></li>
+<ul><li><a href="/wiki/Wikipédia:Avenue_des_cafés_et_bistros" title="Wikipédia:Avenue des cafés et bistros">Tous les cafés et bistros</a> ; <a href="/wiki/Wikipédia:Le_Bistro" title="Wikipédia:Le Bistro">Le Bistro</a> <small>(<a href="/wiki/Wikipédia:Le_Bistro/7_février_2024" title="Wikipédia:Le Bistro/7 février 2024">du jour</a> ; <a href="/wiki/Wikipédia:Bistro_des_non-francophones" title="Wikipédia:Bistro des non-francophones">non-FR</a>)</small></li>
 <li><a href="/wiki/Aide:Discord" title="Aide:Discord">Discord</a></li>
 <li><a href="irc://irc.libera.chat/wikipedia-fr" class="extiw" title="irc:wikipedia-fr">IRC</a> <small>(<span class="plainlinks"><a rel="nofollow" class="external text" href="//web.libera.chat/?channels=#wikipedia-fr">web</a></span>, <a href="/wiki/Aide:IRC" title="Aide:IRC">aide</a>)</small></li>
 <li><a href="/wiki/Wikipédia:Oracle" title="Wikipédia:Oracle">L’Oracle</a></li>
@@ -829,7 +829,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Trier les liens externes en surnombre.
-</p><p><a href="/wiki/Catégorie:Liens_externes_à_trier" title="Catégorie:Liens externes à trier"><span class="mw-ui-button mw-ui-neutral" role="button">219 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Liens_externes_à_trier" title="Catégorie:Liens externes à trier"><span class="mw-ui-button mw-ui-neutral" role="button">215 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -849,7 +849,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Adaptez les articles à un lectorat international.
-</p><p><a href="/wiki/Catégorie:Article_à_internationaliser" title="Catégorie:Article à internationaliser"><span class="mw-ui-button mw-ui-neutral" role="button">1 385 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Article_à_internationaliser" title="Catégorie:Article à internationaliser"><span class="mw-ui-button mw-ui-neutral" role="button">1 386 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -859,7 +859,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Certains articles ont peut-être leur illustration sur <a href="https://commons.wikimedia.org/wiki/Accueil" class="extiw" title="commons:Accueil">Wikimedia Commons</a>.
-</p><p><a href="/wiki/Catégorie:%C3%80_illustrer" title="Catégorie:À illustrer"><span class="mw-ui-button mw-ui-neutral" role="button">1 012 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:%C3%80_illustrer" title="Catégorie:À illustrer"><span class="mw-ui-button mw-ui-neutral" role="button">1 011 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -869,7 +869,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Mettez en place le formatage standard de Wikipédia.
-</p><p><a href="/wiki/Catégorie:Article_à_wikifier/Liste_complète" title="Catégorie:Article à wikifier/Liste complète"><span class="mw-ui-button mw-ui-neutral" role="button">13 129 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Article_à_wikifier/Liste_complète" title="Catégorie:Article à wikifier/Liste complète"><span class="mw-ui-button mw-ui-neutral" role="button">13 138 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -879,7 +879,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Supprimez et reformulez les passages publicitaires.
-</p><p><a href="/wiki/Catégorie:Article_au_ton_publicitaire/Liste_complète" title="Catégorie:Article au ton publicitaire/Liste complète"><span class="mw-ui-button mw-ui-neutral" role="button">2 514 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Article_au_ton_publicitaire/Liste_complète" title="Catégorie:Article au ton publicitaire/Liste complète"><span class="mw-ui-button mw-ui-neutral" role="button">2 522 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -889,7 +889,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Il est souvent préférable de remplacer certaines listes par des phrases rédigées.
-</p><p><a href="/wiki/Catégorie:Article_à_délister" title="Catégorie:Article à délister"><span class="mw-ui-button mw-ui-neutral" role="button">2 315 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Article_à_délister" title="Catégorie:Article à délister"><span class="mw-ui-button mw-ui-neutral" role="button">2 310 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -899,7 +899,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Ces articles sont connectés à peu d'autres articles. Créez des liens !
-</p><p><a href="/wiki/Catégorie:Article_orphelin/Liste_complète" title="Catégorie:Article orphelin/Liste complète"><span class="mw-ui-button mw-ui-neutral" role="button">15 374 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Article_orphelin/Liste_complète" title="Catégorie:Article orphelin/Liste complète"><span class="mw-ui-button mw-ui-neutral" role="button">15 354 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -909,7 +909,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Revoyez le résumé introductif qui synthétise le contenu de l’article.
-</p><p><a href="/wiki/Catégorie:Article_à_mieux_introduire" title="Catégorie:Article à mieux introduire"><span class="mw-ui-button mw-ui-neutral" role="button">291 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Article_à_mieux_introduire" title="Catégorie:Article à mieux introduire"><span class="mw-ui-button mw-ui-neutral" role="button">293 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -919,7 +919,7 @@ corps_du_texte
 </div>
 <div style="padding: 0.5em 1em 0.5em 1em; border-radius: 0 0 0.2em 0.2em;"><div class="clear" style="clear:both;"></div>
 <p>Certains articles nécessitent une révision après avoir été traduits d'une autre langue.
-</p><p><a href="/wiki/Catégorie:Traduction_à_revoir" title="Catégorie:Traduction à revoir"><span class="mw-ui-button mw-ui-neutral" role="button">1 798 pages à traiter</span></a>
+</p><p><a href="/wiki/Catégorie:Traduction_à_revoir" title="Catégorie:Traduction à revoir"><span class="mw-ui-button mw-ui-neutral" role="button">1 797 pages à traiter</span></a>
 </p>
 <div class="clear" style="clear:both;"></div>
 </div>
@@ -929,14 +929,14 @@ corps_du_texte
 </div>
 <!-- 
 NewPP limit report
-Parsed by mw‐web.eqiad.main‐767df8789‐nqcdl
-Cached time: 20240206080356
+Parsed by mw1455
+Cached time: 20240207072101
 Cache expiry: 3600
 Reduced expiry: true
 Complications: [no‐toc]
-DiscussionTools time usage: 0.034 seconds
-CPU time usage: 0.196 seconds
-Real time usage: 0.299 seconds
+DiscussionTools time usage: 0.032 seconds
+CPU time usage: 0.191 seconds
+Real time usage: 0.277 seconds
 Preprocessor visited node count: 3003/1000000
 Post‐expand include size: 108295/2097152 bytes
 Template argument size: 38112/2097152 bytes
@@ -944,25 +944,25 @@ Highest expansion depth: 11/100
 Expensive parser function count: 11/500
 Unstrip recursion depth: 0/20
 Unstrip post‐expand size: 0/5000000 bytes
-Lua time usage: 0.005/10.000 seconds
+Lua time usage: 0.004/10.000 seconds
 Lua memory usage: 641128/52428800 bytes
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  130.975      1 -total
- 21.19%   27.760      1 Modèle:Annonces_votes
- 19.23%   25.188     10 Modèle:Compteur_de_tâches
- 17.63%   23.092     10 Modèle:Boîte_colorée
- 17.53%   22.966      1 Wikipédia:Annonces
- 15.95%   20.896      1 Modèle:Centrer
- 14.85%   19.448      1 Modèle:Bouton_cliquable_2
- 13.91%   18.222      1 Wikipédia:Accueil_de_la_communauté/Général
- 10.60%   13.883     14 Modèle:Non_vide
-  9.87%   12.929     29 Modèle:Annonce
+100.00%  117.758      1 -total
+ 21.85%   25.735      1 Wikipédia:Annonces
+ 20.66%   24.333      1 Modèle:Annonces_votes
+ 20.30%   23.906     10 Modèle:Compteur_de_tâches
+ 18.39%   21.657     10 Modèle:Boîte_colorée
+ 15.11%   17.793      1 Modèle:Centrer
+ 14.75%   17.367      1 Wikipédia:Accueil_de_la_communauté/Général
+ 14.00%   16.481      1 Modèle:Bouton_cliquable_2
+ 12.67%   14.923     29 Modèle:Annonce
+ 10.55%   12.428     14 Modèle:Non_vide
 -->
 
-<!-- Saved in parser cache with key frwiki:pcache:idhash:4369206-0!canonical and timestamp 20240206080356 and revision id 196207933. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key frwiki:pcache:idhash:4369206-0!canonical and timestamp 20240207072100 and revision id 196207933. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">Ce document provient de «&#160;<a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Wikipédia:Accueil_de_la_communauté&amp;oldid=196207933">https://fr.wikipedia.org/w/index.php?title=Wikipédia:Accueil_de_la_communauté&amp;oldid=196207933</a>&#160;».</div></div>
@@ -1012,6 +1012,6 @@ Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui.button\".\n[1.41] Please use Codex. See migration guidelines: https://www.mediawiki.org/wiki/Codex/Migrating_from_MediaWiki_UI");mw.config.set({"wgHostname":"mw1413","wgBackendResponseTime":124,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Espaces_communautaires","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Problématiques_rédactionnelles-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Accueil_et_promotion-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Vandalisme_et_conflits-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Technique-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Pense-bête-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Autres_projets-Espaces_communautaires","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Principes_et_recommandations","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Principes_fondateurs-Principes_et_recommandations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Règles-Principes_et_recommandations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Recommandations-Principes_et_recommandations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Guides_de_comportement-Principes_et_recommandations","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Candidatures_et_votes","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Candidatures_(toujours_bienvenues)-Candidatures_et_votes","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Prises_de_décisions-Candidatures_et_votes","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Vote_ouvert-Prises_de_décisions","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Phase_de_discussion-Prises_de_décisions","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Sondages-Candidatures_et_votes","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Vote_ouvert_2-Sondages","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Phase_de_discussion_2-Sondages","replies":[]}]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Annonces","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Février-Annonces","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Janvier-Annonces","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Décembre-Annonces","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Novembre-Annonces","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Tâches_à_réaliser","replies":[],"uneditableSection":true}],"wgPageParseReport":{"discussiontools":{"limitreport-timeusage":"0.034"},"limitreport":{"cputime":"0.196","walltime":"0.299","ppvisitednodes":{"value":3003,"limit":1000000},"postexpandincludesize":{"value":108295,"limit":2097152},"templateargumentsize":{"value":38112,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  130.975      1 -total"," 21.19%   27.760      1 Modèle:Annonces_votes"," 19.23%   25.188     10 Modèle:Compteur_de_tâches"," 17.63%   23.092     10 Modèle:Boîte_colorée"," 17.53%   22.966      1 Wikipédia:Annonces"," 15.95%   20.896      1 Modèle:Centrer"," 14.85%   19.448      1 Modèle:Bouton_cliquable_2"," 13.91%   18.222      1 Wikipédia:Accueil_de_la_communauté/Général"," 10.60%   13.883     14 Modèle:Non_vide","  9.87%   12.929     29 Modèle:Annonce"]},"scribunto":{"limitreport-timeusage":{"value":"0.005","limit":"10.000"},"limitreport-memusage":{"value":641128,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-767df8789-nqcdl","timestamp":"20240206080356","ttl":3600,"transientcontent":true}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.log.warn("This page is using the deprecated ResourceLoader module \"mediawiki.ui.button\".\n[1.41] Please use Codex. See migration guidelines: https://www.mediawiki.org/wiki/Codex/Migrating_from_MediaWiki_UI");mw.config.set({"wgHostname":"mw-web.eqiad.main-6dcb5968b-69k4h","wgBackendResponseTime":124,"wgDiscussionToolsPageThreads":[{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Espaces_communautaires","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Problématiques_rédactionnelles-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Accueil_et_promotion-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Vandalisme_et_conflits-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Technique-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Pense-bête-Espaces_communautaires","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Autres_projets-Espaces_communautaires","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Principes_et_recommandations","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Principes_fondateurs-Principes_et_recommandations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Règles-Principes_et_recommandations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Recommandations-Principes_et_recommandations","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Guides_de_comportement-Principes_et_recommandations","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Candidatures_et_votes","replies":[{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Candidatures_(toujours_bienvenues)-Candidatures_et_votes","replies":[]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Prises_de_décisions-Candidatures_et_votes","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Vote_ouvert-Prises_de_décisions","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Phase_de_discussion-Prises_de_décisions","replies":[]}]},{"headingLevel":3,"name":"h-","type":"heading","level":0,"id":"h-Sondages-Candidatures_et_votes","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Vote_ouvert_2-Sondages","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Phase_de_discussion_2-Sondages","replies":[]}]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Annonces","replies":[{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Février-Annonces","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Janvier-Annonces","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Décembre-Annonces","replies":[]},{"headingLevel":4,"name":"h-","type":"heading","level":0,"id":"h-Novembre-Annonces","replies":[]}],"uneditableSection":true},{"headingLevel":2,"name":"h-","type":"heading","level":0,"id":"h-Tâches_à_réaliser","replies":[],"uneditableSection":true}],"wgPageParseReport":{"discussiontools":{"limitreport-timeusage":"0.032"},"limitreport":{"cputime":"0.191","walltime":"0.277","ppvisitednodes":{"value":3003,"limit":1000000},"postexpandincludesize":{"value":108295,"limit":2097152},"templateargumentsize":{"value":38112,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  117.758      1 -total"," 21.85%   25.735      1 Wikipédia:Annonces"," 20.66%   24.333      1 Modèle:Annonces_votes"," 20.30%   23.906     10 Modèle:Compteur_de_tâches"," 18.39%   21.657     10 Modèle:Boîte_colorée"," 15.11%   17.793      1 Modèle:Centrer"," 14.75%   17.367      1 Wikipédia:Accueil_de_la_communauté/Général"," 14.00%   16.481      1 Modèle:Bouton_cliquable_2"," 12.67%   14.923     29 Modèle:Annonce"," 10.55%   12.428     14 Modèle:Non_vide"]},"scribunto":{"limitreport-timeusage":{"value":"0.004","limit":"10.000"},"limitreport-memusage":{"value":641128,"limit":52428800}},"cachereport":{"origin":"mw1455","timestamp":"20240207072101","ttl":3600,"transientcontent":true}}});});</script>
 </body>
 </html>

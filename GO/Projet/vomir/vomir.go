@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const port = ":8080"
+const port = ":8081"
 
 var (
 	registeredPaths = make(map[string]bool)
@@ -50,7 +50,7 @@ func Lire(filePath string, wg_poster *sync.WaitGroup) {
 	registeredPaths[titre] = true
 	body := fileContent[index+len("\ncorps_du_texte\n"):]
 	http.HandleFunc(titre, func(w http.ResponseWriter, r *http.Request) { poster(w, r, body) })
-	fmt.Printf("Enregistrement du lien : localhost:8080%s\n", titre)
+	fmt.Printf("Enregistrement du lien : localhost:8081%s\n", titre)
 
 }
 

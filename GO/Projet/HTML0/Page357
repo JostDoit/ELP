@@ -31,5 +31,5 @@ Please <a href="" title="Reload this page" onclick="window.location.reload(false
 <p>See the error message at the bottom of this page for more&nbsp;information.</p>
 </div>
 </div>
-<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class='text-muted'><code>Request from - via cp6014.drmrs.wmnet, ATS/9.1.4<br>Error: 400, Invalid HTTP Request at 2024-02-06 17:02:28 GMT</code></p></div>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class='text-muted'><code>Request from - via cp6014.drmrs.wmnet, ATS/9.1.4<br>Error: 400, Invalid HTTP Request at 2024-02-07 07:50:49 GMT</code></p></div>
 </html>
